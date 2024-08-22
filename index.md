@@ -54,7 +54,11 @@ title: Index page
 {% include section-navigation-tiles.html type="visualisation"%}
 
 
+## Contributors
 
+These project is a joint effort from the following people, housed at multiple Australian insitutions 
+
+{% include contributor-tiles-all.html %}
 
 
 This page serves as a landing page.
