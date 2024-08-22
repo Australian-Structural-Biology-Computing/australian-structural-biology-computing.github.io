@@ -1,7 +1,7 @@
-title: Website title
+title: StructBio Computing 
 # This appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-topnav_title: Website title
+topnav_title: Australian Structural Biology Computing 
 # Optional: this appears on the top navigation bar next to the main_logo.svg icon
 
 description: "Example of ELIXIR toolkit theme as a remote jekyll theme"
