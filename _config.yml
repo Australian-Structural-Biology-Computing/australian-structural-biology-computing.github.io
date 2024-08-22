@@ -7,7 +7,8 @@ topnav_title: Website title
 description: "Example of ELIXIR toolkit theme as a remote jekyll theme"
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@3.0.0
+#remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@3.0.0
+theme: elixir-toolkit-theme
 
 exclude:
   - README.md
