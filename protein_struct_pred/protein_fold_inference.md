@@ -14,4 +14,13 @@ affiliations: [UNSW, Structural Biology Facility]
 2. [Apply for access to AlphaFold2](https://site.usegalaxy.org.au/request/access/alphafold).
 3. Select the appropraite AlphaFold parameters and input your amino acid sequence 
 
+## ESMFold
 
+Check out the [ESM metagenomic Atlas](https://esmatlas.com/)
+
+## RoseTTAFold-All-Atom
+
+Academic open-source structure inference that does proteins + nucleic acid + ligands.
+
+Paper: [https://www.science.org/doi/10.1126/science.adl2528](https://www.science.org/doi/10.1126/science.adl2528v) 
+Code: [https://github.com/baker-laboratory/RoseTTAFold-All-Atom](https://github.com/baker-laboratory/RoseTTAFold-All-Atom) 

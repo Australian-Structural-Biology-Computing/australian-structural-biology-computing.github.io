@@ -1,6 +1,5 @@
-- name: 
-  image_url: 
-  pid: 
+- name: Structural Biology Facility, UNSW  
+  image_url: /images/affiliations/SBF_logo.jpg   
   expose: true
-  type: 
-  url: 
+  type: infrastructure
+  url: https://www.analytical.unsw.edu.au/facilities/sbf
