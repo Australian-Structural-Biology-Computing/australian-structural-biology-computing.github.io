@@ -7,8 +7,11 @@ topnav_title: Website title
 description: "Example of ELIXIR toolkit theme as a remote jekyll theme"
 # Metadata description of the website
 
+
+# Following AusBioCommons minimal gh-pages with remote deploy -  https://github.com/AustralianBioCommons/how-to-guides/blob/main/_config.yml
+remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@2.3.0
 #remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@3.0.0
-theme: elixir-toolkit-theme
+#theme: elixir-toolkit-theme
 
 exclude:
   - README.md
