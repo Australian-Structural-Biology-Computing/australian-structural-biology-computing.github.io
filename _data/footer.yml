@@ -2,10 +2,10 @@ copyright: Copyright notice
 extra_line: 
 columns:
   - type: image
-    image_width: 88px
+    image_width: 120px
     width: 2
-    src: 'assets/img/main_logo.svg'
-    alt: Jekyll Bootstrap theme logo
+    src: 'images/affiliations/AusStructBioComp_logo.png'
+    alt: Logo for the Australian Structural Biology Computing community
   - type: links
     width: 3
     children: 
@@ -19,6 +19,5 @@ columns:
   - type: image
     image_width: 88px
     width: 2
-    src: 'assets/img/main_logo.svg'
-    alt: Jekyll Bootstrap theme logo
-
+    src: 'images/affiliations/AusStructBioComp_logo.png'
+    alt: Logo for the Australian Structural Biology Computing community
