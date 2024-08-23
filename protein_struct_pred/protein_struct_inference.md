@@ -8,7 +8,7 @@ affiliations: [UNSW, Structural Biology Facility]
 
 ## Australian AlphaFold2 service 
 
-## Quick start guide
+### Quick start guide
 
 1. [Login to Galaxy Australia](#register-and-login)
 2. [Apply for access to AlphaFold2](https://site.usegalaxy.org.au/request/access/alphafold).
