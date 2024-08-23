@@ -11,8 +11,7 @@ Learning the command line is useful if you want to do things at scale or use any
 
 Code syntax highlighting works built-in (e.g. snippet to run AlphaFold)
 
-```
-bash
+```bash
 python3 docker/run_docker.py \
   --fasta_paths=your_protein.fasta \
   --max_template_date=2022-01-01 \
@@ -24,8 +23,6 @@ python3 docker/run_docker.py \
 Here's generating and RSA-key (pilfered from [jameslingford.com](jameslingford.com)) 
 Among his many excellent tutorials are his guide to [running ColabFold on your uni's local cluster using SSH](https://www.jameslingford.com/blog/colabfold-hpc-ssh-howto/). 
 
-```
-bash
+```bash
 ssh-keygen -b 4096 -t rsa -C "Add your own personal comment between quotes"
 ```
-
