@@ -8,3 +8,13 @@
   expose: true
   type: infrastructure
   url:  https://www.monash.edu/
+- name: Australian BioCommons
+  image_url: /images/infrastructures/Australian-Biocommons-Logo-Horizontal-RGB.jpg
+  expose: true
+  type: infrastructure
+  url: https://www.biocommons.org.au/
+- name: Galaxy Australia
+  image_url: /images/infrastructures/Galaxy-Aust-Logo-Horizontal-RGB.jpg
+  expose: true
+  type: infrastructure
+  url: https://usegalaxy.org.au/
