@@ -41,7 +41,7 @@ title: Index page
 
 ## Protein Structure Prediciton  
 
-{% include section-navigation-tiles.html type="protein-guide"%}
+{% include section-navigation-tiles.html type="prot-guide"%}
 
 
 ## Command line guides

@@ -1,5 +1,5 @@
-- name: Structural Biology Facility, UNSW  
-  image_url: /images/affiliations/SBF_logo.jpg   
+- name: Structural Biology Facility UNSW  
+  image_url: /images/infrastructures/SBF_logo.jpg   
   expose: true
   type: infrastructure
   url: https://www.analytical.unsw.edu.au/facilities/sbf

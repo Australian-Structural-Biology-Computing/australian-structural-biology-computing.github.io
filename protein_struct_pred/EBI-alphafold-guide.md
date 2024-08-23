@@ -3,7 +3,7 @@ title: EBI-guide
 type: prot-guide
 contributors: [Keiran Rowell]
 description: Linking straight out to EBI guide 
-affiliations: [Structural Biology Facility, UNSW]
+affiliations: [Structural Biology Facility UNSW]
 ---
 
 training:
