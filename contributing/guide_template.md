@@ -7,9 +7,8 @@ affiliations: [Australian BioCommons]
 
 
 
-{% include callout.html type="Important" content="The raw code of this template is meant to be copied directly and edit. Please read the Quick-Start get a sense of what to do: [https://australianbiocommons.github.io/how-to-guide-template/](https://australianbiocommons.github.io/how-to-guide-template/)" %}
-https://australianbiocommons.github.io/how-to-guide-template/
-
+{% include callout.html type="Important" content="The raw code of this template is meant to be copied directly and edit. Please read the Quick Start get a sense of what to do%}
+Quick start: [https://australianbiocommons.github.io/how-to-guide-template/](https://australianbiocommons.github.io/how-to-guide-template/)" 
 
 
 > Before you start using this template!
