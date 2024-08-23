@@ -1,8 +1,8 @@
 ---
-title: CLI guide 
+title: Command line guide 
 type: cli-guide 
 contributors: [Keiran Rowell, James Lingford]
-description: A blank command line guide   
+description: An example command line guide   
 affiliations: [Structural Biology Facility UNSW, Monash University]
 ---
 
