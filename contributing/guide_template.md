@@ -5,6 +5,13 @@ description: Add a plain text description here.
 affiliations: [Australian BioCommons]
 ---
 
+
+
+{% include callout.html type="Important" content="The raw code of this template is meant to be copied directly and edit. Please read the Quick-Start get a sense of what to do: [https://australianbiocommons.github.io/how-to-guide-template/](https://australianbiocommons.github.io/how-to-guide-template/)" %}
+https://australianbiocommons.github.io/how-to-guide-template/
+
+
+
 > Before you start using this template!
 > 1. Add your name to the contributors section of the guide above
 > 2. Make sure to also add your name to [`contributors.yml`](_data/contributors.yml)
