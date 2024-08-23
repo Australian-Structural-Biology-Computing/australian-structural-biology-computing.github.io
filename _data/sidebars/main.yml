@@ -3,6 +3,10 @@ subitems:
     url: /index
   - title: Example page
     url: /example_page
+  - title: Contributing 
+    subitems: 
+    - title: Write your own guides 
+      url: /guide_template
   - title: Visualisations 
     subitems:
     - title: Pymol  
