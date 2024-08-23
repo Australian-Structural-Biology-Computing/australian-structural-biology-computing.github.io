@@ -6,14 +6,14 @@ subitems:
   - title: Visualisations 
     subitems:
     - title: Pymol  
-      url: /pymol
+      url: /visualisations/pymol
   - title: Protein Structure Prediction
     subitems: 
     - title: AlphaFold Tutorial - European Bioinformatics Institute
-      url: /EBI-alphafold-guide
+      url: /protein_struct_pred/EBI-alphafold-guide
     - title: Protein structure inference options 
-      url: /protein_struct_inference
+      url: /protein_struct_pred/protein_struct_inference
   - title: Command Line Instructions
     subitems:
     - title: Basics 
-      url: /basics
+      url: /cli_instruct/basics
