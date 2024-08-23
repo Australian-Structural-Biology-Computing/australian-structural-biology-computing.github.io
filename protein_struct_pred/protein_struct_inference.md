@@ -1,6 +1,6 @@
 ---
 title: AlphaFold++ Protein Sturcture prediction with Infernece models 
-type: prot-struct
+type: prot-guide
 contributors: [Keiran Rowell]
 description: How-to Guide for picking the appropriate protein structure prediction program 
 affiliations: [UNSW, Structural Biology Facility]

@@ -41,17 +41,17 @@ title: Index page
 
 ## Protein Structure Prediciton  
 
-{% include section-navigation-tiles.html type="protein_struct_pred"%}
+{% include section-navigation-tiles.html type="protein-guide"%}
 
 
 ## Command line guides
 
-{% include section-navigation-tiles.html type="cli_instruct"%}
+{% include section-navigation-tiles.html type="cli-guide"%}
 
 
 ## Visualisation
 
-{% include section-navigation-tiles.html type="visualisation"%}
+{% include section-navigation-tiles.html type="vis-guide"%}
 
 
 ## Contributors
