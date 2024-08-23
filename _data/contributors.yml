@@ -25,10 +25,19 @@ Keiran Rowell:
     affiliation: Structural Biology Facility UNSW 
     image_url: https://avatars.githubusercontent.com/u/54380465?v=4  # Defaulting from github didn't seem to work this time, I don't want to do this manually.
       
-      .
 Kate Michie:
     #git: 
     email: k.michie@unsw.edu.au
-    orcid: https://orcid.org/0000-0001-6955-1167 
+    orcid: https://orcid.org/0000-0002-2133-2237
     role: Chief Scientist  
-    affiliation: Structural Biology Facility UNSW 
+    affiliation: Structural Biology Facility UNSW
+
+
+Keiran Rowell:
+    git:  jlingford
+    email: james.lingford@monash.edu 
+    orcid: https://orcid.org/0000-0003-1980-3949
+    role: Research Officer, Greening Lab 
+    affiliation: Monash University  
+
+

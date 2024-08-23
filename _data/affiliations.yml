@@ -3,3 +3,8 @@
   expose: true
   type: infrastructure
   url: https://www.analytical.unsw.edu.au/facilities/sbf
+- name: Monash University 
+  image_url: /images/infrastructures/monash-logo-mono.svg
+  expose: true
+  type: infrastructure
+  url:  https://www.monash.edu/

@@ -3,6 +3,8 @@ title: Index page
 ---
 
 
+{% include callout.html type="warning" content="This is an example page only, none of its current content is meant to be taken as accurate" %}
+
 ### Join the mailing list (currently goes to SBF email)
 
 
@@ -53,6 +55,8 @@ title: Index page
 
 {% include section-navigation-tiles.html type="vis-guide"%}
 
+
+{% include callout.html type="note" content="Author photos should be autopopulated from their GitHub account - can't seem to get it to trigger yet." %}
 
 ## Contributors
 
