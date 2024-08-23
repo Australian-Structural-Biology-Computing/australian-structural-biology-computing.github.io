@@ -1,5 +1,5 @@
 ---
-title: AlphaFold++ Protein Sturcture prediction with Infernece models 
+title: AlphaFold++ Protein Structure prediction with Deep Learning inference models 
 type: prot-guide
 contributors: [Keiran Rowell]
 description: How-to Guide for picking the appropriate protein structure prediction program 
