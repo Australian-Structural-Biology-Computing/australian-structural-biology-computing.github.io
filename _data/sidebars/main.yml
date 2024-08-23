@@ -14,5 +14,6 @@ subitems:
     - title: Protein structure inference options 
       url: /protein_struct_pred/protein_struct_inference
   - title: Command Line Instructions
+    subitems:
     - title: Basics 
       url: /cli_instruct/basics
