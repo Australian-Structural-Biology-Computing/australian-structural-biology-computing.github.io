@@ -3,16 +3,16 @@ subitems:
     url: /index
   - title: Example page
     url: /example_page
- - title: Visualisations 
+  - title: Visualisations 
     subitems:
     - title: Pymol  
-     url: /visualisations/pymol
- - title: Protein Structure Prediction
+      url: /visualisations/pymol
+  - title: Protein Structure Prediction
     subitems: 
     - title: AlphaFold Tutorial - European Bioinformatics Institute
       url: /protein_struct_pred/EBI-alphafold-guide
     - title: Protein structure inference options 
       url: /protein_struct_pred/protein_struct_inference
- - title: Command Line Instructions
+  - title: Command Line Instructions
     - title: Basics 
       url: /cli_instruct/basics
