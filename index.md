@@ -64,5 +64,13 @@ These project is a joint effort from the following people, housed at multiple Au
 
 {% include contributor-tiles-all.html %}
 
+## News
+
+{% include news.html %}
+
+## Events
+{% include evenets.html %}
+
+
 
 This page serves as a landing page.

@@ -1,7 +1,7 @@
-- name: 
-  startDate: 
-  startTime: 
-  endDate: 
-  endTime: 
-  description: 
-  location: 
+- name: Party 
+  startDate: 2024-12-12
+  startTime: 19:05
+  endDate: 2024-12-14
+  endTime: 21:04
+  description: It's an event! With a [link](https://www.eventbrite.com.au/) 
+  location: Cyberspace
