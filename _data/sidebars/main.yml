@@ -3,5 +3,11 @@ subitems:
     url: /index
   - title: Example page
     url: /example_page
+ - title: Visualisations 
+    url: /visualisations
+ - title: Protein Structure Prediction 
+    url: /protein_struct_pred
+ - title: Command Line Instructions 
+    url: /cli_instruct
 
   
