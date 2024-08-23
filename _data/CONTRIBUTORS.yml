@@ -23,12 +23,4 @@ Keiran Rowell:
     orcid: https://orcid.org/0000-0001-6955-1167 
     role: Computational Research Scientist
     affiliation: Structural Biology Facility UNSW 
-    image_url: https://avatars.githubusercontent.com/u/54380465?v=4  # Defaulting from github didn't seem to work this time, I don't want to do this manually.
-      
-      .
-Kate Michie:
-    #git: 
-    email: k.michie@unsw.edu.au
-    orcid: https://orcid.org/0000-0001-6955-1167 
-    role: Chief Scientist  
-    affiliation: Structural Biology Facility UNSW 
+    image_url: https://avatars.githubusercontent.com/u/54380465?v=4  # Defaulting from github didn't seem to work this time, I don't want to do this manually..
