@@ -1,23 +1,23 @@
-copyright: Copyright notice
-extra_line: 
-columns:
-  - type: image
-    image_width: 120px
-    width: 2
-    src: 'images/infrastructures/AusStructBioComp_logo.png'
-    alt: Logo for the Australian Structural Biology Computing community
-  - type: links
-    width: 3
-    children: 
-      - url_text: Home
-        url: /
-  - type: links
-    width: 3
-    children: 
-      - url_text: Example page
-        url: /example_page
-  - type: image
-    image_width: 88px
-    width: 2
-    src: 'images/infrastructures/AusStructBioComp_logo.png'
-    alt: Logo for the Australian Structural Biology Computing community
+copyright: A collaborative effort by the Australian Structural Biology community. All rights are reserved by the respective contributors.  
+#extra_line: 
+#columns:
+#  - type: image
+#    image_width: 120px
+#    width: 2
+#    src: 'images/infrastructures/AusStructBioComp_logo.png'
+#    alt: Logo for the Australian Structural Biology Computing community
+#  - type: links
+#    width: 3
+#    children: 
+#      - url_text: Home
+#        url: /
+#  - type: links
+#    width: 3
+#    children: 
+#      - url_text: Example page
+#        url: /example_page
+#  - type: image
+#    image_width: 88px
+#    width: 2
+#    src: 'images/infrastructures/AusStructBioComp_logo.png'
+#    alt: Logo for the Australian Structural Biology Computing community
