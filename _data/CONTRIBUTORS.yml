@@ -17,16 +17,22 @@
 #    role: 
 #    affiliation: 
 
+Johan Gustafsson:
+    git: supernord
+    email: johan@biocommons.org.au
+    orcid: 0000-0002-2977-5032
+    role: Editor
+    affiliation: Australian BioCommons, University of Melbourne
+
 Keiran Rowell:
     git: keiran-rowell-unsw 
     email: k.rowell@unsw.edu.au
     orcid: https://orcid.org/0000-0001-6955-1167 
     role: Computational Research Scientist
     affiliation: Structural Biology Facility UNSW 
-    image_url: https://avatars.githubusercontent.com/u/54380465?v=4  # Defaulting from github didn't seem to work this time, I don't want to do this manually.
       
 Kate Michie:
-    #git: 
+    git: sparklibug 
     email: k.michie@unsw.edu.au
     orcid: https://orcid.org/0000-0002-2133-2237
     role: Chief Scientist  
