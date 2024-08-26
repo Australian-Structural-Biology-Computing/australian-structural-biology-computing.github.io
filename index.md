@@ -70,5 +70,3 @@ These project is a joint effort from the following people, housed at multiple Au
 ## Events
 {% include events.html caption=true title=true event_type="upcoming_event" caption_url="/about/events" truncate=true limit=3 %}
 --->
-
-This page serves as a landing page.
