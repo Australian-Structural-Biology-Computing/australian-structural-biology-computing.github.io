@@ -5,9 +5,7 @@ title: Index page
 
 {% include callout.html type="warning" content="This is an example page only, none of its current content is meant to be taken as accurate" %}
 
-### Join the mailing list (currently goes to SBF email)
-
-
+### Join the mailing list (academic focus, currently admined by the SBF)
 <div id="mc_embed_shell">
       <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
   <style type="text/css">
@@ -17,9 +15,9 @@ title: Index page
 </style>
 <div id="mc_embed_signup">
     <form action="https://unsw.us14.list-manage.com/subscribe/post?u=f8473003b217991bec4a913c0&amp;id=13383cbda9&amp;f_id=004e1be0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-        <div id="mc_embed_signup_scroll"><h2>Subscribe</h2>
+        <div id="mc_embed_signup_scroll"><h2>Join the Australian Structural Biology Computing mail list</h2>
             <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-            <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
+            <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div><div class="mc-field-group"><label for="mce-FNAME">First Name </label><input type="text" name="FNAME" class=" text" id="mce-FNAME" value=""></div><div class="mc-field-group"><label for="mce-LNAME">Last Name </label><input type="text" name="LNAME" class=" text" id="mce-LNAME" value=""></div>
         <div id="mce-responses" class="clear foot">
             <div class="response" id="mce-error-response" style="display: none;"></div>
             <div class="response" id="mce-success-response" style="display: none;"></div>
