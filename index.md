@@ -5,7 +5,7 @@ title: Index page
 
 {% include callout.html type="warning" content="This is an example page only, none of its current content is meant to be taken as accurate" %}
 
-### Join the mailing list (academic focus, currently admined by the SBF)
+### Academic mailing list -- currently admined by the SBF
 <div id="mc_embed_shell">
       <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
   <style type="text/css">
