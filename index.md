@@ -69,7 +69,7 @@ These project is a joint effort from the following people, housed at multiple Au
 {% include news.html %}
 
 ## Events
-{% include evenets.html %}
+{% include events.html %}
 
 
 
