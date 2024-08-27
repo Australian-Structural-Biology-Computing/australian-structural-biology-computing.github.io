@@ -5,6 +5,8 @@ subitems:
     url: /example_page
   - title: Contributing 
     subitems: 
+    - title: Provide us your document 
+      url: /provide_documentation
     - title: Write your own guides 
       url: /guide_template
   - title: Visualisations 
