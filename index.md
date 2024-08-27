@@ -53,9 +53,6 @@ title: Index page
 
 {% include section-navigation-tiles.html type="vis-guide"%}
 
-
-{% include callout.html type="note" content="Author photos should be autopopulated from their GitHub account - can't seem to get it to trigger yet." %}
-
 ## Contributors
 
 These project is a joint effort from the following people, housed at multiple Australian insitutions 
