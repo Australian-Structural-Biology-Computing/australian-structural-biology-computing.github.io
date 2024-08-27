@@ -5,7 +5,7 @@ description: Advice on how we can convert your document to a guide on the websit
 affiliations: [Structural Biology Facility UNSW]
 ---
 
-##Bring your own
+## Bring your own
 
 If you have documents or guides you'd like to contribute we can help convert them into the appropriate format for the website!
 
