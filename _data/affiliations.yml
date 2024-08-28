@@ -18,3 +18,8 @@
   expose: true
   type: infrastructure
   url: https://usegalaxy.org.au/
+- name: University of Queensland 
+  image_url: /images/infrastructures/Logo_of_the_University_of_Queensland.svg
+  expose: true
+  type: infrastructure
+  url: https://www.uq.edu.au/ 
