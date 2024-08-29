@@ -1,11 +1,12 @@
 ---
-title: Index page
+title: Welcome
 ---
 
 
 {% include callout.html type="warning" content="This is an example page only, none of its current content is meant to be taken as accurate" %}
 
-### Academic mailing list -- currently admined by the SBF
+## Academic mailing list -- currently administered by the SBF
+
 <div id="mc_embed_shell">
       <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
   <style type="text/css">
@@ -15,7 +16,7 @@ title: Index page
 </style>
 <div id="mc_embed_signup">
     <form action="https://unsw.us14.list-manage.com/subscribe/post?u=f8473003b217991bec4a913c0&amp;id=13383cbda9&amp;f_id=004e1be0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-        <div id="mc_embed_signup_scroll"><h2>Join the Australian Structural Biology Computing mail list</h2>
+        <div id="mc_embed_signup_scroll"><h3>Join the Australian Structural Biology Computing mail list</h3>
             <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
             <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div><div class="mc-field-group"><label for="mce-FNAME">First Name </label><input type="text" name="FNAME" class=" text" id="mce-FNAME" value=""></div><div class="mc-field-group"><label for="mce-LNAME">Last Name </label><input type="text" name="LNAME" class=" text" id="mce-LNAME" value=""></div>
         <div id="mce-responses" class="clear foot">
@@ -39,7 +40,7 @@ title: Index page
 
 
 
-## Protein Structure Prediciton  
+## Protein Structure Prediction  
 
 {% include section-navigation-tiles.html type="prot-guide"%}
 
@@ -53,11 +54,13 @@ title: Index page
 
 {% include section-navigation-tiles.html type="vis-guide"%}
 
+
 ## Contributors
 
-These project is a joint effort from the following people, housed at multiple Australian insitutions 
+The projects included here represent a joint effort by the following people at multiple Australian institutions. 
 
 {% include contributor-tiles-all.html %}
+
 
 ## News
 
