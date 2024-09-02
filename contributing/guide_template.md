@@ -11,9 +11,9 @@ affiliations: [Australian BioCommons]
 
 > Before you start using this template!
 > 1. Add your name to the contributors section of the guide above
-> 2. Make sure to also add your name to [`contributors.yml`](_data/contributors.yml)
+> 2. Make sure to also add your name to [`CONTRIBUTORS.yml`](https://github.com/Australian-Structural-Biology-Computing/website/blob/main/_data/CONTRIBUTORS.yml)
 > 3. Add a plain text description to the section above
-> 4. Add affiliations to the section above: make sure to also update [`affiliations.yml`](_data/affiliations.yml)
+> 4. Add affiliations to the section above: make sure to also update [`affiliations.yml`](https://github.com/Australian-Structural-Biology-Computing/website/blob/main/_data/affiliations.yml)
 > 5. Add citation information in the format provided below:
 
 **Note:** if this guide helped you, please cite it as follows
