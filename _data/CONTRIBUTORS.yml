@@ -21,37 +21,31 @@ Johan Gustafsson:
     git: supernord
     email: johan@biocommons.org.au
     orcid: 0000-0002-2977-5032
-    role: Engagement
-    affiliation: Australian BioCommons, University of Melbourne
+    affiliation: Engagement, Australian BioCommons, University of Melbourne
 
 Keiran Rowell:
     git: keiran-rowell-unsw 
     email: k.rowell@unsw.edu.au
-    orcid: 0000-0001-6955-1167 
-    role: Computational Scientist
-    affiliation: Structural Biology Facility UNSW 
+    orcid: 0000-0001-6955-1167
+    affiliation: Computational Scientist, Structural Biology Facility UNSW
       
 Kate Michie:
     git: katemichie 
     email: k.michie@unsw.edu.au
     orcid: 0000-0002-2133-2237
-    role: Chief Scientist  
-    affiliation: Structural Biology Facility UNSW
-
+    affiliation: Chief Scientist, Structural Biology Facility UNSW
 
 James Lingford:
     git:  jlingford
     email: james.lingford@monash.edu 
     orcid: 0000-0003-1980-3949
-    role: Research Officer, Greening Lab 
-    affiliation: Monash University  
+    affiliation: Research Officer, Greening Lab, Monash University
 
 Michael Healey:
     git:  Mhealy9999 
     email: Michael.healy@uq.edu.au 
     orcid: 0000-0003-2924-9179
-    role: Postdoctoral Research Fellow 
-    affiliation: University of Queensland 
+    affiliation: Postdoctoral Research Fellow, University of Queensland
 
     
 
