@@ -1,11 +1,14 @@
 ---
 title: Welcome
+toc: false
 ---
 
 
 {% include callout.html type="warning" content="This is an example page only, none of its current content is meant to be taken as accurate" %}
 
-## Academic mailing list -- currently administered by the SBF
+## Mailing list
+
+This list is currently administered by the Structural Biology Facility (SBF) at UNSW.
 
 <div id="mc_embed_shell">
       <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
@@ -16,7 +19,7 @@ title: Welcome
 </style>
 <div id="mc_embed_signup">
     <form action="https://unsw.us14.list-manage.com/subscribe/post?u=f8473003b217991bec4a913c0&amp;id=13383cbda9&amp;f_id=004e1be0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-        <div id="mc_embed_signup_scroll"><h3>Join the Australian Structural Biology Computing mail list</h3>
+        <div id="mc_embed_signup_scroll"><p>Join the Australian Structural Biology Computing mail list</p>
             <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
             <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div><div class="mc-field-group"><label for="mce-FNAME">First Name </label><input type="text" name="FNAME" class=" text" id="mce-FNAME" value=""></div><div class="mc-field-group"><label for="mce-LNAME">Last Name </label><input type="text" name="LNAME" class=" text" id="mce-LNAME" value=""></div>
         <div id="mce-responses" class="clear foot">
