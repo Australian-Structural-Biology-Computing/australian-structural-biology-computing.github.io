@@ -2,6 +2,7 @@
 title: [Best practices for presenting and sharing AlphaFold models in a paper]
 contributors: [James Lingford]
 affiliations: [Monash Uni]
+toc: true
 ---
 
 AlphaFold structural models are appearing in papers more frequently. As such, it’s important that the scientific community agree on:
