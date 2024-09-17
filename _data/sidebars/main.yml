@@ -17,6 +17,8 @@ subitems:
     subitems: 
     - title: AlphaFold How To Guide 
       url: /AlphaFold2_how_to_guide
+    - title: Best practices AlphaFold models in a paper 
+      url: /best-practices-alphafold
     - title: AlphaFold Tutorial - European Bioinformatics Institute
       url: /EBI-alphafold-guide
     - title: Protein structure inference options 
