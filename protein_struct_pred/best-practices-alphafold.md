@@ -1,6 +1,6 @@
 ---
 title: Best practices for presenting and sharing AlphaFold models in a paper
-type: prot-guide
+type: guide
 contributors: [James Lingford]
 affiliations: [Monash University]
 toc: true
