@@ -23,7 +23,7 @@
             {%- for tool in tools %}
             <tr>
                 {% if tool.URL %}
-                <td><a href="{{tool.url}}">{{tool.Title}}</a></td>
+                <td><a href="{{tool.URL}}">{{tool.Title}}</a></td>
                 {%- else %}
                 <td>{{tool.Title}}</td>
                 {%- endif %}
