@@ -1,10 +1,13 @@
 ---
 title: Welcome
-toc: false
+toc: true
+sidebar: false
 ---
 
 
-{% include callout.html type="warning" content="This is an example page only, none of its current content is meant to be taken as accurate" %}
+## About
+
+
 
 ## Mailing list
 
@@ -43,19 +46,9 @@ This list is currently administered by the Structural Biology Facility (SBF) at 
 
 
 
-## Protein Structure Prediction  
+## Guides 
 
-{% include section-navigation-tiles.html type="prot-guide"%}
-
-
-## Command line guides
-
-{% include section-navigation-tiles.html type="cli-guide"%}
-
-
-## Visualisation
-
-{% include section-navigation-tiles.html type="vis-guide"%}
+{% include section-navigation-tiles-simple.html type="guide"%}
 
 
 ## Contributors

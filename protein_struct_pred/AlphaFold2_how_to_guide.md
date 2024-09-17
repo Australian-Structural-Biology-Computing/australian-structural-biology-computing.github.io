@@ -1,6 +1,6 @@
 ---
 title: AF2-how-to 
-type: prot-guide
+type: guide
 contributors: [Michael Healey]
 description: Pratical guide for working with real AlphaFold data 
 affiliations: [University of Queensland]
