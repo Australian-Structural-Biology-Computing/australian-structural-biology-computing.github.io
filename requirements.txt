@@ -1,0 +1,6 @@
+pandas
+requests
+argparse
+PyYAML
+python-frontmatter
+urllib3
