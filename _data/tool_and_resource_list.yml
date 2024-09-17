@@ -1,7 +1,211 @@
-- description: 
-  id: 
-  url: 
-  name: 
-  registry:
-    biotools: 
-    tess: 
+- Description: '200 million AF2 predicted protein structures, with AlphaMissense etc
+    included '
+  Title: AlphaFold Protein Structure database
+  Type:
+  - Webservers and computing resources
+  URL: https://alphafold.ebi.ac.uk/
+- Description: 770million ESMFold predicted structures -- much faster and not relying
+    on explicity co-evolutionary multiple sequence alignments being calculated
+  Title: Evolutionary Scale Modelling Atlas of structures
+  Type:
+  - Webservers and computing resources
+  URL: https://esmatlas.com/
+- Description: Multiple Structure Alignment in a browser
+  Title: FoldSeek web server
+  Type:
+  - Webservers and computing resources
+  URL: https://search.foldseek.com/
+- Description: NON-COMMERICAL USE!!
+  Title: AlphaFold3 Server
+  Type:
+  - Webservers and computing resources
+  URL: https://alphafoldserver.com/about
+- Description: Peak academic Australian Research Computing Facility
+  Title: National Computing Infrastructure
+  Type:
+  - Webservers and computing resources
+  URL: https://nci.org.au/users/how-access-nci
+- Description: Peak academic Australian Research Computing Facility
+  Title: Pawsey Supercomputing Centre
+  Type:
+  - Webservers and computing resources
+  URL: https://pawsey.org.au/support/
+- Description: 'Curated search list of computational biology tools around the world '
+  Title: BioTools
+  Type:
+  - Webservers and computing resources
+  URL: https://bio.tools/
+- Description: NVIDIA web server and API for running protein design and structure
+    prediction software
+  Title: NVIDIA
+  Type:
+  - Webservers and computing resources
+  URL: https://build.nvidia.com/explore/biology?ncid=em-prod-179751
+- Description: The best way to get up to competency with using an interpreting AlphaFold.
+    Should be done all all grad students using AF
+  Title: EMBL-EBI AlphaFold Guide
+  Type:
+  - Computational structural bio guides and tutorials
+  URL: https://www.ebi.ac.uk/training/online/courses/alphafold/
+- Description: A visual walkthrough of the AlphaFold3 architecture, with more details
+    and diagrams than you were probably looking for.
+  Title: AlphaFold3 explainer
+  Type:
+  - Computational structural bio guides and tutorials
+  URL: https://elanapearl.github.io/blog/2024/the-illustrated-alphafold/
+- Description: Lists state-of-the-art and emerging tools for Biomolecular Structure
+    Prediction.
+  Title: Biomolecular Structure Prediction Tools
+  Type:
+  - Computational structural bio guides and tutorials
+  URL: https://abeebyekeen.com/biomodes-biomolecular-structure-prediction/
+- Description: User guide for running MMseqs from the command line
+  Title: MMseqs2 tutorial
+  Type:
+  - Computational structural bio guides and tutorials
+  URL: https://github.com/soedinglab/MMseqs2/wiki/Tutorials
+- Description: User guide for running Hiden Markov Models of protein sequences on
+    the command line
+  Title: HH-suite tutorial
+  Type:
+  - Computational structural bio guides and tutorials
+  URL: https://github.com/soedinglab/hh-suite/wiki
+- Description: User guide for running HMMER on the command line
+  Title: HMMER tutorial
+  Type:
+  - Computational structural bio guides and tutorials
+  URL: http://hmmer.org/documentation.html
+- Description: Walkthrough guide on running RFDiffusion
+  Title: RFDiffusion
+  Type:
+  - Computational structural bio guides and tutorials
+  URL: https://github.com/RosettaCommons/RFdiffusion
+- Description: User guide on protein design with Rosetta
+  Title: Rosetta tutorial
+  Type:
+  - Computational structural bio guides and tutorials
+  URL: https://docs.rosettacommons.org/docs/latest/Home
+- Description: Collection of how-to guides for protein design
+  Title: Pyrosetta tutorials
+  Type:
+  - Computational structural bio guides and tutorials
+  URL: https://github.com/ProteinDesignLab/protein-design-tutorials
+- Description: Google Colab notebooks for running protein design
+  Title: ColabDesign notebooks
+  Type:
+  - Computational structural bio guides and tutorials
+  URL: https://github.com/sokrypton/ColabDesign
+- Description: MD-sim tutorials
+  Title: GROMACS tutorials
+  Type:
+  - Computational structural bio guides and tutorials
+  URL: http://www.mdtutorials.com/gmx/
+- Description: MD-sim tutorials
+  Title: GROMACS tutorials
+  Type:
+  - Computational structural bio guides and tutorials
+  URL: https://gromacstutorials.github.io/
+- Description: MD-sim tutorials
+  Title: LAMMPS tutorials
+  Type:
+  - Computational structural bio guides and tutorials
+  URL: https://lammpstutorials.github.io/
+- Description: MD-sim tutorials
+  Title: Amber tutorial
+  Type:
+  - Computational structural bio guides and tutorials
+  URL: https://ambermd.org/tutorials/
+- Description: Short how-to guide on using BLAST from the command line
+  Title: BLAST tutorial
+  Type:
+  - Computational structural bio guides and tutorials
+  URL: https://docs.tinybio.cloud/docs/blast-tutorial
+- Description: Three short tutorials for running ColabFold
+  Title: ColabFold tutorial
+  Type:
+  - Computational structural bio guides and tutorials
+  URL: https://protocolexchange.researchsquare.com/article/pex-2490/v1
+- Description: Covers basics of ssh and jupyter notebooks on a HPC
+  Title: Running ColabFold notebook on a HPC
+  Type:
+  - Computational structural bio guides and tutorials
+  URL: https://www.jameslingford.com/blog/colabfold-hpc-ssh-howto/
+- Description: Protein visualisation guides for UCSF ChimeraX
+  Title: ChimeraX recipes
+  Type:
+  - Protein viz guides and tutorials
+  URL: https://rbvi.github.io/chimerax-recipes/
+- Description: ChimeraX how-to
+  Title: ChimeraX cavity visualisation
+  Type:
+  - Protein viz guides and tutorials
+  URL: https://www.jameslingford.com/blog/chimerax-cavity-surfaces/
+- Description: ChimeraX how-to
+  Title: ChimeraX outline selected area
+  Type:
+  - Protein viz guides and tutorials
+  URL: https://www.jameslingford.com/blog/chimerax-outlines/
+- Description: ~1hr talks by method developers on recent breakthroughs in protein
+    modelling
+  Title: Boston Protein Design and Modeling Club
+  Type:
+  - YouTube talks and tutorials
+  URL: https://www.youtube.com/@bpdmc
+- Description: 100 second videos on how to use various protein tools. Guides are with
+    their clean proprietary interface
+  Title: NeuroSnap protein design videos
+  Type:
+  - YouTube talks and tutorials
+  URL: https://www.youtube.com/@NeurosnapInc/videos
+- Description: Talks focused on cryoEM but also computational structural biology and
+    protein design
+  Title: Structural Biology Grid Consortium Talk Series
+  Type:
+  - YouTube talks and tutorials
+  URL: https://www.youtube.com/@SBGridTV/videos
+- Description: Overview of the AlphaFold pipeline by the New England Journal of Medicine
+  Title: AlphaFold 5 minute explainer - Medical Journal
+  Type:
+  - YouTube talks and tutorials
+  URL: https://www.youtube.com/watch?v=7q8Uw3rmXyE
+- Description: The best detailed on how protein structure works that I've seen
+  Title: ' AlphaFold2, OpenFold, Protein Language Models and Beyond | Nazim Bouatta '
+  Type:
+  - YouTube talks and tutorials
+  URL: https://youtu.be/ON1ltprZKPo?si=WkZ3Y8eZfVusWUvo
+- Description: Blender tutorials for protein animations
+  Title: Brady Johnston Blender tutorials
+  Type:
+  - YouTube talks and tutorials
+  URL: https://www.youtube.com/@BradyJohnston
+- Description: Blender tutorials for protein animations
+  Title: Luminous Lab Blender tutorials
+  Type:
+  - YouTube talks and tutorials
+  URL: https://www.youtube.com/@LuminousLab
+- Description: Playlist of tutorials on how to use ChimeraX with command lines
+  Title: ChimeraX tutorials
+  Type:
+  - YouTube talks and tutorials
+  URL: https://youtube.com/playlist?list=PL4eF1KHNgDfIYSKCS3_S0PTRYtYTV9Myi&si=gBWxBbzifFmF32ln
+- Description: Talks focused on molecular dynamics simulations and computational chemistry
+  Title: European Centre of Excellence for Computational Biomolecular Research
+  Type:
+  - YouTube talks and tutorials
+  URL: https://youtube.com/@bioexcelcoe?si=5jSzsDzpBKwGQThr
+- Description: A discord channel for asking questions related to the various Colab
+    documents that are available
+  Title: ColabBio Discord
+  Type:
+  - Online communities
+  URL: https://discord.gg/M8BCm5WV
+- Description: Not twitter...
+  Title: Bluesky
+  Type:
+  - Online communities
+  URL: https://bsky.app/
+- Description: Also not twitter
+  Title: Mastodon
+  Type:
+  - Online communities
+  URL: https://joinmastodon.org/
