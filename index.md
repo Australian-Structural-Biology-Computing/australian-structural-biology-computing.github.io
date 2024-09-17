@@ -50,6 +50,8 @@ This list is currently administered by the Structural Biology Facility (SBF) at 
 
 {% include section-navigation-tiles-simple.html type="guide"%}
 
+{% include resource-table-all.html %}
+
 
 ## Contributors
 
