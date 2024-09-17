@@ -4,6 +4,7 @@ type: guide
 contributors: [James Lingford]
 affiliations: [Monash University]
 toc: true
+sidebar: false
 ---
 
 AlphaFold structural models are appearing in papers more frequently. As such, it’s important that the scientific community agree on:
@@ -11,7 +12,13 @@ AlphaFold structural models are appearing in papers more frequently. As such, it
 * General guidelines on how to best present AlphaFold models: AlphaFold models presented without sufficient information might mislead readers into thinking the model confidence is higher than it really is. 
 * Guidelines for sharing AlphaFold output files: AlphaFold models are computationally expensive to generate, and some readers might not have the resources to re-generate the model. 
 
-For these reasons, we have distilled our knowledge, and that of the broader field, into a guide for presenting and sharing AlphaFold models in papers. The guide is not intended to be exhaustive or dogmatically rigid, and we expect it will evolve over time. Our goals with this guide are to (1) help newcomers get up to speed with how-to present AlphaFold models, and (2) encourage wider discussion among the structural biology community. Please reach out to us if you have suggestions.
+For these reasons, we have distilled our knowledge, and that of the broader field, into a guide for presenting and sharing AlphaFold models in papers. The guide is not intended to be exhaustive or dogmatically rigid, and we expect it will evolve over time. Our goals with this guide are to:
+
+1. Help newcomers get up to speed with how-to present AlphaFold models, and 
+2. Encourage wider discussion among the structural biology community. 
+
+Please reach out to us if you have suggestions.
+
 
 ## The minimum AlphaFold information that should be presented in a manuscript
 
@@ -27,27 +34,27 @@ For example, papers that present cryo-EM structures of a protein will often show
 
 Just like protein models built with cryo-EM, AlphaFold comes with information about model confidence. It is crucial that this information regarding AlphaFold confidence is included somewhere in the paper. The important metrics that should be included are pLDDT scores, PAE plots, pTM scores, and ipTM scores (for protein complexes only). For a short introduction to what these metrics are and how to think about them, please see the EMBL-EBI’s guides to [pLDDT](https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/evaluating-alphafolds-predicted-structures-using-confidence-scores/plddt-understanding-local-confidence/), [PAE](https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/evaluating-alphafolds-predicted-structures-using-confidence-scores/pae-a-measure-of-global-confidence-in-alphafold-predictions/), and [pTM/ipTM](https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/evaluating-alphafolds-predicted-structures-using-confidence-scores/confidence-scores-in-alphafold-multimer/).
 
-### Best practices:
+## Best practices
 
-#### Supplementary figure dedicated to your top ranked AlphaFold model
+### Supplementary figure dedicated to your top ranked AlphaFold model
 
 We recommend having a supplementary figure dedicated to showing your top ranked AlphaFold model in cartoon form, with the backbone coloured by pLDDT score confidence, alongside its corresponding PAE plot and pTM/ipTM scores. The colour keys for pLDDT and PAE scores should also be included in this supplemental figure. These key pieces of information are important to communicate the model confidence to the reader, which allows the reader to judge the quality of the model for themselves.
 
-#### Label AlphaFold models as models in figures
+### Label AlphaFold models as models in figures
 
 It should be made obvious to the reader when a protein model is an AlphaFold model, so as to not mislead the reader into making them believe the model was solved with X-ray crystallography or cryo-EM. This can be done by labelling the model in the figure, or stating it in the figure legend text. In addition to this explicit labelling, we believe it’s good practice to provide an image of the AlphaFold protein model coloured by pLDDT score, and include a pLDDT colour key. Most readers will implicitly recognise an AlphaFold model as soon as they see a protein cartoon coloured by pLDDT scores. This is because pLDDT scores have become synonymous with AlphaFold models.
 
-### Other good practices:
+## Other good practices
 
-#### Compare all five of Alphafold’s structure predictions
+### Compare all five of Alphafold’s structure predictions
 
 AlphaFold generates five separate predictions of a protein structure and ranks them by confidence metrics. It is useful to compare all five models against each other to demonstrate an overall consistency (or inconsistency) in the model confidence. Most AlphaFold structures will be highly similar across all five models, but sometimes the five models can have noticeably different structures. This could indicate that AlphaFold has issues predicting structures for this sort of protein, maybe as a result of insufficient MSA depth or AlphaFold not being sufficiently trained on such sequences/structures. Therefore, showing all five models superposed in a single figure can communicate the consistency or inconsistency of AlphaFold’s structural predictions. This is particularly important when modelling protein-protein interactions, consistent positioning of an interaction partner over the 5 models is a good indicator of a true interaction.
 
-#### Include a figure showing the MSA generated by AlphaFold2
+### Include a figure showing the MSA generated by AlphaFold2
 
 Including a figure of the MSA generated by AlphaFold2 can also communicate valuable information about model confidence. MSAs that lack sufficient depth – at least ~[100 sequences](https://www.nature.com/articles/s41586-021-03819-2#Sec7) at any single amino acid site – can lead to lower confidence predictions. ColabFold is an instance of AlphaFold that can generate these MSA depth figures.
 
-##### Examples of good AlphaFold model presentation:
+#### Examples of good AlphaFold model presentation:
 
 * Mifsud, J.C.O., Lytras, S., Oliver, M.R. et al. Mapping glycoprotein structure reveals Flaviviridae evolutionary history. Nature (2024). [ https://doi.org/10.1038/s41586-024-07899-8 ](https://doi.org/10.1038/s41586-024-07899-8)
     * **Fig. 2**
@@ -73,8 +80,7 @@ Including a figure of the MSA generated by AlphaFold2 can also communicate valua
 
 Like all scientific methodology, the methods section on how AlphaFold was used should be descriptive enough that anyone would be able to replicate your outputs. There are now a few versions of AlphaFold2, as well as “forks” of AlphaFold2 like ColabFold. To ensure reproducibility, it is important to specify exactly what version of the software was used. Likewise, if installation of the software or any dependencies are altered from the original software, it will also be necessary to describe these differences. In such a case, it is probably easier for both the readers and the authors if the authors provide a link to a GitHub repository containing their modified version of the AlphaFold software. This GitHub repository should include a README file with installation and running instructions.
 
-{% include callout.html type="note" content="**Did you know:** using digital object identifiers (DOIs), you can create a link that doesn’t break for software, including modified versions. [ See this link to find out how to do this for GitHub ](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content
-)." %}
+{% include callout.html type="note" content="**Did you know:** using digital object identifiers (DOIs), you can create a link that doesn’t break for software, including modified versions. [See this link to find out how to do this for GitHub](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)." %}
 
 Describing the parameters used to run AlphaFold2 is very important for proper reproducibility. The AlphaFold2 software has defaults for all their running parameters, but often you will want to change these parameters. Parameters that are often changed include:
 
@@ -92,6 +98,7 @@ Lastly, the creators of any software used should be properly cited. If you are u
 * If you’re using AlphaFold-multimer, please also cite: Evans et al. "Protein complex prediction with AlphaFold-Multimer." biorxiv (2021) doi: [10.1101/2021.10.04.463034v1](https://www.biorxiv.org/content/10.1101/2021.10.04.463034v2)
 * If you’re running AlphaFold2 via ColabFold, please also cite: Mirdita M, Schütze K, Moriwaki Y, Heo L, Ovchinnikov S and Steinegger M. “ColabFold: Making protein folding accessible to all.” Nature Methods (2022) doi: [10.1038/s41592-022-01488-1](https://www.nature.com/articles/s41592-022-01488-1)
 * If you’re running AlphaFold2 via OpenFold, please also cite: Ahdritz, G., Bouatta, N., Floristean, C. et al. OpenFold: retraining AlphaFold2 yields new insights into its learning mechanisms and capacity for generalization. Nat Methods (2024). doi: [10.1038/s41592-024-02272-z](https://www.nature.com/articles/s41592-024-02272-z)
+
 
 ## The minimum AlphaFold data to share
 

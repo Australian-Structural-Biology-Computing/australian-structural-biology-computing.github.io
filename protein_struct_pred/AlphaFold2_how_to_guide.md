@@ -1,24 +1,26 @@
 ---
-title: AF2-how-to 
+title: AlphaFold2 How-to Guide 
 type: guide
 contributors: [Michael Healey]
-description: Pratical guide for working with real AlphaFold data 
+description: Practical guide for working with real AlphaFold data 
 affiliations: [University of Queensland]
+sidebar: false
+toc: true
 ---
 
-**AlphaFold2 how to guide**  
    
 [AlphaFold2](https://www.nature.com/articles/s41586-021-03819-2) (AF2) has undoubtedly revolutionised the world of structural biology, allowing for the rapid prediction of proteins and protein complexes. In this guide I aim to equip you to understand how the algorithm works and how to interpret the output data.  
    
 To do this there are 3 main sections; 
 
-1. AlphaFold2- The Basics   
-2. Running a Structure Prediction, and  
-3. Interpreting the Output Files. 
+1. [AlphaFold2 - the basics](#alphafold2---the-basics-)
+2. [Running a Structure Prediction](#running-a-structure-prediction), and  
+3. [Interpreting the Output Files](#interpreting-the-output-files) 
 
 This guide is designed as a supplement to [EMBLs excellent course](https://www.ebi.ac.uk/training/online/courses/alphafold/) on AF2.
 
-**AlphaFold2- The Basics**  
+## AlphaFold2 - the basics  
+
 To start to get to grips with how AF2 goes about generating a protein model, it is helpful to understand Anfinsen’s dogma and Levinthal’s paradox.
 
 Anfinsen’s dogma: “at least for a small globular protein in its standard physiological environment, the native structure is determined only by the protein's amino acid sequence”. This means given a random amino acid sequence it should be possible to predict the secondary structure it adopts (alpha helix, beta strand, loop etc).
@@ -47,7 +49,9 @@ Answers:
 
 With some of these basic concepts in mind it is time to move on to predicting a protein structure. 
 
-**Running a structure prediction**  
+
+## Running a structure prediction
+
 For the purposes of this tutorial I will be using the [ColabFold](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb) implementation of AlphaFold2 as it is straightforward and easy to use. This runs off the Google Colab platform which is like Google Docs but for code. Google Colab is a two tier system with a free and a paid version. The free version has access to T4 GPU cards while the paid subscription allows access to A100 GPUs. A100 GPUs are significantly better than T4 and will allow you to predict proteins faster and also increase the total number of amino acids you can input. Below is a table with some benchmarking I performed. 
 
 | Protein (length) | VPS29 (182aa) | SNX17 (470aa) | Retriever (1442aa) |
@@ -80,7 +84,9 @@ There are however some settings you might like to consider using:
 
 This should be enough information to allow you to run your own predictions but if you would like more information on each of the settings it can be found at the bottom of the [Colab document](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb#scrollTo=UGUBLzB3C6WN) or at the [ColabFold github](https://github.com/sokrypton/ColabFold) page. Now at this point you might be tempted to stop reading, but I encourage you not to as we are moving to the **most important** section of this How-to Guide. Which is how you interpret the outputs you will find in your download folder.
 
-**Interpreting the output files**  
+
+## Interpreting the output files
+
 It is hard to overstate the importance of looking at the quality of your protein model. Just as in any other form of science, AF2 will produce a number of confidence metrics that will help you interpret if your model is good or bad. After running ColabFold you should get a downloaded .zip file. In this zip file there will be lot of files, but the 4 key files are:
 
 1. The PDB file (this is your structure that can be opened with [Pymol](https://www.pymol.org/)/[ChimeraX](https://www.cgl.ucsf.edu/chimerax/))  
