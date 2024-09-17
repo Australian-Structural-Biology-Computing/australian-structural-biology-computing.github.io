@@ -15,6 +15,8 @@ subitems:
       url: /pymol
   - title: Protein Structure Prediction
     subitems: 
+    - title: AlphaFold How To Guide 
+      url: /AlphaFold2_how_to_guide
     - title: AlphaFold Tutorial - European Bioinformatics Institute
       url: /EBI-alphafold-guide
     - title: Protein structure inference options 
