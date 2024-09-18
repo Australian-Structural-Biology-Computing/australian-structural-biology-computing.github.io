@@ -1,7 +1,7 @@
 ---
 title: AlphaFold2 How-to Guide 
 type: guide
-contributors: [Michael Healey]
+contributors: [Michael Healy]
 description: Practical guide for working with real AlphaFold data 
 affiliations: [University of Queensland]
 sidebar: false
