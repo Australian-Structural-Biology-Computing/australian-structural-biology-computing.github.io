@@ -4,8 +4,8 @@
   Type:
   - Webservers and computing resources
   URL: https://alphafold.ebi.ac.uk/
-- Description: 770million ESMFold predicted structures -- much faster and not relying
-    on explicity co-evolutionary multiple sequence alignments being calculated
+- Description: 770 million ESMFold predicted structures -- much faster calculations
+    as the don't relying on explicity co-evolutionary multiple sequence alignments
   Title: Evolutionary Scale Modelling Atlas of structures
   Type:
   - Webservers and computing resources
@@ -15,7 +15,8 @@
   Type:
   - Webservers and computing resources
   URL: https://search.foldseek.com/
-- Description: NON-COMMERICAL USE!!
+- Description: AlphaFold3 provided by Google's webserver to their compute infrastructure.
+    NON-COMMERICAL USE!
   Title: AlphaFold3 Server
   Type:
   - Webservers and computing resources
@@ -36,13 +37,13 @@
   - Webservers and computing resources
   URL: https://bio.tools/
 - Description: NVIDIA web server and API for running protein design and structure
-    prediction software
-  Title: NVIDIA
+    prediction software (e.g. RFDiffusion, ESMFold, etc.)
+  Title: NVIDIA Biology
   Type:
   - Webservers and computing resources
   URL: https://build.nvidia.com/explore/biology?ncid=em-prod-179751
 - Description: The best way to get up to competency with using an interpreting AlphaFold.
-    Should be done all all grad students using AF
+    Should be done by all grad students using AF
   Title: EMBL-EBI AlphaFold Guide
   Type:
   - Computational structural bio guides and tutorials
@@ -95,22 +96,22 @@
   Type:
   - Computational structural bio guides and tutorials
   URL: https://github.com/sokrypton/ColabDesign
-- Description: MD-sim tutorials
+- Description: Molecular Dynamics simulation tutorials
   Title: GROMACS tutorials
   Type:
   - Computational structural bio guides and tutorials
   URL: http://www.mdtutorials.com/gmx/
-- Description: MD-sim tutorials
+- Description: Molecular Dynamics simulation tutorials
   Title: GROMACS tutorials
   Type:
   - Computational structural bio guides and tutorials
   URL: https://gromacstutorials.github.io/
-- Description: MD-sim tutorials
+- Description: Molecular Dynamics simulation tutorials
   Title: LAMMPS tutorials
   Type:
   - Computational structural bio guides and tutorials
   URL: https://lammpstutorials.github.io/
-- Description: MD-sim tutorials
+- Description: Molecular Dynamics simulation tutorials
   Title: Amber tutorial
   Type:
   - Computational structural bio guides and tutorials
@@ -157,7 +158,7 @@
   Type:
   - YouTube talks and tutorials
   URL: https://www.youtube.com/@NeurosnapInc/videos
-- Description: Talks focused on cryoEM but also computational structural biology and
+- Description: Talks focused on CryoEM but also computational structural biology and
     protein design
   Title: Structural Biology Grid Consortium Talk Series
   Type:
@@ -168,7 +169,8 @@
   Type:
   - YouTube talks and tutorials
   URL: https://www.youtube.com/watch?v=7q8Uw3rmXyE
-- Description: The best detailed on how protein structure works that I've seen
+- Description: Detailed and lucid talk on understanding the machine learning concepts
+    behind AI protein structure prediction methods
   Title: ' AlphaFold2, OpenFold, Protein Language Models and Beyond | Nazim Bouatta '
   Type:
   - YouTube talks and tutorials
@@ -199,12 +201,12 @@
   Type:
   - Online communities
   URL: https://discord.gg/M8BCm5WV
-- Description: Not twitter...
+- Description: 'Social media posting platform '
   Title: Bluesky
   Type:
   - Online communities
   URL: https://bsky.app/
-- Description: Also not twitter
+- Description: 'Social media posting platform '
   Title: Mastodon
   Type:
   - Online communities
