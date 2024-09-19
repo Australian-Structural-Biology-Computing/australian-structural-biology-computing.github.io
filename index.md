@@ -6,9 +6,13 @@ datatable: true
 ---
 
 
+## News
+
+{% include news.html %}
+
 ## About
 
-
+*Lorem ipsum*
 
 ## Mailing list
 
@@ -62,10 +66,6 @@ The projects included here represent a joint effort by the following people at m
 
 {% include contributor-tiles-all.html %}
 
-
-## News
-
-{% include news.html %}
 
 <!--- Events seem to have problem with direct cut and paste, disabling until desired 
 ## Events
