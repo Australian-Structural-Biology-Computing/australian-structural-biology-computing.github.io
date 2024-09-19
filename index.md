@@ -7,7 +7,7 @@ datatable: true
 
 ## About
 
-*Lorem ipsum*
+Welcome to the Community for Structural Biology Computing in Australia. This website is the virtual meeting place for all users of computing for structural biology research in Australia. This page serves as a repository for knowledge and how-to-guides for use of Deep Learning methods in Structural Biology. It also links together those building infrastructure to support this community. The site lists news items and announcements for relevant courses, meetings and information about structural biology. It can be what we make it!
 
 ## News
 
