@@ -5,14 +5,13 @@ sidebar: false
 datatable: true
 ---
 
+## About
+
+*Lorem ipsum*
 
 ## News
 
 {% include news.html %}
-
-## About
-
-*Lorem ipsum*
 
 ## Mailing list
 
