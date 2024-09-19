@@ -7,13 +7,15 @@ datatable: true
 
 ## About
 
-Welcome to the Community for Structural Biology Computing in Australia. This website is the virtual meeting place for all users of computing for structural biology research in Australia. This page serves as a repository for knowledge and how-to-guides for use of Deep Learning methods in Structural Biology. It also links together those building infrastructure to support this community. The site lists news items and announcements for relevant courses, meetings and information about structural biology. It can be what we make it!
+Welcome to the Community for Structural Biology Computing in Australia. This website is the virtual meeting place for all users of computing for structural biology research in Australia. This page contains How-to Guides for the use of Deep Learning methods in Structural Biology as well as news items and announcements for relevant courses, meetings and information about structural biology. It can be what we make it!
+
 
 ## News
 
 {% include news.html %}
 
-## Mailing list
+
+## Join the mailing list
 
 This list is currently administered by the Structural Biology Facility (SBF) at UNSW.
 
@@ -54,9 +56,14 @@ This list is currently administered by the Structural Biology Facility (SBF) at 
 {% include section-navigation-tiles.html type="guide"%}
 
 
-## Other resources
+## External resources
 
 {% include resource-table-all.html %}
+
+
+## Affiliations
+
+{% include affiliation-tiles-selection.html %}
 
 
 ## Contributors
