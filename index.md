@@ -10,14 +10,16 @@ datatable: true
 Welcome to the Community for Structural Biology Computing in Australia. This website is the virtual meeting place for all users of computing for structural biology research in Australia. This page currently serves as a knowledge resource for use of Deep Learning methods in Structural Biology, but could expand to link together Cryo-EM processing and crystallographic methods in time. This page contains How-to Guides for the use of Deep Learning methods in Structural Biology as well as news items and announcements for relevant courses, meetings and information about structural biology. It can be what we make it!
 
 
-## News
+## Join the conversation
 
-{% include news.html %}
+If you would like to, there are multiple ways to join the conversation. The most straightforward is to attend the next quarterly [community meeting](#upcoming-events).
 
+You can also join the conversation by:
+- Contributing to the [discussion forum](https://github.com/orgs/Australian-Structural-Biology-Computing/discussions),
+- Attending one of the upcoming [community events](#upcoming-events)
 
-## Join the mailing list
+If you join the mailing list (see below), you will receive community updates and automatic community meeting invitations.
 
-This list is currently administered by the Structural Biology Facility (SBF) at UNSW for the purposes of coordinating the community only and will NOT be distributed. Signing up means you will be informed/invited to the next community meeting. Community meetings are held for 1 hour, 4 times a year. You don't need to attend. It provides you with an opportunity to input.
 
 <div id="mc_embed_shell">
       <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
@@ -51,6 +53,19 @@ This list is currently administered by the Structural Biology Facility (SBF) at 
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
 
 
+{% include callout.html type="note" content="The mailing list is currently administered by the Structural Biology Facility (SBF) at UNSW for the purposes of coordinating the community only and will NOT be distributed. " %}
+
+
+## Upcoming events
+
+{% include events.html caption=true title=true event_type="upcoming_event" truncate=true %}
+
+
+## News
+
+{% include news.html %}
+
+
 ## Guides 
 
 {% include section-navigation-tiles.html type="guide"%}
@@ -61,16 +76,13 @@ This list is currently administered by the Structural Biology Facility (SBF) at 
 {% include resource-table-all.html %}
 
 
-## Affiliations
-
-{% include affiliation-tiles-selection.html %}
-
-
 ## Contributors
 
 The projects included here represent a joint effort by the following people at multiple Australian institutions. 
 
 {% include contributor-tiles-all.html %}
+
+{% include affiliation-tiles-selection.html %}
 
 
 <!--- Events seem to have problem with direct cut and paste, disabling until desired 
