@@ -7,7 +7,7 @@ datatable: true
 
 ## About
 
-Welcome to the Community for Structural Biology Computing in Australia. This website is the virtual meeting place for all users of computing for structural biology research in Australia. This page contains How-to Guides for the use of Deep Learning methods in Structural Biology as well as news items and announcements for relevant courses, meetings and information about structural biology. It can be what we make it!
+Welcome to the Community for Structural Biology Computing in Australia. This website is the virtual meeting place for all users of computing for structural biology research in Australia. This page currently serves as a knowledge resource for use of Deep Learning methods in Structural Biology, but could expand to link together Cryo-EM processing and crystallographic methods in time. This page contains How-to Guides for the use of Deep Learning methods in Structural Biology as well as news items and announcements for relevant courses, meetings and information about structural biology. It can be what we make it!
 
 
 ## News
@@ -17,7 +17,7 @@ Welcome to the Community for Structural Biology Computing in Australia. This web
 
 ## Join the mailing list
 
-This list is currently administered by the Structural Biology Facility (SBF) at UNSW.
+This list is currently administered by the Structural Biology Facility (SBF) at UNSW for the purposes of coordinating the community only and will NOT be distributed. Signing up means you will be informed/invited to the next community meeting. Community meetings are held for 1 hour, 4 times a year. You don't need to attend. It provides you with an opportunity to input.
 
 <div id="mc_embed_shell">
       <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
