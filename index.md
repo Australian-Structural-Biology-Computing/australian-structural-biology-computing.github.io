@@ -12,13 +12,11 @@ Welcome to the Community for Structural Biology Computing in Australia. This web
 
 ## Join the conversation
 
-If you would like to, there are multiple ways to join the conversation. The most straightforward is to attend the next quarterly [community meeting](#upcoming-events).
+If you would like to, there are multiple ways to join the conversation. The most straightforward is to attend the next quarterly [community meeting](#upcoming-events). If you join the mailing list (see below), you will receive community updates and automatic community meeting invitations.
 
 You can also join the conversation by:
 - Contributing to the [discussion forum](https://github.com/orgs/Australian-Structural-Biology-Computing/discussions),
 - Attending one of the upcoming [community events](#upcoming-events)
-
-If you join the mailing list (see below), you will receive community updates and automatic community meeting invitations.
 
 
 <div id="mc_embed_shell">
@@ -58,7 +56,7 @@ If you join the mailing list (see below), you will receive community updates and
 
 ## Upcoming events
 
-{% include events.html caption=true title=true event_type="upcoming_event" truncate=true %}
+{% include events.html event_type="upcoming_event" truncate=true %}
 
 
 ## News
