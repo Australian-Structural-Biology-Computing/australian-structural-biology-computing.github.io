@@ -211,8 +211,14 @@
   Type:
   - Online communities
   URL: https://joinmastodon.org/
-- Description: Access a full version of Alphafold2 supported by the Australian Biocommons
-  Title: Australian Alphafold Service
+- Description: Access a full version of AlphaFold2 supported by the Australian Biocommons
+  Title: Australian AlphaFold Service
   Type:
   - Webservers and computing resources
   URL: https://www.biocommons.org.au/alphafold
+- Description: Free access to a high-performance computing network through a simple
+    web interface for Australian Researchers
+  Title: Galaxy Australian
+  Type:
+  - Webservers and computing resources
+  URL: https://usegalaxy.org.au
