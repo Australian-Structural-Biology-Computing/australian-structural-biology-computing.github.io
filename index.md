@@ -54,6 +54,19 @@ You can also join the conversation by:
 {% include callout.html type="note" content="The mailing list is currently administered by the Structural Biology Facility (SBF) at UNSW for the purposes of coordinating the community only and will NOT be distributed. " %}
 
 
+## Current activities
+
+<div style="width: 75%; display: block; margin-left: auto; margin-right: auto;">
+    <div class="container">
+        <div class="row">
+            <div style = "background-color: #f8f9fa; text-align: left; vertical-align: middle; margin: 25px; padding: 10px;">
+            <span style= "font-weight: bold">Exploring how to increase access to RFdiffusion</span><br><span>A collaborative activity bringing together members of the computational structural biology community, infrastructure providers, and the Australian BioCommons, in order to determine how to increase access to RFdiffusion for life science researchers.</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 ## Upcoming events
 
 {% include events.html event_type="upcoming_event" truncate=true %}
