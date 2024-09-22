@@ -1,3 +1,8 @@
+- Description: 'Access a full version of Alphafold2 supported by the Australian Biocommons '
+  Title: Australian Alphafold Service
+  Type:
+  - Webservers and computing resources
+  URL: https://www.biocommons.org.au/alphafold
 - Description: '200 million AF2 predicted protein structures, with AlphaMissense etc
     included '
   Title: AlphaFold Protein Structure database
