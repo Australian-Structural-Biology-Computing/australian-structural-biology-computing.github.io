@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: Welcome to the Community for Structural Biology Computing in Australia
 toc: true
 sidebar: false
 datatable: true
@@ -56,11 +56,16 @@ You can also join the conversation by:
 
 ## Current activities
 
-<div style="width: 75%; display: block; margin-left: auto; margin-right: auto;">
+<div style="width: 75%; display: block">
     <div class="container">
         <div class="row">
             <div style = "background-color: #f8f9fa; text-align: left; vertical-align: middle; margin: 25px; padding: 10px;">
             <span style= "font-weight: bold">Exploring how to increase access to RFdiffusion</span><br><span>A collaborative activity bringing together members of the computational structural biology community, infrastructure providers, and the Australian BioCommons, in order to determine how to increase access to RFdiffusion for life science researchers.</span>
+            </div>
+        </div>
+        <div class="row">
+            <div style = "background-color: #f8f9fa; text-align: left; vertical-align: middle; margin: 25px; padding: 10px;">
+            <span style= "font-weight: bold">Computational Structural Biology Infrastructure Roadmap</span><br><span>The Roadmap is in the final stages of drafting and will be announced here and directly to the community by the end of October.</span>
             </div>
         </div>
     </div>
