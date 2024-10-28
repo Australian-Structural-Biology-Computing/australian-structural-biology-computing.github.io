@@ -47,8 +47,9 @@ Michael Healy:
     orcid: 0000-0003-2924-9179
     affiliation: Postdoctoral Research Fellow, University of Queensland
 
-Joshua Storm Caley:
-    git:  jscgh 
-    email: j.caley@unsw.edu.au
-    orcid: 0000-0002-9374-0969
-    affiliation: Computational Systems Officer, Structural Biology Facility UNSW
+# Josh was listed as a contributor during testing - checked with him to remove -- KR
+#Joshua Storm Caley:
+#git:  jscgh 
+#email: j.caley@unsw.edu.au
+#orcid: 0000-0002-9374-0969
+#affiliation: Computational Systems Officer, Structural Biology Facility UNSW
