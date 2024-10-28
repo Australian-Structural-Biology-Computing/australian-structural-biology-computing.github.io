@@ -6,3 +6,13 @@
 #  endTime: 21:04
 #  description: It's an event! With a [link](https://www.eventbrite.com.au/) 
 #  location: Cyberspace
+- name: BioMolecular Horizons
+  startDate: 2024-09-22
+  description: Launch of the website at [BioMolecular Horizons 2024](https://www.bmh2024.com/)
+- name: Computational Structural Biology Community Meeting
+  startDate: 2024-10-22
+  startTime: 13:30
+  endDate: 2024-10-22
+  endTime: 14:30
+  description: Visit the [rolling agenda](https://docs.google.com/document/d/1miRyOOOW7HeDsCvzJwVEOhaAzPBve8od9WUvsAsFfcw/edit#heading=h.owmugrvs22hi) for details on how to join the next meeting.
+  location: Online
