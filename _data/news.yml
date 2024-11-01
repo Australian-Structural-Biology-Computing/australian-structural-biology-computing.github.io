@@ -1,7 +1,7 @@
 - name: Script for Alphafold output validation metrics!
   date: 2024-11-01
-  description: Python Script and info about configuring AF2 to output pTM, ipTM and MSA depth. Many thanks to the Galaxy (Cam!) for making this happen (https://github.com/usegalaxy-au/tools-au/tree/master/tools/alphafold#generating-additional-outputs)
+  description: Python Script and info about configuring AF2 to output pTM, ipTM and MSA depth. Many thanks to the Australian Galaxy team (special shout out to Cam!) for making this happen (https://github.com/usegalaxy-au/tools-au/tree/master/tools/alphafold#generating-additional-outputs)
 
 - name: Script for updating Alphafold2 dependencies to stop 'template missing' failures (MMCIF patch)
   date: 2024-11-01
-  description: MMCIF patch python script. Many thanks to the Galaxy (Cam!) for making this happen (https://github.com/usegalaxy-au/tools-au/tree/master/tools/alphafold/scripts/db/patch_mmcif)
+  description: MMCIF patch python script. Many thanks to the Australian Galaxy team (Cam again!) for making this happen (https://github.com/usegalaxy-au/tools-au/tree/master/tools/alphafold/scripts/db/patch_mmcif)
