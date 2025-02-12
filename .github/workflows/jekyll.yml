@@ -3,7 +3,7 @@ name: Jekyll site CI
 on:
   push:
   pull_request:
-    branches: [ main, master ]
+    branches: [ main, master, edits ]
   workflow_dispatch:
 
 permissions:
