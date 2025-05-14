@@ -2,7 +2,6 @@
 title: Welcome
 toc: false
 sidebar: false
-datatable: true
 ---
 
 ## About
