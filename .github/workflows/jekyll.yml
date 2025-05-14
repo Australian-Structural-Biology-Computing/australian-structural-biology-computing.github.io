@@ -2,6 +2,7 @@ name: Jekyll site CI
 
 on:
   push:
+    branches: [ main, master ]
   pull_request:
     branches: [ main, master, edits ]
   workflow_dispatch:
@@ -41,7 +42,7 @@ jobs:
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           PAGES_REPO_NWO: ${{ github.repository }}
-          JEKYLL_ENV: ${{ steps.name.outputs.jekyll_env }}
+          JEKYLL_ENV: production
           JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           JEKYLL_BUILD_BRANCH: ${{ github.ref_name }}
           JEKYLL_BASE_PATH: ${{ steps.pages.outputs.base_path }}
@@ -50,7 +51,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
 
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: build
 
     if: |
@@ -63,7 +64,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
