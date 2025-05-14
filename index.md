@@ -17,6 +17,11 @@ This page contains:
 This is a collective community effort. It can be what we make it!
 
 
+## Available resources
+
+{% include section-navigation-tiles-simple.html col = "2" type="resources"%}
+
+
 ## Join the conversation
 
 If you would like to, there are multiple ways to join the conversation. The most straightforward is to attend the next quarterly [community meeting](#upcoming-events). If you join the mailing list (see below), you will receive community updates and automatic community meeting invitations.
