@@ -7,7 +7,7 @@ datatable: true
 
 ## About
 
-Welcome! This website is the virtual meeting place for all users of computing for structural biology research in Australia. This page currently serves as a knowledge resource for use of Deep Learning methods in Structural Biology, but could expand to link together Cryo-EM processing and crystallographic methods in time. This page contains How-to Guides for the use of Deep Learning methods in Structural Biology as well as news items and announcements for relevant courses, meetings and information about structural biology. It can be what we make it!
+Welcome! This website is the virtual meeting place for all users of computing for structural biology research in Australia. This page currently serves as a knowledge resource for use of Deep Learning methods in Structural Biology, but in time could expand to link together Cryo-EM processing and crystallographic methods. This page contains How-to Guides for the use of Deep Learning methods in Structural Biology as well as news items and announcements for relevant courses, meetings and information about structural biology. It can be what we make it!
 
 
 ## Join the conversation
