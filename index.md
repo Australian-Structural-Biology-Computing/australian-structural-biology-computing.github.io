@@ -2,7 +2,14 @@
 title: Welcome
 toc: false
 sidebar: false
+
+simple_tiles:
+  - title: "Quarterly community meetings"
+    url: https://docs.google.com/document/d/1miRyOOOW7HeDsCvzJwVEOhaAzPBve8od9WUvsAsFfcw/edit#heading=h.owmugrvs22hi
+  - title: "Community events"
+    url: pages/events
 ---
+
 
 ## About
 
@@ -23,8 +30,12 @@ This is a collective community effort. It can be what we make it!
 
 ## Join the conversation
 
-If you would like to, there are multiple ways to join the conversation. The most straightforward is to attend the next quarterly [community meeting](#upcoming-events). If you join the mailing list (see below), you will receive community updates and automatic community meeting invitations.
+If you would like to, there are multiple ways to join the conversation. If you join the mailing list (see below), you will receive community updates and automatic community meeting invitations.
 
+{% include tiles-simple.html col = "2" target = "simple_tiles" %}
+
+
+### Mailing list 
 
 <div id="mc_embed_shell">
       <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
@@ -57,36 +68,7 @@ If you would like to, there are multiple ways to join the conversation. The most
 </div>
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
 
-
 {% include callout.html type="note" content="The mailing list is currently administered by the Structural Biology Facility (SBF) at UNSW for the purposes of coordinating the community only and will NOT be distributed. " %}
-
-
-You can also join the conversation by:
-- Contributing to the [discussion forum](https://github.com/orgs/Australian-Structural-Biology-Computing/discussions),
-- Attending one of the upcoming [community events](#upcoming-events)
-
-
-## Current activities
-
-<div style="width: 75%; display: block">
-    <div class="container">
-        <div class="row">
-            <div style = "background-color: #f8f9fa; text-align: left; vertical-align: middle; margin: 25px; padding: 10px;">
-            <span style= "font-weight: bold">Exploring how to increase access to RFdiffusion</span><br><span>A collaborative activity bringing together members of the computational structural biology community, infrastructure providers, and the Australian BioCommons, in order to determine how to increase access to RFdiffusion for life science researchers.</span>
-            </div>
-        </div>
-        <div class="row">
-            <div style = "background-color: #f8f9fa; text-align: left; vertical-align: middle; margin: 25px; padding: 10px;">
-            <span style= "font-weight: bold">Computational Structural Biology Infrastructure Roadmap</span><br><span>The Roadmap is in the final stages of drafting and will be announced here and directly to the community by the end of October.</span>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-## Upcoming events
-
-{% include events.html event_type="upcoming_event" truncate=true %}
 
 
 ## News
@@ -101,9 +83,3 @@ The projects included here represent a joint effort by the following people at m
 {% include contributor-tiles-all.html %}
 
 {% include affiliation-tiles-selection.html %}
-
-
-<!--- Events seem to have problem with direct cut and paste, disabling until desired 
-## Events
-{% include events.html caption=true title=true event_type="upcoming_event" caption_url="/about/events" truncate=true limit=3 %}
---->
