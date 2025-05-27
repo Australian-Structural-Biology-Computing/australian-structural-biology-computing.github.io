@@ -6,8 +6,8 @@ sidebar: false
 simple_tiles:
   - title: "Quarterly community meetings"
     url: https://docs.google.com/document/d/1miRyOOOW7HeDsCvzJwVEOhaAzPBve8od9WUvsAsFfcw/edit#heading=h.owmugrvs22hi
-  - title: "Community events"
-    url: pages/events
+  - title: "Events"
+    url: /events
 ---
 
 

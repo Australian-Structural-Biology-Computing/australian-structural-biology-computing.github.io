@@ -1,6 +1,5 @@
 ---
 title: Events
-type: resources
 ---
 
 
