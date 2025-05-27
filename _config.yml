@@ -25,6 +25,11 @@ defaults:
       permalink: /:basename
       layout: "page"
       sidebar: main
+  - scope:
+      path: "pages"
+      type: "pages"
+    values:
+      sidebar: main
 
 theme_variables: 
   # git_host: GitHub
