@@ -3,15 +3,19 @@ subitems:
     url: /index
   - title: Activities
     url: /activities
-  - title: Events
-    url: /events
-  - title: External resources
-    url: /external_resources
   - title: How-to Guides
     url: /guides
+  - title: External resources
+    url: /external_resources
+  - title: Contributors
+    url: /contributors
   - title: Contributing
     subitems: 
     - title: Provide us your document 
       url: /provide_documentation
     - title: Write your own guides 
       url: /guide_template
+  - title: Events
+    url: /events
+  - title: News
+    url: /news
