@@ -76,10 +76,8 @@ If you would like to, there are multiple ways to join the conversation. If you j
 {% include news.html %}
 
 
-## Contributors
+## Acknowledgements
 
-The projects included here represent a joint effort by the following people at multiple Australian institutions. 
-
-{% include contributor-tiles-all.html %}
+The projects included here represent a joint effort by the following people at multiple Australian institutions.
 
 {% include affiliation-tiles-selection.html %}
