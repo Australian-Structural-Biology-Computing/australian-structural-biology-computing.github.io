@@ -11,22 +11,16 @@
   description: "Launch of the website at [BioMolecular Horizons 2024](https://www.bmh2024.com/)"
 - name: Computational Structural Biology Community Meeting
   startDate: 2024-10-22
-  startTime: 13:30
   endDate: 2024-10-22
-  endTime: 14:30
   description: "Visit the [rolling agenda](https://docs.google.com/document/d/1miRyOOOW7HeDsCvzJwVEOhaAzPBve8od9WUvsAsFfcw/edit#heading=h.owmugrvs22hi) for details on how to join the next meeting."
   location: Online
 - name: Computational Structural Biology Community Meeting
   startDate: 2025-04-09
-  startTime: 13:00
   endDate: 2025-04-09
-  endTime: 14:30
   description: "Visit the [rolling agenda](https://docs.google.com/document/d/1miRyOOOW7HeDsCvzJwVEOhaAzPBve8od9WUvsAsFfcw/edit#heading=h.owmugrvs22hi) for details on how to join the next meeting."
   location: Online
 - name: Computational structural biology community meeting
   startDate: 2025-06-18
-  startTime: 13:00
   endDate: 2025-06-18
-  endTime: 14:00
   description: "Visit the [rolling agenda](https://docs.google.com/document/d/1miRyOOOW7HeDsCvzJwVEOhaAzPBve8od9WUvsAsFfcw/edit#heading=h.owmugrvs22hi) for details on how to join the next meeting."
   location: Online
