@@ -3,5 +3,5 @@
 subitems:
 - title: Home
   url: /index
-- title: Guides
-  url: /guides
+- title: Subgroup example
+  url: /subgroup_index
