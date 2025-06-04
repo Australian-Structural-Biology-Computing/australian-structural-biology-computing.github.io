@@ -73,11 +73,6 @@ If you would like to, there are multiple ways to join the conversation. If you j
 {% include callout.html type="note" content="The mailing list is currently administered by the Structural Biology Facility (SBF) at UNSW for the purposes of coordinating the community only and will NOT be distributed. " %}
 
 
-## News
-
-{% include news.html %}
-
-
 ## Acknowledgements
 
 The projects included here represent a joint effort by the following people at multiple Australian institutions.
