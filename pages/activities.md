@@ -1,6 +1,7 @@
 ---
 title: Community activities
 page_id: activities
+type: resources
 ---
 
 
