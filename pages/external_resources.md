@@ -1,6 +1,6 @@
 ---
 title: External resources
-type: resources
+page_id: external_resources
 datatable: true
 ---
 

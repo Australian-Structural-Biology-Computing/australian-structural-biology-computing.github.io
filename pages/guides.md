@@ -1,6 +1,8 @@
 ---
 title: How-to Guides
-type: resources
+description: How-to Guides for the use of deep learning methods in structural biology.
+page_id: guides
+datatable: true
 ---
 
 {% include section-navigation-tiles.html type="guide"%}
