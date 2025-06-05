@@ -31,6 +31,9 @@
     .news-item {
         padding: 7px 11px;
         position: relative;
+        a {
+            color: $primary;
+        }
         a:not(.stretched-link), button:not(.stretched-link) {
             z-index: 2;
             position: relative;
