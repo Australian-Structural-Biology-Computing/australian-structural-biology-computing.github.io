@@ -13,21 +13,12 @@ simple_tiles:
 ---
 
 
-## About
-
-This website is the virtual meeting place for all users of **computing for structural biology research in Australia**. 
-
-This page contains:
-- Knowledge resources for the use of deep learning methods in structural biology. In time, this could expand to link together Cryo-EM processing and crystallographic methods. 
-- How-to Guides for the use of deep learning methods in structural biology. 
-- News and announcements for relevant courses, meetings, and information about structural biology. 
-
-This is a collective community effort. It can be what we make it!
+This website is a virtual meeting place and hub for all users of **computing for structural biology research in Australia**. This is a collective community effort. It can be what we make it!
 
 
-## Available resources
+## This page contains:
 
-{% include section-navigation-tiles-simple.html col = "2" type="resources"%}
+{% include section-navigation-tiles.html col = "2" custom = "activities,events,guides,external_resources,contributors" sort = false %}
 
 
 ## Join the conversation
