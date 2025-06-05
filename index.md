@@ -18,7 +18,7 @@ This website is a virtual meeting place and hub for all users of **computing for
 
 ## This page contains:
 
-{% include section-navigation-tiles.html col = "2" custom = "activities,events,guides,external_resources,contributors" sort = false %}
+{% include section-navigation-tiles.html custom="activities,events,guides,external_resources,contributors" sort=false %}
 
 
 ## Join the conversation
