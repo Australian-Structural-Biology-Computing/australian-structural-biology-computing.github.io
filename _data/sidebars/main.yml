@@ -7,14 +7,10 @@ subitems:
     url: /guides
   - title: External resources
     url: /external_resources
+  - title: Contributing
+    url: /contributing
   - title: Contributors
     url: /contributors
-  - title: Contributing
-    subitems: 
-    - title: Provide us your document 
-      url: /provide_documentation
-    - title: Write your own guides 
-      url: /guide_template
   - title: Events
     url: /events
   - title: News
