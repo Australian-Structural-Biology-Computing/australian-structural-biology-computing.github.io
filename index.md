@@ -5,27 +5,19 @@ toc: false
 hide_sidebar: true
 sidebar: true
 
-simple_tiles:
-  - title: "Quarterly community meetings"
-    url: https://docs.google.com/document/d/1miRyOOOW7HeDsCvzJwVEOhaAzPBve8od9WUvsAsFfcw/edit#heading=h.owmugrvs22hi
-  - title: "Events"
-    url: /events
+tiles:
+  - title: "Join the conversation"
+    url: /join_conversation
 ---
 
 
 This website is a virtual meeting place and hub for all users of **computing for structural biology research in Australia**. This is a collective community effort. It can be what we make it!
 
+{% include tiles-simple.html target = "tiles" %}
 
-## This page contains:
+## What resources would you like to access?
 
 {% include section-navigation-tiles.html type="resources" sort=false %}
-
-
-## Join the conversation
-
-If you would like to, there are multiple ways to join the conversation. If you join the mailing list (see below), you will receive community updates and automatic community meeting invitations.
-
-{% include tiles-simple.html col = "2" target = "simple_tiles" %}
 
 
 ### Mailing list 
