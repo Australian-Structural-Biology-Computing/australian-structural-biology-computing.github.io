@@ -6,7 +6,17 @@ subitems:
   - title: How-to Guides
     url: /guides
   - title: External resources
-    url: /external_resources
+    subitems:
+      - title: Servers
+        url: external_servers
+      - title: Guides
+        url: external_guides
+      - title: Visualization
+        url: external_viz
+      - title: Videos
+        url: external_videos
+      - title: Communities
+        url: external_communities  
   - title: Contributing
     url: /contributing
   - title: Contributors
