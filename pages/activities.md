@@ -1,21 +1,20 @@
 ---
-title: Community activities
+title: Community Activities
 page_id: activities
 type: resources
 ---
 
 
 ## In progress
-
-{% include section-navigation-tiles-simple.html col = "1" type="activity_inprogress"%}
+{% include section-navigation-tiles-simple.html col = "2" type="activity_inprogress" except="binder_access.md" %}
 
 
 ## Future
 
-{% include section-navigation-tiles-simple.html col = "1" type="activity_future"%}
+{% include section-navigation-tiles-simple.html col = "2" type="activity_future"%}
 
 
 ## Completed
 
-{% include section-navigation-tiles-simple.html col = "1" type="activity_completed"%}
+{% include section-navigation-tiles-simple.html col = "2" type="activity_completed"%}
 
