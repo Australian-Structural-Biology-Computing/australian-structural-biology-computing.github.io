@@ -9,6 +9,8 @@ subitems:
     subitems:
       - title: Servers
         url: external_servers
+      - title: Databases
+        url: external_databases
       - title: Guides
         url: external_guides
       - title: Visualization
