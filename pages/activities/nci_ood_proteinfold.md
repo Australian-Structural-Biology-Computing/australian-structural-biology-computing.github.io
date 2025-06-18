@@ -28,6 +28,7 @@ type: activity_inprogress
 
 - Matthew Downton
 - Kisaru Liyanage
+- Wenjing Xue
 - Joshua Cayley
 - Nathan Glades
 - Keiran Rowell

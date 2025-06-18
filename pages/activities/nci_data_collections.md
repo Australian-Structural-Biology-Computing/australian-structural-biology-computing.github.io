@@ -23,5 +23,7 @@ This activity aims to create a stable release of up-to-date reference data (with
 ### Contributors
 
 - Matthew Downton
+- Kisaru Liyanage
+- Wenjing Xue
 - Joshua Cayley
 - Thomas Litfin
