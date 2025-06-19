@@ -5,11 +5,6 @@ type: activity_inprogress
 
 ### Details
 
-<figure>
-<img src= "images/activities/bindcraft-pipeline.png" alt="BindCraft pipeline" style="width: 75%; height: 75%">
-</figure>
-
-
 - [BindCraft](https://github.com/martinpacesa/BindCraft) is an end-to-end solution for protein binder design.
 - BindCraft was widely used by participants in a recent blind evaluation ([Adaptyv Bio](https://www.adaptyvbio.com/blog/po104)) of protein binder design tools. 
 - Several independent groups generated de novo designed binders with competitive affinity to the natural ligand using the BindCraft tool.
