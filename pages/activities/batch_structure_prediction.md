@@ -35,7 +35,6 @@ This activity involves developing optimized batch workflows for structure predic
 - Ziad Al-Bkhetan
 - Mitchell O'brien
 - Joshua Cayley
-- Nathan Glades
 - Keiran Rowell
 - Cameron Hyde
 - Thomas Litfin

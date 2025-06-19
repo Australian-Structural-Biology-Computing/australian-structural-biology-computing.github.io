@@ -33,6 +33,5 @@ type: activity_inprogress
 - Ziad Al-Bkhetan
 - Mitchell O'brien
 - Joshua Cayley
-- Nathan Glades
 - Keiran Rowell
 - Thomas Litfin

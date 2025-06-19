@@ -30,6 +30,5 @@ type: activity_inprogress
 - Kisaru Liyanage
 - Wenjing Xue
 - Joshua Cayley
-- Nathan Glades
 - Keiran Rowell
 - Thomas Litfin
