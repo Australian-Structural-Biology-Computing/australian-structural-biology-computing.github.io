@@ -1,6 +1,7 @@
 ---
 title: OpenOnDemand GUI ProteinFold app
 type: activity_inprogress
+contributors: [Matthew Downton, Kisaru Liyanage, Wenjing Xue, Joshua Storm Caley, Keiran Rowell, Thomas Litfin]
 ---
 
 ### Details:
@@ -23,12 +24,3 @@ type: activity_inprogress
 <img src= "images/activities/ood-proteinfold.png" alt="KOD-proteinfold" style="border: 4px solid black; width: 50%; height: 50%">
 <figcaption> Screenshot from the Katana OnDemand ProteinFold app deployed at UNSW.</figcaption>
 </figure>
-
-### Contributors:
-
-- Matthew Downton
-- Kisaru Liyanage
-- Wenjing Xue
-- Joshua Cayley
-- Keiran Rowell
-- Thomas Litfin

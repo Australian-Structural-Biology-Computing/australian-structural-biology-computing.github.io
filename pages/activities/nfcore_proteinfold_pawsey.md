@@ -1,6 +1,7 @@
 ---
 title: nf-core ProteinFold at Pawsey
 type: activity_inprogress
+contributors: [Sarah Beecroft, Joshua Storm Caley]
 ---
 
 ### Details:
@@ -21,8 +22,3 @@ type: activity_inprogress
 ### Future:
 - [ ] Build AMD compatible container for Boltz-2.
 - [ ] ProteinFold config optimized for Pawsey.
-
-### Contributors:
-
-- Sarah Beecroft
-- Joshua Cayley

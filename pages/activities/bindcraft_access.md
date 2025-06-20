@@ -1,6 +1,7 @@
 ---
 title: Community Access to BindCraft
 type: activity_inprogress
+contributors: [Ziad Al-Bkhetan, Thomas Litfin]
 ---
 
 ### Details
@@ -28,8 +29,3 @@ type: activity_inprogress
 ### Future:
 
 - [ ] OpenOnDemand app for running BindCraft from a graphical web interface.
-
-### Contributors:
-
-- Ziad Al-Bkhetan
-- Thomas Litfin

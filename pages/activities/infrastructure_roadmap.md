@@ -21,6 +21,6 @@ The infrastructure roadmap document describes the existing national landscape, i
 ### Future:
 - [ ] Publication to Zenodo.
 
-### Contributors
+### Contributors:
 - Australian Structural Biology Computing Community
 - Australian BioCommons and infrastructure partners

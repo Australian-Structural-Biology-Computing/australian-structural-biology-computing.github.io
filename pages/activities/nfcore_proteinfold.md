@@ -1,6 +1,7 @@
 ---
 title: nf-core ProteinFold v2.0 Release
 type: activity_inprogress
+contributors: [Ziad Al-Bkhetan, Mitchell O'Brien, Joshua Storm Caley, Keiran Rowell, Thomas Litfin]
 ---
 
 ### Details:
@@ -27,11 +28,3 @@ type: activity_inprogress
 
 - [ ] Add minituare reference databases for fast troubleshooting.
 - [ ] De-duplicate reference datasets across different methods.
-
-### Contributors:
-
-- Ziad Al-Bkhetan
-- Mitchell O'brien
-- Joshua Cayley
-- Keiran Rowell
-- Thomas Litfin

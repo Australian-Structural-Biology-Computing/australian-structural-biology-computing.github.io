@@ -1,6 +1,7 @@
 ---
 title: NCI Data Collection
 type: activity_inprogress
+contributors: [Matthew Downton, Kisaru Liyanage, Wenjing Xue, Joshua Storm Caley, Thomas Litfin]
 ---
 
 ### Details
@@ -19,11 +20,3 @@ This activity aims to create a stable release of up-to-date reference data (with
 
 ### In Progress:
 - [ ] NCI Data Collection EOI.
-
-### Contributors
-
-- Matthew Downton
-- Kisaru Liyanage
-- Wenjing Xue
-- Joshua Cayley
-- Thomas Litfin

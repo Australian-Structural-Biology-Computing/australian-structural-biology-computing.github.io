@@ -1,6 +1,7 @@
 ---
 title: Batch Structure Prediction Workflows
 type: activity_inprogress
+contributors: [Ziad Al-Bkhetan, Mitchell O'Brien, Joshua Storm Caley, Keiran Rowell, Cameron Hyde, Thomas Litfin]
 ---
 
 ### Details:
@@ -29,12 +30,3 @@ This activity involves developing optimized batch workflows for structure predic
 
 - [ ] Develop Galaxy workflow to take advantage of re-using MSAs.
 - [ ] Add stoichiometry screening workflow to the nfcore [proteinfold](https://nf-co.re/proteinfold/1.1.1) pipeline.
-
-### Contributors:
-
-- Ziad Al-Bkhetan
-- Mitchell O'brien
-- Joshua Cayley
-- Keiran Rowell
-- Cameron Hyde
-- Thomas Litfin

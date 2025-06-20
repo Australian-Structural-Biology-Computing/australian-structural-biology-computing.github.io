@@ -1,6 +1,7 @@
 ---
 title: Protein Design Seminar Series (2025)
 type: activity_inprogress
+contributors: [Gavin Knott, Rhys Grinter, Josh Hardy, Richard Birkinshaw, Kate Michie, Johan Gustafsson, Melissa Burke]
 ---
 
 ### Details
@@ -19,13 +20,3 @@ Registration is available [here](https://www.eventbrite.com.au/e/webinar-leverag
 | 7 October     | 12pm AEST* | Josh Hardy | Introducing ProteinDJ: A modular and open-source framework for protein design workflows |
 | 11 November   | 12pm AEST* | TBC | TBC |
 | *Affected by daylight savings |
-
-### Contributors
-
-- Gavin Knott
-- Rhys Grinter
-- Josh Hardy
-- Richard Birkinshaw
-- Kate Michie
-- Johan Gustaffson
-- Melissa Burke
