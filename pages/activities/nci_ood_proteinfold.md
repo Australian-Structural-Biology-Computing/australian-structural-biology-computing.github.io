@@ -8,10 +8,10 @@ type: activity_inprogress
 - Numerous structure prediction methods are available via the command line.
 - Web services with graphical interfaces are freely available with limited capacity.
 - OpenOnDemand provides a simple graphical interface to HPC systems. 
-- Several institutional HPCs have an OpenOnDemand deployment (eg KOD @ UNSW, ARE @ NCI)
+- Several institutional HPCs have an OpenOnDemand deployment (eg KOD @ UNSW, ARE @ NCI).
 
 ### Completed:
-- [x] Pilot app developed and hosted on Katana at UNSW
+- [x] Pilot app developed and hosted on Katana at UNSW.
 
 ### In Progress
 - [ ] Adapt pilot ProteinFold app for ARE at NCI.

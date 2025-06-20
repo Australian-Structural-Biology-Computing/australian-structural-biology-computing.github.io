@@ -15,10 +15,10 @@ This activity aims to create a stable release of up-to-date reference data (with
 ### Completed:
 
 - [x] Catalog latest version of reference data.
-- [x] Harmonize data across different structure prediction models (AlphaFold2, AlphaFold3, Boltz, ColabFold, HelixFold3, RosettaFold-AA)
+- [x] Harmonize data across different structure prediction models (AlphaFold2, AlphaFold3, Boltz, ColabFold, HelixFold3, RosettaFold-AA).
 
 ### In Progress:
-- [ ] NCI Data Collection EOI 
+- [ ] NCI Data Collection EOI.
 
 ### Contributors
 

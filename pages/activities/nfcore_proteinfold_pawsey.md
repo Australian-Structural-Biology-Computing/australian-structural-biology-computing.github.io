@@ -10,17 +10,17 @@ type: activity_inprogress
 - Models can be made to work with AMD hardware available at Pawsey.
 
 ### Completed:
-- [x] Build AMD compatible container for AlphaFold2
-- [x] Build AMD compatible container for Boltz-1
-- [x] Build AMD compatible container for ESMFold
+- [x] Build AMD compatible container for AlphaFold2.
+- [x] Build AMD compatible container for Boltz-1.
+- [x] Build AMD compatible container for ESMFold.
 
 ### In Progress:
-- [ ] Adapt containers for compatibility with nfcore proteinfold
-- [ ] Test nfcore proteinfold workflow at Pawsey
+- [ ] Adapt containers for compatibility with nfcore proteinfold.
+- [ ] Test nfcore proteinfold workflow at Pawsey.
 
 ### Future:
-- [ ] Build AMD compatible container for Boltz-2
-- [ ] ProteinFold config optimized for Pawsey
+- [ ] Build AMD compatible container for Boltz-2.
+- [ ] ProteinFold config optimized for Pawsey.
 
 ### Contributors:
 
