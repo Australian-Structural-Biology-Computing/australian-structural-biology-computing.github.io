@@ -15,7 +15,7 @@ Registration is available [here](https://www.eventbrite.com.au/e/webinar-leverag
 | Date          | Time       | Speaker(s)         | Topic |
 |---------------|------------|--------------------|-------|
 | 15 July       | 12pm AEST  | Rhys Grinter       | Using AI protein design to design binding proteins to challenging bacterial transporters |
-| 12 August     | 12pm AEST  | TBC                | TBC |
+| 12 August     | 12pm AEST  | Cyntia Taveneau    | Icrs: AI-Designed Anti-CRISPRs as Programmable CRISPR Inhibitors |
 | 16 September  | 12pm AEST  | Richard Birkinshaw | Using in silico design methods to create de novo proteins that selectively modulate apoptosis |
 | 7 October     | 12pm AEST* | Josh Hardy | Introducing ProteinDJ: A modular and open-source framework for protein design workflows |
 | 11 November   | 12pm AEST* | TBC | TBC |
