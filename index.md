@@ -16,6 +16,10 @@ This website is a virtual meeting place and hub for all users of **computing for
 {% include tiles-simple.html target = "tiles" col = "1" %}
 
 
+## Events
+
+{% include events.html event_type="upcoming_event" limit=3 %}
+
 
 ## Acknowledgements
 

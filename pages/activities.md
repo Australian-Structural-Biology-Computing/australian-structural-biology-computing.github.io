@@ -2,6 +2,7 @@
 title: Community Activities
 page_id: activities
 type: resources
+toc: false
 ---
 
 
