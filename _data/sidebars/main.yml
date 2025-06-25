@@ -8,17 +8,17 @@ subitems:
   - title: External resources
     subitems:
       - title: Servers
-        url: external_servers
+        url: /external_servers
       - title: Databases
-        url: external_databases
+        url: /external_databases
       - title: Guides
-        url: external_guides
+        url: /external_guides
       - title: Visualization
-        url: external_viz
+        url: /external_viz
       - title: Videos
-        url: external_videos
+        url: /external_videos
       - title: Communities
-        url: external_communities  
+        url: /external_communities
   - title: Contributing
     url: /contributing
   - title: Contributors
