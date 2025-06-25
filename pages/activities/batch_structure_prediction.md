@@ -17,16 +17,20 @@ This activity involves developing optimized batch workflows for structure predic
 
 ### Completed:
 
-- [x] Add support for re-using MSAs to Galaxy Australia AlphaFold2 service.
+[x] Add support for re-using MSAs to Galaxy Australia AlphaFold2 service.
 
 ### In Progress:
 
-- [ ] Add local implementation of batch colabfoldsearch to the nfcore [proteinfold](https://nf-co.re/proteinfold/1.1.1) pipeline.
-- [ ] Add mmseqs-GPU support to the nfcore [proteinfold](https://nf-co.re/proteinfold/1.1.1) pipeline.
-- [ ] Add boltz interaction screening workflow to screen multiple potential partners against a protein (re-using MSA for anchor protein).
-- [ ] Add option for extreme replicate sampling for AlphaFold2.
+[ ] Add local implementation of batch colabfoldsearch to the nfcore [proteinfold](https://nf-co.re/proteinfold/1.1.1) pipeline.
+
+[ ] Add mmseqs-GPU support to the nfcore [proteinfold](https://nf-co.re/proteinfold/1.1.1) pipeline.
+
+[ ] Add boltz interaction screening workflow to screen multiple potential partners against a protein (re-using MSA for anchor protein).
+
+[ ] Add option for extreme replicate sampling for AlphaFold2.
 
 ### Future:
 
-- [ ] Develop Galaxy workflow to take advantage of re-using MSAs.
-- [ ] Add stoichiometry screening workflow to the nfcore [proteinfold](https://nf-co.re/proteinfold/1.1.1) pipeline.
+[ ] Develop Galaxy workflow to take advantage of re-using MSAs.
+
+[ ] Add stoichiometry screening workflow to the nfcore [proteinfold](https://nf-co.re/proteinfold/1.1.1) pipeline.
