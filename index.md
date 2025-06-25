@@ -24,6 +24,6 @@ This website is a virtual meeting place and hub for all users of **computing for
 ## Acknowledgements
 
 This website represents a joint effort by many people at multiple Australian institutions. 
-A list of contributors is [available here](/contributors).
+A list of contributors is [available here](contributors).
 
 {% include affiliation-tiles-selection.html %}
