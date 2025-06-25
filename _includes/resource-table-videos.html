@@ -1,0 +1,56 @@
+{%- if include.tag %}
+{%- assign tools = site.data.tool_and_resource_list | add_related_pages | where:"related_pages", include.tag  | sort_natural: "name" %}
+{%- else %}
+{%- assign tools = site.data.tool_and_resource_list | add_related_pages  | sort_natural: "name" %}
+{%- endif %}
+{%- assign country_pages = site.pages | where_exp: "item", "item.search_exclude != true" | where_exp:"item","item.national_resources != nil" %}
+{%- unless tools.size == 0 or tools == nil %}
+<a class="visually-hidden-focusable" href='#skip-tool-table'>Skip tool table</a>
+<div class="table-responsive mt-4 mb-5">
+    <table class="tooltable table display">
+        <thead>
+            <tr class="text-nowrap">
+                <th>How-to Guide or resource {%- if include.tag -%}
+                    <a data-bs-toggle="tooltip" data-bs-original-title="This is a curated list which means that not all tools or resources that exist for this topic are listed here. This is mainly because we do not intend to be a registry.">
+                        <i class="fa-solid fa-info-circle"></i>
+                    </a>{%- endif %}
+                </th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            {%- for tool in tools %}
+            {% assign found = false %}
+            {% for desc in tool.Type %}
+                {% if desc == "YouTube talks and tutorials" %}
+                {% assign found = true %}
+                {% endif %}
+            {% endfor %}
+            {% if found %}
+            <tr>
+                {% if tool.URL %}
+                <td><a href="{{tool.URL}}">{{tool.Title}}</a></td>
+                {%- else %}
+                <td>{{tool.Title}}</td>
+                {%- endif %}
+                <td>{{tool.Description}}
+                    {%- if tool.instance_of or tool.how_to_access or instances_tool != 0 and total_county_tools != 0 and include.tag != nil %}
+                    {%- assign linked_tool = site.data.tool_and_resource_list | where:"id", tool.instance_of | first %}
+                    <div class="d-block mt-1">
+                        {%- if linked_tool %}
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="This resource is an instance of {{linked_tool.name}}"><span class="badge text-primary border border-primary">{{linked_tool.name}}</span></span>
+                        {%- endif %}
+                        {%- if tool.how_to_access %}
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="{{tool.how_to_access}}"><span class="badge text-primary border border-primary"> <i class="fa-solid fa-key"></i></span></span>
+                        {%- endif %}
+                    </div>
+                    {%- endif %}
+                </td>
+            </tr>
+            {%- endif %}
+            {%- endfor %}
+        </tbody>
+    </table>
+</div>
+{%- endunless %}
+<div id="skip-tool-table"></div>

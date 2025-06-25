@@ -1,8 +1,8 @@
 ---
-title: External resources
+title: External Resources
 page_id: external_resources
-datatable: true
+#datatable: true
 type: resources
 ---
 
-{% include resource-table-all.html %}
+<!-- {% include resource-table-all.html %} -->
