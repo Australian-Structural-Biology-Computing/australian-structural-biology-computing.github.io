@@ -1,6 +1,8 @@
 subitems:
   - title: Home
     url: /index
+  - title: Join the conversation
+    url: /join_conversation
   - title: Activities
     url: /activities
   - title: How-to Guides
