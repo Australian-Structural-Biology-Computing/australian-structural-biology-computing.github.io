@@ -3,10 +3,61 @@
 //Example for highlighting the active page in the navigation:
 /*-----Top navigation-----*/
 
+.nav-link {
+    color: $white;
+}
+
 .navbar-nav .nav-item > a {
     &.active {
         color: $white;
         background-color: $primary;
         border-radius: $border-radius;
+    }
+}
+
+// see https://github.com/workflowhub-eu/about/blob/596b18d7ab1055ee1e53bc98a3bd120a06518e06/_sass/_custom_classes.scss
+/*-----News and events-----*/
+
+.events > ul > li,
+.news > ul > li {
+    margin: 10px 0px;
+}
+
+// News section front-page
+
+.news-sidebar {
+    background-color: $light;
+
+    .news-item {
+        padding: 7px 11px;
+        position: relative;
+        a {
+            color: $primary;
+        }
+        a:not(.stretched-link), button:not(.stretched-link) {
+            z-index: 2;
+            position: relative;
+        }
+        .clean-md {
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .news-hover:hover {
+        text-decoration: none;
+        background-color: $primary;
+        color: $white;
+        a.stretched-link {
+            color: $light;
+        }
+    }
+
+    h2 {
+        font-size: 1.6em;
+        font-weight: 700;
+        color: $primary;
+        padding: 7px 11px;
     }
 }

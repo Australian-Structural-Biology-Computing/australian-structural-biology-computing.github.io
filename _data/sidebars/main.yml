@@ -1,29 +1,29 @@
 subitems:
   - title: Home
     url: /index
-  - title: Example page
-    url: /example_page
-  - title: Contributing 
-    subitems: 
-    - title: Provide us your document 
-      url: /provide_documentation
-    - title: Write your own guides 
-      url: /guide_template
-  - title: Visualisations 
+  - title: Activities
+    url: /activities
+  - title: How-to Guides
+    url: /guides
+  - title: External resources
     subitems:
-    - title: Pymol  
-      url: /pymol
-  - title: Protein Structure Prediction
-    subitems: 
-    - title: AlphaFold How To Guide 
-      url: /AlphaFold2_how_to_guide
-    - title: Best practices AlphaFold models in a paper 
-      url: /best-practices-alphafold
-    - title: AlphaFold Tutorial - European Bioinformatics Institute
-      url: /EBI-alphafold-guide
-    - title: Protein structure inference options 
-      url: /protein_struct_inference
-  - title: Command Line Instructions
-    subitems:
-    - title: Basics 
-      url: /basics
+      - title: Servers
+        url: /external_servers
+      - title: Databases
+        url: /external_databases
+      - title: Guides
+        url: /external_guides
+      - title: Visualization
+        url: /external_viz
+      - title: Videos
+        url: /external_videos
+      - title: Communities
+        url: /external_communities
+  - title: Contributing
+    url: /contributing
+  - title: Contributors
+    url: /contributors
+  - title: Events
+    url: /events
+  - title: News
+    url: /news

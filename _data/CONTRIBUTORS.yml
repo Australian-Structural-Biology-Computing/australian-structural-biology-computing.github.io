@@ -47,9 +47,71 @@ Michael Healy:
     orcid: 0000-0003-2924-9179
     affiliation: Postdoctoral Research Fellow, University of Queensland
 
-# Josh was listed as a contributor during testing - checked with him to remove -- KR
-#Joshua Storm Caley:
-#git:  jscgh 
-#email: j.caley@unsw.edu.au
-#orcid: 0000-0002-9374-0969
-#affiliation: Computational Systems Officer, Structural Biology Facility UNSW
+Joshua Storm Caley:
+    git:  jscgh 
+    email: j.caley@unsw.edu.au
+    orcid: 0000-0002-9374-0969
+    affiliation: Computational Systems Officer, Structural Biology Facility UNSW
+
+Thomas Litfin:
+    git:  tlitfin-unsw 
+    email: t.litfin@unsw.edu.au 
+    orcid: 0000-0002-4863-3865
+    affiliation: Senior Research Associate, Structural Biology Facility UNSW
+
+Ziad Al-Bkhetan:
+    git:  ziadbkh
+    orcid: 0000-0002-4032-5331
+    affiliation: Product Manager, Australian BioCommons
+
+Sarah Beecroft:
+    git: SarahBeecroft
+    affiliation: Bioinformatics Applications Specialist, Pawsey Supercomputing Research Centre
+
+Cameron Hyde:
+    git: neoformit
+    orcid: 0000-0002-5913-9766
+    affiliation: Bioinformatician, Queensland Cyber Infrastructure Foundation (QCIF)
+
+Mitchell O'Brien:
+    git: Mitchob
+    affiliation: Senior Bioinformatics Engineer, Sydney Informatics Hub
+
+Matthew Downton:
+    git: mattdton
+    orcid: 0000-0002-4693-1965
+    affiliation: Associate Director - Performance Optimisation, National Computational Infrastructure (NCI)
+
+Kisaru Liyanage:
+    git: kisarur
+    affiliation: HPC specialist (Life and Health Sciences), National Computational Infrastructure (NCI)
+
+Wenjing Xue:
+    affiliation: HPC Specialist (Life and Health Sciences), National Computational Infrastructure (NCI)
+
+Gavin Knott:
+    affiliation: Group Leader, Monash Biomedicine Discovery Institute, Monash University
+    orcid: 0000-0002-9007-6273
+
+Rhys Grinter:
+    affiliation: Lab head, University of Melbourne
+    git: RhysWG
+    orcid: 0000-0002-8195-5348
+
+Josh Hardy:
+    affiliation: Senior Research Officer, Lucet Lab, WEHI
+    git: joshhardywehi
+    email: hardy.j@wehi.edu.au
+    orcid: 0000-0002-8014-8552
+
+#Richard Birkinshaw:
+#    affiliation: Senior Research Scientist, Walter and Eliza Hall Institute of Medical Research
+#    orcid: 0000-0003-1825-0182
+
+Melissa Burke:
+    affiliation: Training Manager, Australian BioCommons
+    orcid: 0000-0002-5571-8664
+
+Cyntia Taveneau:
+    affiliation: Research Fellow, Knott Lab, Monash University
+    orcid: 0000-0002-3395-4957
