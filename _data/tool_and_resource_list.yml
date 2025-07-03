@@ -1,20 +1,35 @@
-- Description: '200 million AF2 predicted protein structures, with AlphaMissense etc
-    included '
-  Title: AlphaFold Protein Structure database
+- Description: Access a full version of AlphaFold2 supported by the Australian Biocommons
+  Title: Australian AlphaFold Service
   Type:
   - Webservers and computing resources
-  URL: https://alphafold.ebi.ac.uk/
-- Description: 770 million ESMFold predicted structures -- much faster calculations
-    as the don't relying on explicity co-evolutionary multiple sequence alignments
-  Title: Evolutionary Scale Modelling Atlas of structures
+  URL: https://www.biocommons.org.au/alphafold
+- Description: Free access to a high-performance computing network through a simple
+    web interface for Australian Researchers
+  Title: Galaxy Australia
   Type:
   - Webservers and computing resources
-  URL: https://esmatlas.com/
+  URL: https://usegalaxy.org.au
+- Description: Structure prediction notebooks available to run for free on Google
+    Colab platform
+  Title: ColabFold Notebooks
+  Type:
+  - Webservers and computing resources
+  URL: https://github.com/sokrypton/ColabFold?tab=readme-ov-file#making-protein-folding-accessible-to-all-via-google-colab
 - Description: Multiple Structure Alignment in a browser
   Title: FoldSeek web server
   Type:
   - Webservers and computing resources
   URL: https://search.foldseek.com/
+- Description: Freemium service for deep learning structural biology software
+  Title: Tamarind Bio
+  Type:
+  - Webservers and computing resources
+  URL: https://www.tamarind.bio/
+- Description: Freemium service for deep learning structural biology software
+  Title: NeuroSnap
+  Type:
+  - Webservers and computing resources
+  URL: https://neurosnap.ai/
 - Description: AlphaFold3 provided by Google's webserver to their compute infrastructure.
     NON-COMMERICAL USE!
   Title: AlphaFold3 Server
@@ -195,12 +210,22 @@
   Type:
   - YouTube talks and tutorials
   URL: https://youtube.com/@bioexcelcoe?si=5jSzsDzpBKwGQThr
+- Description: European community for structural bioinformatics research
+  Title: ELIXIR 3D-BioInfo
+  Type:
+  - Online communities
+  URL: https://elixir-europe.org/communities/3d-bioinfo
 - Description: A discord channel for asking questions related to the various Colab
     documents that are available
   Title: ColabBio Discord
   Type:
   - Online communities
   URL: https://discord.gg/M8BCm5WV
+- Description: A slack channel to discuss developments of Boltz
+  Title: Boltz Slack
+  Type:
+  - Online communities
+  URL: https://join.slack.com/t/boltz-community/shared_invite/zt-34qg8uink-V1LGdRRUf3avAUVaRvv93w
 - Description: 'Social media posting platform '
   Title: Bluesky
   Type:
@@ -211,14 +236,26 @@
   Type:
   - Online communities
   URL: https://joinmastodon.org/
-- Description: Access a full version of AlphaFold2 supported by the Australian Biocommons
-  Title: Australian AlphaFold Service
+- Description: '200 million AF2 predicted protein structures, with AlphaMissense etc
+    included '
+  Title: AlphaFold Protein Structure database
   Type:
-  - Webservers and computing resources
-  URL: https://www.biocommons.org.au/alphafold
-- Description: Free access to a high-performance computing network through a simple
-    web interface for Australian Researchers
-  Title: Galaxy Australia
+  - Reference databases
+  URL: https://alphafold.ebi.ac.uk/
+- Description: 770 million ESMFold predicted structures -- much faster calculations
+    as the don't relying on explicity co-evolutionary multiple sequence alignments
+  Title: Evolutionary Scale Modelling Atlas of structures
   Type:
-  - Webservers and computing resources
-  URL: https://usegalaxy.org.au
+  - Reference databases
+  URL: https://esmatlas.com/
+- Description: Database of UniProt and Metagenome predicted structures clustered with
+    foldseek
+  Title: AFESM Clusters Database
+  Type:
+  - Reference databases
+  URL: https://afesm.foldseek.com/
+- Description: Database of UniProt predicted structures clustered with foldseek
+  Title: AFDB Clusters Database
+  Type:
+  - Reference databases
+  URL: https://cluster.foldseek.com/
