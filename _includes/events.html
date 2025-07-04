@@ -1,0 +1,291 @@
+<div class="events {{ include.event_type }}">
+    <div class="events-container">
+        <div class="events-section">
+            {%- assign current_date = "now" | date: "%s" -%}
+            <div class="events-category">
+                {%- if include.event_type == "upcoming_event" -%}
+                    {%- assign events = site.data.events | sort: "startDate" -%}
+                {%- elsif include.event_type == "past_event" -%}
+                    {%- assign events = site.data.events | sort: "startDate" | reverse -%}
+                {%- endif -%}
+                {%- assign count = 0 -%}
+                <div class="events-list">
+                    {%- for event in events -%}
+                    {%- assign event_timestamp = event.startDate | date: "%s" -%}
+                    {%- if include.event_type == "upcoming_event" and event_timestamp >= current_date -%}
+                        {%- assign valid = "true" -%}
+                    {%- elsif include.event_type == "past_event" and current_date > event_timestamp -%}
+                        {%- assign valid = "true" -%}
+                    {%- else -%}
+                        {%- assign valid = "false" -%}
+                    {%- endif -%}
+                    {%- if valid == "true" -%}
+                        <div class="event-item" onclick="redirectToEvent('{{ event.url }}')">
+                            <div class="event-date-block">
+                                <div class="event-date">
+                                    <div class="event-day">{{ event.startDate | date: "%d" | escape }}</div>
+                                    <div class="event-month">{{ event.startDate | date: "%b" | escape }}</div>
+                                    <div class="event-year">{{ event.startDate | date: "%Y"  | escape }}</div>
+                                </div>
+                                <div class="event-content">
+                                    <h3 class="event-title">{{ event.name | escape }}</h3>
+                                    <p class="event-location">👥 {{ event.location | escape }}</p>
+                                    <p class="event-description">{{ event.description | markdownify }}</p>
+                                </div>
+                                <div class="event-arrow">→</div>
+                            </div>
+                        </div>
+                        {%- assign count = count | plus: 1 -%}
+                        {%- if include.limit and count == include.limit -%}
+                            {%- break -%}
+                        {%- endif -%}
+                    {%- endif -%}
+                    {%- endfor -%}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #ffffff;
+            color: #1a1a1a;
+            line-height: 1.4;
+            min-height: 100vh;
+        }
+
+        .events{
+            display: block;
+        };
+        
+        .events-container {
+            max-width: 800px;
+            margin: 0 0;
+            padding: 3px 4px;
+        }
+        
+        .events-section {
+            position: relative;
+        }
+        
+        .events-header {
+            margin-bottom: 30px;
+            text-align: left;
+        }
+        
+        .events-title {
+            font-size: clamp(2rem, 6vw, 3rem);
+            font-weight: 300;
+            letter-spacing: -0.01em;
+            margin-bottom: 5px;
+            color: #2d2d2d;
+        }
+        
+        .events-subtitle {
+            font-size: 1rem;
+            color: #666;
+            font-weight: 400;
+        }
+        
+        .events-category {
+            margin-bottom: 30px;
+        }
+        
+        .events-category:last-child {
+            margin-bottom: 0;
+        }
+        
+        .category-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #012152;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            position: relative;
+            padding-left: 20px;
+        }
+        
+        .category-title::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 4px;
+            height: 18px;
+            background: #012152;
+            border-radius: 2px;
+        }
+        
+        .events-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-right: 15px;
+        }
+        
+        .event-item {
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 20px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            background: #ffffff;
+        }
+        
+        .event-item:hover {
+            background: #f8f8f8;
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            border-color: #012152;
+        }
+        
+        .event-date-block {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+        
+        .event-date {
+            text-align: center;
+            background: #f8f8f8;
+            border-radius: 6px;
+            padding: 8px 6px;
+            width: 50px;
+            flex-shrink: 0;
+        }
+        
+        .event-day {
+            font-size: 1.4rem;
+            font-weight: 700;
+            line-height: 1;
+            color: #012152;
+        }
+        
+        .event-month {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #666;
+            font-weight: 600;
+            margin-top: 1px;
+        }
+        
+        .event-year {
+            font-size: 0.6rem;
+            color: #999;
+            font-weight: 400;
+        }
+        
+        .past-events .event-item {
+            opacity: 0.7;
+        }
+        
+        .past-events .event-day {
+            color: #999;
+        }
+        
+        .event-content {
+            flex: 1;
+            position: relative;
+        }
+        
+        .event-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 3px;
+            color: #2d2d2d;
+            line-height: 1.2;
+        }
+        
+        .event-location {
+            color: #666;
+            font-size: 0.85rem;
+            margin-bottom: 8px;
+            line-height: 1.2;
+        }
+        
+        .event-description {
+            color: #888;
+            font-size: 0.85rem;
+            line-height: 1.4;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        .event-arrow {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            width: 20px;
+            height: 20px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            color: #012152;
+        }
+        
+        .event-item:hover .event-arrow {
+            opacity: 1;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .events-container {
+                padding: 30px 20px;
+            }
+            
+            .events-list {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            .event-date-block {
+                flex-direction: row;
+                align-items: flex-start;
+                gap: 12px;
+            }
+            
+            .event-date {
+                text-align: center;
+                width: 45px;
+                flex-shrink: 0;
+            }
+        }
+        
+        /* Smooth scroll behavior */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: #012152;
+            border-radius: 4px;
+        }
+    </style>
+
+    <script>
+        function redirectToEvent(event_url) {
+            window.open(`${event_url}`, '_blank');
+        }
+    </script>
+</div>

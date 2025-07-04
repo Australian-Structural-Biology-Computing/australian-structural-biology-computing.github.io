@@ -18,7 +18,7 @@ This website is a virtual meeting place and hub for all users of **computing for
 
 ## Events
 
-{% include events.html event_type="upcoming_event" limit=3 %}
+{% include events.html event_type="upcoming_event" limit=4 %}
 
 
 ## Acknowledgements
