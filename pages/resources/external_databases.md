@@ -5,4 +5,4 @@ datatable: true
 #type: resources
 ---
 
-{% include resource-table-dbs.html %}
+{% include resource-table-category.html category="Reference databases" %}

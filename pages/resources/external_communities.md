@@ -5,4 +5,4 @@ datatable: true
 #type: resources
 ---
 
-{% include resource-table-communities.html %}
+{% include resource-table-category.html category="Online communities" %}

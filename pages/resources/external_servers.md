@@ -5,4 +5,4 @@ datatable: true
 #type: resources
 ---
 
-{% include resource-table-servers.html %}
+{% include resource-table-category.html category="Webservers and computing resources" %}

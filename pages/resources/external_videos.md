@@ -5,4 +5,4 @@ datatable: true
 #type: resources
 ---
 
-{% include resource-table-videos.html %}
+{% include resource-table-category.html category="YouTube talks and tutorials" %}
