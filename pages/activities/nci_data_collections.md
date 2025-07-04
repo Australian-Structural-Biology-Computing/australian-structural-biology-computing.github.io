@@ -1,10 +1,10 @@
 ---
 title: NCI Data Collection
-type: activity_inprogress
+type: activity_in_progress
 contributors: [Matthew Downton, Kisaru Liyanage, Wenjing Xue, Joshua Storm Caley, Thomas Litfin]
 ---
 
-### Details
+## Details
 
 - Structure prediction requires constructing multiple sequence alignments of homologous sequences from large reference databases.
 - Different tools use different versions of the same reference databases with different naming conventions. This leads to excessive duplication and data bloat.
@@ -13,10 +13,11 @@ contributors: [Matthew Downton, Kisaru Liyanage, Wenjing Xue, Joshua Storm Caley
 
 This activity aims to create a stable release of up-to-date reference data (with DOI) to support reproducible structure prediction workflows.
 
-### Completed:
+### Completed
 
-- [x] Catalog latest version of reference data.
-- [x] Harmonize data across different structure prediction models (AlphaFold2, AlphaFold3, Boltz, ColabFold, HelixFold3, RosettaFold-AA).
+- Catalog latest version of reference data.
+- Harmonize data across different structure prediction models (AlphaFold2, AlphaFold3, Boltz, ColabFold, HelixFold3, RosettaFold-AA).
 
-### In Progress:
-- [ ] NCI Data Collection EOI.
+### In Progress
+
+- NCI Data Collection EOI.

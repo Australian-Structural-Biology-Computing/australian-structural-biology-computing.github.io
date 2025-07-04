@@ -2,7 +2,7 @@
 title: External Resources & Servers
 page_id: external_resources_servers
 datatable: true
-type: resources
+#type: resources
 ---
 
 {% include resource-table-servers.html %}

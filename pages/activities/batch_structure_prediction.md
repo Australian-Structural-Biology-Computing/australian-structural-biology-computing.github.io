@@ -1,10 +1,10 @@
 ---
 title: Batch Structure Prediction Workflows
-type: activity_inprogress
+type: activity_in_progress
 contributors: [Ziad Al-Bkhetan, Mitchell O'Brien, Joshua Storm Caley, Keiran Rowell, Cameron Hyde, Thomas Litfin]
 ---
 
-### Details:
+## Details
 
 - Structure prediction software often natively supports single predictions.
 - Specific workflows can re-use MSA input to massively improve efficiency over naive implementation.
@@ -15,18 +15,18 @@ contributors: [Ziad Al-Bkhetan, Mitchell O'Brien, Joshua Storm Caley, Keiran Row
 
 This activity involves developing optimized batch workflows for structure prediction.
 
-### Completed:
+### Completed
 
-- [x] Add support for re-using MSAs to Galaxy Australia AlphaFold2 service.
+- Add support for re-using MSAs to Galaxy Australia AlphaFold2 service.
 
-### In Progress:
+### In Progress
 
-- [ ] Add local implementation of batch colabfoldsearch to the nfcore [proteinfold](https://nf-co.re/proteinfold/1.1.1) pipeline.
-- [ ] Add mmseqs-GPU support to the nfcore [proteinfold](https://nf-co.re/proteinfold/1.1.1) pipeline.
-- [ ] Add boltz interaction screening workflow to screen multiple potential partners against a protein (re-using MSA for anchor protein).
-- [ ] Add option for extreme replicate sampling for AlphaFold2.
+- Add local implementation of batch colabfoldsearch to the nfcore **[proteinfold](https://nf-co.re/proteinfold/1.1.1)** pipeline.
+- Add mmseqs-GPU support to the nfcore **[proteinfold](https://nf-co.re/proteinfold/1.1.1)** pipeline.
+- Add boltz interaction screening workflow to screen multiple potential partners against a protein (re-using MSA for anchor protein).
+- Add option for extreme replicate sampling for AlphaFold2.
 
-### Future:
+### Future
 
-- [ ] Develop Galaxy workflow to take advantage of re-using MSAs.
-- [ ] Add stoichiometry screening workflow to the nfcore [proteinfold](https://nf-co.re/proteinfold/1.1.1) pipeline.
+- Develop Galaxy workflow to take advantage of re-using MSAs.
+- Add stoichiometry screening workflow to the nfcore **[proteinfold](https://nf-co.re/proteinfold/1.1.1)** pipeline.
