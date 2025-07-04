@@ -2,6 +2,7 @@
 title: nf-core ProteinFold v2.0 Release
 type: activity_in_progress
 contributors: [Ziad Al-Bkhetan, Mitchell O'Brien, Joshua Storm Caley, Keiran Rowell, Thomas Litfin]
+toc: false
 ---
 
 ## Details

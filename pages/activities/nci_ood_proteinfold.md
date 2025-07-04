@@ -2,6 +2,7 @@
 title: OpenOnDemand GUI ProteinFold app
 type: activity_in_progress
 contributors: [Matthew Downton, Kisaru Liyanage, Wenjing Xue, Joshua Storm Caley, Keiran Rowell, Thomas Litfin]
+toc: false
 ---
 
 ## Details

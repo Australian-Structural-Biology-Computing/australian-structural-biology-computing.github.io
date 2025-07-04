@@ -2,6 +2,7 @@
 title: Batch Structure Prediction Workflows
 type: activity_in_progress
 contributors: [Ziad Al-Bkhetan, Mitchell O'Brien, Joshua Storm Caley, Keiran Rowell, Cameron Hyde, Thomas Litfin]
+toc: false
 ---
 
 ## Details

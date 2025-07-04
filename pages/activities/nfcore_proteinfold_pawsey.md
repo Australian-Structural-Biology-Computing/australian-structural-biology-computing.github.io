@@ -2,6 +2,7 @@
 title: nf-core ProteinFold at Pawsey
 type: activity_in_progress
 contributors: [Sarah Beecroft, Joshua Storm Caley]
+toc: false
 ---
 
 ## Details
