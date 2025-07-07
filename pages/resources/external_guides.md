@@ -5,4 +5,4 @@ datatable: true
 #type: resources
 ---
 
-{% include resource-table-guides.html %}
+{% include resource-table-category.html category="Computational structural bio guides and tutorials" %}

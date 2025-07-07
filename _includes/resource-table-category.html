@@ -22,7 +22,7 @@
             {%- for tool in tools %}
             {% assign found = false %}
             {% for desc in tool.Type %}
-                {% if desc == "Computational structural bio guides and tutorials" %}
+                {% if desc == include.category %}
                 {% assign found = true %}
                 {% endif %}
             {% endfor %}
