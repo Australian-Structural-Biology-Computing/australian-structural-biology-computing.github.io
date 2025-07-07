@@ -2,6 +2,7 @@
 title: Protein Design Seminar Series (2025)
 type: activity_in_progress
 contributors: [Rhys Grinter, Gavin Knott, Cyntia Taveneau, Josh Hardy, Kate Michie, Johan Gustafsson, Melissa Burke]
+toc: false
 ---
 <!-- TODO: Add Richard Birkinshaw -->
 

@@ -2,6 +2,7 @@
 title: Community Access to BindCraft
 type: activity_in_progress
 contributors: [Ziad Al-Bkhetan, Thomas Litfin]
+toc: false
 ---
 
 
