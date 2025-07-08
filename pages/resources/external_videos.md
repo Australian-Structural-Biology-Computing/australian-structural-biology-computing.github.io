@@ -2,6 +2,7 @@
 title: External Videos
 page_id: external_resources_videos
 datatable: true
+toc: false
 #type: resources
 ---
 

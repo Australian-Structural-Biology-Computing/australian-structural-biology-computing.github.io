@@ -2,6 +2,7 @@
 title: External Visualization
 page_id: external_resources_viz
 datatable: true
+toc: false
 #type: resources
 ---
 
