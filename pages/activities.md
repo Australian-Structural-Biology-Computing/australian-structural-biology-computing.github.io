@@ -7,15 +7,16 @@ toc: false
 
 
 ## In progress
-{% include section-navigation-tiles-simple.html col = "2" type="activity_in_progress" except="binder_access.md" %}
+
+{% include section-navigation-tiles_mod.html type ="activity_in_progress" %}
 
 
 ## Future
 
-{% include section-navigation-tiles-simple.html col = "2" type="activity_future"%}
+{% include section-navigation-tiles_mod.html type="activity_future"%}
 
 
 ## Completed
 
-{% include section-navigation-tiles-simple.html col = "2" type="activity_completed"%}
+{% include section-navigation-tiles_mod.html type ="activity_completed" %}
 
