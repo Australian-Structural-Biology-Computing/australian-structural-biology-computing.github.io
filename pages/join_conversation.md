@@ -14,6 +14,8 @@ If you would like to, there are multiple ways to join the conversation:
 
 {% include tiles-simple.html col = "2" target = "tiles" %}
 
+<br>
+
 If you join the mailing list (below), you will receive community updates and automatic community meeting invitations.
 
 ### Mailing list 
