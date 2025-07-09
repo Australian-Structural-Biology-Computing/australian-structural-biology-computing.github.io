@@ -10,20 +10,67 @@ Prompt 2: "Can you also add a small category badge to the tile?"
     <div class="page-tiles-list">
       {%- for page in pages_to_add_as_tiles -%}
       {%- if page.type == include.type %}
-        <a href="{{ page.url | relative_url }}" class="page-tile-link">
+      {%- if page.roadmap_category == "none" %}
+      <a href="{{ page.url | relative_url }}" class="page-tile-link">
           <div class="page-tile-item">
             <div class="page-tile-content">
               <h3 class="page-tile-title">{{ page.title }}</h3>
               {% if page.description %}
               <p class="page-tile-description">{{ page.description }}</p>
               {% endif %}
-              {% if page.roadmap %}
-              <p class="page-tile-roadmap">{{ page.roadmap }}</p>
+            </div>
+          </div>
+      </a>
+      {% endif %}
+      {%- if page.roadmap_category == "D1" %}
+      <a href="{{ page.url | relative_url }}" class="page-tile-link">
+          <div class="page-tile-item-D1">
+            <div class="page-tile-content">
+              <h3 class="page-tile-title">{{ page.title }}</h3>
+              {% if page.description %}
+              <p class="page-tile-description">{{ page.description }}</p>
               {% endif %}
             </div>
           </div>
-        </a>
-      {%- endif %}
+      </a>
+      {% endif %}
+      {%- if page.roadmap_category == "D2" %}
+      <a href="{{ page.url | relative_url }}" class="page-tile-link">
+          <div class="page-tile-item-D2">
+            <div class="page-tile-content">
+              <h3 class="page-tile-title">{{ page.title }}</h3>
+              {% if page.description %}
+              <p class="page-tile-description">{{ page.description }}</p>
+              {% endif %}
+            </div>
+          </div>
+      </a>
+      {% endif %}
+      {%- if page.roadmap_category == "D3" %}
+      <a href="{{ page.url | relative_url }}" class="page-tile-link">
+          <div class="page-tile-item-D3">
+            <div class="page-tile-content">
+              <h3 class="page-tile-title">{{ page.title }}</h3>
+              {% if page.description %}
+              <p class="page-tile-description">{{ page.description }}</p>
+              {% endif %}
+            </div>
+          </div>
+      </a>
+      {% endif %}
+      {%- if page.roadmap_category == "D4" %}
+      <a href="{{ page.url | relative_url }}" class="page-tile-link">
+          <div class="page-tile-item-D4">
+            <div class="page-tile-content">
+              <h3 class="page-tile-title">{{ page.title }}</h3>
+              {% if page.description %}
+              <p class="page-tile-description">{{ page.description }}</p>
+              {% endif %}
+            </div>
+          </div>
+      </a>
+      {% endif %}
+      {% endif %}
       {%- endfor -%}
     </div>
   </div>
@@ -44,11 +91,54 @@ Prompt 2: "Can you also add a small category badge to the tile?"
   }
 
   .page-tile-item {
-           border: 1px solid #e0e0e0;
            border-radius: 12px;
            padding: 25px;
            transition: all 0.3s ease;
-           background: #012152;
+           background: #9c9c9c;
+           width: 100%;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+  }
+
+  .page-tile-item-D1 {
+           border-radius: 12px;
+           padding: 25px;
+           transition: all 0.3s ease;
+           background: #a4c2f4ff;
+           width: 100%;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+  }
+
+  .page-tile-item-D2 {
+           border-radius: 12px;
+           padding: 25px;
+           transition: all 0.3s ease;
+           background: #6d9eebff;
+           width: 100%;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+  }
+
+    .page-tile-item-D3 {
+           border-radius: 12px;
+           padding: 25px;
+           transition: all 0.3s ease;
+           background: #1155ccff;
+           width: 100%;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+  }
+
+    .page-tile-item-D4 {
+           border-radius: 12px;
+           padding: 25px;
+           transition: all 0.3s ease;
+           background: #1c4587ff;
            width: 100%;
            display: flex;
            flex-direction: column;
@@ -58,7 +148,31 @@ Prompt 2: "Can you also add a small category badge to the tile?"
   .page-tile-item:hover {
            transform: translateY(-4px);
            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-           border-color: #012152;
+           border: 1px solid #000000;
+  }
+
+  .page-tile-item-D1:hover {
+           transform: translateY(-4px);
+           box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+           border: 1px solid #000000;
+  }
+
+  .page-tile-item-D2:hover {
+           transform: translateY(-4px);
+           box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+           border: 1px solid #000000;
+  }
+
+  .page-tile-item-D3:hover {
+           transform: translateY(-4px);
+           box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+           border: 1px solid #000000;
+  }
+
+  .page-tile-item-D4:hover {
+           transform: translateY(-4px);
+           box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+           border: 1px solid #000000;
   }
 
   .page-tile-roadmap {
@@ -67,7 +181,7 @@ Prompt 2: "Can you also add a small category badge to the tile?"
            font-weight: 700;
            padding: 4px 10px;
            background-color: #eef2f9;
-           color: #012152;
+           color: #141414;
            border-radius: 20px;
            margin-bottom: 12px;
   }
