@@ -1,6 +1,8 @@
 ---
 title: NCI Data Collection
+description: Create a stable release of up-to-date reference data (with DOI) at the NCI.
 type: activity_in_progress
+roadmap: A shared platform, or platforms (Roadmap D3F)
 contributors: [Matthew Downton, Kisaru Liyanage, Wenjing Xue, Joshua Storm Caley, Thomas Litfin]
 toc: false
 ---

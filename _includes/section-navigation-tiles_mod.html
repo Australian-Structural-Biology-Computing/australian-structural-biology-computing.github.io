@@ -1,0 +1,89 @@
+{% comment %}
+Gemini 2.5 Pro used to assist with the initial creation of this code, based on existing code in events.html (2025-07-07)
+Prompt 1: "Can this jekyll html include be modified to create tiles for individual pages instead of tiles for events?"
+Prompt 2: "Can you also add a small category badge to the tile?"
+{% endcomment %}
+
+{%- assign pages_to_add_as_tiles = site.pages -%}
+<div class="page-tiles">
+  <div class="page-tiles-container">
+    <div class="page-tiles-list">
+      {%- for page in pages_to_add_as_tiles -%}
+      {%- if page.type == include.type %}
+        <a href="{{ page.url | relative_url }}" class="page-tile-link">
+          <div class="page-tile-item">
+            <div class="page-tile-content">
+              <h3 class="page-tile-title">{{ page.title }}</h3>
+              {% if page.description %}
+              <p class="page-tile-description">{{ page.description }}</p>
+              {% endif %}
+              {% if page.roadmap %}
+              <p class="page-tile-roadmap">{{ page.roadmap }}</p>
+              {% endif %}
+            </div>
+          </div>
+        </a>
+      {%- endif %}
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+<style>
+
+  .page-tiles-list {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+          gap: 20px;
+  }
+
+  .page-tile-link {
+          text-decoration: none;
+          color: inherit;
+          display: flex;
+  }
+
+  .page-tile-item {
+           border: 1px solid #e0e0e0;
+           border-radius: 12px;
+           padding: 25px;
+           transition: all 0.3s ease;
+           background: #012152;
+           width: 100%;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+  }
+
+  .page-tile-item:hover {
+           transform: translateY(-4px);
+           box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+           border-color: #012152;
+  }
+
+  .page-tile-roadmap {
+           display: inline-block;
+           font-size: 0.7rem;
+           font-weight: 700;
+           padding: 4px 10px;
+           background-color: #eef2f9;
+           color: #012152;
+           border-radius: 20px;
+           margin-bottom: 12px;
+  }
+
+  .page-tile-title {
+           color: #ffffff;
+           font-size: 1.3rem;
+           font-weight: 600;
+           margin-bottom: 8px;
+  }
+
+  .page-tile-description {
+           color: #ffffff;
+           font-size: 0.9rem;
+           line-height: 1.5;
+           flex-grow: 1;
+  }
+
+</style>
