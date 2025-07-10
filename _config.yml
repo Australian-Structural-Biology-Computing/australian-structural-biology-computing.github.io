@@ -38,7 +38,7 @@ defaults:
 
 theme_variables: 
   # git_host: GitHub
-  # back_to_top: true
+   back_to_top: true
   # privacy_statement_url: /privacy
   # github_buttons: 
   #   position: top

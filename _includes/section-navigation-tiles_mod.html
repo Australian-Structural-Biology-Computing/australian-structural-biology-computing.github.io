@@ -10,20 +10,17 @@ Prompt 2: "Can you also add a small category badge to the tile?"
     <div class="page-tiles-list">
       {%- for page in pages_to_add_as_tiles -%}
       {%- if page.type == include.type %}
-        <a href="{{ page.url | relative_url }}" class="page-tile-link">
-          <div class="page-tile-item">
+      <a href="{{ page.url | relative_url }}" class="page-tile-link">
+          <div class="page-tile-item page-tile-item-{{ page.roadmap_category | default: none }}">
             <div class="page-tile-content">
               <h3 class="page-tile-title" style="margin-top: 0.0rem">{{ page.title }}</h3>
               {% if page.description %}
               <p class="page-tile-description">{{ page.description }}</p>
               {% endif %}
-              {% if page.roadmap %}
-              <p class="page-tile-roadmap">{{ page.roadmap }}</p>
-              {% endif %}
             </div>
           </div>
-        </a>
-      {%- endif %}
+      </a>
+      {% endif %}
       {%- endfor -%}
     </div>
   </div>
@@ -44,34 +41,43 @@ Prompt 2: "Can you also add a small category badge to the tile?"
   }
 
   .page-tile-item {
-           border: 1px solid #e0e0e0;
            border-radius: 12px;
            padding: 25px;
            transition: all 0.3s ease;
-           background: #012152;
+           background: #9c9c9c;
            width: 100%;
            display: flex;
            flex-direction: column;
            justify-content: space-between;
+           border: 1px solid #ffffff;
+  }
+
+  .page-tile-item-none {
+           background: #9c9c9c;
+  }
+
+  .page-tile-item-D1 {
+           background: #a4c2f4ff;
+  }
+
+  .page-tile-item-D2 {
+           background: #6d9eebff;
+  }
+
+    .page-tile-item-D3 {
+           background: #1155ccff;
+  }
+
+    .page-tile-item-D4 {
+           background: #1c4587ff;
   }
 
   .page-tile-item:hover {
            transform: translateY(-4px);
            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-           border-color: #012152;
+           border: 1px solid #000000;
   }
-
-  .page-tile-roadmap {
-           display: inline-block;
-           font-size: 0.7rem;
-           font-weight: 700;
-           padding: 4px 10px;
-           background-color: #eef2f9;
-           color: #012152;
-           border-radius: 20px;
-           margin-bottom: 6px;
-  }
-
+  
   .page-tile-title {
            color: #ffffff;
            font-size: 1.3rem;

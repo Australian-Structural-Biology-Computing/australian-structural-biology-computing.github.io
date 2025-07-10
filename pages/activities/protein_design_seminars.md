@@ -3,6 +3,7 @@ title: Protein Design Seminar Series (2025)
 description: Community members will host a monthly seminar series to share knowledge on protein design strategies.
 type: activity_in_progress
 roadmap: A computational structural biology training program (Roadmap D2)
+roadmap_category: D2
 contributors: [Rhys Grinter, Gavin Knott, Cyntia Taveneau, Josh Hardy, Kate Michie, Johan Gustafsson, Melissa Burke]
 toc: false
 ---
