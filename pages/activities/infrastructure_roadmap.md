@@ -1,7 +1,7 @@
 ---
 title: Infrastructure Roadmap
 description: Draft and publish an Australian infrastructure roadmap for addressing computational challenges facing structural biology.
-type: activity_in_progress
+type: activity_completed
 roadmap: Community co-authored document
 roadmap_category: none
 toc: false
