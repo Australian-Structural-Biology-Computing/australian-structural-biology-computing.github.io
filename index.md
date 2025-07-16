@@ -8,6 +8,8 @@ toc: false
 tiles:
   - title: "Join the conversation"
     url: /join_conversation
+  - title: "Read the Australian infrastructure roadmap"
+    url: https://doi.org/10.5281/zenodo.15786982
 ---
 
 
