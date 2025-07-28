@@ -1,0 +1,15 @@
+<div style="display: flex; gap: 20px; align-items: center;">
+    <div style="flex: 1;">
+      <iframe style="width: 100%; aspect-ratio: 560 / 315;" src="https://www.youtube.com/embed/{{ include.video_id }}" 
+        frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div style="flex: 1;">
+      <ul>
+        {% assign items = include.list | split: "|" %}
+        {% for item in items %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  
