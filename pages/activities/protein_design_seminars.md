@@ -7,7 +7,7 @@ roadmap_category: D2
 contributors: [Rhys Grinter, Gavin Knott, Cyntia Taveneau, Josh Hardy, Kate Michie, Johan Gustafsson, Melissa Burke]
 toc: false
 ---
-<!-- TODO: Add Richard Birkinshaw -->
+<!-- TODO: Add Richard Birkinshaw and Joel Mackay-->
 
 ## Details
 
@@ -17,11 +17,12 @@ toc: false
 
  Registration is **[available here](https://www.eventbrite.com.au/e/webinar-leveraging-deep-learning-to-design-custom-protein-binding-proteins-tickets-1414347163439?aff=oddtdtcreator)**.
 
-| Date          | Time       | Speaker(s)         | Topic |
-|---------------|------------|--------------------|-------|
-| 15 July       | 12pm AEST  | Rhys Grinter       | Using AI protein design to design binding proteins to challenging bacterial transporters |
-| 12 August     | 12pm AEST  | Cyntia Taveneau    | Icrs: AI-Designed Anti-CRISPRs as Programmable CRISPR Inhibitors |
-| 16 September  | 12pm AEST  | Richard Birkinshaw | Using in silico design methods to create de novo proteins that selectively modulate apoptosis |
-| 7 October     | 12pm AEST* | Josh Hardy | Introducing ProteinDJ: A modular and open-source framework for protein design workflows |
-| 11 November   | 12pm AEST* | TBC | TBC |
+| Date          | Time       | Speaker(s)         | Topic | Recording | Presentation |
+|---------------|------------|--------------------|-------|-----------|----------|
+| 15 July       | 12pm AEST  | Rhys Grinter       | Using AI protein design to design binding proteins to challenging bacterial transporters | [YouTube](https://youtu.be/3Ad2gUjeSL8) | [Zenodo](https://doi.org/10.5281/zenodo.16511653)|
+| 12 August     | 12pm AEST  | Cyntia Taveneau    | Icrs: AI-Designed Anti-CRISPRs as Programmable CRISPR Inhibitors | | |
+| 16 September  | 12pm AEST  | Richard Birkinshaw | Using in silico design methods to create de novo proteins that selectively modulate apoptosis | | |
+| 7 October     | 12pm AEDT* | Josh Hardy | Introducing ProteinDJ: A modular and open-source framework for protein design workflows | | |
+| 11 November   | 12pm AEDT* | TBC | TBC | | |
+| 3 December    | 1pm AEDT*  | Joel Mackay | Baby steps in the AI-guided design of proteins to module gene transcription | | |
 | *Affected by daylight savings |
