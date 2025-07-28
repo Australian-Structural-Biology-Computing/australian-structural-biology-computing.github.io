@@ -32,7 +32,7 @@
   startDate: 2025-07-15
   endDate: 2025-07-15
   description: "**Topic:** Using AI protein design to design binding proteins to challenging bacterial transporters."
-  url: https://www.eventbrite.com.au/e/webinar-leveraging-deep-learning-to-design-custom-protein-binding-proteins-tickets-1414347163439?aff=oddtdtcreator
+  url: https://www.youtube.com/watch?v=3Ad2gUjeSL8
   location: Online
 - name: Protein design seminar series
   startDate: 2025-08-12
@@ -62,5 +62,11 @@
   startDate: 2025-11-11
   endDate: 2025-11-11
   description: "**Topic:** TBD"
+  url: https://www.eventbrite.com.au/e/webinar-leveraging-deep-learning-to-design-custom-protein-binding-proteins-tickets-1414347163439?aff=oddtdtcreator
+  location: Online
+- name: Protein design seminar series
+  startDate: 2025-12-03
+  endDate: 2025-12-03
+  description: "**Topic:** Baby steps in the AI-guided design of proteins to module gene transcription"
   url: https://www.eventbrite.com.au/e/webinar-leveraging-deep-learning-to-design-custom-protein-binding-proteins-tickets-1414347163439?aff=oddtdtcreator
   location: Online
