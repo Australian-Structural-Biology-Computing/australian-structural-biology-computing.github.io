@@ -21,7 +21,7 @@ This website is a virtual meeting place and hub for all users of **computing for
 
 {% include video-list-columns.html 
    video_id="3Ad2gUjeSL8?si=T2Md7RwXn7YWl1S7" 
-   list="The protein design seminar series includes <b>6 presentations</b> from Australian structural biologists utilizing the latest developments in <i>de novo</i> protein design to develop protein binders to various therapeutic targets.|Watch <b>Dr Rhys Grinter</b> share a recent project involving the development of protein binders to a protein target involved in heme piracy.|The next event in the series will be on <b>August 12th</b> and will describe AI-Designed Anti-CRISPRs as Programmable CRISPR Inhibitors." %}
+   list="The protein design seminar series includes <b>6 presentations</b> from Australian structural biologists utilizing the latest developments in <i>de novo</i> protein design to develop protein binders to various therapeutic targets.|Watch <b>Dr Rhys Grinter</b> share a recent project involving the development of protein binders to a protein target involved in heme piracy.|The full series schedule, seminar registration link and recordings of completed seminars are available <b><a href=\"/protein_design_seminars\">here</a></b>.|The next event in the series will be on <b>August 12th</b> and will describe AI-Designed Anti-CRISPRs as Programmable CRISPR Inhibitors." %}
 
 ## Upcoming Events
 
