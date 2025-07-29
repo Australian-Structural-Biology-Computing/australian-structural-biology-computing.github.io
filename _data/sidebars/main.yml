@@ -5,6 +5,8 @@ subitems:
     url: /join_conversation
   - title: Activities
     url: /activities
+  - title: Workflows
+    url: /workflows
   - title: How-to Guides
     url: /guides
   - title: External resources

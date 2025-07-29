@@ -1,0 +1,31 @@
+- class: nextflow
+  doi: ''
+  edam_ops:
+  - Protein design
+  edam_top:
+  - Drug development
+  - Protein interactions
+  guide_link: ''
+  launch_link: ''
+  license: MIT
+  projects:
+  - UNSW MWAC Structural Biology Facility
+  remote_link: https://github.com/tlitfin-unsw/bindflow
+  title: Bindflow
+  tools: ''
+  updated_at: '2025-07-05'
+  url: /workflows/1436?version=1
+- class: nextflow
+  doi: ''
+  edam_ops: ''
+  edam_top: ''
+  guide_link: ''
+  launch_link: ''
+  license: MIT
+  projects:
+  - nf-core
+  remote_link: https://github.com/nf-core/proteinfold.git
+  title: nf-core/proteinfold
+  tools: ''
+  updated_at: '2024-06-10'
+  url: /workflows/740?version=1

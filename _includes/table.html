@@ -1,0 +1,402 @@
+<link
+  href="https://cdn.datatables.net/v/bs5/jq-3.7.0/dt-1.13.8/b-2.4.2/b-colvis-2.4.2/b-html5-2.4.2/datatables.min.css"
+  rel="stylesheet"
+/>
+
+<style>
+  div.dt-buttons {
+    margin-right: 24px;
+  }
+  .biotools-button {
+    width: 84px;
+    background-color: #ffa500;
+  }
+  .biotools-button:hover {
+    opacity: 0.8;
+  }
+  .tooltable th,
+  .tooltable td {
+    vertical-align: middle;
+    min-width: 100px;
+  }
+  .clear-all-button {
+    display: none;
+    cursor: pointer;
+  }
+  .clear-all-button:hover {
+    opacity: 0.6;
+  }
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  .col-publications,
+  .col-galaxy,
+  .col-description {
+    min-width: 180px;
+  }
+  .col-galaxy-description {
+    min-width: 240px;
+  }
+  .col-badge {
+    width: 180px !important;
+    min-width: 120px;
+  }
+  .btn-toggle {
+    width: 48px;
+  }
+  .modal-content {
+    max-height: 60vh !important;
+  }
+</style>
+
+{%- if include.tag %} {%- assign tools = site.data.data_workflows | sort_natural: "name" %} {%- else %} {%-
+assign tools = site.data.data_workflows | sort_natural: "name" %} {%-
+endif %} {%- assign country_pages = site.pages | where_exp: "item",
+"item.search_exclude != true" | where_exp:"item","item.national_resources !=
+nil" %} {%- unless tools.size == 0 or tools == nil %} {%- if include.tag %}
+
+<h2>Relevant tools and resources</h2>
+{%- endif %}
+
+<div class="spinner-container my-5 py-5 mx-auto text-center items-center">
+  <div class="spinner-border" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+</div>
+
+<div id="tool-table" class="my-5 table-responsive d-none">
+  <table class="tooltable table display table-bordered table-striped w-100">
+    <thead>
+      <tr>
+        <th colspan="9">
+          <div class="d-flex align-items-center">
+            <div class="py-2">Filter results by topic(s):</div>
+            <div
+              class="btn-group btn-group-sm mx-3"
+              role="group"
+              aria-label="Basic radio toggle button group"
+            >
+              <input
+                type="radio"
+                class="btn-check"
+                name="btnradio"
+                id="btnradio1"
+                autocomplete="off"
+                checked
+              />
+              <label class="btn btn-outline-primary btn-toggle" for="btnradio1"
+                >and</label
+              >
+
+              <input
+                type="radio"
+                class="btn-check"
+                name="btnradio"
+                id="btnradio2"
+                autocomplete="off"
+              />
+              <label class="btn btn-outline-primary btn-toggle" for="btnradio2"
+                >or</label
+              >
+            </div>
+            <div class="filter-message fw-medium text-black-50">
+              Select one or more topics from the Topic(s) column
+            </div>
+            <div class="clear-all-button text-danger fw-medium me-2">
+              Clear All Filters
+            </div>
+            <div id="filterContainer"></div>
+          </div>
+        </th>
+      </tr>
+      <tr>
+        <th class="dt-center text-white bg-primary" colspan="5">
+          Workflow information
+        </th>
+        <th class="dt-center text-white bg-secondary" colspan="2">
+          Credits
+        </th>
+        <th class="dt-center text-white bg-primary" colspan="2">
+          Deployment
+        </th>
+      </tr>
+      <tr>
+        <th class="dt-center">Name</th>
+        <th class="dt-center">Topic(s)</th>
+        <th class="dt-center">Operation(s)</th>
+        <th class="dt-center">License</th>
+        <th class="dt-center">Last updated</th>
+        <th class="dt-center">Contributing Team(s)</th>
+        <th class="dt-center">DOI</th>
+        <th class="dt-center">User guide</th>
+        <th class="dt-center">Access</th>
+      </tr>
+    </thead>
+    <tbody>
+      {%- for tool in tools %} {% assign rowId = "row" | append: forloop.index
+      %}
+      <tr>
+        {%- assign instances_tool = 0 %} {%- assign total_county_tools = 0 %}
+        {%- assign query = "related_pages." | append: page.type %} {%- for
+        country_page in country_pages %} {%- assign instance_matches =
+        country_page.national_resources | where: "instance_of", tool.id |
+        where_exp:"resource","resource.related_pages != nil" | where: query,
+        include.tag %} {%- assign tool_matches = country_page.national_resources
+        | where_exp:"resource","resource.related_pages != nil" | where: query,
+        include.tag %} {%- unless tool_matches.size == 0 %} {%- assign
+        total_county_tools = total_county_tools | plus: tool_matches.size %} {%-
+        endunless %} {%- unless instance_matches.size == 0 %} {%- assign
+        instances_tool = instances_tool | plus: instance_matches.size %} {%-
+        endunless %} {%- endfor %}
+        <td class="min-width:500px">
+        <div>
+	      {% if tool.url %}
+	      <a href="{{include.url}}{{tool.url}}">{{tool.title}}</a>
+	      {%- else %} {{tool.title}} {%- endif %}
+        </div>
+        </td>
+        <td class="dt-center">
+          {% if tool.edam_top %} {%- for topic in tool.edam_top %}
+          <button
+            class="btn btn-light badge border border-dark text-dark mb-2 text-wrap text-center topic-badge"
+          >
+            {{topic}}
+          </button>
+          {%- endfor %} {%- endif %}
+        </td>
+        <td class="dt-center">
+          {% if tool.edam_ops %} {%- for operation in tool.edam_ops %}
+            {{operation}}
+          {%- endfor %} {%- endif %}
+        </td>
+        <td class="dt-center">{% if tool.license != blank %} {{tool.license}} {%- endif %}</td>
+        <td class="dt-center">{% if tool.updated_at != blank %} {{tool.updated_at}} {%- endif %}</td>
+        <td class="dt-center">
+          {% if tool.projects %} {%- for project in tool.projects %}
+            {{project}}<br>
+          {%- endfor %} {%- endif %}
+        </td>
+        <td class="dt-center">
+          {% if tool.doi != blank %}
+          <a href="https://doi.org/{{tool.doi}}">DOI</a>
+          {%- endif %}</td>
+        <td class="dt-center">
+          {% if tool.guide_link != blank %}
+          <a href="{{tool.guide_link}}">View guide</a>
+          {%- endif %}
+        </td>
+        <td class="dt-center">
+          {% if tool.launch_link != blank and tool.class == "galaxy" %}
+          <a href="{{tool.launch_link}}">Import to Galaxy Australia</a>
+          {%- endif %}
+        </td>
+      </tr>
+      {%- endfor %}
+    </tbody>
+  </table>
+</div>
+{%- unless total_county_tools == 0 or include.tag == nil %}
+<a
+  class="btn btn-primary"
+  id="national-resources-button"
+  data-bs-toggle="collapse"
+  data-bs-target=".multi-collapse"
+  role="button"
+  aria-expanded="false"
+  aria-controls="{{hide_ids}}"
+>
+  View national resources
+  <span class="badge bg-white text-primary ms-2">{{total_county_tools}}</span>
+</a>
+{%- endunless %}
+<div id="skip-tool-table"></div>
+{%- endunless %}
+
+<script src="https://cdn.datatables.net/v/bs5/jq-3.7.0/dt-1.13.8/b-2.4.2/b-colvis-2.4.2/b-html5-2.4.2/datatables.min.js"></script>
+<script>
+  $(document).ready(function () {
+    const table = $("#DataTables_Table_0").DataTable();
+    table.page.len(20);
+    new $.fn.dataTable.Buttons(table, {
+      buttons: [
+        {
+          extend: "colvis",
+          className: "btn btn-light",
+        },
+        {
+          extend: "colvisRestore",
+          className: "btn btn-light",
+          text: "Reset column visibility"
+        },
+      ],
+    });
+    table.buttons().container().prependTo("#DataTables_Table_0_length");
+    document.querySelector(".spinner-container").style.display = "none";
+    document.getElementById("tool-table").classList.remove("d-none");
+
+    // Event listener for Topic Badges
+    table.on("draw", function () {
+      let badges = document.querySelectorAll(".topic-badge");
+      badges.forEach(function (badge) {
+        badge.addEventListener("click", function () {
+          handleBadgeClick(this);
+        });
+      });
+    });
+
+    const urlParams = new URLSearchParams(window.location.search);
+    let paramTopics = urlParams.get("topic");
+    let paramType = urlParams.get("type");
+    let searchTerm = "";
+    let searchType = "and";
+
+    if (paramType) {
+      searchType = paramType;
+      document.getElementById("btnradio1").checked = searchType === "and";
+      document.getElementById("btnradio2").checked = searchType === "or";
+    }
+    if (paramTopics) {
+      paramTopics = paramTopics.includes("dna")
+        ? paramTopics.replace("dna", "DNA")
+        : paramTopics;
+      const paramTopicsArray = paramStringtoArray(paramTopics);
+      paramTopicsArray.forEach((paramTopic) => {
+        createFilterBadge(paramTopic);
+        searchTerm =
+          paramType === "or"
+            ? `${searchTerm}|${paramTopic}`
+                .replace(/^\|+|\|+$/g, "")
+                .replace(/\|+/g, "|")
+            : `${searchTerm.trim()} ${paramTopic}`.trim();
+      });
+    }
+
+    searchFilter(table, searchTerm);
+
+    // Event listener for Clear All Filters button
+    document
+      .querySelector(".clear-all-button")
+      .addEventListener("click", function () {
+        clearAllFilters();
+      });
+
+    document.querySelectorAll(".btn-toggle").forEach((button) => {
+      button.addEventListener("click", handleRadioButtonClick);
+    });
+
+    // Function to handle radio button click event
+    function handleRadioButtonClick(event) {
+      searchType = event.target.textContent.trim();
+      searchTerm =
+        searchType === "and"
+          ? searchTerm.replace(/\|/g, " ").trim()
+          : searchTerm.trim().replace(/ ([A-Z])/g, "|$1");
+      searchFilter(table, searchTerm);
+    }
+
+    function paramStringtoArray(inputString) {
+      // Split the input string into an array of strings
+      let words = inputString.split(" ");
+      // Capitalize the first letter of each word and replace "_" with a space
+      let formattedArray = words.map((word) => {
+        // Capitalize the first letter of the word
+        let capitalizedWord = word.charAt(0).toUpperCase() + word.slice(1);
+        // Replace "_" with a space
+        return capitalizedWord.replace(/_/g, " ");
+      });
+      return formattedArray;
+    }
+
+    function createFilterBadge(topic) {
+      let filterBadge = document.createElement("span");
+      filterBadge.className =
+        "btn btn-light px-2 border border-dark text-dark btn-sm rounded-pill fw-bold mx-2 text-wrap filter-badge";
+      filterBadge.textContent = topic;
+
+      // Add '×' symbol for removing the filter chip
+      let removeButton = document.createElement("span");
+      removeButton.innerHTML = " &#x2715;";
+      filterBadge.appendChild(removeButton);
+
+      // Add click event to remove the filter badge
+      filterBadge.addEventListener("click", function () {
+        handleBadgeRemoval(this);
+      });
+
+      document.getElementById("filterContainer").appendChild(filterBadge);
+
+      document.querySelector(".filter-message").style.display = "none";
+      document.querySelector(".clear-all-button").style.display =
+        "inline-block";
+    }
+
+    function handleBadgeClick(badge) {
+      let topic = badge.textContent.trim();
+
+      // Check if a filter badge with the same text already exists
+      if (!filterBadgeExists(topic)) {
+        createFilterBadge(topic);
+        searchTerm =
+          searchType === "and"
+            ? `${searchTerm.trim()} ${topic}`.trim()
+            : `${searchTerm}|${topic}`
+                .replace(/^\|+|\|+$/g, "")
+                .replace(/\|+/g, "|");
+        searchFilter(table, searchTerm);
+      }
+    }
+
+    function searchFilter(table, searchTerm) {
+      if (searchType === "and") {
+        table.columns(1).search(searchTerm, false, true).draw();
+      } else {
+        table.columns(1).search(searchTerm, true, false).draw();
+      }
+    }
+
+    // Function to check if a filter badge with the same text already exists
+    function filterBadgeExists(topic) {
+      let filterBadges = document.querySelectorAll(".filter-badge");
+      for (let i = 0; i < filterBadges.length; i++) {
+        if (filterBadges[i].textContent.includes(topic)) {
+          return true;
+        }
+      }
+      return false;
+    }
+
+    // Function to handle removal of filter badge
+    function handleBadgeRemoval(badge) {
+      badge.parentNode.removeChild(badge);
+
+      const filterBadgeText = badge.textContent.replace(" \u2715", "");
+      searchTerm =
+        searchType === "and"
+          ? searchTerm.replace(filterBadgeText, "").trim().replace(/\s+/g, " ")
+          : searchTerm
+              .replace(filterBadgeText, "")
+              .replace(/^\|+|\|+$/g, "")
+              .replace(/\|+/g, "|");
+      searchFilter(table, searchTerm);
+
+      if (document.querySelectorAll(".filter-badge").length === 0) {
+        document.querySelector(".filter-message").style.display =
+          "inline-block";
+        document.querySelector(".clear-all-button").style.display = "none";
+      }
+    }
+
+    function clearAllFilters() {
+      let filterBadges = document.querySelectorAll(".filter-badge");
+      filterBadges.forEach(function (badge) {
+        badge.parentNode.removeChild(badge);
+      });
+
+      searchTerm = "";
+      searchFilter(table, searchTerm);
+
+      document.querySelector(".filter-message").style.display = "inline-block";
+      document.querySelector(".clear-all-button").style.display = "none";
+    }
+  });
+</script>
