@@ -1,9 +1,9 @@
-<div style="display: flex; gap: 20px; align-items: center;">
-    <div style="flex: 1;">
+<div class="video-list-container">
+    <div class="video-column">
       <iframe style="width: 100%; aspect-ratio: 560 / 315;" src="https://www.youtube.com/embed/{{ include.video_id }}" 
         frameborder="0" allowfullscreen></iframe>
     </div>
-    <div style="flex: 1;">
+    <div class="list-column">
       <ul>
         {% assign items = include.list | split: "|" %}
         {% for item in items %}
@@ -11,5 +11,25 @@
         {% endfor %}
       </ul>
     </div>
-  </div>
+</div>
   
+<style>
+.video-list-container {
+  display: flex; 
+  gap: 20px; 
+  align-items: center;
+}
+
+.video-column,
+.list-column {
+  flex: 1;
+}
+
+/* On small screens, stack columns vertically */
+@media (max-width: 800px) {
+  .video-list-container {
+    flex-direction: column;
+    align-items: stretch; /* so columns fill width */
+  }
+}
+</style>
