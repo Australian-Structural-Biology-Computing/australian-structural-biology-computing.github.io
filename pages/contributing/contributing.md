@@ -1,6 +1,7 @@
 ---
 title: Contributing
 page_id: contributing
+toc: false
 #type: resources
 ---
 

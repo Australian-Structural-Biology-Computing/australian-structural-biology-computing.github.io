@@ -1,6 +1,7 @@
 ---
 title: Community contributors
 page_id: contributors
+toc: false
 #type: resources
 ---
 
