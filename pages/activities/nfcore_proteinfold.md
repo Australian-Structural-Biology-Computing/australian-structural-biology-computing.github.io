@@ -19,16 +19,20 @@ toc: false
 ### Completed
 
 - Config optimized for efficient utilization for Gadi at NCI.
-- Add RosettaFold-All-Atom.
-- Add HelixFold3.
-- Add Boltz-1.
-- Add AlphaFold3 (BYO weights).
-- Add support for local MSA search for Boltz-1.
+- Add new tools to the ProteinFold pipeline:
+    - RosettaFold-All-Atom.
+    - HelixFold3.
+    - Boltz-1.
+    - Boltz-2.
+    - AlphaFold3 (BYO weights).
+- Add support for local MSA search for Boltz.
 - Add standardized reporting with visualisation.
-- Add support for quality metrics in output reporting.
+- Add standard QC metrics to HTML report.
 - Add process labels to improve efficient use of infrastructure.
+- De-duplicate reference datasets across different methods.
 
 ### In Progress
 
 - Add minituare reference databases for fast troubleshooting.
-- De-duplicate reference datasets across different methods.
+- Update documentation and metro-map.
+- Test for release.
