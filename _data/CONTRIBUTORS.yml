@@ -93,7 +93,7 @@ Gavin Knott:
     orcid: 0000-0002-9007-6273
 
 Rhys Grinter:
-    affiliation: Lab head, University of Melbourne
+    affiliation: Lab head, The University of Melbourne
     git: RhysWG
     orcid: 0000-0002-8195-5348
 
@@ -114,3 +114,28 @@ Melissa Burke:
 Cyntia Taveneau:
     affiliation: Research Fellow, Knott Lab, Monash University
     orcid: 0000-0002-3395-4957
+
+Charlie Bond:
+    affiliation: Professor, The University of Western Australia
+    github: charlie-bond
+    orcid: 0000-0002-9584-6783
+
+Joel Mackay:
+    affiliation: Professor, School of Life and Environmental Sciences, University of Sydney
+    orcid: 0000-0001-7508-8033
+
+Michael Parker:
+    affiliation: Director, Bio21 Institute, The University of Melbourne
+    orcid: 0000-0002-3101-1138
+
+Craig Morton:
+    affiliation: Principal Research Scientist, CSIRO
+    orcid: 0000-0001-5452-5193
+
+Brett Collins:
+    affiliation: Professor, Institute for Molecular Bioscience, The University of Queensland
+    orcid: 0000-0002-6070-3774
+
+Begoña Heras:
+    affiliation: Professor in Biochemistry, La Trobe University
+    orcid: 0000-0003-3469-7988
