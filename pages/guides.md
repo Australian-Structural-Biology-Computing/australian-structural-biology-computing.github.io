@@ -4,6 +4,7 @@ description: How-to Guides for the use of deep learning methods in structural bi
 page_id: guides
 #type: resources
 datatable: true
+toc: false
 ---
 
 {% include section-navigation-tiles.html type="guide"%}
