@@ -3,6 +3,7 @@ title: Community activities
 page_id: activities
 #type: resources
 toc: false
+redirect_from: /website/activities/
 ---
 
 <div class="legend-item legend-item-1">

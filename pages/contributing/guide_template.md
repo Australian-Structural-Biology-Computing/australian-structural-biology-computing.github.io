@@ -3,6 +3,7 @@ title: [How-to-Guide template]
 contributors: [Johan Gustafsson]
 description: Add a plain text description here.
 affiliations: [Australian BioCommons]
+redirect_from: /website/guide_template
 ---
 
 

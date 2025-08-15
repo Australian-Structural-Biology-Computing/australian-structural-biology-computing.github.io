@@ -6,6 +6,7 @@ contributors: [Kate Michie, Thomas Litfin, Sarah Beecroft, Brett Collins, Matthe
 roadmap: Community co-authored document
 roadmap_category: none
 toc: false
+redirect_from: /website/infrastructure_roadmap
 ---
 
 ## Citation

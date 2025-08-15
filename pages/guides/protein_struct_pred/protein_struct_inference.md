@@ -4,6 +4,7 @@ type: prot-guide
 contributors: [Keiran Rowell]
 description: How-to Guide for picking the appropriate protein structure prediction program 
 affiliations: [Structural Biology Facility UNSW, Galaxy Australia, Australian BioCommons]
+redirect_from: /website/protein_struct_inference
 ---
 
 ## Australian AlphaFold2 service 

@@ -6,6 +6,7 @@ description: Practical guide for working with real AlphaFold data
 affiliations: [University of Queensland]
 sidebar: false
 toc: true
+redirect_from: /website/AlphaFold2_how_to_guide
 ---
 
    

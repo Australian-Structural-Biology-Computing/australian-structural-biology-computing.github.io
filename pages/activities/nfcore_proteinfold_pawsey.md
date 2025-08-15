@@ -6,6 +6,7 @@ roadmap: A shared platform, or platforms (Roadmap D3Ab)
 roadmap_category: D3
 contributors: [Sarah Beecroft, Joshua Storm Caley]
 toc: false
+redirect_from: /website/nfcore_proteinfold_pawsey
 ---
 
 ## Details

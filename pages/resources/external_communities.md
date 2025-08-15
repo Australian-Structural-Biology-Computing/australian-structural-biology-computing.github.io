@@ -3,6 +3,7 @@ title: External Communities
 page_id: external_resources_communities
 datatable: true
 toc: false
+redirect_from: /website/external_communities
 #type: resources
 ---
 
