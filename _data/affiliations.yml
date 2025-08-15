@@ -23,3 +23,8 @@
   expose: true
   type: infrastructure
   url: https://www.uq.edu.au/ 
+- name: Bio21 Institute
+  image_url: /images/infrastructures/Bio21_logo.jpg
+  expose: true
+  type: infrastructure
+  url: https://www.bio21.unimelb.edu.au/
