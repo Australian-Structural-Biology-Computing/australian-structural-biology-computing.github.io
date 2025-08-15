@@ -3,6 +3,7 @@ title: Events
 description: Announcements for relevant courses, meetings, and information about structural biology.
 page_id: events
 toc: false
+redirect_from: /website/events
 ---
 
 

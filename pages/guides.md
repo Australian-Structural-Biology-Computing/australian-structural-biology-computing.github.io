@@ -6,6 +6,7 @@ toc: false
 #type: resources
 datatable: true
 toc: false
+redirect_from: /website/guides
 ---
 
 {% include section-navigation-tiles.html type="guide"%}

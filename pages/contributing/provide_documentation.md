@@ -3,6 +3,7 @@ title: [Provide us your document]
 contributors: [Keiran Rowell]
 description: Advice on how we can convert your document to a guide on the website 
 affiliations: [Australian BioCommons, Structural Biology Facility UNSW]
+redirect_from: /website/provide_documentation
 ---
 
 ## Bring your own

@@ -6,6 +6,7 @@ contributors: [James Lingford]
 affiliations: [Monash University]
 toc: true
 sidebar: false
+redirect_from: /website/best-practices-alphafold
 ---
 
 AlphaFold structural models are appearing in papers more frequently. As such, it’s important that the scientific community agree on:

@@ -6,6 +6,7 @@ roadmap: A shared platform, or platforms (Roadmap D3F)
 roadmap_category: D3
 contributors: [Matthew Downton, Kisaru Liyanage, Wenjing Xue, Joshua Storm Caley, Thomas Litfin]
 toc: false
+redirect_from: /website/nci_data_collections
 ---
 
 ## Details

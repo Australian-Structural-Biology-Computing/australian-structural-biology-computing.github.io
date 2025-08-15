@@ -3,6 +3,7 @@ title: Join the conversation
 description: 
 page_id: join
 toc: false
+redirect_from: /website/join_conversation
 
 tiles:
   - title: "Quarterly community meetings"

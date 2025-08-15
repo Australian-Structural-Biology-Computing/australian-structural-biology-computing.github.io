@@ -6,6 +6,7 @@ roadmap: A shared platform, or platforms (Roadmap D3Ac)
 roadmap_category: D3
 contributors: [Ziad Al-Bkhetan, Thomas Litfin]
 toc: false
+redirect_from: /website/bindcraft_access
 ---
 
 

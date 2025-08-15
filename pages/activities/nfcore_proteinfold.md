@@ -6,6 +6,7 @@ roadmap: A shared platform, or platforms (Roadmap D3A)
 roadmap_category: D3
 contributors: [Ziad Al-Bkhetan, Mitchell O'Brien, Joshua Storm Caley, Keiran Rowell, Thomas Litfin]
 toc: false
+redirect_from: /website/nfcore_proteinfold
 ---
 
 ## Details

@@ -4,6 +4,7 @@ type: cli-guide
 contributors: [Keiran Rowell, James Lingford]
 description: An example command line guide   
 affiliations: [Structural Biology Facility UNSW, Monash University]
+redirect_from: /website/basics
 ---
 
 Learning the command line is useful if you want to do things at scale or use anything outside of pre-built tools 

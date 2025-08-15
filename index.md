@@ -4,7 +4,7 @@ toc: false
 # Special sidebar rules for news on the index page are included in layouts/default.html, as in https://github.com/workflowhub-eu/about/blob/596b18d7ab1055ee1e53bc98a3bd120a06518e06/_layouts/default.html
 #hide_sidebar: true
 #sidebar: true
-
+redirect_from: /website/
 tiles:
   - title: "Join the conversation"
     url: /join_conversation
