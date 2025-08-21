@@ -6,7 +6,7 @@ roadmap: A computational structural biology training program (Roadmap D2)
 roadmap_category: D2
 contributors: [Rhys Grinter, Gavin Knott, Cyntia Taveneau, Josh Hardy, Joel Mackay, Kate Michie, Johan Gustafsson, Melissa Burke]
 toc: false
-redirect_from: /website/proteinfold_design_desminars
+redirect_from: /website/protein_design_seminars
 ---
 <!-- TODO: Add Richard Birkinshaw and Joel Mackay-->
 
