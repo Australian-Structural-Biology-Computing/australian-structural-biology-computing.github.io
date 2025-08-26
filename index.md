@@ -20,8 +20,8 @@ This website is a virtual meeting place and hub for all users of **computing for
 ## Protein design seminar series
 
 {% include video-list-columns.html 
-   video_id="3Ad2gUjeSL8?si=T2Md7RwXn7YWl1S7" 
-   list="The protein design seminar series includes <b>6 presentations</b> from Australian structural biologists utilising the latest developments in <i>de novo</i> protein design to develop protein binders to various therapeutic targets.|Watch <b>Dr Rhys Grinter</b> share a recent project involving the development of protein binders to a protein target involved in heme piracy.|The full series schedule, seminar registration link and recordings of completed seminars are available <b><a href=\"/protein_design_seminars\">here</a></b>.|The next event in the series will be on <b>September 16th</b> and will describe using <i>in silico</i> design methods to create <i>de novo</i> proteins that selectively modulate apoptosis." %}
+   video_id="GSoOfyJUYSA?si=M_npiU7MfdQHZzj9" 
+   list="The protein design seminar series includes <b>6 presentations</b> from Australian structural biologists utilising the latest developments in <i>de novo</i> protein design to develop protein binders to various therapeutic targets.|Watch <b>Dr Cyntia Taveneau</b> share a recent project involving AI-designed anti-CRISPRs as programmable CRISPR inhibitors.|The full series schedule, seminar registration link and recordings of completed seminars are available <b><a href=\"/protein_design_seminars\">here</a></b>.|The next event in the series will be on <b>September 16th</b> and will describe using <i>in silico</i> design methods to create <i>de novo</i> proteins that selectively modulate apoptosis." %}
 
 ## Upcoming Events
 

@@ -21,7 +21,7 @@ redirect_from: /website/protein_design_seminars
 | Date          | Time       | Speaker(s)         | Topic | Recording | Presentation |
 |---------------|------------|--------------------|-------|-----------|----------|
 | 15 July       | 12pm AEST  | Rhys Grinter       | Using AI protein design to design binding proteins to challenging bacterial transporters | [YouTube](https://youtu.be/3Ad2gUjeSL8) | [Zenodo](https://doi.org/10.5281/zenodo.16511653)|
-| 12 August     | 12pm AEST  | Cyntia Taveneau    | AIcrs: AI-Designed Anti-CRISPRs as Programmable CRISPR Inhibitors | | |
+| 12 August     | 12pm AEST  | Cyntia Taveneau    | AIcrs: AI-Designed Anti-CRISPRs as Programmable CRISPR Inhibitors | [YouTube](https://www.youtube.com/watch?v=GSoOfyJUYSA) | |
 | 16 September  | 12pm AEST  | Richard Birkinshaw | Using in silico design methods to create de novo proteins that selectively modulate apoptosis | | |
 | 7 October     | 12pm AEDT* | Josh Hardy | Introducing ProteinDJ: A modular and open-source framework for protein design workflows | | |
 | 11 November   | 12pm AEDT* | TBC | TBC | | |
