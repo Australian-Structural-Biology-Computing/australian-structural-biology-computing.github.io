@@ -23,6 +23,11 @@ This activity aims to create a stable release of up-to-date reference data (with
 - Catalog latest version of reference data.
 - Harmonize data across different structure prediction models (AlphaFold2, AlphaFold3, Boltz, ColabFold, HelixFold3, RosettaFold-AA).
 - NCI Data Collection expression of interest (Accepted).
+- Provision new NCI project for storage and data management.
 
 ### In Progress
-- Provision new NCI project for storage an data management.
+- Populate structure prediction reference data in data collection project.
+
+### Future
+- Validate reference data collection
+- Mint DOI.
