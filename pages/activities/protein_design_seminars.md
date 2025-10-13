@@ -23,7 +23,6 @@ redirect_from: /website/protein_design_seminars
 | 15 July       | 12pm AEST  | Rhys Grinter       | Using AI protein design to design binding proteins to challenging bacterial transporters | [YouTube](https://youtu.be/3Ad2gUjeSL8) | [Zenodo](https://doi.org/10.5281/zenodo.16511653) |
 | 12 August     | 12pm AEST  | Cyntia Taveneau    | AIcrs: AI-Designed Anti-CRISPRs as Programmable CRISPR Inhibitors | [YouTube](https://www.youtube.com/watch?v=GSoOfyJUYSA) | [Zenodo](https://doi.org/10.5281/zenodo.17033916) |
 | 16 September  | 12pm AEST  | Richard Birkinshaw | Using in silico design methods to create de novo proteins that selectively modulate apoptosis | [YouTube](https://youtu.be/9-3sHy1ybpE) | [Zenodo](https://doi.org/10.5281/zenodo.17148914) |
-| 7 October     | 12pm AEDT* | Josh Hardy | Introducing ProteinDJ: A modular and open-source framework for protein design workflows | | |
-| 11 November   | 12pm AEDT* | TBC | TBC | | |
-| 3 December    | 1pm AEDT*  | Joel Mackay | Baby steps in the AI-guided design of proteins to module gene transcription | | |
+| 7 October     | 12pm AEDT* | Josh Hardy | Introducing ProteinDJ: A modular and open-source framework for protein design workflows | [YouTube](https://www.youtube.com/watch?v=xwvF62HxaF0) | |
+| 11 November   | 12pm AEDT* | Joel Mackay | Baby steps in the AI-guided design of proteins to module gene transcription | | |
 | *Affected by daylight savings |
