@@ -20,8 +20,8 @@ This website is a virtual meeting place and hub for all users of **computing for
 ## Protein design seminar series
 
 {% include video-list-columns.html 
-   video_id="9-3sHy1ybpE" 
-   list="The protein design seminar series includes <b>6 presentations</b> from Australian structural biologists utilising the latest developments in <i>de novo</i> protein design to develop protein binders to various therapeutic targets.|Watch <b>Dr Richard Birkinshaw</b> share a recent project using <i>in silico</i> design methods to create <i>de novo</i> proteins that selectively modulate apoptosis.|The full series schedule, seminar registration link and recordings of completed seminars are available <b><a href=\"/protein_design_seminars\">here</a></b>.|The next event in the series will be on <b>October 7th</b> and will describe ProteinDJ: A modular and open-source framework for protein design workflows" %}
+   video_id="xwvF62HxaF0" 
+   list="The protein design seminar series includes <b>5 presentations</b> from Australian structural biologists utilising the latest developments in <i>de novo</i> protein design to develop protein binders to various therapeutic targets.|Watch <b>Dr Josh Hardy</b> share a recent project describing the development of  ProteinDJ: A modular and open-source framework for protein design workflows.|The full series schedule, seminar registration link and recordings of completed seminars are available <b><a href=\"/protein_design_seminars\">here</a></b>.|The final event in the series will be on <b>November 11th</b> and will describe baby steps in the AI-guided design of proteins to modulate gene transcription." %}
 
 ## Upcoming Events
 
