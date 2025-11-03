@@ -28,12 +28,13 @@ redirect_from: /website/nfcore_proteinfold
     - AlphaFold3 (BYO weights).
 - Add support for local MSA search for Boltz.
 - Add standardized reporting with visualisation.
-- Add standard QC metrics to HTML report.
+- Add standard QC metrics to HTML report (PAE, MSA coverage).
 - Add process labels to improve efficient use of infrastructure.
 - De-duplicate reference datasets across different methods.
+- Add miniature reference databases for fast troubleshooting.
+- Update documentation and metro-map.
+- Test for release.
 
 ### In Progress
 
-- Add minituare reference databases for fast troubleshooting.
-- Update documentation and metro-map.
-- Test for release.
+- Review workflow outputs for all modes.

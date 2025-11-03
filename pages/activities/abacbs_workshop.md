@@ -4,7 +4,7 @@ description: Leveraging peak Australian compute to enable workflows for predicti
 type: activity_in_progress
 roadmap: A computational structural biology training program (Roadmap D2)
 roadmap_category: D2
-contributors: [Johan Gustafsson, Ziad Al-Bkhetan, Thomas Litfin, Sarah Beecroft, Georgie Samaha, Mitchell O'Brien, Farah Zaib Khan]
+contributors: [Johan Gustafsson, Ziad Al-Bkhetan, Thomas Litfin, Sarah Beecroft, Georgie Samaha, Mitchell O'Brien, Farah Zaib Khan, Sehrish Kanwal]
 toc: false
 redirect_from: /website/abacbs25_workshop
 ---
