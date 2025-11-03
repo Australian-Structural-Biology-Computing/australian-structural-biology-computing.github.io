@@ -31,7 +31,7 @@ redirect_from: /website/nfcore_proteinfold
 - Add standard QC metrics to HTML report (PAE, MSA coverage).
 - Add process labels to improve efficient use of infrastructure.
 - De-duplicate reference datasets across different methods.
-- Add minituare reference databases for fast troubleshooting.
+- Add miniature reference databases for fast troubleshooting.
 - Update documentation and metro-map.
 - Test for release.
 
