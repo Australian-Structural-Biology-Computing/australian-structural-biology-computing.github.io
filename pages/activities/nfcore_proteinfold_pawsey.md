@@ -1,9 +1,9 @@
 ---
 title: nf-core ProteinFold at Pawsey
 description: Deploy nf-core ProteinFold workflow at Pawsey Supercomputing Research Centre.
-type: activity_in_progress
+type: Activity_in_progress
 roadmap: A shared platform, or platforms (Roadmap D3Ab)
-roadmap_category: D3
+roadmap_category: Shared-platform
 contributors: [Sarah Beecroft, Joshua Storm Caley]
 toc: false
 redirect_from: /website/nfcore_proteinfold_pawsey

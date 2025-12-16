@@ -1,10 +1,10 @@
 ---
 title: Infrastructure Roadmap
 description: Draft and publish an Australian infrastructure roadmap for addressing computational challenges facing structural biology.
-type: activity_completed
+type: Completed_activity
 contributors: [Kate Michie, Thomas Litfin, Sarah Beecroft, Brett Collins, Matthew Downton, Rhys Grinter, Gavin Knott, Johan Gustafsson, Charlie Bond, Joel Mackay, Michael Parker, Craig Morton, Begoña Heras, Fiona Whelan]
 roadmap: Community co-authored document
-roadmap_category: none
+roadmap_category: No-category
 toc: false
 redirect_from: /website/infrastructure_roadmap
 ---

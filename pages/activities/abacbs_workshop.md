@@ -1,9 +1,9 @@
 ---
 title: ABACBS 2025 workshop
 description: Leveraging peak Australian compute to enable workflows for predictive structural biology at scale
-type: activity_in_progress
+type: Completed_activity
 roadmap: A computational structural biology training program (Roadmap D2)
-roadmap_category: D2
+roadmap_category: Training
 contributors: [Johan Gustafsson, Ziad Al-Bkhetan, Thomas Litfin, Sarah Beecroft, Georgie Samaha, Mitchell O'Brien, Farah Zaib Khan, Sehrish Kanwal]
 toc: false
 redirect_from: /website/abacbs25_workshop
