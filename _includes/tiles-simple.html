@@ -5,13 +5,13 @@
 {%- endif %}
 <div class="simple-tiles">
     <div class="simple-tiles-container">
-        <div class="simple-tiles-list row row-cols-1 row-cols-md-2 row-cols-lg-{{ include.col | default: 2 }} gy-2 gx-4 my-4">
+        <div class="simple-tiles-list row row-cols-1 row-cols-md-2 row-cols-lg-{{ include.col | default: 2 }} gy-2 gx-4">
             {%- for item in tiles %}
             {%- if item.title %}
                 <a href="{{ item.url | relative_url }}" class="simple-tile-link">
                     <div class="simple-tile-item">
                         <div class="simple-tile-content">
-                            <p class="simple-tile-title" style="font-size: 1.5rem; text-align: center">{{ item.title }}</p>
+                            <p class="simple-tile-title" style="font-size: 1.3rem; text-align: center">{{ item.title }}</p>
                         </div>
                     </div>
                 </a>
@@ -26,30 +26,32 @@
 
   .simple-tile-link {
           text-decoration: none;
-          color: inherit;
+          color: #012152;
           display: flex;
   }
 
   .simple-tile-item {
-           border: 1px solid #e0e0e0;
            border-radius: 12px;
            padding: 25px;
            transition: all 0.3s ease;
-           background: #012152;;
+           background: #f0f3fa;
            width: 100%;
            display: flex;
            flex-direction: column;
            justify-content: space-between;
+           color: #012152;
   }
 
   .simple-tile-item:hover {
            transform: translateY(-4px);
            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
            border-color: #012152;
+           background: #012152;
+           color: #fff;
   }
 
   .simple-tile-title {
-           color: #ffffff;
+           color: inherit;
            font-weight: 400;
            margin-top: 0px;
            margin-bottom: 0px;
