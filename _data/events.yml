@@ -70,6 +70,12 @@
   description: "Click to visit the rolling agenda and see details on how to join the next meeting."
   url: https://docs.google.com/document/d/1miRyOOOW7HeDsCvzJwVEOhaAzPBve8od9WUvsAsFfcw/edit#heading=h.owmugrvs22hi
   location: Online
+- name: 51st Lorne Conference on Protein Structure and Function
+  startDate: 2026-02-08
+  endDate: 2026-02-12
+  description: "Click to visit the conference website."
+  url: https://www.lorneproteins.org/
+  location: Online
 - name: ABACBS 2025 workshop
   startDate: 2025-11-27
   endDate: 2025-11-27
