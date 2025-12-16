@@ -6,10 +6,12 @@ toc: false
 #sidebar: true
 redirect_from: /website/
 tiles:
-  - title: "Join the conversation"
+  - title: "Join the mailing list, meetings etc."
     url: /join_conversation
-  - title: "Read the Australian infrastructure roadmap"
-    url: https://doi.org/10.5281/zenodo.15786982
+  - title: "See activities that are in progress"
+    url: /activities
+  - title: "Share your work with the community"
+    url: /contributing
 ---
 
 
@@ -17,11 +19,21 @@ This website is a virtual meeting place and hub for all users of **computing for
 
 {% include tiles-simple.html target = "tiles" col = "2" %}
 
-## Protein design seminar series
+## Getting involved
 
-{% include video-list-columns.html 
-   video_id="tKqH8WlkIX4" 
-   list="The protein design seminar series included <b>5 presentations</b> from Australian structural biologists utilising the latest developments in <i>de novo</i> protein design to develop protein binders to various therapeutic targets.|Watch <b>Prof Joel Mackay</b> share a recent project describing baby steps in the AI-guided design of proteins to modulate gene transcription.|The full series schedule, seminar registration link and recordings of completed seminars are available <b><a href=\"/protein_design_seminars\">here</a></b>.|" %}
+{% include tiles-simple.html target = "tiles" col = "3" %}
+
+
+## Protein design seminar series - watch the recordings
+
+| Speaker    | Topic & link to YouTube |
+|--------------------|------------------------------------------------------------------------------|----------|
+| Rhys Grinter       | [Using AI protein design to design binding proteins to challenging bacterial transporters](https://youtu.be/3Ad2gUjeSL8)  |
+| Cyntia Taveneau    | [AIcrs: AI-Designed Anti-CRISPRs as Programmable CRISPR Inhibitors](https://www.youtube.com/watch?v=GSoOfyJUYSA)   |
+| Richard Birkinshaw | [Using in silico design methods to create *de novo* proteins that selectively modulate apoptosis](https://youtu.be/9-3sHy1ybpE)      |
+| Josh Hardy | [Introducing ProteinDJ: A modular and open-source framework for protein design workflows](https://www.youtube.com/watch?v=xwvF62HxaF0) | 
+| Joel Mackay | [Baby steps in the AI-guided design of proteins to modulate gene transcription](https://www.youtube.com/watch?v=tKqH8WlkIX4)         | 
+
 
 ## Upcoming Events
 
