@@ -15,11 +15,17 @@ subitems:
         url: /guides
       - title: Community workflows
         url: /workflows
-  - title: External library
+  - title: External resources
     subitems:
-      - title: Software
-        url: /software
-      - title: Resources
-        url: /library
+      - title: Structure Prediction
+        url: /structure_prediction
+      - title: Protein Design
+        url: /protein_design
+      - title: Protein Search
+        url: /protein_search
+      - title: Molecular Dynamics
+        url: /molecular_dynamics
+      - title: Infrastructure
+        url: /infrastructure
   - title: Events
     url: /events

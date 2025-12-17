@@ -9,9 +9,9 @@ tiles:
   - title: "Attend the regular community meetings"
     url: https://docs.google.com/document/d/1miRyOOOW7HeDsCvzJwVEOhaAzPBve8od9WUvsAsFfcw/edit#heading=h.owmugrvs22hi
   - title: "Attend events"
-    url: https://australian-structural-biology-computing.github.io/events
+    url: /events
   - title: "Join the mailing list"
-    url: https://australian-structural-biology-computing.github.io/join_conversation#mailing-list
+    url: /join_conversation#mailing-list
 ---
 
 

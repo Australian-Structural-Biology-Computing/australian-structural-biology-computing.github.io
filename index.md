@@ -17,8 +17,6 @@ tiles:
 
 This website is a virtual meeting place and hub for all users of **computing for structural biology research in Australia**. This is a collective community effort. It can be what we make it!
 
-{% include tiles-simple.html target = "tiles" col = "2" %}
-
 ## Getting involved
 
 {% include tiles-simple.html target = "tiles" col = "3" %}
