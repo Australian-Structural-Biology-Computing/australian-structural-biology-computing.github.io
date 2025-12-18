@@ -1,7 +1,7 @@
 ---
 title: Best practices for presenting and sharing AlphaFold models in a paper
 description: Have you recently started using AlphaFold and want to include its structural predictions in your paper, but don't know the best way to do so? In this short guide, we clarify what you should include so that your work is clear and reproducible for the reader.
-type: guide
+type: Guide
 contributors: [James Lingford]
 affiliations: [Monash University]
 toc: true

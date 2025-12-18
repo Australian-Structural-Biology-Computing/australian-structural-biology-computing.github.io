@@ -1,9 +1,9 @@
 ---
 title: Community Access to BindCraft
 description: Increasing community access to an end-to-end solution for protein binder design.
-type: activity_in_progress
+type: Activity_in_progress
 roadmap: A shared platform, or platforms (Roadmap D3Ac)
-roadmap_category: D3
+roadmap_category: Shared-platform
 contributors: [Ziad Al-Bkhetan, Thomas Litfin]
 toc: false
 redirect_from: /website/bindcraft_access

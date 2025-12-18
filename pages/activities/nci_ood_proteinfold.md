@@ -1,9 +1,9 @@
 ---
 title: OpenOnDemand GUI ProteinFold app
 description: Create and adapt a pilot ProteinFold app for OpenOnDemand.
-type: activity_in_progress
+type: Activity_in_progress
 roadmap: A shared platform, or platforms (Roadmap D3Ac)
-roadmap_category: D3
+roadmap_category: Shared-platform
 contributors: [Matthew Downton, Kisaru Liyanage, Wenjing Xue, Joshua Storm Caley, Keiran Rowell, Thomas Litfin]
 toc: false
 redirect_from: /website/nci_ood_proteinfold

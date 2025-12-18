@@ -55,9 +55,9 @@ theme_variables:
   # toc:
   #   min_headings: 2
   #   headings: 'h2'
-  # topnav:
+   topnav:
     # theme: light
-    # brand_logo: assets/img/main_logo.svg
+    brand_logo: assets/img/aus-struct-bio-computing-2.png
     # github: true
     # twitter: false
   # theme_color: 0d6efd

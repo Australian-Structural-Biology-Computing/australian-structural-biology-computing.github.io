@@ -6,21 +6,27 @@ toc: false
 redirect_from: /website/join_conversation
 
 tiles:
-  - title: "Quarterly community meetings"
+  - title: "Attend the regular community meetings"
     url: https://docs.google.com/document/d/1miRyOOOW7HeDsCvzJwVEOhaAzPBve8od9WUvsAsFfcw/edit#heading=h.owmugrvs22hi
-  - title: "Events"
+  - title: "Attend events"
     url: /events
+  - title: "Join the mailing list"
+    url: /join_conversation#mailing-list
 ---
 
-If you would like to, there are multiple ways to join the conversation:
 
-{% include tiles-simple.html col = "2" target = "tiles" %}
+### Ways to join
 
-<br>
+If you would like to, there are multiple ways to join the conversation.
 
-If you join the mailing list (below), you will receive community updates and automatic community meeting invitations.
+{% include tiles-simple.html col = "3" target = "tiles" %}
+
 
 ### Mailing list 
+
+If you join the mailing list (subscribe below), you will receive 
+community updates and notifications, including information
+about scheduled community meetings and events.
 
 <div id="mc_embed_shell">
       <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">

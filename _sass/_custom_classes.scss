@@ -61,3 +61,13 @@
         padding: 7px 11px;
     }
 }
+
+#main {
+    background-color: $white;
+    border-radius: $border-radius;
+    padding: $spacer * 3;
+    margin-bottom: $spacer * 3;
+    #content {
+        margin-bottom: 0 !important;
+    }
+}

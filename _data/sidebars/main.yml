@@ -3,29 +3,29 @@ subitems:
     url: /index
   - title: Join the conversation
     url: /join_conversation
-  - title: Activities
-    url: /activities
-  - title: How-to Guides
-    url: /guides
-  - title: External resources
-    subitems:
-      - title: Servers
-        url: /external_servers
-      - title: Databases
-        url: /external_databases
-      - title: Guides
-        url: /external_guides
-      - title: Visualization
-        url: /external_viz
-      - title: Videos
-        url: /external_videos
-      - title: Communities
-        url: /external_communities
   - title: Contributing
     url: /contributing
+  - title: Activities
+    url: /activities
   - title: Contributors
     url: /contributors
+  - title: Community library
+    subitems:
+      - title: How-to Guides
+        url: /guides
+      - title: Community workflows
+        url: /workflows
+  - title: External resources
+    subitems:
+      - title: Structure Prediction
+        url: /structure_prediction
+      - title: Protein Design
+        url: /protein_design
+      - title: Protein Search
+        url: /protein_search
+      - title: Molecular Dynamics
+        url: /molecular_dynamics
+      - title: Infrastructure
+        url: /infrastructure
   - title: Events
     url: /events
-  - title: News
-    url: /news

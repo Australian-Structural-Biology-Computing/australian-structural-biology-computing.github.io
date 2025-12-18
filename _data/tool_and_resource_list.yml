@@ -1,261 +1,312 @@
-- Description: Access a full version of AlphaFold2 supported by the Australian Biocommons
+- Description: Free AlphaFold2 service supported by the Australian Biocommons
+  Tag: Structure Prediction
   Title: Australian AlphaFold Service
   Type:
-  - Webservers and computing resources
+  - Service
   URL: https://www.biocommons.org.au/alphafold
-- Description: Free access to a high-performance computing network through a simple
-    web interface for Australian Researchers
-  Title: Galaxy Australia
-  Type:
-  - Webservers and computing resources
-  URL: https://usegalaxy.org.au
-- Description: Structure prediction notebooks available to run for free on Google
-    Colab platform
+- Description: Free structure prediction notebooks available to run on Google Colab
+    platform
+  Tag: Structure Prediction
   Title: ColabFold Notebooks
   Type:
-  - Webservers and computing resources
+  - Service
   URL: https://github.com/sokrypton/ColabFold?tab=readme-ov-file#making-protein-folding-accessible-to-all-via-google-colab
-- Description: Multiple Structure Alignment in a browser
+- Description: Structure Alignment in a browser
+  Tag: Search
   Title: FoldSeek web server
   Type:
-  - Webservers and computing resources
+  - Service
   URL: https://search.foldseek.com/
 - Description: Freemium service for deep learning structural biology software
+  Tag: Structure Prediction
   Title: Tamarind Bio
   Type:
-  - Webservers and computing resources
+  - Service
   URL: https://www.tamarind.bio/
 - Description: Freemium service for deep learning structural biology software
+  Tag: Protein Design
+  Title: Tamarind Bio
+  Type:
+  - Service
+  URL: https://www.tamarind.bio/
+- Description: Freemium service for deep learning structural biology software
+  Tag: Structure Prediction
   Title: NeuroSnap
   Type:
-  - Webservers and computing resources
+  - Service
   URL: https://neurosnap.ai/
-- Description: AlphaFold3 provided by Google's webserver to their compute infrastructure.
-    NON-COMMERICAL USE!
+- Description: Freemium service for deep learning structural biology software
+  Tag: Protein Design
+  Title: NeuroSnap
+  Type:
+  - Service
+  URL: https://neurosnap.ai/
+- Description: Free Google service to run AlphaFold3. NON-COMMERICAL USE!
+  Tag: Structure Prediction
   Title: AlphaFold3 Server
   Type:
-  - Webservers and computing resources
+  - Service
   URL: https://alphafoldserver.com/about
 - Description: Peak academic Australian Research Computing Facility
+  Tag: Infrastructure
   Title: National Computing Infrastructure
   Type:
-  - Webservers and computing resources
+  - Infrastructure
   URL: https://nci.org.au/users/how-access-nci
 - Description: Peak academic Australian Research Computing Facility
+  Tag: Infrastructure
   Title: Pawsey Supercomputing Centre
   Type:
-  - Webservers and computing resources
+  - Infrastructure
   URL: https://pawsey.org.au/support/
-- Description: 'Curated search list of computational biology tools around the world '
-  Title: BioTools
+- Description: Australian BioCommons Leadership Share (ABLeS)
+  Tag: Infrastructure
+  Title: ABLeS
   Type:
-  - Webservers and computing resources
-  URL: https://bio.tools/
-- Description: NVIDIA web server and API for running protein design and structure
-    prediction software (e.g. RFDiffusion, ESMFold, etc.)
-  Title: NVIDIA Biology
+  - Infrastructure
+  URL: https://www.biocommons.org.au/ables
+- Description: Free access to a high-performance computing network through a simple
+    web interface for Australian Researchers
+  Tag: Infrastructure
+  Title: Galaxy Australia
   Type:
-  - Webservers and computing resources
-  URL: https://build.nvidia.com/explore/biology?ncid=em-prod-179751
-- Description: The best way to get up to competency with using an interpreting AlphaFold.
-    Should be done by all grad students using AF
+  - Infrastructure
+  URL: https://usegalaxy.org.au
+- Description: EBI Guide to using AlphaFold and interpreting model outputs
+  Tag: Structure Prediction
   Title: EMBL-EBI AlphaFold Guide
   Type:
-  - Computational structural bio guides and tutorials
+  - Technical Guide
   URL: https://www.ebi.ac.uk/training/online/courses/alphafold/
-- Description: A visual walkthrough of the AlphaFold3 architecture, with more details
-    and diagrams than you were probably looking for.
+- Description: A visual walkthrough of the AlphaFold3 architecture
+  Tag: Structure Prediction
   Title: AlphaFold3 explainer
   Type:
-  - Computational structural bio guides and tutorials
+  - Technical Guide
   URL: https://elanapearl.github.io/blog/2024/the-illustrated-alphafold/
 - Description: Lists state-of-the-art and emerging tools for Biomolecular Structure
     Prediction.
+  Tag: Structure Prediction
   Title: Biomolecular Structure Prediction Tools
   Type:
-  - Computational structural bio guides and tutorials
+  - Tool Registry
   URL: https://abeebyekeen.com/biomodes-biomolecular-structure-prediction/
-- Description: User guide for running MMseqs from the command line
-  Title: MMseqs2 tutorial
+- Description: Lists state-of-the-art and emerging tools for Biomolecular Structure
+    Prediction.
+  Tag: Protein Design
+  Title: Biomolecular Structure Prediction Tools
   Type:
-  - Computational structural bio guides and tutorials
-  URL: https://github.com/soedinglab/MMseqs2/wiki/Tutorials
-- Description: User guide for running Hiden Markov Models of protein sequences on
-    the command line
-  Title: HH-suite tutorial
+  - Tool Registry
+  URL: https://abeebyekeen.com/biomodes-biomolecular-structure-prediction/
+- Description: A collection of software for protein structure prediction and design,
+    with a focus on new deep learning and transformer based tools.
+  Tag: Structure Prediction
+  Title: Awesome Protein Structure Prediction and Design Software List
   Type:
-  - Computational structural bio guides and tutorials
-  URL: https://github.com/soedinglab/hh-suite/wiki
-- Description: User guide for running HMMER on the command line
-  Title: HMMER tutorial
+  - Tool Registry
+  URL: https://github.com/pansapiens/awesome-protein-design-software
+- Description: A collection of software for protein structure prediction and design,
+    with a focus on new deep learning and transformer based tools.
+  Tag: Protein Design
+  Title: Awesome Protein Structure Prediction and Design Software List
   Type:
-  - Computational structural bio guides and tutorials
-  URL: http://hmmer.org/documentation.html
-- Description: Walkthrough guide on running RFDiffusion
-  Title: RFDiffusion
-  Type:
-  - Computational structural bio guides and tutorials
-  URL: https://github.com/RosettaCommons/RFdiffusion
-- Description: User guide on protein design with Rosetta
-  Title: Rosetta tutorial
-  Type:
-  - Computational structural bio guides and tutorials
-  URL: https://docs.rosettacommons.org/docs/latest/Home
-- Description: Collection of how-to guides for protein design
-  Title: Pyrosetta tutorials
-  Type:
-  - Computational structural bio guides and tutorials
-  URL: https://github.com/ProteinDesignLab/protein-design-tutorials
-- Description: Google Colab notebooks for running protein design
-  Title: ColabDesign notebooks
-  Type:
-  - Computational structural bio guides and tutorials
-  URL: https://github.com/sokrypton/ColabDesign
+  - Tool Registry
+  URL: https://github.com/pansapiens/awesome-protein-design-software
 - Description: Molecular Dynamics simulation tutorials
+  Tag: Molecular Dynamics
   Title: GROMACS tutorials
   Type:
-  - Computational structural bio guides and tutorials
+  - Tutorial
   URL: http://www.mdtutorials.com/gmx/
 - Description: Molecular Dynamics simulation tutorials
+  Tag: Molecular Dynamics
   Title: GROMACS tutorials
   Type:
-  - Computational structural bio guides and tutorials
+  - Tutorial
   URL: https://gromacstutorials.github.io/
 - Description: Molecular Dynamics simulation tutorials
+  Tag: Molecular Dynamics
   Title: LAMMPS tutorials
   Type:
-  - Computational structural bio guides and tutorials
+  - Tutorial
   URL: https://lammpstutorials.github.io/
 - Description: Molecular Dynamics simulation tutorials
+  Tag: Molecular Dynamics
   Title: Amber tutorial
   Type:
-  - Computational structural bio guides and tutorials
+  - Tutorial
   URL: https://ambermd.org/tutorials/
-- Description: Short how-to guide on using BLAST from the command line
-  Title: BLAST tutorial
-  Type:
-  - Computational structural bio guides and tutorials
-  URL: https://docs.tinybio.cloud/docs/blast-tutorial
-- Description: Three short tutorials for running ColabFold
-  Title: ColabFold tutorial
-  Type:
-  - Computational structural bio guides and tutorials
-  URL: https://protocolexchange.researchsquare.com/article/pex-2490/v1
 - Description: Covers basics of ssh and jupyter notebooks on a HPC
+  Tag: Structure Prediction
   Title: Running ColabFold notebook on a HPC
   Type:
-  - Computational structural bio guides and tutorials
+  - Tutorial
   URL: https://www.jameslingford.com/blog/colabfold-hpc-ssh-howto/
 - Description: Protein visualisation guides for UCSF ChimeraX
+  Tag: Visualization
   Title: ChimeraX recipes
   Type:
-  - Protein viz guides and tutorials
+  - Tutorial
   URL: https://rbvi.github.io/chimerax-recipes/
 - Description: ChimeraX how-to
+  Tag: Visualization
   Title: ChimeraX cavity visualisation
   Type:
-  - Protein viz guides and tutorials
+  - Tutorial
   URL: https://www.jameslingford.com/blog/chimerax-cavity-surfaces/
 - Description: ChimeraX how-to
+  Tag: Visualization
   Title: ChimeraX outline selected area
   Type:
-  - Protein viz guides and tutorials
+  - Tutorial
   URL: https://www.jameslingford.com/blog/chimerax-outlines/
 - Description: ~1hr talks by method developers on recent breakthroughs in protein
     modelling
+  Tag: Structure Prediction
   Title: Boston Protein Design and Modeling Club
   Type:
-  - YouTube talks and tutorials
+  - Presentation
   URL: https://www.youtube.com/@bpdmc
-- Description: 100 second videos on how to use various protein tools. Guides are with
-    their clean proprietary interface
+- Description: ~1hr talks by method developers on recent breakthroughs in protein
+    modelling
+  Tag: Protein Design
+  Title: Boston Protein Design and Modeling Club
+  Type:
+  - Presentation
+  URL: https://www.youtube.com/@bpdmc
+- Description: 100 second videos on how to use various protein tools.
+  Tag: Protein Design
   Title: NeuroSnap protein design videos
   Type:
-  - YouTube talks and tutorials
+  - Presentation
   URL: https://www.youtube.com/@NeurosnapInc/videos
 - Description: Talks focused on CryoEM but also computational structural biology and
     protein design
+  Tag: CryoEM
   Title: Structural Biology Grid Consortium Talk Series
   Type:
-  - YouTube talks and tutorials
+  - Presentation
   URL: https://www.youtube.com/@SBGridTV/videos
 - Description: Overview of the AlphaFold pipeline by the New England Journal of Medicine
-  Title: AlphaFold 5 minute explainer - Medical Journal
+  Tag: Structure Prediction
+  Title: AlphaFold 5 minute explainer
   Type:
-  - YouTube talks and tutorials
+  - Presentation
   URL: https://www.youtube.com/watch?v=7q8Uw3rmXyE
-- Description: Detailed and lucid talk on understanding the machine learning concepts
-    behind AI protein structure prediction methods
-  Title: ' AlphaFold2, OpenFold, Protein Language Models and Beyond | Nazim Bouatta '
+- Description: Detailed description of the machine learning concepts behind AI protein
+    structure prediction methods
+  Tag: Structure Prediction
+  Title: AlphaFold2, OpenFold, Protein Language Models and Beyond
   Type:
-  - YouTube talks and tutorials
+  - Presentation
   URL: https://youtu.be/ON1ltprZKPo?si=WkZ3Y8eZfVusWUvo
 - Description: Blender tutorials for protein animations
+  Tag: Visualization
   Title: Brady Johnston Blender tutorials
   Type:
-  - YouTube talks and tutorials
+  - Presentation
   URL: https://www.youtube.com/@BradyJohnston
 - Description: Blender tutorials for protein animations
+  Tag: Visualization
   Title: Luminous Lab Blender tutorials
   Type:
-  - YouTube talks and tutorials
+  - Presentation
   URL: https://www.youtube.com/@LuminousLab
 - Description: Playlist of tutorials on how to use ChimeraX with command lines
+  Tag: Visualization
   Title: ChimeraX tutorials
   Type:
-  - YouTube talks and tutorials
+  - Presentation
   URL: https://youtube.com/playlist?list=PL4eF1KHNgDfIYSKCS3_S0PTRYtYTV9Myi&si=gBWxBbzifFmF32ln
 - Description: Talks focused on molecular dynamics simulations and computational chemistry
+  Tag: Molecular Dynamics
   Title: European Centre of Excellence for Computational Biomolecular Research
   Type:
-  - YouTube talks and tutorials
+  - Presentation
   URL: https://youtube.com/@bioexcelcoe?si=5jSzsDzpBKwGQThr
 - Description: European community for structural bioinformatics research
+  Tag: Structure Prediction
   Title: ELIXIR 3D-BioInfo
   Type:
-  - Online communities
+  - Community
+  URL: https://elixir-europe.org/communities/3d-bioinfo
+- Description: European community for structural bioinformatics research
+  Tag: Protein Design
+  Title: ELIXIR 3D-BioInfo
+  Type:
+  - Community
   URL: https://elixir-europe.org/communities/3d-bioinfo
 - Description: A discord channel for asking questions related to the various Colab
     documents that are available
+  Tag: Structure Prediction
   Title: ColabBio Discord
   Type:
-  - Online communities
+  - Community
+  URL: https://discord.gg/M8BCm5WV
+- Description: A discord channel for asking questions related to the various Colab
+    documents that are available
+  Tag: Protein Design
+  Title: ColabBio Discord
+  Type:
+  - Community
   URL: https://discord.gg/M8BCm5WV
 - Description: A slack channel to discuss developments of Boltz
+  Tag: Structure Prediction
   Title: Boltz Slack
   Type:
-  - Online communities
+  - Community
   URL: https://join.slack.com/t/boltz-community/shared_invite/zt-34qg8uink-V1LGdRRUf3avAUVaRvv93w
-- Description: 'Social media posting platform '
-  Title: Bluesky
-  Type:
-  - Online communities
-  URL: https://bsky.app/
-- Description: 'Social media posting platform '
-  Title: Mastodon
-  Type:
-  - Online communities
-  URL: https://joinmastodon.org/
 - Description: '200 million AF2 predicted protein structures, with AlphaMissense etc
     included '
+  Tag: Structure Prediction
   Title: AlphaFold Protein Structure database
   Type:
-  - Reference databases
+  - Reference database
+  URL: https://alphafold.ebi.ac.uk/
+- Description: '200 million AF2 predicted protein structures, with AlphaMissense etc
+    included '
+  Tag: Search
+  Title: AlphaFold Protein Structure database
+  Type:
+  - Reference database
   URL: https://alphafold.ebi.ac.uk/
 - Description: 770 million ESMFold predicted structures -- much faster calculations
     as the don't relying on explicity co-evolutionary multiple sequence alignments
+  Tag: Structure Prediction
   Title: Evolutionary Scale Modelling Atlas of structures
   Type:
-  - Reference databases
+  - Reference database
+  URL: https://esmatlas.com/
+- Description: 770 million ESMFold predicted structures -- much faster calculations
+    as the don't relying on explicity co-evolutionary multiple sequence alignments
+  Tag: Search
+  Title: Evolutionary Scale Modelling Atlas of structures
+  Type:
+  - Reference database
   URL: https://esmatlas.com/
 - Description: Database of UniProt and Metagenome predicted structures clustered with
     foldseek
+  Tag: Structure Prediction
   Title: AFESM Clusters Database
   Type:
-  - Reference databases
+  - Reference database
+  URL: https://afesm.foldseek.com/
+- Description: Database of UniProt and Metagenome predicted structures clustered with
+    foldseek
+  Tag: Search
+  Title: AFESM Clusters Database
+  Type:
+  - Reference database
   URL: https://afesm.foldseek.com/
 - Description: Database of UniProt predicted structures clustered with foldseek
+  Tag: Structure Prediction
   Title: AFDB Clusters Database
   Type:
-  - Reference databases
+  - Reference database
+  URL: https://cluster.foldseek.com/
+- Description: Database of UniProt predicted structures clustered with foldseek
+  Tag: Search
+  Title: AFDB Clusters Database
+  Type:
+  - Reference database
   URL: https://cluster.foldseek.com/

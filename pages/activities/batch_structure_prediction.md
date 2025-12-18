@@ -1,9 +1,9 @@
 ---
 title: Batch Structure Prediction Workflows
 description: Developing optimized batch workflows for structure prediction.
-type: activity_in_progress
+type: Activity_in_progress
 roadmap: A shared platform, or platforms (Roadmap D3A)
-roadmap_category: D3
+roadmap_category: Shared-platform
 contributors: [Ziad Al-Bkhetan, Mitchell O'Brien, Joshua Storm Caley, Keiran Rowell, Cameron Hyde, Thomas Litfin]
 toc: false
 redirect_from: /website/batch_structure_prediction
