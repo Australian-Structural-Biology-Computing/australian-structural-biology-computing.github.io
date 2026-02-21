@@ -1,13 +1,18 @@
 ---
 title: NCI Data Collection
 description: Create a stable release of up-to-date reference data (with DOI) at the NCI.
-type: Activity_in_progress
+type: Completed_activity
 roadmap: A shared platform, or platforms (Roadmap D3F)
 roadmap_category: Shared-platform
 contributors: [Matthew Downton, Kisaru Liyanage, Wenjing Xue, Joshua Storm Caley, Thomas Litfin]
 toc: false
 redirect_from: /website/nci_data_collections
 ---
+
+## Availability
+
+The data collection is currently available here: **<https://dx.doi.org/10.25914/q48c-9a86>**.
+The collection has also been added to the **[community resources list](community_resources)**.
 
 ## Details
 
@@ -26,9 +31,5 @@ This activity aims to create a stable release of up-to-date reference data (with
 - Provision new NCI project for storage and data management.
 - Populate structure prediction reference data in data collection project.
 - Validate reference data collection.
-
-### In Progress
-- Prepare metadata for data catalog
-
-### Future
+- Prepare metadata for data catalog.
 - Mint DOI.

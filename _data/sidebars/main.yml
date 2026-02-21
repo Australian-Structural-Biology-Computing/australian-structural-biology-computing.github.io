@@ -11,6 +11,8 @@ subitems:
     url: /contributors
   - title: Community library
     subitems:
+      - title: Community resources
+        url: /community_resources
       - title: How-to Guides
         url: /guides
       - title: Community workflows
