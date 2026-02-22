@@ -310,3 +310,9 @@
   Type:
   - Reference database
   URL: https://cluster.foldseek.com/
+- Description: Reference data to support AI structural biology prediction models
+  Tag: Community resource
+  Title: NCI  Structural Biology AI Reference Collection
+  Type:
+  - Reference database
+  URL: https://dx.doi.org/10.25914/q48c-9a86
