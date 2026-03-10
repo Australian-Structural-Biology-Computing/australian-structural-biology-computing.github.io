@@ -8,6 +8,8 @@ redirect_from: /website/
 tiles:
   - title: "Join the mailing list, meetings etc."
     url: /join_conversation
+  - title: "Read the community infrastructure roadmap"
+    url: https://doi.org/10.5281/zenodo.15786982
   - title: "See activities that are in progress"
     url: /activities
   - title: "Share your work with the community"
@@ -17,9 +19,10 @@ tiles:
 
 This website is a virtual meeting place and hub for all users of **computing for structural biology research in Australia**. This is a collective community effort. It can be what we make it!
 
+
 ## Getting involved
 
-{% include tiles-simple.html target = "tiles" col = "3" %}
+{% include tiles-simple.html target = "tiles" col = "2" %}
 
 
 ## Protein design seminar series - watch the recordings
@@ -40,7 +43,7 @@ This website is a virtual meeting place and hub for all users of **computing for
 
 ## Acknowledgements
 
-This website represents a joint effort by many people at multiple Australian institutions. 
+This community represents a joint effort by people at multiple Australian institutions. 
 A list of contributors is [available here](contributors).
 
 {% include affiliation-tiles-selection.html %}
