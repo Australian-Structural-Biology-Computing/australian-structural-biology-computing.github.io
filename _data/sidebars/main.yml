@@ -11,11 +11,11 @@ subitems:
     url: /contributors
   - title: Community library
     subitems:
-      - title: Community resources
+      - title: General resources
         url: /community_resources
       - title: How-to Guides
         url: /guides
-      - title: Community workflows
+      - title: Workflows
         url: /workflows
   - title: External resources
     subitems:
