@@ -12,7 +12,6 @@ tiles:
     url: https://dx.doi.org/10.25914/q48c-9a86
 ---
 
-## Availability
 
 {% include tiles-simple.html target = "tiles" col = "1" %}
 
