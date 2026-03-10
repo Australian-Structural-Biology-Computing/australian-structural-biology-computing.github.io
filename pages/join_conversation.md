@@ -1,28 +1,26 @@
 ---
-title: Join the conversation
+title: Ways to join the conversation
 description: 
 page_id: join
 toc: false
 redirect_from: /website/join_conversation
 
 tiles:
-  - title: "Attend the regular community meetings"
+  - title: "View the rolling agenda for the community meetings"
     url: https://docs.google.com/document/d/1miRyOOOW7HeDsCvzJwVEOhaAzPBve8od9WUvsAsFfcw/edit#heading=h.owmugrvs22hi
-  - title: "Attend events"
+  - title: "View the events page"
     url: /events
-  - title: "Join the mailing list"
-    url: /join_conversation#mailing-list
 ---
-
-
-### Ways to join
 
 If you would like to, there are multiple ways to join the conversation.
 
-{% include tiles-simple.html col = "3" target = "tiles" %}
+
+### Attend the regular community meetings and other events
+
+{% include tiles-simple.html col = "2" target = "tiles" %}
 
 
-### Mailing list 
+### Join the mailing list 
 
 If you join the mailing list (subscribe below), you will receive 
 community updates and notifications, including information
