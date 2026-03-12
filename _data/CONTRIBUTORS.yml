@@ -27,13 +27,13 @@ Keiran Rowell:
     git: keiran-rowell-unsw 
     email: k.rowell@unsw.edu.au
     orcid: 0000-0001-6955-1167
-    affiliation: Computational Scientist, Structural Biology Facility UNSW
+    affiliation: Computational Scientist, Structural Biology Facility, UNSW
       
-Kate Michie:
+Katharine Michie:
     git: katemichie 
     email: k.michie@unsw.edu.au
     orcid: 0000-0002-2133-2237
-    affiliation: Chief Scientist, Structural Biology Facility UNSW
+    affiliation: Chief Scientist, Structural Biology Facility, UNSW
 
 James Lingford:
     git:  jlingford
@@ -57,7 +57,7 @@ Thomas Litfin:
     git:  tlitfin-unsw 
     email: t.litfin@unsw.edu.au 
     orcid: 0000-0002-4863-3865
-    affiliation: Senior Research Associate, Structural Biology Facility UNSW
+    affiliation: Senior Research Associate, Structural Biology Facility, UNSW
 
 Ziad Al-Bkhetan:
     git:  ziadbkh
@@ -160,3 +160,17 @@ Sehrish Kanwal:
     affiliation: Senior Research Fellow (Bioinformatics), The University of Melbourne
     git: skanwal
     orcid: https://orcid.org/0000-0002-5044-4692
+
+Paulyna Magaña:
+    affiliation: Protein Data Bank in Europe (PDBe) European Bioinformatics Institute (EMBL-EBI)
+    git: paulynamagana
+    orcid: https://orcid.org/0009-0004-1524-2966
+
+Kristina Gagalova:
+    affiliation: Curtin University and Centre for Crop and Disease Management (CCDM), Perth, Australia
+    git: KristinaGagalova
+    orcid: https://orcid.org/0000-0002-5975-0805
+
+Jennifer Fleming:
+    affiliation: Protein Data Bank in Europe (PDBe) European Bioinformatics Institute (EMBL-EBI)
+    orcid: https://orcid.org/0000-0003-4016-8740
