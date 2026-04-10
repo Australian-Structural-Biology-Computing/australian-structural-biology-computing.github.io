@@ -14,6 +14,9 @@ tiles:
     url: /activities
   - title: "Share your work with the community"
     url: /contributing
+community_meeting:
+  - title: "Click to visit the rolling agenda and find out more."
+    url: https://docs.google.com/document/d/1miRyOOOW7HeDsCvzJwVEOhaAzPBve8od9WUvsAsFfcw/edit#heading=h.owmugrvs22hi
 ---
 
 
@@ -25,20 +28,36 @@ This website is a virtual meeting place and hub for all users of **computing for
 {% include tiles-simple.html target = "tiles" col = "2" %}
 
 
-## Protein design seminar series - watch the recordings
+## News
 
-| Speaker    | Topic & link to YouTube |
-|--------------------|------------------------------------------------------------------------------|----------|
-| Rhys Grinter       | [Using AI protein design to design binding proteins to challenging bacterial transporters](https://youtu.be/3Ad2gUjeSL8)  |
-| Cyntia Taveneau    | [AIcrs: AI-Designed Anti-CRISPRs as Programmable CRISPR Inhibitors](https://www.youtube.com/watch?v=GSoOfyJUYSA)   |
-| Richard Birkinshaw | [Using in silico design methods to create *de novo* proteins that selectively modulate apoptosis](https://youtu.be/9-3sHy1ybpE)      |
-| Josh Hardy | [Introducing ProteinDJ: A modular and open-source framework for protein design workflows](https://www.youtube.com/watch?v=xwvF62HxaF0) | 
-| Joel Mackay | [Baby steps in the AI-guided design of proteins to modulate gene transcription](https://www.youtube.com/watch?v=tKqH8WlkIX4)         | 
+{% include news.html limit = 2 %}
 
 
-## Upcoming Events
+## Community talk series for 2026
 
-{% include events.html event_type="upcoming_event" limit=4 %}
+Starting this year, speakers from across the structural biology community will be invited to present their work at the regular community meetings. The current plan is for there to be five of these meetings every year.  
+
+
+#### Next meeting is on May 20th 
+
+{% include tiles-simple.html target = "community_meeting" col = "1" %}
+
+
+#### All meeting dates
+
+- **11th March 2026**
+- **20th May 2026** 
+- **29th July 2026**
+- **16th September 2026**
+- **4th November 2026**
+
+**Note:** these dates may change depending on other community events and the availability of speakers.
+
+
+## Other upcoming events
+
+{% include events.html event_type = "upcoming_event" limit = 4 %}
+
 
 
 ## Acknowledgements
