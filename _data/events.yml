@@ -8,6 +8,7 @@
 #  location: Cyberspace
 - name: BioMolecular Horizons
   startDate: 2024-09-22
+  endDate: 2024-09-22
   description: "Launch of the website at BioMolecular Horizons 2024"
   url: https://www.bmh2024.com/
 - name: Australian Structural Biology Computing community meeting

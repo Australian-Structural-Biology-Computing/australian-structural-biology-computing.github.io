@@ -7,8 +7,14 @@ roadmap_category: Training
 contributors: [Rhys Grinter, Gavin Knott, Cyntia Taveneau, Josh Hardy, Joel Mackay, Kate Michie, Johan Gustafsson, Melissa Burke]
 toc: false
 redirect_from: /website/protein_design_seminars
+tiles:
+  - title: "View the 2025 Protein Design Seminar Series"
+    url: https://youtube.com/playlist?list=PL3KeWF8P6MjzKtxXLp83w78K_AGUskL0a&si=eMvuLoQzcg9sIws5
 ---
 <!-- TODO: Add Richard Birkinshaw and Joel Mackay-->
+
+{% include tiles-simple.html target = "tiles" col = "1" %}
+
 
 ## Details
 
@@ -16,7 +22,6 @@ redirect_from: /website/protein_design_seminars
 - Australian community members are actively using protein design technology to solve biological problems.
 - Community members will host a monthly seminar series to share knowledge on protein design strategies to get the best outcomes from protein design projects.
 
- Registration is **[available here](https://www.eventbrite.com.au/e/webinar-leveraging-deep-learning-to-design-custom-protein-binding-proteins-tickets-1414347163439?aff=oddtdtcreator)**.
 
 | Date          | Time       | Speaker(s)         | Topic | Recording | Presentation |
 |---------------|------------|--------------------|-------|-----------|----------|

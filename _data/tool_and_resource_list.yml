@@ -312,7 +312,22 @@
   URL: https://cluster.foldseek.com/
 - Description: Reference data to support AI structural biology prediction models
   Tag: Community resource
-  Title: NCI  Structural Biology AI Reference Collection
+  Title: NCI Structural Biology AI Reference Collection
   Type:
   - Reference database
   URL: https://dx.doi.org/10.25914/q48c-9a86
+  DOI: https://dx.doi.org/10.25914/q48c-9a86
+- Description: Online tutorial covering the principles of protein architecture and function
+  Tag: Community resource
+  Title: Foundations of protein structure tutorial
+  Type:
+  - Online tutorial
+  URL: https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/
+  DOI: https://doi.org/10.6019/tol.foundations-protein-structure-t.2026.00001.1
+- Description: A limited series of webinars from 2025 that shared strategies to get the best outcomes from protein design projects.
+  Tag: Community resource
+  Title: Protein design webinar series
+  Type:
+  - Webinar series
+  URL: protein_design_seminars
+  DOI: https://doi.org/10.5281/zenodo.17626498

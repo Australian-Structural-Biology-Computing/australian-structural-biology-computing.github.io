@@ -7,12 +7,20 @@ roadmap: Community co-authored document
 roadmap_category: No-category
 toc: false
 redirect_from: /website/infrastructure_roadmap
+tiles:
+  - title: "Read the Australian Structural Biology Deep-Learning Infrastructure Roadmap"
+    url: https://doi.org/10.5281/zenodo.15786982
 ---
+
+
+{% include tiles-simple.html target = "tiles" col = "1" %}
+
 
 ## Citation
 
-> Michie, K. A., Litfin, T., Beecroft, S. J., Collins, B., Czabotar, P., Downton, M., Doyle, M. T., Ghosal, D., Grinter, R., Knott, G. J., Samaha, G., Christiansen, J. H., & Gustafsson, O. J. R. (2025). Australian Structural Biology Deep-Learning Infrastructure Roadmap. Zenodo. [https://doi.org/10.5281/zenodo.15786982](https://doi.org/10.5281/zenodo.15786982)
-
+```
+Michie, K. A., Litfin, T., Beecroft, S. J., Collins, B., Czabotar, P., Downton, M., Doyle, M. T., Ghosal, D., Grinter, R., Knott, G. J., Samaha, G., Christiansen, J. H., & Gustafsson, O. J. R. (2025). Australian Structural Biology Deep-Learning Infrastructure Roadmap. Zenodo. https://doi.org/10.5281/zenodo.15786982
+```
 
 ## Executive Summary from roadmap
 

@@ -16,6 +16,7 @@
                     </a>{%- endif %}
                 </th>
                 <th>Description</th>
+                <th>DOI</th>
                 <th class="resource-type">Type</th>
             </tr>
         </thead>
@@ -35,6 +36,11 @@
                 <td>{{tool.Title}}</td>
                 {%- endif %}
                 <td>{{tool.Description}}</td>
+                {% if tool.DOI%}
+                <td><a href="{{tool.DOI}}">DOI</a></td>
+                {%- else %}
+                <td></td>
+                {%- endif %}
                 <td>
                     {% if tool.Type %}
                     {%- for type in tool.Type %}

@@ -1,45 +1,30 @@
-<div class="events {{ include.event_type }}">
-    <div class="events-container">
-        <div class="events-section">
+<div class="news">
+    <div class="news-container">
+        <div class="news-section">
             {%- assign current_date = "now" | date: "%s" -%}
-            <div class="events-category">
-                {%- if include.event_type == "upcoming_event" -%}
-                    {%- assign events = site.data.events | sort: "startDate" -%}
-                {%- elsif include.event_type == "past_event" -%}
-                    {%- assign events = site.data.events | sort: "startDate" | reverse -%}
-                {%- endif -%}
+            <div class="news-category">
+                {%- assign news = site.data.news | sort: "date" | reverse %}
                 {%- assign count = 0 -%}
-                <div class="events-list">
-                    {%- for event in events -%}
-                    {%- assign event_timestamp = event.startDate | date: "%s" -%}
-                    {%- if include.event_type == "upcoming_event" and event_timestamp >= current_date -%}
-                        {%- assign valid = "true" -%}
-                    {%- elsif include.event_type == "past_event" and current_date > event_timestamp -%}
-                        {%- assign valid = "true" -%}
-                    {%- else -%}
-                        {%- assign valid = "false" -%}
-                    {%- endif -%}
-                    {%- if valid == "true" -%}
-                        <div class="event-item" onclick="redirectToEvent('{{ event.url }}')">
-                            <div class="event-date-block">
-                                <div class="event-date">
-                                    <div class="event-day">{{ event.startDate | date: "%d" | escape }}</div>
-                                    <div class="event-month">{{ event.startDate | date: "%b" | escape }}</div>
-                                    <div class="event-year">{{ event.startDate | date: "%Y"  | escape }}</div>
+                <div class="news-list">
+                    {%- for item in news -%}
+                        <div class="news-item" onclick="redirectToNews('{{ item.url }}')">
+                            <div class="news-date-block">
+                                <div class="news-date">
+                                    <div class="news-day">{{ item.date | date: "%d" | escape }}</div>
+                                    <div class="news-month">{{ item.date | date: "%b" | escape }}</div>
+                                    <div class="news-year">{{ item.date | date: "%Y"  | escape }}</div>
                                 </div>
-                                <div class="event-content">
-                                    <h3 class="event-title">{{ event.name | escape }}</h3>
-                                    <p class="event-location">👥 {{ event.location | escape }}</p>
-                                    <p class="event-description">{{ event.description | markdownify }}</p>
+                                <div class="news-content">
+                                    <h3 class="news-title">{{ item.name | escape }}</h3>
+                                    <p class="news-description">{{ item.description | markdownify }}</p>
                                 </div>
-                                <div class="event-arrow">→</div>
+                                <div class="news-arrow">→</div>
                             </div>
                         </div>
                         {%- assign count = count | plus: 1 -%}
                         {%- if include.limit and count == include.limit -%}
                             {%- break -%}
                         {%- endif -%}
-                    {%- endif -%}
                     {%- endfor -%}
                 </div>
             </div>
@@ -52,55 +37,55 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
-        .events{
+
+        .news {
             display: block;
         };
-        
-        .events-container {
+
+        .news-container {
             max-width: 800px;
             margin: 0 0;
             padding: 3px 4px;
         }
-        
-        .events-section {
+
+        .news-section {
             position: relative;
         }
-        
-        .events-header {
+
+        .news-header {
             margin-bottom: 30px;
             text-align: left;
         }
-        
-        .events-title {
+
+        .news-title {
             font-size: clamp(2rem, 6vw, 3rem);
             font-weight: 300;
             letter-spacing: -0.01em;
             margin-bottom: 5px;
             color: #2d2d2d;
         }
-        
-        .events-subtitle {
+
+        .news-subtitle {
             font-size: 1rem;
             color: #666;
             font-weight: 400;
         }
-        
-        .events-category {
+
+        .news-category {
             margin-bottom: 30px;
         }
-        
-        .events-category:last-child {
+
+        .news-category:last-child {
             margin-bottom: 0;
         }
 
-        .events-list {
+        .news-list {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 30px;
         }
-        
-        .event-item {
+
+        .news-item {
             border: 1px solid #e0e0e0;
             border-radius: 12px;
             padding: 20px;
@@ -108,22 +93,22 @@
             cursor: pointer;
             background: #ffffff;
         }
-        
-        .event-item:hover {
+
+        .news-item:hover {
             background: #f8f8f8;
             transform: translateY(-4px);
             box-shadow: 0 8px 25px rgba(0,0,0,0.1);
             border-color: #012152;
         }
-        
-        .event-date-block {
+
+        .news-date-block {
             display: flex;
             align-items: flex-start;
             gap: 15px;
             margin-bottom: 10px;
         }
-        
-        .event-date {
+
+        .news-date {
             text-align: center;
             background: #f8f8f8;
             border-radius: 6px;
@@ -131,15 +116,15 @@
             width: 50px;
             flex-shrink: 0;
         }
-        
-        .event-day {
+
+        .news-day {
             font-size: 1.4rem;
             font-weight: 700;
             line-height: 1;
             color: #012152;
         }
-        
-        .event-month {
+
+        .news-month {
             font-size: 0.7rem;
             text-transform: uppercase;
             letter-spacing: 0.05em;
@@ -147,42 +132,35 @@
             font-weight: 600;
             margin-top: 1px;
         }
-        
-        .event-year {
+
+        .news-year {
             font-size: 0.6rem;
             color: #999;
             font-weight: 400;
         }
-        
-        .past-events .event-item {
+
+        .past-news .news-item {
             opacity: 0.7;
         }
-        
-        .past-events .event-day {
+
+        .past-news .news-day {
             color: #999;
         }
-        
-        .event-content {
+
+        .news-content {
             flex: 1;
             position: relative;
         }
-        
-        .event-title {
+
+        .news-title {
             font-size: 1.3rem;
             font-weight: 600;
             margin-bottom: 3px;
             color: #2d2d2d;
             line-height: 1.2;
         }
-        
-        .event-location {
-            color: #666;
-            font-size: 0.85rem;
-            margin-bottom: 8px;
-            line-height: 1.2;
-        }
-        
-        .event-description {
+
+        .news-description {
             color: #888;
             font-size: 0.85rem;
             line-height: 1.4;
@@ -191,8 +169,8 @@
             -webkit-box-orient: vertical;
             overflow: hidden;
         }
-        
-        .event-arrow {
+
+        .news-arrow {
             position: absolute;
             top: 15px;
             right: 15px;
@@ -202,49 +180,49 @@
             transition: opacity 0.3s ease;
             color: #012152;
         }
-        
-        .event-item:hover .event-arrow {
+
+        .news-item:hover .news-arrow {
             opacity: 1;
         }
-        
+
         /* Responsive Design */
         @media (max-width: 768px) {
-            .events-container {
+            .news-container {
                 padding: 30px 20px;
             }
-            
-            .events-list {
+
+            .news-list {
                 grid-template-columns: 1fr;
                 gap: 15px;
             }
-            
-            .event-date-block {
+
+            .news-date-block {
                 flex-direction: row;
                 align-items: flex-start;
                 gap: 12px;
             }
-            
-            .event-date {
+
+            .news-date {
                 text-align: center;
                 width: 45px;
                 flex-shrink: 0;
             }
         }
-        
+
         /* Smooth scroll behavior */
         html {
             scroll-behavior: smooth;
         }
-        
+
         /* Custom scrollbar */
         ::-webkit-scrollbar {
             width: 8px;
         }
-        
+
         ::-webkit-scrollbar-track {
             background: #f1f1f1;
         }
-        
+
         ::-webkit-scrollbar-thumb {
             background: #012152;
             border-radius: 4px;
@@ -252,8 +230,8 @@
     </style>
 
     <script>
-        function redirectToEvent(event_url) {
-            window.open(`${event_url}`, '_blank');
+        function redirectToNews(news_url) {
+            window.open(`${news_url}`, '_blank');
         }
     </script>
 </div>
