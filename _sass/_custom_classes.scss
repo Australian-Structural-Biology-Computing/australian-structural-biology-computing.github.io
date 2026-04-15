@@ -69,5 +69,15 @@
     margin-bottom: $spacer * 3;
     #content {
         margin-bottom: 0 !important;
+
+        // Allow long Markdown code lines to wrap instead of overflowing.
+        pre {
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        pre code {
+            white-space: inherit;
+        }
     }
 }
