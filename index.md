@@ -54,10 +54,7 @@ Starting this year, speakers from across the structural biology community will b
 **Note:** these dates may change depending on other community events and the availability of speakers.
 
 
-## Other upcoming events
-
-{% include events.html event_type = "upcoming_event" limit = 4 %}
-
+{% include callout.html type="note" content="These dates may change depending on other community events and the availability of speakers. " %}
 
 
 ## Acknowledgements
