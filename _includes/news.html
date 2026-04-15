@@ -1,4 +1,4 @@
-<div class="events {{ include.event_type }}">
+<div class="news">
     <div class="news-container">
         <div class="news-section">
             {%- assign current_date = "now" | date: "%s" -%}
@@ -18,7 +18,7 @@
                                     <h3 class="news-title">{{ item.name | escape }}</h3>
                                     <p class="news-description">{{ item.description | markdownify }}</p>
                                 </div>
-                                <div class="event-arrow">→</div>
+                                <div class="news-arrow">→</div>
                             </div>
                         </div>
                         {%- assign count = count | plus: 1 -%}
@@ -38,7 +38,7 @@
             box-sizing: border-box;
         }
 
-        .news{
+        .news {
             display: block;
         };
 
@@ -181,7 +181,7 @@
             color: #012152;
         }
 
-        .news-item:hover .event-arrow {
+        .news-item:hover .news-arrow {
             opacity: 1;
         }
 
