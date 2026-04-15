@@ -51,7 +51,6 @@ Starting this year, speakers from across the structural biology community will b
 - **16th September 2026**
 - **4th November 2026**
 
-**Note:** these dates may change depending on other community events and the availability of speakers.
 
 
 {% include callout.html type="note" content="These dates may change depending on other community events and the availability of speakers. " %}
