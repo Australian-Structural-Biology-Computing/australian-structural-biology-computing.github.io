@@ -19,7 +19,7 @@ tiles:
 A collaboration developing the content for a `Foundations of Protein Structure` module that will be
 added to the training material made available by EMBL-EBI. The development of the module is a 
 collaboration between members of the Australian Structural Biology Computing community, and the 
-team from [Protein Data Bank in Europe (PDBE)](https://www.ebi.ac.uk/pdbe/).
+team from [Protein Data Bank in Europe (PDBe)](https://www.ebi.ac.uk/pdbe/).
 
 
 ## Future
