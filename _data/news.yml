@@ -2,3 +2,7 @@
   date: 2025-11-11
   url: https://youtube.com/playlist?list=PL3KeWF8P6MjzKtxXLp83w78K_AGUskL0a&si=eMvuLoQzcg9sIws5
   description: "A limited series webinar from 2025 that shared strategies to get the best outcomes from protein design projects. Speakers included: Richard Birkinshaw, Rhys Grinter, Josh Hardy, Joel Mackay, and Cyntia Taveneau."
+- name: "NCI Data Collection now available!"
+  date: 2026-02-23
+  url: https://dx.doi.org/10.25914/q48c-9a86
+  description: "This collection replicates key reference databases used for protein structure prediction and analysis. These resources enable NCI users to leverage deep learning models for molecular structure prediction. The datasets support AlphaFold3, AlphaFold2, Boltz, RoseTTaFold-All-Atom, ESMFold and HelixFold3 structure prediction tools."
