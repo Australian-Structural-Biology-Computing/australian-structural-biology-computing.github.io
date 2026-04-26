@@ -1,5 +1,5 @@
 ---
-title: Structure Prediction
+title: Structure prediction
 page_id: external_structure_prediction
 datatable: true
 toc: false
