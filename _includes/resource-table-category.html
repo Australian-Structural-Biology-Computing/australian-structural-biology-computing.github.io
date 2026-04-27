@@ -35,7 +35,16 @@
                 {%- else %}
                 <td>{{tool.Title}}</td>
                 {%- endif %}
-                <td>{{tool.Description}}</td>
+                <td>
+                    {{tool.Description}}
+                    {% if tool.Roadmap %}
+                    {%- for type in tool.Roadmap %}
+                    <button class="btn btn-light badge border border-dark text-dark mb-2 text-wrap text-center topic-badge">
+                    {{type}}
+                    </button>
+                    {%- endfor %}
+                    {%- endif %}
+                </td>
                 {% if tool.DOI%}
                 <td><a href="{{tool.DOI}}">DOI</a></td>
                 {%- else %}

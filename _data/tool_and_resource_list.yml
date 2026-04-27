@@ -310,18 +310,22 @@
   Type:
   - Reference database
   URL: https://cluster.foldseek.com/
-- Description: Reference data to support AI structural biology prediction models
+- Description: Reference data to support AI structural biology prediction models.
   Tag: Community resource
   Title: NCI Structural Biology AI Reference Collection
   Type:
   - Reference database
+  Roadmap:
+  - Roadmap deliverable 2
   URL: https://dx.doi.org/10.25914/q48c-9a86
   DOI: https://dx.doi.org/10.25914/q48c-9a86
-- Description: Online tutorial covering the principles of protein architecture and function
+- Description: Online tutorial covering the principles of protein architecture and function.
   Tag: Community resource
   Title: Foundations of protein structure tutorial
   Type:
   - Online tutorial
+  Roadmap:
+  - Roadmap deliverable 2 & 4
   URL: https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/
   DOI: https://doi.org/10.6019/tol.foundations-protein-structure-t.2026.00001.1
 - Description: A limited series of webinars from 2025 that shared strategies to get the best outcomes from protein design projects.
@@ -329,5 +333,16 @@
   Title: Protein design webinar series
   Type:
   - Webinar series
+  Roadmap:
+  - Roadmap deliverable 2
   URL: protein_design_seminars
   DOI: https://doi.org/10.5281/zenodo.17626498
+- Description: A nextflow pipeline with support for numerous structure prediction tools.
+  Tag: Community resource
+  Title: nf-core ProteinFold v2.0.0
+  Type:
+  - Workflow
+  Roadmap:
+  - Roadmap deliverable 3
+  URL: nfcore_proteinfold
+  DOI: https://doi.org/10.5281/zenodo.7437037
