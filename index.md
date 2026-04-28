@@ -43,14 +43,15 @@ Starting this year, speakers from across the structural biology community will b
 {% include tiles-simple.html target = "community_meeting" col = "1" %}
 
 
-#### All meeting dates
+#### All meeting dates and speakers
 
-- **11th March 2026**
-- **20th May 2026** 
-- **29th July 2026**
-- **16th September 2026**
-- **4th November 2026**
-
+| Date | Speaker                                                                              | Talk title                                                                |
+|------|--------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| March 11th | **Biswa Prasanna Mishra** (Institute for Biomedicine and Glycomics, Griffith University) | Molecular Characterisation of the *Bacillus subtilis SpbK* antiphage defence system |
+| May 20th | **Cameron Gilchrist** (Seoul National University)                                    | Multiple protein structure alignment with FoldMason |
+| 29th July | TBA           |  TBA          |
+| 16th September | **Tom Goddard** (UCSF) | Predicting atomic structures using OpenFold 3 in ChimeraX |
+| 12th November | TBA | TBA  |
 
 
 {% include callout.html type="note" content="These dates may change depending on other community events and the availability of speakers. " %}
