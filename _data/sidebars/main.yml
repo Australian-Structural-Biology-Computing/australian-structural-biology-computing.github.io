@@ -15,19 +15,19 @@ subitems:
         url: /community_resources
       - title: How-to Guides
         url: /guides
-      - title: Workflows
-        url: /workflows
   - title: External resources
     subitems:
-      - title: Structure Prediction
+      - title: Structure prediction
         url: /structure_prediction
-      - title: Protein Design
+      - title: Protein design
         url: /protein_design
-      - title: Protein Search
+      - title: Protein search
         url: /protein_search
-      - title: Molecular Dynamics
+      - title: Molecular dynamics
         url: /molecular_dynamics
       - title: Infrastructure
         url: /infrastructure
   - title: Events
     url: /events
+  - title: News
+    url: /news

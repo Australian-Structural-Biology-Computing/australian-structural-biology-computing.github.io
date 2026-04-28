@@ -1,13 +1,18 @@
 ---
-title: nf-core ProteinFold v2.0 Release
-description: Contribute towards, and locally deploy, v2.0 of nf-core ProteinFold workflow.
-type: Activity_in_progress
+title: nf-core ProteinFold v2.0.0 Release
+description: Contribute towards, and locally deploy, v2.0.0 of nf-core ProteinFold workflow.
+type: Completed_activity
 roadmap: A shared platform, or platforms (Roadmap D3A)
 roadmap_category: Shared-platform
 contributors: [Ziad Al-Bkhetan, Mitchell O'Brien, Joshua Storm Caley, Keiran Rowell, Thomas Litfin]
 toc: false
 redirect_from: /website/nfcore_proteinfold
+tiles:
+  - title: "See version 2.0.0 of the nf-core/proteinfold workflow"
+    url: https://nf-co.re/proteinfold/2.0.0/
 ---
+
+{% include tiles-simple.html target = "tiles" col = "1" %}
 
 ## Details
 
@@ -34,7 +39,4 @@ redirect_from: /website/nfcore_proteinfold
 - Add miniature reference databases for fast troubleshooting.
 - Update documentation and metro-map.
 - Test for release.
-
-### In Progress
-
 - Review workflow outputs for all modes.

@@ -1,5 +1,5 @@
 ---
-title: Molecular Dynamics
+title: Molecular dynamics
 page_id: external_resources_md
 datatable: true
 toc: false

@@ -6,3 +6,11 @@
   date: 2026-02-23
   url: https://dx.doi.org/10.25914/q48c-9a86
   description: "This collection replicates key reference databases used for protein structure prediction and analysis. These resources enable NCI users to leverage deep learning models for molecular structure prediction. The datasets support AlphaFold3, AlphaFold2, Boltz, RoseTTaFold-All-Atom, ESMFold and HelixFold3 structure prediction tools."
+- name: "ASBC @ the AI for Science Hackathon"
+  date: 2026-03-26
+  url: https://www.biocommons.org.au/news/ai-for-science-hackathon-2026
+  description: "Australian Structural Biology Computing (ASBC) community (UNSW Structural Biology Facility, WEHI, and the Monash AI Protein Design Program) contributed to the AI for Science Hackathon, bringing their expertise in optimising workflows for protein structure prediction and design."
+- name: "Foundations of protein structure training module now available!"
+  date: 2026-04-17
+  url: https://doi.org/10.6019/tol.foundations-protein-structure-t.2026.00001.1
+  description: "A module added to the training material made available by EMBL-EBI. Module development was a collaboration between the ASBC community, BioCommons, and EMBL-EBI Protein Data Bank in Europe (PDBe)."

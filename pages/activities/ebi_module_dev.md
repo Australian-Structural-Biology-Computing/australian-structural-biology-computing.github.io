@@ -1,7 +1,7 @@
 ---
 title: EMBL-EBI Foundations of Protein Structure module development
 description: Developing the content for an online EMBL-EBI tutorial covering the principles of protein architecture and function.
-type: Activity_in_progress
+type: Completed_activity
 roadmap_category: Global-connections
 contributors: [Jennifer Fleming, Kristina Gagalova, Johan Gustafsson, Michael Healy, Thomas Litfin, Paulyna Magaña, Katharine Michie]
 toc: false

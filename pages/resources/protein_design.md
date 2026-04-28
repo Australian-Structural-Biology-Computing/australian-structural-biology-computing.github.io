@@ -1,5 +1,5 @@
 ---
-title: Protein Design
+title: Protein design
 page_id: external_resources_protein_design
 datatable: true
 toc: false
