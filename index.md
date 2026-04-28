@@ -47,7 +47,7 @@ Starting this year, speakers from across the structural biology community will b
 
 | Date | Speaker                                                                              | Talk title                                                                |
 |------|--------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
-| March 11th | **Biswa Prasanna Mishra** (Institute for Biomedicine and Glycomics, Griffith University) | Molecular Characterisation of the *Bacillus subtilis SpbK* antiphage defence system |
+| March 11th | **Biswa Prasanna Mishra** (Griffith University) | Molecular Characterisation of the *Bacillus subtilis SpbK* antiphage defence system |
 | May 20th | **Cameron Gilchrist** (Seoul National University)                                    | Multiple protein structure alignment with FoldMason |
 | 29th July | TBA           |  TBA          |
 | 16th September | **Tom Goddard** (UCSF) | Predicting atomic structures using OpenFold 3 in ChimeraX |
