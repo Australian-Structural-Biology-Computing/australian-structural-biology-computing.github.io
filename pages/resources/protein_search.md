@@ -1,5 +1,5 @@
 ---
-title: Protein Search
+title: Protein search
 page_id: external_resources_search
 datatable: true
 toc: false
