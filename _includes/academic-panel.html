@@ -19,7 +19,7 @@
       {%- assign id = contributor_data.git | default: 'no_github' %}
       <div class="position-relative">
       {%- if contributor_data.image_url %}
-        <img src="{{ contributor_data.image_url }}" class="card-img-top p-3 rounded-circle" alt="{{ contributor_name }}">
+        <img src="{{ contributor_data.image_url | relative_url }}" class="card-img-top p-3 rounded-circle" alt="{{ contributor_name }}">
       {%- else %}
         <img src="https://avatars.githubusercontent.com/{{ id }}" class="card-img-top p-3 rounded-circle" alt="{{ contributor_name }}">
       {%- endif %}
@@ -65,7 +65,7 @@
       {%- assign id = contributor_data.git | default: 'no_github' %}
       <div class="position-relative">
       {%- if contributor_data.image_url %}
-        <img src="{{ contributor_data.image_url }}" class="card-img-top p-3 rounded-circle" alt="{{ contributor_name }}">
+        <img src="{{ contributor_data.image_url | relative_url }}" class="card-img-top p-3 rounded-circle" alt="{{ contributor_name }}">
       {%- else %}
         <img src="https://avatars.githubusercontent.com/{{ id }}" class="card-img-top p-3 rounded-circle" alt="{{ contributor_name }}">
       {%- endif %}
