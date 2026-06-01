@@ -8,7 +8,11 @@ subitems:
   - title: Activities
     url: /activities
   - title: Contributors
-    url: /contributors
+    subitems:
+      - title: Academic Panel
+        url: /academic_panel
+      - title: Community Contributors
+        url: /community_contributors
   - title: Community library
     subitems:
       - title: General resources

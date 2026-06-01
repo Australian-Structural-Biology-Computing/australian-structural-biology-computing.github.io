@@ -1,0 +1,101 @@
+{%- assign academic = site.data.academic %}
+
+{%- if academic.intro %}
+<p>{{ academic.intro }}</p>
+{%- endif %}
+
+{%- if academic.acknowledgement %}
+<p>{{ academic.acknowledgement }}</p>
+{%- endif %}
+
+{%- if academic.current_members %}
+<h2>Current 2026 Members</h2>
+<div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-5 g-4 contributor-cards">
+{%- for contributor in academic.current_members %}
+  {%- assign contributor_name = contributor.name %}
+  {%- assign contributor_data = site.data.CONTRIBUTORS[contributor_name] %}
+  <div class="col">
+    <div class="card h-100">
+      {%- assign id = contributor_data.git | default: 'no_github' %}
+      <div class="position-relative">
+      {%- if contributor_data.image_url %}
+        <img src="{{ contributor_data.image_url }}" class="card-img-top p-3 rounded-circle" alt="{{ contributor_name }}">
+      {%- else %}
+        <img src="https://avatars.githubusercontent.com/{{ id }}" class="card-img-top p-3 rounded-circle" alt="{{ contributor_name }}">
+      {%- endif %}
+      {%- if contributor.role %}
+        <span class="badge position-absolute top-0 end-0">{{ contributor.role }}</span>
+      {%- endif %}
+      </div>
+      <div class="card-body text-center py-0">
+        <p class="card-title">{{ contributor_name }}</p>
+      {%- if contributor_data.affiliation %}
+        <p class="card-affiliation">{{ contributor_data.affiliation }}</p>
+      {%- endif %}
+      </div>
+      {%- if contributor_data.git or contributor_data.email or contributor_data.orcid %}
+        <div class="card-footer">
+          <div class="d-flex justify-content-center">
+          {%- if contributor_data.git %}
+            <div class="mx-1"><a class="btn bg-white text-primary hover-primary rounded-circle social-icons p-0" href="https://github.com/{{ id }}"><i class="fab fa-github"></i></a></div>
+          {%- endif %}
+          {%- if contributor_data.email %}
+            <div class="mx-1"><a class="btn bg-white text-primary hover-primary rounded-circle social-icons p-0" href="mailto:{{ contributor_data.email }}"><i class="fas fa-envelope"></i></a></div>
+          {%- endif %}
+          {%- if contributor_data.orcid %}
+            <div class="mx-1"><a class="btn bg-white text-primary hover-primary rounded-circle social-icons p-0" href="https://orcid.org/{{ contributor_data.orcid }}"><i class="fab fa-orcid"></i></a></div>
+          {%- endif %}
+          </div>
+        </div>
+      {%- endif %}
+    </div>
+  </div>
+{%- endfor %}
+</div>
+{%- endif %}
+
+{%- if academic.former_members %}
+<h2>Former Panel Members</h2>
+<div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-5 g-4 contributor-cards">
+{%- for contributor in academic.former_members %}
+  {%- assign contributor_name = contributor.name %}
+  {%- assign contributor_data = site.data.CONTRIBUTORS[contributor_name] %}
+  <div class="col">
+    <div class="card h-100">
+      {%- assign id = contributor_data.git | default: 'no_github' %}
+      <div class="position-relative">
+      {%- if contributor_data.image_url %}
+        <img src="{{ contributor_data.image_url }}" class="card-img-top p-3 rounded-circle" alt="{{ contributor_name }}">
+      {%- else %}
+        <img src="https://avatars.githubusercontent.com/{{ id }}" class="card-img-top p-3 rounded-circle" alt="{{ contributor_name }}">
+      {%- endif %}
+      {%- if contributor.role %}
+        <span class="badge position-absolute top-0 end-0">{{ contributor.role }}</span>
+      {%- endif %}
+      </div>
+      <div class="card-body text-center py-0">
+        <p class="card-title">{{ contributor_name }}</p>
+      {%- if contributor_data.affiliation %}
+        <p class="card-affiliation">{{ contributor_data.affiliation }}</p>
+      {%- endif %}
+      </div>
+      {%- if contributor_data.git or contributor_data.email or contributor_data.orcid %}
+        <div class="card-footer">
+          <div class="d-flex justify-content-center">
+          {%- if contributor_data.git %}
+            <div class="mx-1"><a class="btn bg-white text-primary hover-primary rounded-circle social-icons p-0" href="https://github.com/{{ id }}"><i class="fab fa-github"></i></a></div>
+          {%- endif %}
+          {%- if contributor_data.email %}
+            <div class="mx-1"><a class="btn bg-white text-primary hover-primary rounded-circle social-icons p-0" href="mailto:{{ contributor_data.email }}"><i class="fas fa-envelope"></i></a></div>
+          {%- endif %}
+          {%- if contributor_data.orcid %}
+            <div class="mx-1"><a class="btn bg-white text-primary hover-primary rounded-circle social-icons p-0" href="https://orcid.org/{{ contributor_data.orcid }}"><i class="fab fa-orcid"></i></a></div>
+          {%- endif %}
+          </div>
+        </div>
+      {%- endif %}
+    </div>
+  </div>
+{%- endfor %}
+</div>
+{%- endif %}

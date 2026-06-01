@@ -1,0 +1,59 @@
+intro: >
+  The Academic Advisory Panel brings together Australian researchers with expertise
+  in structural biology who generously volunteer their time to support and guide
+  the structural biology computing community. Meeting twice a year, the panel
+  provides expert advice, sector insight and a valuable connection to the needs
+  and priorities of researchers across Australia. Their contributions help ensure
+  the community remains informed, collaborative and responsive to developments in
+  structural biology and research computing.
+
+acknowledgement: >
+  We acknowledge the valuable contributions of past and present members of the
+  Academic Advisory Panel, including long-serving current members and those who
+  have completed their service.
+
+current_members:
+  - name: Charlie Bond
+    role: Prof
+  - name: Brett Collins
+    role: Prof
+  - name: Peter Czabotar
+    role: Prof
+  - name: Matt Doyle
+    role: Dr
+  - name: Rhys Grinter
+    role: Dr
+  - name: Johan Gustafsson
+    role: Dr
+  - name: Gavin Knott
+    role: Dr
+  - name: Bostjan Kobe
+    role: Prof
+  - name: Thomas Litfin
+    role: Dr
+  - name: Joel Mackay
+    role: Prof
+  - name: Katharine Michie
+    role: A/Prof
+  - name: Craig Morton
+    role: Dr
+  - name: Fiona Whelan
+    role: Dr
+
+former_members:
+  - name: Emily Furlong
+    role: Dr
+  - name: Debnath Ghosal
+    role: Dr
+  - name: Begoña Heras
+    role: Prof
+  - name: Thomas Huber
+    role: Prof
+  - name: Mark Larance
+    role: A/Prof
+  - name: Michael Parker
+    role: Prof
+  - name: Thomas Ve
+    role: A/Prof
+  - name: Nadia Zatsepin
+    role: A/Prof
