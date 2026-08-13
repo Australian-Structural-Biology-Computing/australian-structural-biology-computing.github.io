@@ -51,11 +51,7 @@ Starting this year, speakers from across the structural biology community will b
 | May 20th | **Cameron Gilchrist**<br>(Korea Basic Science Institute Ochang-center) | Multiple protein structure alignment with FoldMason |
 | July 29th | **Roland Dunbrack**<br>(Fox Chase Cancer Center)                       |  Structural bioinformatics and AlphaFold modeling of the human kinome and its interactions          |
 | September 16th | **Tom Goddard**<br>(UCSF)                                              | Predicting atomic structures using OpenFold 3 in ChimeraX |
-| November 4th | TBA                                                                    | TBA  |
-
-
-{% include callout.html type="note" content="These dates may change depending on other community events and the availability of speakers. " %}
-
+| November 4th | **Maybe you?** | Community EMCR Symposium                                                                    |
 
 ## Acknowledgements
 
