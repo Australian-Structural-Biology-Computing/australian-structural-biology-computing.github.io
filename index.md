@@ -50,7 +50,7 @@ Starting this year, speakers from across the structural biology community will b
 | March 11th | **Biswa Prasanna Mishra**<br>(Griffith University)                     | Molecular Characterisation of the *Bacillus subtilis SpbK* antiphage defence system |
 | May 20th | **Cameron Gilchrist**<br>(Korea Basic Science Institute Ochang-center) | Multiple protein structure alignment with FoldMason |
 | July 29th | **Roland Dunbrack**<br>(Fox Chase Cancer Center)                       |  Structural bioinformatics and AlphaFold modeling of the human kinome and its interactions          |
-| September 16th | **Tom Goddard**<br>(UCSF)                                              | Predicting atomic structures using OpenFold 3 in ChimeraX |
+| September 16th | **Tom Goddard**<br>(UCSF)                                              | Predicting atomic structures using OpenFold 3 and ChimeraX |
 | November 4th | **Maybe you?** | Community EMCR Symposium                                                                    |
 
 ## Acknowledgements
