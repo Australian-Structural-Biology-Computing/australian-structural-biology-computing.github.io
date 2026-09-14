@@ -38,7 +38,7 @@ This website is a virtual meeting place and hub for all users of **computing for
 Starting this year, speakers from across the structural biology community will be invited to present their work at the regular community meetings. The current plan is for there to be five of these meetings every year.  
 
 
-#### Next meeting is on July 29th 
+#### Next meeting is on September 16th
 
 {% include tiles-simple.html target = "community_meeting" col = "1" %}
 
