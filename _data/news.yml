@@ -1,3 +1,11 @@
+- name: "ASBC Community EMCR Symposium"
+  date: 2026-11-04
+  url: https://docs.google.com/document/d/1miRyOOOW7HeDsCvzJwVEOhaAzPBve8od9WUvsAsFfcw/
+  description: "To wrap up the year, Australian EMCR researchers in structural biology computing will share their work at a special edition of the ASBC community meeting on 4th Nov 2026."
+- name: "Removing barriers: academia and industry collaborate to open commercial access to protein design software"
+  date: 2026-09-21
+  url: https://www.biocommons.org.au/news/proteindj-v3
+  description: "A collaborative effort from academia and industry has made a popular protein design software package free for commercial use. All previously restricted components have now been replaced, removing a significant barrier for biotechnology companies wanting to use the pipeline."
 - name: "View the webinar series for protein design"
   date: 2025-11-11
   url: https://youtube.com/playlist?list=PL3KeWF8P6MjzKtxXLp83w78K_AGUskL0a&si=eMvuLoQzcg9sIws5
@@ -24,5 +32,5 @@
 #  description: "You are invited to share your research related to computational structural biology in the ASBC community EMCR symposium. Submit an abstract by August 31. 4 speakers will be selected to give a 15 minute presentation from a friendly application process."
 - name: "Upcoming Community Talk: Tom Goddard"
   date: 2026-09-16
-  url: https://docs.google.com/document/d/1miRyOOOW7HeDsCvzJwVEOhaAzPBve8od9WUvsAsFfcw/edit#heading=h.owmugrvs22hi
+  url: https://docs.google.com/document/d/1miRyOOOW7HeDsCvzJwVEOhaAzPBve8od9WUvsAsFfcw/
   description: "Join the Australian Structural Biology Computing community talk series where we will head from Tom Goddard (UCSF) presenting on \"Predicting atomic structures using OpenFold 3 and ChimeraX.\""
