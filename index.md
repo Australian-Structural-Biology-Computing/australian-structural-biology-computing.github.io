@@ -38,7 +38,7 @@ This website is a virtual meeting place and hub for all users of **computing for
 Starting this year, speakers from across the structural biology community will be invited to present their work at the regular community meetings. The current plan is for there to be five of these meetings every year.  
 
 
-#### Next meeting is on September 16th
+#### Next meeting is on November 4th
 
 {% include tiles-simple.html target = "community_meeting" col = "1" %}
 
@@ -51,7 +51,7 @@ Starting this year, speakers from across the structural biology community will b
 | May 20th | **Cameron Gilchrist**<br>(Korea Basic Science Institute Ochang-center) | Multiple protein structure alignment with FoldMason |
 | July 29th | **Roland Dunbrack**<br>(Fox Chase Cancer Center)                       |  Structural bioinformatics and AlphaFold modeling of the human kinome and its interactions          |
 | September 16th | **Tom Goddard**<br>(UCSF)                                              | Predicting atomic structures using OpenFold 3 and ChimeraX |
-| November 4th | **Maybe you?** | Community EMCR Symposium                                                                    |
+| November 4th | **TBA**                                                                | Community EMCR Symposium                                                                    |
 
 ## Acknowledgements
 
