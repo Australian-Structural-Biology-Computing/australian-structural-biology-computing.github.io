@@ -18,6 +18,8 @@ sidebar: false
 redirect_from: /website/
 ---
 
+{% include events.html event_type="upcoming_event" title=true caption=true col=2 %}
+
 ## News
 
 {% include news.html limit=2 caption=true %}
