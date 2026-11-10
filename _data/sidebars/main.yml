@@ -10,7 +10,6 @@ subitems:
       - title: Contributing
         url: /contributing
       - title: Contributors
-        url: /contributors
         subitems:
           - title: Academic Panel
             url: /academic_panel

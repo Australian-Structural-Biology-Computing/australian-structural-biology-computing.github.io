@@ -30,6 +30,6 @@ redirect_from: /website/
 ## Acknowledgements
 
 This community represents a joint effort by people at multiple Australian institutions. 
-A list of contributors is [available here](contributors).
+Meet the [Academic Panel](/academic_panel) and our [Community Contributors](/community_contributors).
 
 {% include affiliation-tiles-selection.html %}
