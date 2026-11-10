@@ -38,7 +38,10 @@ a { text-underline-offset: 0.18em; }
     padding: 0;
 }
 
-.landing-page .navbar { margin-bottom: 0 !important; }
+.landing-page .navbar {
+    border-bottom: 0;
+    margin-bottom: 0 !important;
+}
 
 // see https://github.com/workflowhub-eu/about/blob/596b18d7ab1055ee1e53bc98a3bd120a06518e06/_sass/_custom_classes.scss
 /*-----News and events-----*/
