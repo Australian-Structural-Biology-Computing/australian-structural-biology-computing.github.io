@@ -7,6 +7,9 @@ page_id: external_resources
 toc: false
 redirect_from: /website/external_resources
 resource_tiles:
+  - title: Resource library
+    url: /library
+    description: Browse the complete catalogue of external tools and resources.
   - title: Structure prediction
     url: /structure_prediction
     description: Tools and services for predicting biomolecular structures.

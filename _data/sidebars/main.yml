@@ -19,20 +19,21 @@ subitems:
   - title: Resources
     url: /resources
     subitems:
-      - title: Community resources
-        url: /community_resources
+      - title: General resources
         subitems:
+          - title: Community developed resources
+            url: /community_resources
           - title: How-to guides
             url: /guides
           - title: Computational workflows
             url: /workflows
           - title: Software
             url: /software
-          - title: Resource library
-            url: /library
       - title: External resources
         url: /external_resources
         subitems:
+          - title: Resource library
+            url: /library
           - title: Structure prediction
             url: /structure_prediction
           - title: Protein design
