@@ -7,15 +7,17 @@
     color: $white;
 }
 
-.navbar-nav .nav-item > a {
+header .navbar .navbar-nav > .nav-item > .nav-link {
     border-radius: 999px;
     padding-inline: 0.9rem;
     transition: background-color 160ms ease, color 160ms ease;
+
+    &:hover { color: $white; background-color: rgba($white, 0.12); }
+
     &.active {
-        color: $white;
-        background-color: rgba($white, 0.14);
+        color: $primary;
+        background-color: $white;
     }
-    &:hover { color: $white; background-color: rgba($white, 0.1); }
 }
 
 .navbar { border-bottom: 3px solid $info; }
