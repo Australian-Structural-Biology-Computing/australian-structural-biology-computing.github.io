@@ -106,6 +106,117 @@ a { text-underline-offset: 0.18em; }
 
 .navigation-tiles .card { border-top: 3px solid $accent-teal; }
 
+// Community activities
+
+.activity-roadmap-card {
+    border: 1px solid rgba($primary, 0.1);
+    border-left: 4px solid $secondary;
+    box-shadow: 0 4px 14px rgba($primary, 0.04);
+}
+
+.activity-roadmap-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.75rem;
+    flex: 0 0 2rem;
+    border-radius: 50%;
+    color: $white;
+    background-color: $secondary;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.activity-roadmap-community {
+    border-left-color: $accent-warm;
+
+    .activity-roadmap-number { background-color: $accent-warm; }
+}
+
+.activity-roadmap-training {
+    border-left-color: $success;
+
+    .activity-roadmap-number { background-color: $success; }
+}
+
+.activity-roadmap-platform {
+    border-left-color: $accent-teal;
+
+    .activity-roadmap-number { background-color: $accent-teal; }
+}
+
+.activity-roadmap-global {
+    border-left-color: $primary;
+
+    .activity-roadmap-number { background-color: $primary; }
+}
+
+.activity-card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba($primary, 0.1);
+    border-top: 3px solid $accent-teal;
+    background-color: $light;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+
+    h3 a {
+        color: $primary;
+        text-decoration: none;
+    }
+
+    &:hover,
+    &:focus-within {
+        transform: translateY(-3px);
+        border-color: rgba($accent-teal, 0.45);
+        box-shadow: 0 10px 24px rgba($primary, 0.1);
+    }
+}
+
+.activity-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    min-height: 3rem;
+    margin: 0 1rem 1rem auto;
+    border-radius: 50%;
+    color: $accent-teal-dark;
+    background-color: rgba($accent-teal, 0.12);
+}
+
+.activity-category {
+    align-self: flex-start;
+    padding: 0.25rem 0.65rem;
+    border-radius: 999px;
+    color: $secondary;
+    background-color: rgba($secondary, 0.12);
+    font-size: 0.78rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.activity-category-community-space {
+    color: darken($accent-warm, 20%);
+    background-color: rgba($accent-warm, 0.16);
+}
+
+.activity-category-training {
+    color: darken($success, 12%);
+    background-color: rgba($success, 0.14);
+}
+
+.activity-category-shared-platform {
+    color: $accent-teal-dark;
+    background-color: rgba($accent-teal, 0.13);
+}
+
+.activity-category-global-connections {
+    color: $primary;
+    background-color: rgba($primary, 0.1);
+}
+
 .landing-page #content > .events {
     margin-bottom: 4rem;
     padding: clamp(1.25rem, 3vw, 2rem);
