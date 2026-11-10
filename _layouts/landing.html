@@ -12,14 +12,7 @@
                 <div class="row align-items-center g-4">
                     <div class="{% if page.hero_image %}col-md-8 col-lg-9{% else %}col-lg-10{% endif %}">
                         <h1 id="landing-title" class="display-4 fw-bold text-white mb-3">{{ page.hero_title | default: page.title }}</h1>
-                        {% if page.summary %}<p class="lead fs-4 mb-4">{{ page.summary }}</p>{% endif %}
-                        {% if page.hero_actions %}
-                        <nav class="hero-actions d-flex flex-wrap" aria-label="Featured links">
-                            {% for action in page.hero_actions %}
-                            <a class="hero-action" href="{{ action.url | relative_url }}">{{ action.title }} <span aria-hidden="true">&rarr;</span></a>
-                            {% endfor %}
-                        </nav>
-                        {% endif %}
+                        {% if page.summary %}<p class="lead fs-4 mb-0">{{ page.summary }}</p>{% endif %}
                     </div>
                     {% if page.hero_image %}
                     <div class="col-md-4 col-lg-3 d-none d-md-flex justify-content-center">
