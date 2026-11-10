@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Australian Structural Biology Computing
-hero_title: "Connecting Australia’s structural biology computing community"
+hero_title: A community resource
 summary: Discover shared resources, current activities, community meetings and ways to contribute.
 hero_actions:
   - title: Join the community
