@@ -45,6 +45,85 @@ a { text-underline-offset: 0.18em; }
     margin-bottom: 0 !important;
 }
 
+.landing-hero {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    background: linear-gradient(120deg, $primary 0%, $accent-teal-dark 100%);
+
+    &::before,
+    &::after {
+        position: absolute;
+        z-index: -1;
+        border: 1px solid rgba($white, 0.13);
+        border-radius: 50%;
+        content: "";
+        pointer-events: none;
+    }
+
+    &::before {
+        top: -16rem;
+        right: 5%;
+        width: 30rem;
+        height: 30rem;
+    }
+
+    &::after {
+        right: 28%;
+        bottom: -7rem;
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .btn { border-radius: 999px; }
+}
+
+.btn-hero-accent {
+    color: $white;
+    border-color: $accent-teal;
+    background-color: $accent-teal;
+
+    &:hover,
+    &:focus-visible {
+        color: $white;
+        border-color: darken($accent-teal, 6%);
+        background-color: darken($accent-teal, 6%);
+    }
+}
+
+.btn-hero-warm {
+    color: $white;
+    border-color: $accent-warm;
+    background-color: transparent;
+
+    &:hover,
+    &:focus-visible {
+        color: $primary;
+        border-color: $accent-warm;
+        background-color: $accent-warm;
+    }
+}
+
+.navigation-tiles .card { border-top: 3px solid $accent-teal; }
+
+.landing-page #content > .events {
+    margin-bottom: 4rem;
+    padding: clamp(1.25rem, 3vw, 2rem);
+    border-radius: $border-radius;
+    background: linear-gradient(135deg, $light, rgba($accent-teal, 0.08));
+}
+
+.landing-news { margin-bottom: 4rem; }
+
+.landing-acknowledgements {
+    padding: clamp(1.25rem, 3vw, 2rem);
+    border-top: 3px solid $accent-teal;
+    border-radius: $border-radius;
+    background-color: rgba($accent-teal, 0.06);
+
+    h2 { margin-top: 0; }
+}
+
 .supported-by-tiles .card .supported-by-name { color: $primary; }
 
 // see https://github.com/workflowhub-eu/about/blob/596b18d7ab1055ee1e53bc98a3bd120a06518e06/_sass/_custom_classes.scss

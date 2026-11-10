@@ -4,9 +4,18 @@
 $topnav-bg: $primary;
 $topnav-title-color: $white;
 
+/*-----Supporting accents-----*/
+
+$accent-teal: #147985;
+$accent-teal-dark: #075a73;
+$accent-warm: #d98b19;
+$news-accent-color: $accent-teal;
+
 /*-----Section navigation tiles-----*/
 
 $nav-card-bg: $light;
 $nav-card-color: $primary;
 $nav-card-bg-hover: $primary;
 $nav-card-color-hover: $white;
+$nav-card-arrow-bg: rgba($accent-teal, 0.12);
+$nav-card-arrow-color: $accent-teal-dark;

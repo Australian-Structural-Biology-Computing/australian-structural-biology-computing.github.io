@@ -9,13 +9,13 @@ hero_actions:
     style: btn-light
   - title: Explore activities
     url: /activities
-    style: btn-outline-light
+    style: btn-hero-accent
   - title: Contribute your work
     url: /contributing
     style: btn-outline-light
   - title: Infrastructure roadmap
     url: https://doi.org/10.5281/zenodo.15786982
-    style: btn-outline-light
+    style: btn-hero-warm
 toc: false
 sidebar: false
 redirect_from: /website/
@@ -23,13 +23,15 @@ redirect_from: /website/
 
 {% include events.html event_type="upcoming_event" title=true caption=true col=2 %}
 
-## News
+<section class="landing-news">
+  <h2>News</h2>
 
 {% include news.html limit=2 caption=true %}
+</section>
 
-## Acknowledgements
-
-This community represents a joint effort by people at multiple Australian institutions. 
-Meet the [Academic Panel](/academic_panel) and our [Community Contributors](/community_contributors).
+<section class="landing-acknowledgements">
+  <h2>Acknowledgements</h2>
+  <p>This community represents a joint effort by people at multiple Australian institutions. Meet the <a href="/academic_panel">Academic Panel</a> and our <a href="/community_contributors">Community Contributors</a>.</p>
 
 {% include affiliation-tiles-selection.html %}
+</section>
