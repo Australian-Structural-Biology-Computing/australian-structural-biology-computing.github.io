@@ -13,6 +13,9 @@ hero_actions:
   - title: Contribute your work
     url: /contributing
     style: btn-outline-light
+  - title: Infrastructure roadmap
+    url: https://doi.org/10.5281/zenodo.15786982
+    style: btn-outline-light
 toc: false
 sidebar: false
 redirect_from: /website/
