@@ -3,16 +3,19 @@ subitems:
     url: /index
   - title: Join the conversation
     url: /join_conversation
-  - title: Contributing
-    url: /contributing
   - title: Activities
     url: /activities
-  - title: Contributors
+  - title: Contributions
     subitems:
-      - title: Academic Panel
-        url: /academic_panel
-      - title: Community Contributors
-        url: /community_contributors
+      - title: Contributing
+        url: /contributing
+      - title: Contributors
+        url: /contributors
+        subitems:
+          - title: Academic Panel
+            url: /academic_panel
+          - title: Community Contributors
+            url: /community_contributors
   - title: Resources
     url: /resources
     subitems:
