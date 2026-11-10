@@ -13,26 +13,33 @@ subitems:
         url: /academic_panel
       - title: Community Contributors
         url: /community_contributors
-  - title: Community library
+  - title: Resources
+    url: /resources
     subitems:
-      - title: General resources
+      - title: Community resources
         url: /community_resources
-      - title: How-to Guides
-        url: /guides
-      - title: Software
-        url: /software
-  - title: External resources
-    subitems:
-      - title: Structure prediction
-        url: /structure_prediction
-      - title: Protein design
-        url: /protein_design
-      - title: Protein search
-        url: /protein_search
-      - title: Molecular dynamics
-        url: /molecular_dynamics
-      - title: Infrastructure
-        url: /infrastructure
+        subitems:
+          - title: How-to guides
+            url: /guides
+          - title: Computational workflows
+            url: /workflows
+          - title: Software
+            url: /software
+          - title: Resource library
+            url: /library
+      - title: External resources
+        url: /external_resources
+        subitems:
+          - title: Structure prediction
+            url: /structure_prediction
+          - title: Protein design
+            url: /protein_design
+          - title: Protein search
+            url: /protein_search
+          - title: Molecular dynamics
+            url: /molecular_dynamics
+          - title: Infrastructure
+            url: /infrastructure
   - title: Events
     url: /events
   - title: News
