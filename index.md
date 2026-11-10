@@ -7,9 +7,6 @@ hero_actions:
   - title: Join the community
     url: /join_conversation
     style: btn-light
-  - title: Resources
-    url: /resources
-    style: btn-outline-light
   - title: Explore activities
     url: /activities
     style: btn-outline-light
