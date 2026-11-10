@@ -30,10 +30,7 @@ subitems:
           - title: Software
             url: /software
       - title: External resources
-        url: /external_resources
         subitems:
-          - title: Resource library
-            url: /library
           - title: Structure prediction
             url: /structure_prediction
           - title: Protein design

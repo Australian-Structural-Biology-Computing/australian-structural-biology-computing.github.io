@@ -16,12 +16,21 @@ general_resource_tiles:
     url: /software
     description: Software shared by and useful to the community.
 external_resource_tiles:
-  - title: Resource library
-    url: /library
-    description: Browse the complete catalogue of external tools and resources.
-  - title: External resources
-    url: /external_resources
-    description: Explore specialist tools, services and infrastructure.
+  - title: Structure prediction
+    url: /structure_prediction
+    description: Tools and services for predicting biomolecular structures.
+  - title: Protein design
+    url: /protein_design
+    description: Resources for computational protein design.
+  - title: Protein search
+    url: /protein_search
+    description: Search and comparison tools for protein structures and sequences.
+  - title: Molecular dynamics
+    url: /molecular_dynamics
+    description: Software and services for molecular dynamics simulations.
+  - title: Infrastructure
+    url: /infrastructure
+    description: Australian computing platforms and supporting infrastructure.
 ---
 
 ## Community developed resources
@@ -30,4 +39,4 @@ external_resource_tiles:
 
 ## External resources
 
-{% include tiles-simple.html target="external_resource_tiles" col=2 %}
+{% include tiles-simple.html target="external_resource_tiles" col=3 %}
