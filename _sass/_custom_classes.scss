@@ -78,29 +78,18 @@ a { text-underline-offset: 0.18em; }
     .btn { border-radius: 999px; }
 }
 
-.btn-hero-accent {
+.landing-hero .btn-outline-light,
+.landing-hero .btn-hero-accent,
+.landing-hero .btn-hero-warm {
     color: $white;
-    border-color: $accent-teal;
-    background-color: $accent-teal;
-
-    &:hover,
-    &:focus-visible {
-        color: $white;
-        border-color: darken($accent-teal, 6%);
-        background-color: darken($accent-teal, 6%);
-    }
-}
-
-.btn-hero-warm {
-    color: $white;
-    border-color: $accent-warm;
-    background-color: transparent;
+    border-color: rgba($white, 0.72);
+    background-color: rgba($white, 0.04);
 
     &:hover,
     &:focus-visible {
         color: $primary;
-        border-color: $accent-warm;
-        background-color: $accent-warm;
+        border-color: $white;
+        background-color: $white;
     }
 }
 
