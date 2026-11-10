@@ -1,27 +1,27 @@
 ---
-title: Welcome
+title: Australian Structural Biology Computing
+summary: A community hub for people using computing in structural biology research across Australia.
 toc: false
-# Special sidebar rules for news on the index page are included in layouts/default.html, as in https://github.com/workflowhub-eu/about/blob/596b18d7ab1055ee1e53bc98a3bd120a06518e06/_layouts/default.html
-#hide_sidebar: true
-#sidebar: true
+sidebar: false
 redirect_from: /website/
 tiles:
-  - title: "Join the mailing list, meetings etc."
+  - title: "Join the community"
     url: /join_conversation
-  - title: "Read the community infrastructure roadmap"
+    description: "Connect through the mailing list and regular community meetings."
+  - title: "Community infrastructure roadmap"
     url: https://doi.org/10.5281/zenodo.15786982
-  - title: "See activities that are in progress"
+    description: "Explore shared priorities for structural biology computing in Australia."
+  - title: "Current activities"
     url: /activities
-  - title: "Share your work with the community"
+    description: "Follow projects, collaborations and initiatives currently in progress."
+  - title: "Contribute your work"
     url: /contributing
+    description: "Share a resource, guide or activity with the wider community."
 community_meeting:
-  - title: "Click to visit the rolling agenda and find out more."
+  - title: "View the rolling agenda"
     url: https://docs.google.com/document/d/1miRyOOOW7HeDsCvzJwVEOhaAzPBve8od9WUvsAsFfcw/edit#heading=h.owmugrvs22hi
+    description: "Find meeting details, speakers and joining information."
 ---
-
-
-This website is a virtual meeting place and hub for all users of **computing for structural biology research in Australia**. This is a collective community effort. It can be what we make it!
-
 
 ## Getting involved
 
@@ -30,7 +30,7 @@ This website is a virtual meeting place and hub for all users of **computing for
 
 ## News
 
-{% include news.html limit = 2 %}
+{% include news.html limit=2 caption=true %}
 
 
 ## Community talk series for 2026
@@ -38,20 +38,20 @@ This website is a virtual meeting place and hub for all users of **computing for
 Starting this year, speakers from across the structural biology community will be invited to present their work at the regular community meetings. The current plan is for there to be five of these meetings every year.  
 
 
-#### Next meeting is on November 4th
+### Meeting information and rolling agenda
 
 {% include tiles-simple.html target = "community_meeting" col = "1" %}
 
 
-#### All meeting dates and speakers
+### All meeting dates and speakers
 
-| Date | Speaker                                                                | Talk title                                                             |
-|------|------------------------------------------------------------------------|------------------------------------------------------------------------|
-| March 11th | **Biswa Prasanna Mishra**<br>(Griffith University)                     | Molecular Characterisation of the *Bacillus subtilis SpbK* antiphage defence system |
-| May 20th | **Cameron Gilchrist**<br>(Korea Basic Science Institute Ochang-center) | Multiple protein structure alignment with FoldMason |
-| July 29th | **Roland Dunbrack**<br>(Fox Chase Cancer Center)                       |  Structural bioinformatics and AlphaFold modeling of the human kinome and its interactions          |
-| September 16th | **Tom Goddard**<br>(UCSF)                                              | Predicting atomic structures using OpenFold 3 and ChimeraX |
-| November 4th | **TBA**                                                                | Community EMCR Symposium                                                                    |
+| Date | Speaker | Talk title |
+|------|---------|------------|
+| March 11th | **Biswa Prasanna Mishra** (Griffith University) | Molecular Characterisation of the *Bacillus subtilis SpbK* antiphage defence system |
+| May 20th | **Cameron Gilchrist** (Korea Basic Science Institute Ochang-center) | Multiple protein structure alignment with FoldMason |
+| July 29th | **Roland Dunbrack** (Fox Chase Cancer Center) | Structural bioinformatics and AlphaFold modeling of the human kinome and its interactions |
+| September 16th | **Tom Goddard** (UCSF) | Predicting atomic structures using OpenFold 3 and ChimeraX |
+| November 4th | **TBA** | Community EMCR Symposium |
 
 ## Acknowledgements
 

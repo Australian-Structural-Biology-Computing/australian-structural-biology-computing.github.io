@@ -8,12 +8,27 @@
 }
 
 .navbar-nav .nav-item > a {
+    border-radius: 999px;
+    padding-inline: 0.9rem;
+    transition: background-color 160ms ease, color 160ms ease;
     &.active {
         color: $white;
-        background-color: $primary;
-        border-radius: $border-radius;
+        background-color: rgba($white, 0.14);
     }
+    &:hover { color: $white; background-color: rgba($white, 0.1); }
 }
+
+.navbar { border-bottom: 3px solid $info; }
+.navbar-brand { color: $white; font-weight: 700; letter-spacing: -0.02em; }
+.navbar-brand:hover, .navbar-brand:focus { color: $white; }
+.navbar-toggler { color: $white !important; border-color: rgba($white, 0.45); }
+.navbar-brand img { max-height: 3.4rem; }
+body { line-height: 1.65; }
+h1, h2, h3, h4 { color: $primary; letter-spacing: -0.025em; }
+h1 { font-weight: 750; }
+h2 { font-weight: 700; margin-top: 2.25rem; margin-bottom: 1rem; }
+a { text-underline-offset: 0.18em; }
+::selection { color: $white; background: $primary; }
 
 // see https://github.com/workflowhub-eu/about/blob/596b18d7ab1055ee1e53bc98a3bd120a06518e06/_sass/_custom_classes.scss
 /*-----News and events-----*/
@@ -27,6 +42,8 @@
 
 .news-sidebar {
     background-color: $light;
+    border: 1px solid $border-color;
+    overflow: hidden;
 
     .news-item {
         padding: 7px 11px;
@@ -46,11 +63,9 @@
     }
 
     .news-hover:hover {
-        text-decoration: none;
-        background-color: $primary;
-        color: $white;
+        background-color: darken($light, 3%);
         a.stretched-link {
-            color: $light;
+            color: $primary;
         }
     }
 
@@ -59,13 +74,16 @@
         font-weight: 700;
         color: $primary;
         padding: 7px 11px;
+        margin: 0;
     }
 }
 
 #main {
     background-color: $white;
+    border: 1px solid rgba($primary, 0.06);
     border-radius: $border-radius;
-    padding: $spacer * 3;
+    box-shadow: 0 12px 36px rgba($primary, 0.055);
+    padding: clamp(1.25rem, 4vw, 3rem);
     margin-bottom: $spacer * 3;
     #content {
         margin-bottom: 0 !important;
