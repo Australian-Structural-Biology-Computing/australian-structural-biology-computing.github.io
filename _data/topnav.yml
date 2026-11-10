@@ -5,3 +5,9 @@
 #  url: /index
 #- title: Working group example
 #  url: /workgroup_index
+
+subitems:
+  - title: Resources
+    url: /resources
+  - title: Events
+    url: /events
