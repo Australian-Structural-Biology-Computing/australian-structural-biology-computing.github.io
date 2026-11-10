@@ -30,6 +30,16 @@ h2 { font-weight: 700; margin-top: 2.25rem; margin-bottom: 1rem; }
 a { text-underline-offset: 0.18em; }
 ::selection { color: $white; background: $primary; }
 
+.landing-page #main {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+}
+
+.landing-page .navbar { margin-bottom: 0 !important; }
+
 // see https://github.com/workflowhub-eu/about/blob/596b18d7ab1055ee1e53bc98a3bd120a06518e06/_sass/_custom_classes.scss
 /*-----News and events-----*/
 
