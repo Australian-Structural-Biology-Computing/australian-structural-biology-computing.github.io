@@ -10,7 +10,7 @@
         <section class="landing-hero bg-primary text-white py-5 mb-5" aria-labelledby="landing-title">
             <div class="container g-lg-5 py-lg-4">
                 <div class="row align-items-center g-4">
-                    <div class="col-md-8 col-lg-9">
+                    <div class="{% if page.hero_image %}col-md-8 col-lg-9{% else %}col-lg-10{% endif %}">
                         <h1 id="landing-title" class="display-4 fw-bold text-white mb-3">{{ page.title }}</h1>
                         {% if page.summary %}<p class="lead fs-4 mb-4">{{ page.summary }}</p>{% endif %}
                         {% if page.hero_actions %}

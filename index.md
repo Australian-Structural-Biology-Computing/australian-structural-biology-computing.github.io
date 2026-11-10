@@ -2,13 +2,15 @@
 layout: landing
 title: Australian Structural Biology Computing
 summary: A community hub for people using computing in structural biology research across Australia.
-hero_image: /assets/img/aus-struct-bio-computing-2.png
 hero_actions:
   - title: Join the community
     url: /join_conversation
     style: btn-light
   - title: Explore activities
     url: /activities
+    style: btn-outline-light
+  - title: Contribute your work
+    url: /contributing
     style: btn-outline-light
 toc: false
 sidebar: false
