@@ -19,9 +19,9 @@ subitems:
   - title: Resources
     url: /resources
     subitems:
-      - title: General resources
+      - title: Community developed resources
         subitems:
-          - title: Community developed resources
+          - title: General resources
             url: /community_resources
           - title: How-to guides
             url: /guides

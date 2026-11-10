@@ -3,7 +3,7 @@ title: Resources
 summary: Find community knowledge, practical guidance, software and specialist services for structural biology computing.
 toc: false
 general_resource_tiles:
-  - title: Community developed resources
+  - title: General resources
     url: /community_resources
     description: Resources developed by the ASBC community.
   - title: How-to guides
@@ -24,7 +24,7 @@ external_resource_tiles:
     description: Explore specialist tools, services and infrastructure.
 ---
 
-## General resources
+## Community developed resources
 
 {% include tiles-simple.html target="general_resource_tiles" col=2 %}
 
