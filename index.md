@@ -16,29 +16,11 @@ hero_actions:
 toc: false
 sidebar: false
 redirect_from: /website/
-tiles:
-  - title: "Join the community"
-    url: /join_conversation
-    description: "Connect through the mailing list and regular community meetings."
-  - title: "Community infrastructure roadmap"
-    url: https://doi.org/10.5281/zenodo.15786982
-    description: "Explore shared priorities for structural biology computing in Australia."
-  - title: "Current activities"
-    url: /activities
-    description: "Follow projects, collaborations and initiatives currently in progress."
-  - title: "Contribute your work"
-    url: /contributing
-    description: "Share a resource, guide or activity with the wider community."
 community_meeting:
   - title: "View the rolling agenda"
     url: https://docs.google.com/document/d/1miRyOOOW7HeDsCvzJwVEOhaAzPBve8od9WUvsAsFfcw/edit#heading=h.owmugrvs22hi
     description: "Find meeting details, speakers and joining information."
 ---
-
-## Getting involved
-
-{% include tiles-simple.html target = "tiles" col = "2" %}
-
 
 ## News
 
