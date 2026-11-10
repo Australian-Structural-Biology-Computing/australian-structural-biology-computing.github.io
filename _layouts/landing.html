@@ -31,8 +31,15 @@
         </section>
 
         <div class="container g-lg-5">
-            <div id="content" class="mb-5">
-                {{ content }}
+            <div{% if page.sidebar %} id="layout" class="gap-5"{% endif %}>
+                {% if page.sidebar %}
+                <aside id="sidebar">
+                    {% include sidebar.html %}
+                </aside>
+                {% endif %}
+                <div id="content" class="mb-5">
+                    {{ content }}
+                </div>
             </div>
         </div>
     </main>

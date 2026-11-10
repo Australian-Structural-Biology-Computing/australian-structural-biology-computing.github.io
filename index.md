@@ -17,7 +17,7 @@ hero_actions:
     url: https://doi.org/10.5281/zenodo.15786982
     style: btn-hero-warm
 toc: false
-sidebar: false
+sidebar: main
 redirect_from: /website/
 ---
 
