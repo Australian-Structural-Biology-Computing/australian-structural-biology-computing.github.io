@@ -3,43 +3,38 @@ subitems:
     url: /index
   - title: Join the conversation
     url: /join_conversation
+  - title: Contributing
+    url: /contributing
   - title: Activities
     url: /activities
-  - title: Contributions
+  - title: Contributors
     subitems:
-      - title: Contributing
-        url: /contributing
-      - title: Contributors
-        subitems:
-          - title: Academic Panel
-            url: /academic_panel
-          - title: Community Contributors
-            url: /community_contributors
-  - title: Resources
-    url: /resources
+      - title: Academic Panel
+        url: /academic_panel
+      - title: Community Contributors
+        url: /community_contributors
+  - title: Community developed resources
     subitems:
-      - title: Community developed resources
-        subitems:
-          - title: General resources
-            url: /community_resources
-          - title: How-to guides
-            url: /guides
-          - title: Computational workflows
-            url: /workflows
-          - title: Software
-            url: /software
-      - title: External resources
-        subitems:
-          - title: Structure prediction
-            url: /structure_prediction
-          - title: Protein design
-            url: /protein_design
-          - title: Protein search
-            url: /protein_search
-          - title: Molecular dynamics
-            url: /molecular_dynamics
-          - title: Infrastructure
-            url: /infrastructure
+      - title: General resources
+        url: /community_resources
+      - title: How-to guides
+        url: /guides
+      - title: Computational workflows
+        url: /workflows
+      - title: Software
+        url: /software
+  - title: External resources
+    subitems:
+      - title: Structure prediction
+        url: /structure_prediction
+      - title: Protein design
+        url: /protein_design
+      - title: Protein search
+        url: /protein_search
+      - title: Molecular dynamics
+        url: /molecular_dynamics
+      - title: Infrastructure
+        url: /infrastructure
   - title: Events
     url: /events
   - title: News
