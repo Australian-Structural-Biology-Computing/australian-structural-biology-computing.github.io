@@ -8,7 +8,7 @@
 
     <div class="min-vh-100">
         <section class="landing-hero text-white py-5 mb-5" aria-labelledby="landing-title">
-            <div class="container g-lg-5 py-lg-4">
+            <div class="container-fluid px-3 px-lg-5 py-lg-4">
                 <div class="row align-items-center g-4">
                     <div class="{% if page.hero_image %}col-md-8 col-lg-9{% else %}col-lg-10{% endif %}">
                         <h1 id="landing-title" class="display-4 fw-bold text-white mb-3">{{ page.hero_title | default: page.title }}</h1>
@@ -23,7 +23,7 @@
             </div>
         </section>
 
-        <div class="container g-lg-5">
+        <div class="container-fluid px-3 px-lg-5">
             <div{% if page.sidebar %} id="layout" class="gap-5"{% endif %}>
                 {% if page.sidebar %}
                 <aside id="sidebar">
