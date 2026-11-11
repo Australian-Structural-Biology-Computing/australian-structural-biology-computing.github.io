@@ -29,7 +29,17 @@ redirect_from: /website/
 {% include news.html limit=2 caption=true %}
 </section>
 
-{% include contributor-carousel.html %}
+<section class="landing-contributors" aria-labelledby="contributors-heading">
+  <div class="d-flex flex-wrap align-items-baseline justify-content-between gap-2 mb-3">
+    <div>
+      <h2 id="contributors-heading" class="mb-2">Community contributors</h2>
+      <p class="mb-0">Meet the people sharing expertise, resources and infrastructure across the community.</p>
+    </div>
+    <a href="{{ '/community_contributors' | relative_url }}">View all contributors</a>
+  </div>
+
+{% include contributor-carousel-selection.html %}
+</section>
 
 <section class="landing-acknowledgements">
   <h2>Acknowledgements</h2>
