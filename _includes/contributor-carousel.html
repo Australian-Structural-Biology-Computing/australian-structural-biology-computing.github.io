@@ -1,0 +1,69 @@
+{%- assign contributors = site.data.CONTRIBUTORS -%}
+<section class="landing-contributors" aria-labelledby="contributors-heading">
+  <div class="d-flex flex-wrap align-items-baseline justify-content-between gap-2 mb-3">
+    <div>
+      <h2 id="contributors-heading" class="mb-2">Community contributors</h2>
+      <p class="mb-0">Meet the people sharing expertise, resources and infrastructure across the community.</p>
+    </div>
+    <a href="{{ '/community_contributors' | relative_url }}">View all contributors</a>
+  </div>
+
+  <div id="contributor-carousel" class="carousel slide contributor-carousel" data-bs-interval="false">
+    <div class="carousel-inner px-md-5">
+      {%- for contributor in contributors -%}
+        {%- assign slide_position = forloop.index0 | modulo: 4 -%}
+        {%- assign contributor_name = contributor[0] -%}
+        {%- assign contributor_data = contributor[1] -%}
+        {%- if slide_position == 0 -%}
+      <div class="carousel-item{% if forloop.first %} active{% endif %}">
+        <div class="row row-cols-2 row-cols-lg-4 g-3">
+        {%- endif -%}
+          <div class="col">
+            <article class="card h-100 contributor-carousel-card text-center">
+              <div class="card-body d-flex flex-column align-items-center p-3">
+                {%- if contributor_data.image_url -%}
+                <img class="contributor-carousel-image rounded-circle mb-3" src="{{ contributor_data.image_url | relative_url }}" alt="Portrait of {{ contributor_name }}">
+                {%- elsif contributor_data.git -%}
+                <img class="contributor-carousel-image rounded-circle mb-3" src="https://avatars.githubusercontent.com/{{ contributor_data.git }}?s=240" alt="Portrait of {{ contributor_name }}">
+                {%- else -%}
+                <span class="contributor-carousel-placeholder rounded-circle d-inline-flex align-items-center justify-content-center mb-3" aria-hidden="true"><i class="icon-user"></i></span>
+                {%- endif -%}
+                <h3 class="h6 mb-2">{{ contributor_name }}</h3>
+                {%- if contributor_data.affiliation -%}
+                <p class="small text-muted mb-3">{{ contributor_data.affiliation }}</p>
+                {%- endif -%}
+                {%- if contributor_data.git or contributor_data.orcid -%}
+                <div class="d-flex gap-2 mt-auto contributor-carousel-links">
+                  {%- if contributor_data.git -%}
+                  <a href="https://github.com/{{ contributor_data.git }}" aria-label="{{ contributor_name }} on GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+                  {%- endif -%}
+                  {%- if contributor_data.orcid -%}
+                    {%- if contributor_data.orcid contains '://' -%}
+                      {%- assign orcid_url = contributor_data.orcid -%}
+                    {%- else -%}
+                      {%- assign orcid_url = 'https://orcid.org/' | append: contributor_data.orcid -%}
+                    {%- endif -%}
+                  <a href="{{ orcid_url }}" aria-label="{{ contributor_name }} on ORCID"><i class="fab fa-orcid" aria-hidden="true"></i></a>
+                  {%- endif -%}
+                </div>
+                {%- endif -%}
+              </div>
+            </article>
+          </div>
+        {%- if slide_position == 3 or forloop.last -%}
+        </div>
+      </div>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#contributor-carousel" data-bs-slide="prev">
+      <span class="contributor-carousel-control" aria-hidden="true">&larr;</span>
+      <span class="visually-hidden">Previous contributors</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#contributor-carousel" data-bs-slide="next">
+      <span class="contributor-carousel-control" aria-hidden="true">&rarr;</span>
+      <span class="visually-hidden">Next contributors</span>
+    </button>
+  </div>
+</section>

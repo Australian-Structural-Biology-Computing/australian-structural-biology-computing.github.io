@@ -29,6 +29,8 @@ redirect_from: /website/
 {% include news.html limit=2 caption=true %}
 </section>
 
+{% include contributor-carousel.html %}
+
 <section class="landing-acknowledgements">
   <h2>Acknowledgements</h2>
   <p>This community represents a joint effort by people at multiple Australian institutions. Meet the <a href="/academic_panel">Academic Panel</a> and our <a href="/community_contributors">Community Contributors</a>.</p>
