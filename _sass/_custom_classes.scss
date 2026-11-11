@@ -189,23 +189,9 @@ a { text-underline-offset: 0.18em; }
     background-color: rgba($primary, 0.1);
 }
 
-.landing-page #content > .events {
-    margin-bottom: 4rem;
-    padding: clamp(1.25rem, 3vw, 2rem);
-    border-radius: $border-radius;
-    background: linear-gradient(135deg, $light, rgba($accent-teal, 0.08));
-}
-
-.landing-news { margin-bottom: 4rem; }
-
-.landing-acknowledgements {
-    padding: clamp(1.25rem, 3vw, 2rem);
-    border-top: 3px solid $accent-teal;
-    border-radius: $border-radius;
-    background-color: rgba($accent-teal, 0.06);
-
-    h2 { margin-top: 0; }
-}
+.landing-page #content > .events,
+.landing-news,
+.landing-acknowledgements { margin-bottom: 4rem; }
 
 .supported-by-tiles .card .supported-by-name { color: $primary; }
 
