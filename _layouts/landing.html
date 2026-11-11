@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 {% include head.html %}
-<body class="landing-page">
+<body class="landing-page"{% if page.toc or page.toc == nil %} data-bs-spy="scroll" data-bs-target="#toc-contents" data-bs-smooth-scroll="true" tabindex="0"{% endif %}>
     {% if site.topnav_banner %}{% include banner.html %}{% endif %}
     {% if jekyll.environment == "development" and site.theme_variables.dev-info-banner == true %}{% include dev-info.html %}{% endif %}
     {% include topnav.html search=site.theme_variables.topnav.search %}
@@ -30,7 +30,12 @@
                     {% include sidebar.html %}
                 </aside>
                 {% endif %}
-                <main id="main">
+                <main id="main"{% if page.toc or page.toc == nil %} class="add-grid"{% endif %}>
+                    {% if page.toc or page.toc == nil %}
+                    <div id="toc" class="text-muted sticky-xl-top">
+                        {% include toc.html %}
+                    </div>
+                    {% endif %}
                     <div id="content" class="mb-5">
                         {{ content }}
                     </div>

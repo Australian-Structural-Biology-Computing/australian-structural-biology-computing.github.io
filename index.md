@@ -16,7 +16,7 @@ hero_actions:
   - title: Infrastructure roadmap
     url: https://doi.org/10.5281/zenodo.15786982
     style: btn-hero-warm
-toc: false
+toc: true
 sidebar: main
 redirect_from: /website/
 ---
