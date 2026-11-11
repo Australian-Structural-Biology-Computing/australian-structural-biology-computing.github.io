@@ -38,7 +38,7 @@ redirect_from: /website/
     <a href="{{ '/community_contributors' | relative_url }}">View all contributors</a>
   </div>
 
-{% include contributor-carousel-selection.html %}
+{% include contributor-carousel-selection.html col=5 %}
 </section>
 
 <section class="landing-acknowledgements">
