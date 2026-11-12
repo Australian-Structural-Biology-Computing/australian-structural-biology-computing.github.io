@@ -1,7 +1,7 @@
 subitems:
   - title: Home
     url: /index
-  - title: Join the conversation
+  - title: Join
     url: /join_conversation
   - title: Contributing
     url: /contributing
