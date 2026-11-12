@@ -4,7 +4,7 @@ title: Australian Structural Biology Computing
 hero_title: A community resource
 summary: Discover shared resources, current activities, community meetings and ways to contribute.
 hero_actions:
-  - title: Join the community
+  - title: Join the conversation
     url: /join_conversation
     style: btn-light
   - title: Browse activities
