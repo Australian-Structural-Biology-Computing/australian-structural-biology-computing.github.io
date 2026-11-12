@@ -7,15 +7,12 @@ hero_actions:
   - title: Join the community
     url: /join_conversation
     style: btn-light
-  - title: Explore activities
+  - title: Browse activities
     url: /activities
-    style: btn-hero-accent
-  - title: Contribute your work
+    style: btn-outline-light
+  - title: Share your work
     url: /contributing
     style: btn-outline-light
-  - title: Infrastructure roadmap
-    url: https://doi.org/10.5281/zenodo.15786982
-    style: btn-hero-warm
 toc: true
 sidebar: main
 redirect_from: /website/
