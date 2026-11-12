@@ -3,10 +3,10 @@ subitems:
     url: /index
   - title: Join
     url: /join_conversation
-  - title: Contributing
-    url: /contributing
   - title: Activities
     url: /activities
+  - title: Contributing
+    url: /contributing
   - title: Contributors
     subitems:
       - title: Academic Panel
