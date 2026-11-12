@@ -1,19 +1,25 @@
 subitems:
   - title: Home
     url: /index
+    icon: icon-home
   - title: Join
     url: /join_conversation
+    icon: icon-message-circle
   - title: Activities
     url: /activities
+    icon: icon-activity
   - title: Contributing
     url: /contributing
+    icon: icon-share-2
   - title: Contributors
+    icon: icon-users
     subitems:
       - title: Academic Panel
         url: /academic_panel
       - title: Community Contributors
         url: /community_contributors
   - title: Community developed resources
+    icon: icon-book-open
     subitems:
       - title: General resources
         url: /community_resources
@@ -24,6 +30,7 @@ subitems:
       - title: Software
         url: /software
   - title: External resources
+    icon: icon-external-link
     subitems:
       - title: Structure prediction
         url: /structure_prediction
@@ -37,5 +44,7 @@ subitems:
         url: /infrastructure
   - title: Events
     url: /events
+    icon: icon-calendar
   - title: News
     url: /news
+    icon: icon-newspaper
