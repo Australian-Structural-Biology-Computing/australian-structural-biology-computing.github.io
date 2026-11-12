@@ -6,8 +6,8 @@
 {%- assign country_pages = site.pages | where_exp: "item", "item.search_exclude != true" | where_exp:"item","item.national_resources != nil" %}
 {%- unless tools.size == 0 or tools == nil %}
 <a class="visually-hidden-focusable" href='#skip-tool-table'>Skip tool table</a>
-<div class="table-responsive mt-4 mb-5">
-    <table class="tooltable table display">
+<div class="resource-table-wrapper table-responsive mt-4 mb-5">
+    <table class="tooltable resource-table table display">
         <thead>
             <tr class="text-nowrap">
                 <th>Resource {%- if include.tag -%}
@@ -39,9 +39,9 @@
                     {{tool.Description}}
                     {% if tool.Roadmap %}
                     {%- for type in tool.Roadmap %}
-                    <button class="btn btn-light badge border border-dark text-dark mb-2 text-wrap text-center topic-badge">
+                    <span class="resource-badge resource-roadmap-badge">
                     {{type}}
-                    </button>
+                    </span>
                     {%- endfor %}
                     {%- endif %}
                 </td>
@@ -53,9 +53,9 @@
                 <td>
                     {% if tool.Type %}
                     {%- for type in tool.Type %}
-                    <button class="btn btn-light badge border border-dark text-dark mb-2 text-wrap text-center topic-badge">
+                    <span class="resource-badge">
                     {{type}}
-                    </button>
+                    </span>
                     {%- endfor %}
                     {%- endif %}
                 </td>
