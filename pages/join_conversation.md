@@ -17,7 +17,7 @@ If you would like to, there are multiple ways to join the conversation.
 
 ### Attend the regular community meetings and other events
 
-{% include tiles-simple.html col = "2" target = "tiles" %}
+{% include tiles-simple.html col="2" target="tiles" variant="simple" %}
 
 
 ### Join the mailing list 

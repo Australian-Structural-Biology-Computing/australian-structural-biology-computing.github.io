@@ -7,9 +7,20 @@
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-{{ include.col | default: 2 }} g-4 mb-5 navigation-tiles">
   {%- for item in tiles -%}
     {%- if item.title -%}
+    {%- if include.variant == "simple" -%}
+    <div class="col d-grid">
+      <a role="button" class="btn p-4 fs-4 section-title navigation-tile-simple-link d-flex align-items-center justify-content-between gap-3 text-start lh-sm h-100" href="{{ item.url | relative_url }}">
+        <span class="flex-grow-1">{{ item.title }}</span>
+        <span class="navigation-tile-arrow flex-shrink-0" aria-hidden="true">
+          <i class="icon-arrow-right"></i>
+        </span>
+      </a>
+    </div>
+    {%- else -%}
     <div class="col">
       {% include navigation-tile-card.html tile_page=item variant="section" %}
     </div>
+    {%- endif -%}
     {%- endif -%}
   {%- endfor -%}
 </div>
