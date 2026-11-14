@@ -7,7 +7,12 @@ roadmap_category: Shared-platform
 contributors: [Ziad Al-Bkhetan, Thomas Litfin]
 toc: false
 redirect_from: /website/bindcraft_access
+tiles:
+  - title: Read about the ProteinDJ v3 release and removal of licence restrictions
+    url: https://www.biocommons.org.au/news/proteindj-v3
 ---
+
+{% include tiles-simple.html target="tiles" col="1" variant="simple" %}
 
 ## Details
 
