@@ -609,6 +609,11 @@ a { text-underline-offset: 0.18em; }
 
 .past_events .event-card-date-block { background-color: $secondary; }
 
+.past_events .event-card-linked:hover,
+.past_events .event-card-linked:focus-within {
+    border-color: rgba($secondary, 0.65);
+}
+
 .event-card-metadata {
     display: flex;
     flex-wrap: wrap;
