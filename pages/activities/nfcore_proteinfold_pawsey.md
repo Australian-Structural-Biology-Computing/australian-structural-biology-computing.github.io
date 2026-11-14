@@ -1,6 +1,6 @@
 ---
 title: Porting software to AMD to enable nf-core ProteinFold at Pawsey
-description: Porting and configuration work enabling nf-core/proteinfold to run on AMD GPUs at Pawsey Supercomputing Research Centre.
+description: Ported software to AMD to enable deployment of the nf-core ProteinFold workflow at Pawsey Supercomputing Research Centre.
 type: Completed_activity
 roadmap: A shared platform, or platforms (Roadmap D3Ab)
 roadmap_category: Shared-platform

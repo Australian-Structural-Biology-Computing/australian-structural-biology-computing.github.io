@@ -1,6 +1,6 @@
 ---
 title: Protein Design Seminar Series (2025)
-description: A five-part seminar series sharing protein design applications, strategies, and practical experience.
+description: Community members hosted a monthly seminar series to share knowledge on protein design strategies.
 type: Completed_activity
 roadmap: A computational structural biology training program (Roadmap D2)
 roadmap_category: Training
@@ -11,6 +11,8 @@ tiles:
   - title: "View the 2025 Protein Design Seminar Series"
     url: https://youtube.com/playlist?list=PL3KeWF8P6MjzKtxXLp83w78K_AGUskL0a&si=eMvuLoQzcg9sIws5
 ---
+<!-- TODO: Add Richard Birkinshaw -->
+
 {% include tiles-simple.html target="tiles" col="1" variant="simple" %}
 
 
@@ -18,7 +20,7 @@ tiles:
 
 - Computational protein design can produce synthetic proteins that disrupt the function of a target protein.
 - Australian community members are actively using protein design technology to solve biological problems.
-- In 2025, community members hosted five seminars sharing protein design strategies and practical experience from Australian research projects.
+- Community members hosted a monthly seminar series to share knowledge on protein design strategies and help participants get the best outcomes from protein design projects.
 
 <div class="content-table-wrapper table-responsive" markdown="1">
 

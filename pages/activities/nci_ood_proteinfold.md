@@ -1,6 +1,6 @@
 ---
 title: OpenOnDemand GUI ProteinFold app
-description: An Open OnDemand application providing a graphical interface to nf-core/proteinfold on HPC systems.
+description: A pilot ProteinFold application for Open OnDemand.
 type: Completed_activity
 roadmap: A shared platform, or platforms (Roadmap D3Ac)
 roadmap_category: Shared-platform
@@ -24,10 +24,7 @@ tiles:
 ### Completed
 
 - Developed and hosted the pilot application on Katana at UNSW.
-- Published the application for adaptation to other Open OnDemand deployments.
-- Added researcher-friendly sequence, FASTA, and samplesheet inputs.
-- Added support for multiple nf-core/proteinfold prediction methods and configurable run parameters.
-- Made results and run diagnostics accessible through the web interface.
+- Published the application source code for adaptation to other Open OnDemand deployments.
 
 {% include callout.html type="note" content="An NCI deployment of this Open OnDemand application is not currently planned. The published application remains available for other institutions to adapt to their HPC environment." %}
 

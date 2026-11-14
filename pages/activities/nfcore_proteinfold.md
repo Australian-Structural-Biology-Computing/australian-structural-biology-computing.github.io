@@ -1,6 +1,6 @@
 ---
 title: nf-core ProteinFold v2.0.0 Release
-description: Contributions to and local deployment of v2.0.0 of the nf-core/proteinfold workflow.
+description: Contributed towards and locally deployed v2.0.0 of the nf-core ProteinFold workflow.
 type: Completed_activity
 roadmap: A shared platform, or platforms (Roadmap D3A)
 roadmap_category: Shared-platform
@@ -18,8 +18,8 @@ tiles:
 
 - Molecular structure prediction tools require large reference databases and varied computational infrastructure.
 - Nextflow provides the tools to standardize workflows for portable and optimized deployment.
-- [nf-core/proteinfold v2.0.0](https://nf-co.re/proteinfold/2.0.0/) is a Nextflow pipeline supporting numerous molecular structure prediction tools through a unified interface.
-- Community contributions added significant new functionality for the v2.0.0 release.
+- nf-core [ProteinFold](https://nf-co.re/proteinfold/2.0.0/) is a Nextflow pipeline with support for numerous structure prediction tools under a unified API.
+- The v2.0.0 release added significant new functionality to the pipeline.
 - [Collaboration](https://www.biocommons.org.au/news/nf-core-hackathon-2025) with Barcelona Centre for Genomic Regulation ([CRG](https://www.crg.eu/)).
 
 ### Completed

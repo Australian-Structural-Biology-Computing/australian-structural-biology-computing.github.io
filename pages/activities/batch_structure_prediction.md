@@ -28,12 +28,12 @@ This activity involves developing optimized batch workflows for structure predic
 ### Completed
 
 - Add support for re-using MSAs to Galaxy Australia AlphaFold2 service.
-- Develop [WISPS](https://github.com/Australian-Structural-Biology-Computing/wisps), a Nextflow workflow for screening molecular interactions with Boltz, ColabFold, and AlphaFold3.
 
 ### In Progress
 
 - Add local implementation of batch colabfoldsearch to the **[nf-core/proteinfold](https://nf-co.re/proteinfold/2.0.0/)** pipeline.
 - Add mmseqs-GPU support to the **[nf-core/proteinfold](https://nf-co.re/proteinfold/2.0.0/)** pipeline.
+- Develop the [WISPS](https://github.com/Australian-Structural-Biology-Computing/wisps) interaction-screening workflow.
 - Add option for extreme replicate sampling for AlphaFold2.
 
 ### Future
