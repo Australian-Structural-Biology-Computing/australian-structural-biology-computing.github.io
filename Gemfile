@@ -1,18 +1,7 @@
 source "https://rubygems.org"
 
-gem "elixir-toolkit-theme-plugins", "1.2.0"
-gem "webrick", "~> 1.9.2"
-gem "jekyll", "~> 4.4.1"
-gem "jemoji", "~> 0.13.0"
-gem "kramdown-parser-gfm", "~> 1.1"
-gem "csv"
+gem "openssl", "~> 3.3.1"
 
 group :jekyll_plugins do
-  gem "jekyll-redirect-from", "~> 0.16.0"
-  gem "jekyll-sitemap", "~> 1.4"
-  gem "jekyll-github-metadata", "~> 2.16.0"
-  gem "jekyll-relative-links", "~> 0.8.0"
-  gem "jekyll-seo-tag", "~> 2.8"
-  gem "jekyll-remote-theme", "~> 0.5.2"
-  gem "jekyll-sass-converter", "~> 3.1"
-end
+    gem "github-pages"
+  end
