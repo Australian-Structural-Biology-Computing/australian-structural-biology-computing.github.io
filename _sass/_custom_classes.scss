@@ -149,6 +149,56 @@ a { text-underline-offset: 0.18em; }
     font-weight: 700;
 }
 
+.activity-deliverable-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: 1rem 0 2.5rem;
+    padding: 1.25rem 1.5rem;
+    border: 1px solid rgba($primary, 0.1);
+    border-left: 5px solid $secondary;
+    border-radius: $border-radius;
+    background-color: rgba($light, 0.55);
+
+    .activity-roadmap-number {
+        margin: 0;
+        background-color: $secondary;
+    }
+}
+
+.activity-deliverable-label {
+    margin-bottom: 0.25rem;
+    color: $secondary;
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.activity-deliverable-community {
+    border-left-color: $accent-warm;
+
+    .activity-roadmap-number { background-color: $accent-warm; }
+}
+
+.activity-deliverable-training {
+    border-left-color: $success;
+
+    .activity-roadmap-number { background-color: $success; }
+}
+
+.activity-deliverable-platform {
+    border-left-color: $accent-teal;
+
+    .activity-roadmap-number { background-color: $accent-teal; }
+}
+
+.activity-deliverable-global {
+    border-left-color: $primary;
+
+    .activity-roadmap-number { background-color: $primary; }
+}
+
 .activity-section-heading {
     scroll-margin-top: 5rem;
     margin-top: 3rem;

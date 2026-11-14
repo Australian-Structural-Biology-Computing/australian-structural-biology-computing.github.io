@@ -1,10 +1,12 @@
 ---
-title: Global connections activities
+title: Global connections
 page_id: activities_global_connections
 permalink: /activities/global-connections
 toc: false
 ---
 
-Activities that align with, adopt, and contribute to international best-practice efforts in computational structural biology.
+{% include activity-deliverable-header.html number="4" variant="global" description="Alignment with, adoption of and contribution to global best-practice efforts." %}
+
+## Activities
 
 {% include section-navigation-tiles_mod.html category="Global-connections" %}
