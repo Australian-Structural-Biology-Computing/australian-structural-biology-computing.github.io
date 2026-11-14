@@ -9,6 +9,7 @@
 #    role: the role of the contributor
 #    affiliation: affiliation
 #    image_url: absolute path to image (default image from github)
+#    bluesky: Bluesky handle (optional source information for image_url)
 
 #Example contributor:
 #    git: 
@@ -55,6 +56,8 @@ Joshua Storm Caley:
 
 Thomas Litfin:
     git:  tlitfin-unsw 
+    bluesky: tlitfin.bsky.social
+    image_url: https://cdn.bsky.app/img/avatar/plain/did:plc:72wx5mujkncouctczwgs7cvv/bafkreid2espf36ysgx6gek5eenwpskdegrltqswd3tuxjwb7xmmed77g4a
     email: t.litfin@unsw.edu.au 
     orcid: 0000-0002-4863-3865
     affiliation: Senior Research Associate, Structural Biology Facility, UNSW
