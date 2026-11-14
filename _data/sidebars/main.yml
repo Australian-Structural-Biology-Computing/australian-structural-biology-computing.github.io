@@ -48,6 +48,8 @@ subitems:
             url: /nfcore_proteinfold
           - title: ProteinFold at Pawsey
             url: /nfcore_proteinfold_pawsey
+          - title: ProteinDJ v3.0
+            url: /proteindj_v3
       - title: Global connections
         url: /activities/global-connections
         # Hidden visually; retained so ETT can associate detail pages with this branch.
