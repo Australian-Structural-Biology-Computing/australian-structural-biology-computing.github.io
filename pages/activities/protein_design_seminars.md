@@ -4,7 +4,7 @@ description: Community members will host a monthly seminar series to share knowl
 type: Completed_activity
 roadmap: A computational structural biology training program (Roadmap D2)
 roadmap_category: Training
-contributors: [Rhys Grinter, Gavin Knott, Cyntia Taveneau, Josh Hardy, Joel Mackay, Kate Michie, Johan Gustafsson, Melissa Burke]
+contributors: [Rhys Grinter, Gavin Knott, Cyntia Taveneau, Josh Hardy, Joel Mackay, Katharine Michie, Johan Gustafsson, Melissa Burke]
 toc: false
 redirect_from: /website/protein_design_seminars
 tiles:

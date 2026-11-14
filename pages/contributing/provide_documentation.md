@@ -12,7 +12,7 @@ If you have documents or guides you'd like to contribute we can help convert the
 
 Just contact one of the contributors listed below to get started.
 
-{% include contributor-tiles-all.html custom="Keiran Rowell, Johan Gustafsson, Kate Michie" %}
+{% include contributor-tiles-all.html custom="Keiran Rowell, Johan Gustafsson, Katharine Michie" %}
 
 
 
