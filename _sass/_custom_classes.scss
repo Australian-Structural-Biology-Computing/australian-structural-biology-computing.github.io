@@ -149,54 +149,68 @@ a { text-underline-offset: 0.18em; }
     font-weight: 700;
 }
 
-.activity-deliverable-header {
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem;
-    margin: 1rem 0 2.5rem;
-    padding: 1.25rem 1.5rem;
+.activity-card {
+    position: relative;
+    overflow: hidden;
     border: 1px solid rgba($primary, 0.1);
-    border-left: 5px solid $secondary;
-    border-radius: $border-radius;
-    background-color: rgba($light, 0.55);
+    border-top: 3px solid $accent-teal;
+    background-color: $light;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 
-    .activity-roadmap-number {
-        margin: 0;
-        background-color: $secondary;
+    h2 a {
+        color: $primary;
+        text-decoration: none;
+    }
+
+    &:hover,
+    &:focus-within {
+        transform: translateY(-3px);
+        border-color: rgba($accent-teal, 0.45);
+        box-shadow: 0 10px 24px rgba($primary, 0.1);
     }
 }
 
-.activity-deliverable-label {
-    margin-bottom: 0.25rem;
+.activity-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    min-height: 3rem;
+    margin: 0 1rem 1rem auto;
+    border-radius: 50%;
+    color: $accent-teal-dark;
+    background-color: rgba($accent-teal, 0.12);
+}
+
+.activity-category {
+    align-self: flex-start;
+    padding: 0.25rem 0.65rem;
+    border-radius: 999px;
     color: $secondary;
-    font-size: 0.76rem;
+    background-color: rgba($secondary, 0.12);
+    font-size: 0.78rem;
     font-weight: 700;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+    line-height: 1.4;
 }
 
-.activity-deliverable-community {
-    border-left-color: $accent-warm;
-
-    .activity-roadmap-number { background-color: $accent-warm; }
+.activity-category-community-space {
+    color: darken($accent-warm, 20%);
+    background-color: rgba($accent-warm, 0.16);
 }
 
-.activity-deliverable-training {
-    border-left-color: $success;
-
-    .activity-roadmap-number { background-color: $success; }
+.activity-category-training {
+    color: darken($success, 12%);
+    background-color: rgba($success, 0.14);
 }
 
-.activity-deliverable-platform {
-    border-left-color: $accent-teal;
-
-    .activity-roadmap-number { background-color: $accent-teal; }
+.activity-category-shared-platform {
+    color: $accent-teal-dark;
+    background-color: rgba($accent-teal, 0.13);
 }
 
-.activity-deliverable-global {
-    border-left-color: $primary;
-
-    .activity-roadmap-number { background-color: $primary; }
+.activity-category-global-connections {
+    color: $primary;
+    background-color: rgba($primary, 0.1);
 }
 
 .activity-section-heading {

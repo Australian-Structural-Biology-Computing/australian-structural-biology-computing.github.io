@@ -1,12 +1,10 @@
 ---
-title: Community space
+title: Community space activities
 page_id: activities_community_space
 permalink: /activities/community-space
 toc: false
 ---
 
-{% include activity-deliverable-header.html number="1" variant="community" description="A shared space that fosters collaboration and knowledge exchange across Australian structural biology." %}
+Activities that foster collaboration, communication, and knowledge exchange across the Australian structural biology community.
 
-## Activities
-
-{% include section-navigation-tiles_mod.html category="Community-space" %}
+{% include activity-category-tiles.html category="Community-space" %}

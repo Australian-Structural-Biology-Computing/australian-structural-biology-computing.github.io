@@ -1,0 +1,27 @@
+{%- assign activity_pages = site.pages | where: "roadmap_category", include.category | sort: "title" -%}
+<div class="row row-cols-1 row-cols-md-2 g-4 mb-5 activity-tiles">
+  {%- for activity_page in activity_pages -%}
+  <div class="col">
+    <article class="card h-100 activity-card">
+      <div class="card-body d-flex flex-column">
+        {%- case activity_page.roadmap_category -%}
+          {%- when "Community-space" -%}{%- assign category_label = "Community space" -%}
+          {%- when "Shared-platform" -%}{%- assign category_label = "Shared platform" -%}
+          {%- when "Global-connections" -%}{%- assign category_label = "Global connections" -%}
+          {%- else -%}{%- assign category_label = activity_page.roadmap_category -%}
+        {%- endcase -%}
+        <span class="activity-category activity-category-{{ activity_page.roadmap_category | slugify }}">{{ category_label }}</span>
+        <h2 class="h5 mt-3 mb-2">
+          <a href="{{ activity_page.url | relative_url }}" class="stretched-link">{{ activity_page.title }}</a>
+        </h2>
+        {%- if activity_page.description -%}
+        <p class="card-text mb-0">{{ activity_page.description }}</p>
+        {%- endif -%}
+      </div>
+      <div class="activity-card-footer" aria-hidden="true">
+        <span>&rarr;</span>
+      </div>
+    </article>
+  </div>
+  {%- endfor -%}
+</div>
