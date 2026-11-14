@@ -15,15 +15,53 @@ In 2026, speakers from across the structural biology community were invited to p
 
 ## Programme
 
-<div class="content-table-wrapper table-responsive" markdown="1">
-
-| Date | Speaker | Talk title |
-|------|---------|------------|
-| March 11th | **Biswa Prasanna Mishra**<br><span class="text-muted small">Griffith University</span> | Molecular Characterisation of the *Bacillus subtilis SpbK* antiphage defence system |
-| May 20th | **Cameron Gilchrist**<br><span class="text-muted small">Korea Basic Science Institute Ochang-center</span> | Multiple protein structure alignment with FoldMason |
-| July 29th | **Roland Dunbrack**<br><span class="text-muted small">Fox Chase Cancer Center</span> | Structural bioinformatics and AlphaFold modeling of the human kinome and its interactions |
-| September 16th | **Tom Goddard**<br><span class="text-muted small">UCSF</span> | Predicting atomic structures using OpenFold 3 and ChimeraX |
-| November 4th | **Anthony Barancewicz**<br><span class="text-muted small">Australian National University</span><br><br>**James P. Lingford**<br><span class="text-muted small">Department of Microbiology, Monash Biomedicine Discovery Institute</span><br><br>**Matthew Spence**<br><span class="text-muted small">Australian National University</span><br><br>**Pavel Misiun**<br><span class="text-muted small">Centre for Crop and Disease Management (CCDM), School of Molecular and Life Sciences, Curtin University</span> | Design of Immunoglobulin A purification ligands from a consensus three-helix bundle<br><br>Building an atlas of [NiFe]-hydrogenase multimeric structural diversity<br><br>Thermodynamic Adaptation of the Lac Repressor<br><br>Benchmarking Structural Predictors and pLM Binary Classifiers for Predicting Cross-Kingdom Protein-Protein Interactions in Crop Disease Pathosystems |
-{: .content-table }
-
+<div class="content-table-wrapper table-responsive">
+  <table class="content-table">
+    <thead>
+      <tr>
+        <th scope="col">Date</th>
+        <th scope="col">Speaker</th>
+        <th scope="col">Talk title</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row" class="fw-normal text-nowrap">March 11th</th>
+        <td><strong>Biswa Prasanna Mishra</strong><br><span class="text-muted small">Griffith University</span></td>
+        <td>Molecular Characterisation of the <em>Bacillus subtilis SpbK</em> antiphage defence system</td>
+      </tr>
+      <tr>
+        <th scope="row" class="fw-normal text-nowrap">May 20th</th>
+        <td><strong>Cameron Gilchrist</strong><br><span class="text-muted small">Korea Basic Science Institute Ochang-center</span></td>
+        <td>Multiple protein structure alignment with FoldMason</td>
+      </tr>
+      <tr>
+        <th scope="row" class="fw-normal text-nowrap">July 29th</th>
+        <td><strong>Roland Dunbrack</strong><br><span class="text-muted small">Fox Chase Cancer Center</span></td>
+        <td>Structural bioinformatics and AlphaFold modeling of the human kinome and its interactions</td>
+      </tr>
+      <tr>
+        <th scope="row" class="fw-normal text-nowrap">September 16th</th>
+        <td><strong>Tom Goddard</strong><br><span class="text-muted small">UCSF</span></td>
+        <td>Predicting atomic structures using OpenFold 3 and ChimeraX</td>
+      </tr>
+      <tr>
+        <th scope="rowgroup" rowspan="4" class="fw-normal text-nowrap">November 4th</th>
+        <td><strong>Anthony Barancewicz</strong><br><span class="text-muted small">Australian National University</span></td>
+        <td>Design of Immunoglobulin A purification ligands from a consensus three-helix bundle</td>
+      </tr>
+      <tr>
+        <td><strong>James P. Lingford</strong><br><span class="text-muted small">Department of Microbiology, Monash Biomedicine Discovery Institute</span></td>
+        <td>Building an atlas of [NiFe]-hydrogenase multimeric structural diversity</td>
+      </tr>
+      <tr>
+        <td><strong>Matthew Spence</strong><br><span class="text-muted small">Australian National University</span></td>
+        <td>Thermodynamic Adaptation of the Lac Repressor</td>
+      </tr>
+      <tr>
+        <td><strong>Pavel Misiun</strong><br><span class="text-muted small">Centre for Crop and Disease Management (CCDM), School of Molecular and Life Sciences, Curtin University</span></td>
+        <td>Benchmarking Structural Predictors and pLM Binary Classifiers for Predicting Cross-Kingdom Protein-Protein Interactions in Crop Disease Pathosystems</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
