@@ -14,6 +14,7 @@ subitems:
         url: /infrastructure_roadmap
       - title: Community space
         url: /activities/community-space
+        # Hidden visually; retained so ETT can associate detail pages with this branch.
         subitems:
           - title: Community website
             url: /website_dev
@@ -21,6 +22,7 @@ subitems:
             url: /community_talk_series_2026
       - title: Training program
         url: /activities/training-program
+        # Hidden visually; retained so ETT can associate detail pages with this branch.
         subitems:
           - title: ABACBS 2025 workshop
             url: /abacbs_workshop
@@ -28,6 +30,7 @@ subitems:
             url: /protein_design_seminars
       - title: Shared platforms
         url: /activities/shared-platforms
+        # Hidden visually; retained so ETT can associate detail pages with this branch.
         subitems:
           - title: AMD software
             url: /amd_software
@@ -45,6 +48,7 @@ subitems:
             url: /nfcore_proteinfold_pawsey
       - title: Global connections
         url: /activities/global-connections
+        # Hidden visually; retained so ETT can associate detail pages with this branch.
         subitems:
           - title: Foundations of Protein Structure
             url: /ebi_module_dev

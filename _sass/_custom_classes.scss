@@ -32,6 +32,20 @@ h2 { font-weight: 700; margin-top: 2.25rem; margin-bottom: 1rem; }
 a { text-underline-offset: 0.18em; }
 ::selection { color: $white; background: $primary; }
 
+// Keep activity detail pages associated with their ETT sidebar branch without
+// displaying the detail-page links as a third navigation level.
+#sidebar > nav > ul {
+    button[data-bs-target^="#sidebar-list-lvl-2-"] { display: none !important; }
+
+    li:has(> ul[id^="sidebar-list-lvl-2-"]) { display: none; }
+
+    li:has(+ li > ul[id^="sidebar-list-lvl-2-"] a.active) > a {
+        color: $sidebar-link-color-active;
+
+        &::after { background: $sidebar-link-bg-active; }
+    }
+}
+
 .landing-page #main {
     background: transparent;
     border: 0;
