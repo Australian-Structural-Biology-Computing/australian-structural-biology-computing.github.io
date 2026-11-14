@@ -34,6 +34,12 @@ a { text-underline-offset: 0.18em; }
 
 // Keep activity detail pages associated with their ETT sidebar branch without
 // displaying the detail-page links as a third navigation level.
+#sidebar .sidebar-title-wrapper {
+    // ETT 7 adds a separate sidebar-title link; Home is kept in the navigation
+    // list so it uses the same icon, spacing and active state as every item.
+    display: none;
+}
+
 #sidebar > nav > ul {
     button[data-bs-target^="#sidebar-list-lvl-2-"] { display: none !important; }
 
