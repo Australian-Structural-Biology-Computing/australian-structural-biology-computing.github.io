@@ -23,7 +23,7 @@
             <span class="event-card-year">{{ event.startDate | date: "%Y" }}</span>
           </time>
           <div class="event-card-content flex-grow-1 p-4">
-            <h3 class="title mt-0 mb-1">{% if event.url %}<a class="stretched-link" href="{{ event.url }}">{{ event.name | escape }}</a>{% else %}{{ event.name | escape }}{% endif %}</h3>
+            <h3 class="title mt-0 mb-1">{{ event.name | escape }}</h3>
             <p class="event-card-metadata text-muted mb-3">{% if event.startTime %}<span><i class="icon-clock me-1" aria-hidden="true"></i>{{ event.startTime }}{% if event.endTime %}&ndash;{{ event.endTime }}{% endif %}</span>{% endif %}{% if event.endDate and event.endDate != event.startDate %}<span><i class="icon-calendar me-1" aria-hidden="true"></i>Until {{ event.endDate | date_to_long_string }}</span>{% endif %}{% if event.location %}<span><i class="icon-map-pin me-1" aria-hidden="true"></i>{{ event.location | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>{% endif %}</p>
             {%- if event.description %}
               {%- assign word_count = event.description | split: " " | size %}
@@ -35,6 +35,7 @@
               {%- endif %}
             {%- endif %}
           </div>
+          {%- if event.url %}<a class="stretched-link" href="{{ event.url }}" aria-label="View {{ event.name | escape }}"><span class="visually-hidden">View event</span></a>{%- endif %}
         </div>
       </article>
     </li>
