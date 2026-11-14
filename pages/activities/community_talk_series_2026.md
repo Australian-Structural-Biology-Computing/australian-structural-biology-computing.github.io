@@ -5,13 +5,16 @@ type: Completed_activity
 roadmap: Australian Structural Biology community space (Roadmap D1)
 roadmap_category: Community-space
 toc: false
+tiles:
+  - title: View the rolling agenda and meeting details
+    url: https://docs.google.com/document/d/1miRyOOOW7HeDsCvzJwVEOhaAzPBve8od9WUvsAsFfcw/edit#heading=h.owmugrvs22hi
 ---
 
 ## About the series
 
 In 2026, speakers from across the structural biology community were invited to present their work at regular community meetings. Five meetings were held across the year.
 
-[View the rolling agenda and meeting details](https://docs.google.com/document/d/1miRyOOOW7HeDsCvzJwVEOhaAzPBve8od9WUvsAsFfcw/edit#heading=h.owmugrvs22hi){: .btn .btn-primary }
+{% include tiles-simple.html target="tiles" col="1" variant="simple" %}
 
 ## Programme
 

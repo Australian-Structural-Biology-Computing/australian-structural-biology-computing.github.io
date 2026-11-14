@@ -15,7 +15,7 @@ tiles:
 ---
 
 
-{% include tiles-simple.html target = "tiles" col = "2" %}
+{% include tiles-simple.html target="tiles" col="2" variant="simple" %}
 
 
 ## Details

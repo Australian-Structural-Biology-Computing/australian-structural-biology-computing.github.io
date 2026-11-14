@@ -12,7 +12,7 @@ tiles:
     url: https://nf-co.re/proteinfold/2.0.0/
 ---
 
-{% include tiles-simple.html target = "tiles" col = "1" %}
+{% include tiles-simple.html target="tiles" col="1" variant="simple" %}
 
 ## Details
 
