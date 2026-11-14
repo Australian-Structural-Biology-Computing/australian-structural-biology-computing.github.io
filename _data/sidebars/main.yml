@@ -10,8 +10,10 @@ subitems:
     subitems:
       - title: Overview
         url: /activities
-      - title: Roadmap
-        url: /infrastructure_roadmap
+        # Hidden visually; associates the roadmap detail page with Overview.
+        subitems:
+          - title: Infrastructure roadmap
+            url: /infrastructure_roadmap
       - title: Community space
         url: /activities/community-space
         # Hidden visually; retained so ETT can associate detail pages with this branch.
