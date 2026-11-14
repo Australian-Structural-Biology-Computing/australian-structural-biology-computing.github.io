@@ -319,7 +319,7 @@ a { text-underline-offset: 0.18em; }
     border-left: 1px solid rgba($primary, 0.1);
     border-radius: 0;
     background-color: $light;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
 }
 
