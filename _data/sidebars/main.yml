@@ -1,7 +1,4 @@
 subitems:
-  - title: Home
-    url: /index
-    icon: icon-home
   - title: Join
     url: /join_conversation
     icon: icon-message-circle
