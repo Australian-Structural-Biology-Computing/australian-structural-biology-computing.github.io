@@ -4,7 +4,7 @@ description: Removing licence restrictions from ProteinDJ to support commercial 
 type: Completed_activity
 roadmap: A shared platform, or platforms (Roadmap D3A)
 roadmap_category: Shared-platform
-contributors: [Josh Hardy, Thomas Litfin]
+contributors: [Josh Hardy, Thomas Litfin, David Ladd]
 toc: false
 tiles:
   - title: Read the Australian BioCommons news story
@@ -25,6 +25,5 @@ tiles:
 - Replaced the previously restricted software components with alternatives that allow commercial use.
 - Merged and validated the replacement components alongside performance and usability improvements.
 - Released ProteinDJ v3.0 through the [official ProteinDJ repository](https://github.com/PapenfussLab/proteindj).
-- Published the [ProteinDJ workflow paper](https://doi.org/10.1002/pro.70464).
 
 The release also supports future incorporation of ProteinDJ into the Australian BioCommons Structural Biology Platform.

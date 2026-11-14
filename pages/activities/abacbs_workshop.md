@@ -20,4 +20,4 @@ Deep learning for structural biology has numerous applications, ranging from bas
 ### Content
  
 - [Workshop programme and abstract](https://blackochrelabs.au/abacbs2025_workshops/)
-- [Participant information and setup instructions](https://blackochrelabs.au/abacbs2025_workshops/info.html)
+- [Workshop content](https://australianbiocommons.github.io/2025-ABACBS-workshop/)

@@ -12,9 +12,9 @@ general_resource_tiles:
   - title: Computational workflows
     url: /workflows
     description: Reusable workflows for structural biology research.
-  - title: Software
-    url: /software
-    description: Software shared by and useful to the community.
+  - title: AMD porting
+    url: /amd_porting
+    description: Structural biology software prioritised for AMD GPU support.
 external_resource_tiles:
   - title: Structure prediction
     url: /structure_prediction

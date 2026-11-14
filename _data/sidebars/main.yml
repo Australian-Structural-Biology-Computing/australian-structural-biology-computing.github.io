@@ -34,6 +34,8 @@ subitems:
         url: /activities/shared-platforms
         # Hidden visually; retained so ETT can associate detail pages with this branch.
         subitems:
+          - title: Australian BioCommons Structural Biology Platform
+            url: /biocommons_structural_biology_platform
           - title: AMD software
             url: /amd_software
           - title: Batch prediction workflows
@@ -56,6 +58,8 @@ subitems:
         subitems:
           - title: Foundations of Protein Structure
             url: /ebi_module_dev
+          - title: Protein structure search module
+            url: /protein_structure_search_module
   - title: Contributing
     url: /contributing
     icon: icon-share-2
@@ -73,10 +77,10 @@ subitems:
         url: /community_resources
       - title: How-to guides
         url: /guides
-      - title: Computational workflows
+      - title:  Workflows
         url: /workflows
-      - title: Software
-        url: /software
+      - title: AMD porting
+        url: /amd_porting
   - title: External resources
     icon: icon-external-link
     subitems:

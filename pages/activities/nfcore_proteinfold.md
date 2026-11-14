@@ -1,6 +1,6 @@
 ---
-title: nf-core ProteinFold v2.0.0 Release
-description: Contributed towards and locally deployed v2.0.0 of the nf-core ProteinFold workflow.
+title: nfcore/proteinfold v2.0 release
+description: Contributed towards and locally deployed v2.0.0 of the nfcore/proteinfold workflow.
 type: Completed_activity
 roadmap: A shared platform, or platforms (Roadmap D3A)
 roadmap_category: Shared-platform

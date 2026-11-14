@@ -1,44 +1,31 @@
 ---
-title: Community Access to BindCraft
+title: Community access to BindCraft
 description: Increasing community access to an end-to-end solution for protein binder design.
-type: Activity_in_progress
+type: Completed_activity
 roadmap: A shared platform, or platforms (Roadmap D3Ac)
 roadmap_category: Shared-platform
-contributors: [Ziad Al-Bkhetan, Thomas Litfin]
+contributors: [Ziad Al-Bkhetan, Thomas Litfin, Josh Hardy]
 toc: false
 redirect_from: /website/bindcraft_access
-tiles:
-  - title: Read about the ProteinDJ v3 release and removal of licence restrictions
-    url: https://www.biocommons.org.au/news/proteindj-v3
 ---
 
-{% include tiles-simple.html target="tiles" col="1" variant="simple" %}
 
 ## Details
 
 - [BindCraft](https://github.com/martinpacesa/BindCraft) is an end-to-end solution for protein binder design.
-- BindCraft was widely used by participants in a recent blind evaluation (**[Adaptyv Bio](https://www.adaptyvbio.com/blog/po104)**) of protein binder design tools.
+- BindCraft was widely used by participants in a recent blind evaluation ([Adaptyv Bio](https://www.adaptyvbio.com/blog/po104)) of protein binder design tools.
 - Several independent groups generated *de novo* designed binders with competitive affinity to the natural ligand using the BindCraft tool.
-- BindCraft tool is available within a NextFlow **[workflow](https://github.com/Australian-Structural-Biology-Computing/bindflow)** to support portable deployment.
+- BindCraft tool is available within a NextFlow [workflow](https://github.com/Australian-Structural-Biology-Computing/bindflow) to support portable deployment.
+- BindCraft is also available within the [ProteinDJ](https://github.com/PapenfussLab/proteindj) workflow developed by community members from the Lucet and Papenfuss labs at WEHI.
 
 {% include callout.html type="warning" content="Native BindCraft tool requires PyRosetta as a filter with non-commercial license." %}
+
+- ProteinDJ v3 was developed to remove PyRosetta as a dependency (see [ProteinDJ v3.0 release](proteindj_v3)).
 
 
 ### Completed
 
-- Wrap the BindCraft tool in a Nextflow workflow (**[bindflow](https://github.com/Australian-Structural-Biology-Computing/bindflow)**).
-- Add support for parallel execution across multiple GPUs.
-- Negotiate PyRosetta license for non-commercial use at NCI.
-- Output partial results when HPC scheduler jobs time out.
+- Wrap the BindCraft tool in a Nextflow workflow ([bindflow](https://github.com/Australian-Structural-Biology-Computing/bindflow)).
+- Add bindflow support for parallel execution across multiple GPUs.
 
 
-### In Progress
-
-- Install workflow at NCI.
-- Release BindCraft fork without PyRosetta dependency.
-- Release BindCraft fork with open-source replacements for PyRosetta filters.
-
-
-### Future
-
-- OpenOnDemand app for running BindCraft from a graphical web interface.

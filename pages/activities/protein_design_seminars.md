@@ -1,5 +1,5 @@
 ---
-title: Protein Design Seminar Series (2025)
+title: Protein design seminar series (2025)
 description: Community members hosted a monthly seminar series to share knowledge on protein design strategies.
 type: Completed_activity
 roadmap: A computational structural biology training program (Roadmap D2)

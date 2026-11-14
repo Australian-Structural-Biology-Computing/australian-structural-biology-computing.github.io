@@ -7,8 +7,8 @@ roadmap_category: Shared-platform
 contributors: [Sarah Beecroft, Joshua Storm Caley]
 toc: false
 tiles:
-  - title: "Visit the software resources page to see the tools ported to AMD GPUs"
-    url: /software
+  - title: "Browse structural biology software for AMD GPUs"
+    url: /amd_porting
 ---
 
 
@@ -25,13 +25,18 @@ tiles:
 
 ### Completed
 
-- [AMD compatible containers for nf-core proteinfold](nfcore_proteinfold_pawsey).
-
+- MMSeqs2
+- Free-BindCraft
+- RFdiffusion
+- ProteinMPNN
+- ESMFold
+- ColabFold
+- Boltz-2
+- AlphaFold3
+- AlphaFold2
+- nfcore/proteinfold
 
 ### In Progress
-
-
-### Future
 
 - Continue to port software to AMD that has been prioritised by the community.
 
