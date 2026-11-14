@@ -8,7 +8,7 @@ description: "A website for the Australian Structural Biology Computing communit
 # Metadata description of the website
 
 # Following AusBioCommons minimal gh-pages with remote deploy -  https://github.com/AustralianBioCommons/how-to-guides/blob/main/_config.yml
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@7.0.0
 
 exclude:
   - README.md
@@ -65,7 +65,7 @@ theme_variables:
   #   - url towards a font
 
 plugins:
-  # The Jekyll 3-compatible ETT tool tag is loaded from _plugins/ett_tool_tag.rb.
+  - elixir-toolkit-theme-plugins
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
