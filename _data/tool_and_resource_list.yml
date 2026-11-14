@@ -392,13 +392,3 @@
   - For AMD GPUs
   URL: https://pawsey.atlassian.net/wiki/spaces/US/pages/808091691/Using+RFDiffusion+on+AMD+GPUs
   DOI: https://doi.org/10.1038/s41586-023-06415-8
-- id: bindcraft
-  name: BindCraft
-  url: https://github.com/martinpacesa/BindCraft
-  description: End-to-end solution for de novo protein binder design.
-  Title: BindCraft
-  URL: https://github.com/martinpacesa/BindCraft
-  Description: End-to-end solution for de novo protein binder design.
-  Tag: Protein Design
-  Type:
-  - Software

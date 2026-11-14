@@ -65,7 +65,7 @@ theme_variables:
   #   - url towards a font
 
 plugins:
-  # The Jekyll 3-compatible ETT tool tag is loaded from _plugins/ett_tool_tag.rb.
+  - elixir-toolkit-theme-plugins
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
