@@ -301,17 +301,48 @@ a { text-underline-offset: 0.18em; }
 
 // Optional event card images
 
+.event-card-with-image {
+    display: grid;
+    grid-template-areas: "content image";
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+    overflow: hidden;
+
+    .card-body { grid-area: content; }
+}
+
 .event-card-image {
+    display: block;
+    grid-area: image;
     width: 100%;
-    aspect-ratio: 16 / 9;
-    border-bottom: 1px solid rgba($primary, 0.1);
+    height: 100%;
+    min-height: 100%;
+    border-left: 1px solid rgba($primary, 0.1);
+    border-radius: 0;
     background-color: $light;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
 }
 
 .event-card-image-top { object-position: center top; }
 .event-card-image-bottom { object-position: center bottom; }
+
+@media (max-width: 767.98px) {
+    .event-card-with-image {
+        grid-template-areas:
+            "image"
+            "content";
+        grid-template-columns: 1fr;
+    }
+
+    .event-card-image {
+        height: auto;
+        min-height: 0;
+        aspect-ratio: 16 / 9;
+        border-bottom: 1px solid rgba($primary, 0.1);
+        border-left: 0;
+        object-fit: cover;
+    }
+}
 
 // see https://github.com/workflowhub-eu/about/blob/596b18d7ab1055ee1e53bc98a3bd120a06518e06/_sass/_custom_classes.scss
 /*-----News and events-----*/

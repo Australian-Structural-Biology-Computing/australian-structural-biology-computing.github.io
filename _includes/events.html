@@ -12,7 +12,7 @@
   <ul class="events-grid row row-cols-1 row-cols-md-{{ include.col | default: 1 }} gx-4 gy-0 list-unstyled mt-3">
     {%- for event in events %}
     <li class="col {{ include.event_type }}" data-start="{{ event.startDate }}">
-      <article class="event-card card h-100">
+      <article class="event-card card h-100{% if event.image %} event-card-with-image{% endif %}">
         {%- if event.image %}
         <img class="card-img-top event-card-image event-card-image-{{ event.image_focus | default: 'center' | escape }}" src="{{ event.image | relative_url }}" alt="{{ event.image_alt | default: event.name | escape }}" loading="lazy">
         {%- endif %}
