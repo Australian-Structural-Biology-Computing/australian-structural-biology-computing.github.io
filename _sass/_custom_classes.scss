@@ -153,7 +153,7 @@ a { text-underline-offset: 0.18em; }
     position: relative;
     overflow: hidden;
     border: 1px solid rgba($primary, 0.1);
-    border-top: 3px solid $accent-teal;
+    border-top: 4px solid $accent-teal;
     background-color: $light;
     transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 
@@ -211,6 +211,54 @@ a { text-underline-offset: 0.18em; }
 .activity-category-global-connections {
     color: $primary;
     background-color: rgba($primary, 0.1);
+}
+
+.activity-card-community-space {
+    border-top-color: $accent-warm;
+
+    .activity-card-footer {
+        color: darken($accent-warm, 22%);
+        background-color: rgba($accent-warm, 0.2);
+    }
+
+    &:hover,
+    &:focus-within { border-color: rgba($accent-warm, 0.6); }
+}
+
+.activity-card-training {
+    border-top-color: $success;
+
+    .activity-card-footer {
+        color: darken($success, 15%);
+        background-color: rgba($success, 0.17);
+    }
+
+    &:hover,
+    &:focus-within { border-color: rgba($success, 0.55); }
+}
+
+.activity-card-shared-platform {
+    border-top-color: $accent-teal;
+
+    .activity-card-footer {
+        color: $accent-teal-dark;
+        background-color: rgba($accent-teal, 0.18);
+    }
+
+    &:hover,
+    &:focus-within { border-color: rgba($accent-teal, 0.55); }
+}
+
+.activity-card-global-connections {
+    border-top-color: $primary;
+
+    .activity-card-footer {
+        color: $primary;
+        background-color: rgba($primary, 0.13);
+    }
+
+    &:hover,
+    &:focus-within { border-color: rgba($primary, 0.48); }
 }
 
 .activity-section-heading {

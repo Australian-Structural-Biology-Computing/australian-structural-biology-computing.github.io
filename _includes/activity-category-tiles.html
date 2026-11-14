@@ -2,7 +2,7 @@
 <div class="row row-cols-1 row-cols-md-2 g-4 mb-5 activity-tiles">
   {%- for activity_page in activity_pages -%}
   <div class="col">
-    <article class="card h-100 activity-card">
+    <article class="card h-100 activity-card activity-card-{{ activity_page.roadmap_category | slugify }}">
       <div class="card-body d-flex flex-column">
         {%- case activity_page.roadmap_category -%}
           {%- when "Community-space" -%}{%- assign category_label = "Community space" -%}
