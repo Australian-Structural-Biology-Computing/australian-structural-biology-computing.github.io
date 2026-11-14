@@ -157,7 +157,7 @@ a { text-underline-offset: 0.18em; }
     background-color: $light;
     transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 
-    h2 a {
+    h3 a {
         color: $primary;
         text-decoration: none;
     }
@@ -260,6 +260,26 @@ a { text-underline-offset: 0.18em; }
     &:hover,
     &:focus-within { border-color: rgba($primary, 0.48); }
 }
+
+.activity-group-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    margin: 2.5rem 0 1.25rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid rgba($primary, 0.12);
+    font-size: 1.25rem;
+
+    > span {
+        width: 0.65rem;
+        height: 0.65rem;
+        border-radius: 50%;
+        background-color: $secondary;
+    }
+}
+
+.activity-group-progress > span { background-color: $accent-teal; }
+.activity-group-completed > span { background-color: $secondary; }
 
 .activity-section-heading {
     scroll-margin-top: 5rem;
