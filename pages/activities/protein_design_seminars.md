@@ -31,7 +31,7 @@ tiles:
 | 16 September<br><span class="text-muted small text-nowrap">12pm AEST</span> | Richard Birkinshaw | Using in silico design methods to create de novo proteins that selectively modulate apoptosis | [Recording](https://youtu.be/9-3sHy1ybpE)<br>[Presentation](https://doi.org/10.5281/zenodo.17148914) |
 | 7 October<br><span class="text-muted small text-nowrap">12pm AEDT*</span> | Josh Hardy | Introducing ProteinDJ: A modular and open-source framework for protein design workflows | [Recording](https://www.youtube.com/watch?v=xwvF62HxaF0)<br>[Presentation](https://zenodo.org/records/17337232) |
 | 11 November<br><span class="text-muted small text-nowrap">12pm AEDT*</span> | Joel Mackay | Baby steps in the AI-guided design of proteins to module gene transcription | [Recording](https://www.youtube.com/watch?v=tKqH8WlkIX4)<br>[Presentation](https://zenodo.org/records/17605782) |
-{: .content-table }
+{: .content-table .seminar-resources-table }
 
 <small class="d-block mt-2 text-muted">*Affected by daylight savings</small>
 </div>

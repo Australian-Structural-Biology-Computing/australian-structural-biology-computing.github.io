@@ -292,6 +292,15 @@ a { text-underline-offset: 0.18em; }
     margin: 1.5rem 0 3rem;
 
     .content-table { min-width: 44rem; }
+
+    .seminar-resources-table {
+        th:last-child { min-width: 8.5rem; }
+
+        td:last-child > a {
+            display: inline-block;
+            white-space: nowrap;
+        }
+    }
 }
 
 .resource-badge {
