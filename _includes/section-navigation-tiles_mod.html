@@ -1,5 +1,5 @@
 {%- assign activity_pages = site.pages | where: "roadmap_category", include.category | sort: "title" -%}
-<div class="activity-list mb-5">
+<div class="activity-list activity-list-{{ include.category | slugify }} mb-5">
   {%- for activity_page in activity_pages -%}
   <a class="activity-list-item" href="{{ activity_page.url | relative_url }}">
     <span class="activity-list-content">

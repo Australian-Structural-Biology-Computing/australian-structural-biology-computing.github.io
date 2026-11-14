@@ -152,7 +152,14 @@ a { text-underline-offset: 0.18em; }
 .activity-section-heading {
     scroll-margin-top: 5rem;
     margin-top: 3rem;
+    padding-left: 0.75rem;
+    border-left: 4px solid $secondary;
 }
+
+.activity-section-community { border-left-color: $accent-warm; }
+.activity-section-training { border-left-color: $success; }
+.activity-section-platform { border-left-color: $accent-teal; }
+.activity-section-global { border-left-color: $primary; }
 
 .activity-list {
     overflow: hidden;
@@ -160,6 +167,12 @@ a { text-underline-offset: 0.18em; }
     border-radius: $border-radius;
     box-shadow: 0 3px 12px rgba($primary, 0.05);
 }
+
+.activity-list-community-space { border-top-color: $accent-warm; }
+.activity-list-training { border-top-color: $success; }
+.activity-list-shared-platform { border-top-color: $accent-teal; }
+.activity-list-global-connections { border-top-color: $primary; }
+.activity-list-no-category { border-top-color: $secondary; }
 
 .activity-list-item {
     display: flex;

@@ -58,23 +58,23 @@ Our community activities put the four major deliverables in the [Australian Stru
   </div>
 </div>
 
-<h2 id="community-space" class="activity-section-heading">Community space</h2>
+<h2 id="roadmap" class="activity-section-heading activity-section-roadmap">Roadmap</h2>
+
+{% include section-navigation-tiles_mod.html category="No-category" %}
+
+<h2 id="community-space" class="activity-section-heading activity-section-community">Community space</h2>
 
 {% include section-navigation-tiles_mod.html category="Community-space" %}
 
-<h2 id="training-program" class="activity-section-heading">Training program</h2>
+<h2 id="training-program" class="activity-section-heading activity-section-training">Training program</h2>
 
 {% include section-navigation-tiles_mod.html category="Training" %}
 
-<h2 id="shared-platforms" class="activity-section-heading">Shared platforms</h2>
+<h2 id="shared-platforms" class="activity-section-heading activity-section-platform">Shared platforms</h2>
 
 {% include section-navigation-tiles_mod.html category="Shared-platform" %}
 
-<h2 id="global-connections" class="activity-section-heading">Global connections</h2>
+<h2 id="global-connections" class="activity-section-heading activity-section-global">Global connections</h2>
 
 {% include section-navigation-tiles_mod.html category="Global-connections" %}
-
-<h2 id="roadmap" class="activity-section-heading">Roadmap</h2>
-
-{% include section-navigation-tiles_mod.html category="No-category" %}
 
