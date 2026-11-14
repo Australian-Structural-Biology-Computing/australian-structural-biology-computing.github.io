@@ -1,7 +1,7 @@
 ---
 title: Porting software to AMD to enable nf-core ProteinFold at Pawsey
-description: Port software to AMD to allow the deployment of the nf-core ProteinFold workflow at Pawsey Supercomputing Research Centre.
-type: Activity_in_progress
+description: Porting and configuration work enabling nf-core/proteinfold to run on AMD GPUs at Pawsey Supercomputing Research Centre.
+type: Completed_activity
 roadmap: A shared platform, or platforms (Roadmap D3Ab)
 roadmap_category: Shared-platform
 contributors: [Sarah Beecroft, Joshua Storm Caley]
@@ -12,6 +12,10 @@ tiles:
     url: /software
   - title: "See version 2.0.0 of the nf-core/proteinfold workflow"
     url: https://nf-co.re/proteinfold/2.0.0/
+  - title: "Use the nf-core Pawsey Setonix profile"
+    url: https://nf-co.re/configs/pawsey_setonix/
+  - title: "Read the Pawsey user documentation"
+    url: https://pawsey.atlassian.net/wiki/spaces/US/overview
 ---
 
 
@@ -34,16 +38,7 @@ tiles:
 - Build AMD compatible container for Boltz-2.
 - Adapt containers for compatibility with nf-core proteinfold.
 - Test nfcore proteinfold workflow at Pawsey.
-
-
-### In Progress
-
-- ProteinFold config optimized for Pawsey.
-
-
-### Future
-
-- Port software to AMD that has been prioritised by the community.
+- Contribute a ProteinFold-specific configuration to the nf-core Pawsey Setonix institutional profile.
 
 
 ### Acknowledgements

@@ -7,7 +7,12 @@ roadmap_category: Shared-platform
 contributors: [Ziad Al-Bkhetan, Mitchell O'Brien, Joshua Storm Caley, Keiran Rowell, Cameron Hyde, Thomas Litfin]
 toc: false
 redirect_from: /website/batch_structure_prediction
+tiles:
+  - title: Explore the WISPS interaction-screening workflow
+    url: https://github.com/Australian-Structural-Biology-Computing/wisps
 ---
+
+{% include tiles-simple.html target="tiles" col="1" variant="simple" %}
 
 ## Details
 
@@ -23,15 +28,15 @@ This activity involves developing optimized batch workflows for structure predic
 ### Completed
 
 - Add support for re-using MSAs to Galaxy Australia AlphaFold2 service.
+- Develop [WISPS](https://github.com/Australian-Structural-Biology-Computing/wisps), a Nextflow workflow for screening molecular interactions with Boltz, ColabFold, and AlphaFold3.
 
 ### In Progress
 
-- Add local implementation of batch colabfoldsearch to the nfcore **[proteinfold](https://nf-co.re/proteinfold/1.1.1)** pipeline.
-- Add mmseqs-GPU support to the nfcore **[proteinfold](https://nf-co.re/proteinfold/1.1.1)** pipeline.
-- Add boltz interaction screening workflow to screen multiple potential partners against a protein (re-using MSA for anchor protein).
+- Add local implementation of batch colabfoldsearch to the **[nf-core/proteinfold](https://nf-co.re/proteinfold/2.0.0/)** pipeline.
+- Add mmseqs-GPU support to the **[nf-core/proteinfold](https://nf-co.re/proteinfold/2.0.0/)** pipeline.
 - Add option for extreme replicate sampling for AlphaFold2.
 
 ### Future
 
 - Develop Galaxy workflow to take advantage of re-using MSAs.
-- Add stoichiometry screening workflow to the nfcore **[proteinfold](https://nf-co.re/proteinfold/1.1.1)** pipeline.
+- Add stoichiometry screening workflow to the **[nf-core/proteinfold](https://nf-co.re/proteinfold/2.0.0/)** pipeline.

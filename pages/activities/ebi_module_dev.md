@@ -1,6 +1,6 @@
 ---
 title: EMBL-EBI Foundations of Protein Structure module development
-description: Developing the content for an online EMBL-EBI tutorial covering the principles of protein architecture and function.
+description: Development of an online EMBL-EBI tutorial covering the principles of protein architecture and function.
 type: Completed_activity
 roadmap_category: Global-connections
 contributors: [Jennifer Fleming, Kristina Gagalova, Johan Gustafsson, Michael Healy, Thomas Litfin, Paulyna Magaña, Katharine Michie]
@@ -16,13 +16,13 @@ tiles:
 
 ## Details
  
-A collaboration developing the content for a `Foundations of Protein Structure` module that will be
-added to the training material made available by EMBL-EBI. The development of the module is a 
-collaboration between members of the Australian Structural Biology Computing community, and the 
-team from [Protein Data Bank in Europe (PDBe)](https://www.ebi.ac.uk/pdbe/).
+A collaboration between members of the Australian Structural Biology Computing community and the
+[Protein Data Bank in Europe (PDBe)](https://www.ebi.ac.uk/pdbe/) team developed the self-paced
+*Foundations of Protein Structure* course. The course introduces protein composition, folding,
+architecture, dynamics, interactions, and the relationship between protein structure and function.
 
 
-## Future
+## Completed
 
-- Development of additional modules
-- Contributions from additional community members
+- Published the free, self-paced course through EMBL-EBI Training.
+- Developed activities and quizzes covering the principles of protein architecture and function.

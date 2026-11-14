@@ -15,15 +15,13 @@ toc: false
 - Initial version of the website
 - Mechanisms for joining the community
 - Streamlined appearance and mechanics for all pages
+- Contributor profiles and acknowledgements
+- Mechanisms for sharing community events and activities
+- Community-developed and external resource collections
 
 
-### In Progress
+### Ongoing
  
-- Sharing mechanism for computational workflows
-- Adding contributors
-
-
-### Future
-
-- Sharing mechanism for events
-- Sharing mechanism for both community resources and external resources
+- Maintaining and improving community content
+- Adding contributors, activities, events, and resources as the community grows
+- Improving mechanisms for sharing computational workflows
