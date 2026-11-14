@@ -6,8 +6,18 @@ subitems:
     url: /join_conversation
     icon: icon-message-circle
   - title: Activities
-    url: /activities
     icon: icon-activity
+    subitems:
+      - title: Overview
+        url: /activities
+      - title: Community space
+        url: /activities/community-space
+      - title: Training program
+        url: /activities/training-program
+      - title: Shared platforms
+        url: /activities/shared-platforms
+      - title: Global connections
+        url: /activities/global-connections
   - title: Contributing
     url: /contributing
     icon: icon-share-2
