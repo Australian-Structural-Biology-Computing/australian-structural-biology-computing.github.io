@@ -113,3 +113,11 @@
   description: "Click to visit the rolling agenda and see details on how to join the next meeting."
   url: https://docs.google.com/document/d/1miRyOOOW7HeDsCvzJwVEOhaAzPBve8od9WUvsAsFfcw/edit#heading=h.owmugrvs22hi
   location: Online
+- name: Protein binder design workshop
+  startDate: 2027-02-12
+  endDate: 2027-02-12
+  description: "Interactive workshop for designing protein binders using the Australian BioCommons Structural Biology Platform"
+  location: Online
+  image: /images/ASBC-binder-workshop-2027.png
+  image_alt: Protein Binder Design Workshop 2027 poster
+  image_focus: top
