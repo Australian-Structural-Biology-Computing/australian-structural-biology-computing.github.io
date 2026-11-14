@@ -22,6 +22,7 @@ tiles:
 - Australian community members are actively using protein design technology to solve biological problems.
 - Community members will host a monthly seminar series to share knowledge on protein design strategies to get the best outcomes from protein design projects.
 
+<div class="content-table-wrapper table-responsive" markdown="1">
 
 | Date          | Time       | Speaker(s)         | Topic | Recording | Presentation |
 |---------------|------------|--------------------|-------|-----------|----------|
@@ -30,4 +31,7 @@ tiles:
 | 16 September  | 12pm AEST  | Richard Birkinshaw | Using in silico design methods to create de novo proteins that selectively modulate apoptosis | [YouTube](https://youtu.be/9-3sHy1ybpE) | [Zenodo](https://doi.org/10.5281/zenodo.17148914) |
 | 7 October     | 12pm AEDT* | Josh Hardy | Introducing ProteinDJ: A modular and open-source framework for protein design workflows | [YouTube](https://www.youtube.com/watch?v=xwvF62HxaF0) | [Zenodo](https://zenodo.org/records/17337232) |
 | 11 November   | 12pm AEDT* | Joel Mackay | Baby steps in the AI-guided design of proteins to module gene transcription | [YouTube](https://www.youtube.com/watch?v=tKqH8WlkIX4) | [Zenodo](https://zenodo.org/records/17605782) |
-| *Affected by daylight savings |
+{: .content-table .content-table-wide }
+
+<small class="d-block mt-2 text-muted">*Affected by daylight savings</small>
+</div>
