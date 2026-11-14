@@ -12,7 +12,7 @@
   <ul class="events-grid row row-cols-1 row-cols-md-{{ include.col | default: 1 }} gx-4 gy-0 list-unstyled mt-3">
     {%- for event in events %}
     <li class="col {{ include.event_type }}" data-start="{{ event.startDate }}">
-      <article class="event-card card h-100">
+      <article class="event-card{% if event.url %} event-card-linked{% endif %} card h-100">
         <div class="card-body d-flex align-items-stretch p-0">
           <time class="event-card-date-block flex-shrink-0 text-center" datetime="{{ event.startDate }}" aria-label="{{ event.startDate | date_to_long_string }}">
             <span class="event-card-day">{{ event.startDate | date: "%d" }}</span>
@@ -20,7 +20,7 @@
             <span class="event-card-year">{{ event.startDate | date: "%Y" }}</span>
           </time>
           <div class="event-card-content flex-grow-1 p-4">
-            <h3 class="title mt-0 mb-1">{% if event.url %}<a href="{{ event.url }}">{{ event.name | escape }}</a>{% else %}{{ event.name | escape }}{% endif %}</h3>
+            <h3 class="title mt-0 mb-1">{% if event.url %}<a class="stretched-link" href="{{ event.url }}">{{ event.name | escape }}</a>{% else %}{{ event.name | escape }}{% endif %}</h3>
             <p class="event-card-metadata text-muted mb-3">{% if event.startTime %}<span><i class="icon-clock me-1" aria-hidden="true"></i>{{ event.startTime }}{% if event.endTime %}&ndash;{{ event.endTime }}{% endif %}</span>{% endif %}{% if event.endDate and event.endDate != event.startDate %}<span><i class="icon-calendar me-1" aria-hidden="true"></i>Until {{ event.endDate | date_to_long_string }}</span>{% endif %}{% if event.location %}<span><i class="icon-map-pin me-1" aria-hidden="true"></i>{{ event.location | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>{% endif %}</p>
             {%- if event.description %}
               {%- assign word_count = event.description | split: " " | size %}
@@ -32,7 +32,6 @@
               {%- endif %}
             {%- endif %}
           </div>
-          {%- if event.url %}<a class="event-card-action flex-shrink-0 align-self-center me-4" href="{{ event.url }}" aria-label="View {{ event.name | escape }}"><i class="icon-arrow-right" aria-hidden="true"></i></a>{%- endif %}
         </div>
       </article>
     </li>

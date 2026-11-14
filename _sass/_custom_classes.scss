@@ -543,18 +543,11 @@ a { text-underline-offset: 0.18em; }
 
 // Compact, theme-native event cards with a strong date rail and quiet surface.
 .event-card {
+    position: relative;
     overflow: hidden;
     border: 1px solid $border-color;
     background-color: $light;
     box-shadow: 0 3px 10px rgba($primary, 0.035);
-    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
-
-    &:hover,
-    &:focus-within {
-        border-color: rgba($accent-teal, 0.5);
-        box-shadow: 0 8px 20px rgba($primary, 0.08);
-        transform: translateY(-2px);
-    }
 
     .title {
         font-size: 1.15rem;
@@ -566,6 +559,18 @@ a { text-underline-offset: 0.18em; }
         }
 
         a:hover { text-decoration: underline; }
+    }
+}
+
+.event-card-linked {
+    cursor: pointer;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+
+    &:hover,
+    &:focus-within {
+        border-color: rgba($accent-teal, 0.5);
+        box-shadow: 0 8px 20px rgba($primary, 0.08);
+        transform: translateY(-2px);
     }
 }
 
@@ -614,6 +619,12 @@ a { text-underline-offset: 0.18em; }
 
 .event-card-description > :last-child { margin-bottom: 0; }
 
+.event-card .description-toggle,
+.event-card .full-description a {
+    position: relative;
+    z-index: 2;
+}
+
 .landing-page .event-card-description p {
     display: -webkit-box;
     overflow: hidden;
@@ -621,36 +632,9 @@ a { text-underline-offset: 0.18em; }
     -webkit-line-clamp: 2;
 }
 
-.event-card-action {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 2.35rem;
-    height: 2.35rem;
-    border: 1px solid rgba($accent-teal, 0.4);
-    border-radius: 50%;
-    color: $accent-teal-dark;
-    background-color: rgba($white, 0.72);
-    text-decoration: none;
-    transition: color 0.15s ease, background-color 0.15s ease, transform 0.15s ease;
-
-    &:hover,
-    &:focus-visible {
-        color: $white;
-        background-color: $accent-teal-dark;
-        transform: translateX(2px);
-    }
-
-    &:focus-visible {
-        outline: 3px solid rgba($accent-teal, 0.25);
-        outline-offset: 2px;
-    }
-}
-
 @media (max-width: 575.98px) {
     .event-card-date-block { width: 3.75rem; }
     .event-card-content { padding: 1.15rem !important; }
-    .event-card-action { display: none; }
 }
 
 // News section front-page
