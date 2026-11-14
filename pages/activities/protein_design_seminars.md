@@ -24,14 +24,14 @@ tiles:
 
 <div class="content-table-wrapper table-responsive" markdown="1">
 
-| Date          | Time       | Speaker(s)         | Topic | Recording | Presentation |
-|---------------|------------|--------------------|-------|-----------|----------|
-| 15 July       | 12pm AEST  | Rhys Grinter       | Using AI protein design to design binding proteins to challenging bacterial transporters | [YouTube](https://youtu.be/3Ad2gUjeSL8) | [Zenodo](https://doi.org/10.5281/zenodo.16511653) |
-| 12 August     | 12pm AEST  | Cyntia Taveneau    | AIcrs: AI-Designed Anti-CRISPRs as Programmable CRISPR Inhibitors | [YouTube](https://www.youtube.com/watch?v=GSoOfyJUYSA) | [Zenodo](https://doi.org/10.5281/zenodo.17033916) |
-| 16 September  | 12pm AEST  | Richard Birkinshaw | Using in silico design methods to create de novo proteins that selectively modulate apoptosis | [YouTube](https://youtu.be/9-3sHy1ybpE) | [Zenodo](https://doi.org/10.5281/zenodo.17148914) |
-| 7 October     | 12pm AEDT* | Josh Hardy | Introducing ProteinDJ: A modular and open-source framework for protein design workflows | [YouTube](https://www.youtube.com/watch?v=xwvF62HxaF0) | [Zenodo](https://zenodo.org/records/17337232) |
-| 11 November   | 12pm AEDT* | Joel Mackay | Baby steps in the AI-guided design of proteins to module gene transcription | [YouTube](https://www.youtube.com/watch?v=tKqH8WlkIX4) | [Zenodo](https://zenodo.org/records/17605782) |
-{: .content-table .content-table-wide }
+| Date and time | Speaker(s) | Topic | Recording | Presentation |
+|---------------|------------|-------|-----------|--------------|
+| 15 July<br><span class="text-muted small text-nowrap">12pm AEST</span> | Rhys Grinter | Using AI protein design to design binding proteins to challenging bacterial transporters | [YouTube](https://youtu.be/3Ad2gUjeSL8) | [Zenodo](https://doi.org/10.5281/zenodo.16511653) |
+| 12 August<br><span class="text-muted small text-nowrap">12pm AEST</span> | Cyntia Taveneau | AIcrs: AI-Designed Anti-CRISPRs as Programmable CRISPR Inhibitors | [YouTube](https://www.youtube.com/watch?v=GSoOfyJUYSA) | [Zenodo](https://doi.org/10.5281/zenodo.17033916) |
+| 16 September<br><span class="text-muted small text-nowrap">12pm AEST</span> | Richard Birkinshaw | Using in silico design methods to create de novo proteins that selectively modulate apoptosis | [YouTube](https://youtu.be/9-3sHy1ybpE) | [Zenodo](https://doi.org/10.5281/zenodo.17148914) |
+| 7 October<br><span class="text-muted small text-nowrap">12pm AEDT*</span> | Josh Hardy | Introducing ProteinDJ: A modular and open-source framework for protein design workflows | [YouTube](https://www.youtube.com/watch?v=xwvF62HxaF0) | [Zenodo](https://zenodo.org/records/17337232) |
+| 11 November<br><span class="text-muted small text-nowrap">12pm AEDT*</span> | Joel Mackay | Baby steps in the AI-guided design of proteins to module gene transcription | [YouTube](https://www.youtube.com/watch?v=tKqH8WlkIX4) | [Zenodo](https://zenodo.org/records/17605782) |
+{: .content-table }
 
 <small class="d-block mt-2 text-muted">*Affected by daylight savings</small>
 </div>
