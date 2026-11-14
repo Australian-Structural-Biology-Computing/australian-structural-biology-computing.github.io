@@ -198,53 +198,60 @@ a { text-underline-offset: 0.18em; }
 
 // Tools and resources tables
 
-.resource-table-wrapper {
+.resource-table-wrapper,
+.content-table-wrapper {
     scrollbar-color: rgba($accent-teal, 0.6) $light;
+}
 
+.resource-table-wrapper .resource-table,
+.content-table-wrapper .content-table {
+    margin-bottom: 0;
+    overflow: hidden;
+    border: 1px solid rgba($primary, 0.12);
+    border-top: 3px solid $accent-teal;
+    border-radius: $border-radius;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: $white;
+
+    > thead > tr > th {
+        padding: 0.8rem 1rem;
+        border: 0;
+        color: $white;
+        background-color: $primary;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.045em;
+        text-transform: uppercase;
+        vertical-align: middle;
+
+        a { color: $white; }
+    }
+
+    > tbody > tr > td {
+        padding: 1rem;
+        border-color: rgba($primary, 0.09);
+        background-color: $white;
+        line-height: 1.55;
+        vertical-align: top;
+    }
+
+    > tbody > tr:nth-child(even) > td {
+        background-color: rgba($light, 0.62);
+    }
+
+    > tbody > tr:hover > td {
+        background-color: rgba($accent-teal, 0.07);
+    }
+
+    > tbody > tr:last-child > td { border-bottom: 0; }
+}
+
+.resource-table-wrapper {
     .resource-table {
         --dt-order-arrow_color: #{$white};
         --dt-order-arrow_color-current: #{$white};
         min-width: 46rem;
-        margin-bottom: 0;
-        overflow: hidden;
-        border: 1px solid rgba($primary, 0.12);
-        border-top: 3px solid $accent-teal;
-        border-radius: $border-radius;
-        border-collapse: separate;
-        border-spacing: 0;
-        background-color: $white;
-
-        > thead > tr > th {
-            padding: 0.8rem 1rem;
-            border: 0;
-            color: $white;
-            background-color: $primary;
-            font-size: 0.78rem;
-            font-weight: 700;
-            letter-spacing: 0.045em;
-            text-transform: uppercase;
-            vertical-align: middle;
-
-            a { color: $white; }
-        }
-
-        > tbody > tr > td {
-            padding: 1rem;
-            border-color: rgba($primary, 0.09);
-            background-color: $white;
-            line-height: 1.55;
-            vertical-align: top;
-        }
-
-        > tbody > tr:nth-child(even) > td {
-            background-color: rgba($light, 0.62);
-        }
-
-        > tbody > tr:hover > td {
-            background-color: rgba($accent-teal, 0.07);
-        }
-
-        > tbody > tr:last-child > td { border-bottom: 0; }
 
         td:first-child a {
             color: $accent-teal-dark;
@@ -279,6 +286,12 @@ a { text-underline-offset: 0.18em; }
             }
         }
     }
+}
+
+.content-table-wrapper {
+    margin: 1.5rem 0 3rem;
+
+    .content-table { min-width: 44rem; }
 }
 
 .resource-badge {
