@@ -4,9 +4,12 @@
   {%- endif %}
   {%- if include.related_pages %}
     {%- assign filtered = site.data.events | where_exp: "event", "event.related_pages contains include.related_pages" %}
-    {%- assign events = filtered | sort: "startDate" | reverse %}
+    {%- assign events = filtered | sort: "startDate" %}
   {%- else %}
-    {%- assign events = site.data.events | sort: "startDate" | reverse %}
+    {%- assign events = site.data.events | sort: "startDate" %}
+  {%- endif %}
+  {%- if include.event_type == "past_event" %}
+    {%- assign events = events | reverse %}
   {%- endif %}
   {%- assign count = 0 %}
   <ul class="events-grid row row-cols-1 row-cols-md-{{ include.col | default: 1 }} gx-4 gy-0 list-unstyled mt-3">
