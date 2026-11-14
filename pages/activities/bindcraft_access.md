@@ -1,6 +1,7 @@
 ---
 title: Community Access to BindCraft
 description: Increasing community access to an end-to-end solution for protein binder design.
+page_id: bindcraft_access
 type: Activity_in_progress
 roadmap: A shared platform, or platforms (Roadmap D3Ac)
 roadmap_category: Shared-platform
@@ -16,7 +17,7 @@ tiles:
 
 ## Details
 
-- [BindCraft](https://github.com/martinpacesa/BindCraft) is an end-to-end solution for protein binder design.
+- {% tool "bindcraft" %} is an end-to-end solution for protein binder design.
 - BindCraft was widely used by participants in a recent blind evaluation (**[Adaptyv Bio](https://www.adaptyvbio.com/blog/po104)**) of protein binder design tools.
 - Several independent groups generated *de novo* designed binders with competitive affinity to the natural ligand using the BindCraft tool.
 - BindCraft tool is available within a NextFlow **[workflow](https://github.com/Australian-Structural-Biology-Computing/bindflow)** to support portable deployment.
