@@ -299,49 +299,6 @@ a { text-underline-offset: 0.18em; }
     background-color: rgba($accent-warm, 0.16);
 }
 
-// Optional event card images
-
-.event-card-with-image {
-    position: relative;
-    display: block;
-    overflow: hidden;
-    padding-right: 40%;
-}
-
-.event-card-image {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    display: block;
-    width: 40%;
-    height: 100%;
-    border-left: 1px solid rgba($primary, 0.1);
-    border-radius: 0;
-    background-color: $light;
-    object-fit: cover;
-    object-position: center;
-}
-
-.event-card-image-top { object-position: center top; }
-.event-card-image-bottom { object-position: center bottom; }
-
-@media (max-width: 767.98px) {
-    .event-card-with-image {
-        padding-right: 0;
-    }
-
-    .event-card-image {
-        position: static;
-        width: 100%;
-        height: auto;
-        aspect-ratio: 16 / 9;
-        border-bottom: 1px solid rgba($primary, 0.1);
-        border-left: 0;
-        object-fit: cover;
-    }
-}
-
 // see https://github.com/workflowhub-eu/about/blob/596b18d7ab1055ee1e53bc98a3bd120a06518e06/_sass/_custom_classes.scss
 /*-----News and events-----*/
 

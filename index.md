@@ -18,7 +18,7 @@ sidebar: main
 redirect_from: /website/
 ---
 
-{% include events.html event_type="upcoming_event" title=true caption=true col=1 %}
+{% include events.html event_type="upcoming_event" title=true caption=true col=2 %}
 
 <section class="landing-news">
   <h2>News</h2>

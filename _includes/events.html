@@ -8,20 +8,11 @@
   {%- else %}
     {%- assign events = site.data.events | sort: "startDate" | reverse %}
   {%- endif %}
-  {%- assign event_columns = include.col | default: 1 %}
-  {%- assign event_columns_string = event_columns | append: "" %}
   {%- assign count = 0 %}
-  <ul class="events-grid row row-cols-1 row-cols-md-{{ event_columns }} gx-4 gy-0 list-unstyled mt-3">
+  <ul class="events-grid row row-cols-1 row-cols-md-{{ include.col | default: 1 }} gx-4 gy-0 list-unstyled mt-3">
     {%- for event in events %}
-    {%- assign show_event_image = false %}
-    {%- if event.image and event_columns_string == "1" %}
-      {%- assign show_event_image = true %}
-    {%- endif %}
     <li class="col {{ include.event_type }}" data-start="{{ event.startDate }}">
-      <article class="event-card card h-100{% if show_event_image %} event-card-with-image{% endif %}">
-        {%- if show_event_image %}
-        <img class="card-img-top event-card-image event-card-image-{{ event.image_focus | default: 'center' | escape }}" src="{{ event.image | relative_url }}" alt="{{ event.image_alt | default: event.name | escape }}" loading="lazy">
-        {%- endif %}
+      <article class="event-card card h-100">
         <div class="card-body d-flex flex-column p-4">
           <div class="event-card-header d-flex align-items-start gap-3 mb-3">
             <span class="event-card-icon d-inline-flex flex-shrink-0 align-items-center justify-content-center rounded-circle" aria-hidden="true"><i class="icon-calendar"></i></span>
