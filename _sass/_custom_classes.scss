@@ -545,7 +545,7 @@ a { text-underline-offset: 0.18em; }
 .event-card {
     position: relative;
     overflow: hidden;
-    min-height: 11rem;
+    min-height: 12.5rem;
     border: 1px solid $border-color;
     background-color: $light;
     box-shadow: 0 3px 10px rgba($primary, 0.035);
@@ -628,7 +628,7 @@ a { text-underline-offset: 0.18em; }
     display: -webkit-box;
     overflow: hidden;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
 }
 
 @media (max-width: 575.98px) {
