@@ -302,20 +302,20 @@ a { text-underline-offset: 0.18em; }
 // Optional event card images
 
 .event-card-with-image {
-    display: grid;
-    grid-template-areas: "content image";
-    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+    position: relative;
+    display: block;
     overflow: hidden;
-
-    .card-body { grid-area: content; }
+    padding-right: 40%;
 }
 
 .event-card-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
     display: block;
-    grid-area: image;
-    width: 100%;
+    width: 40%;
     height: 100%;
-    min-height: 100%;
     border-left: 1px solid rgba($primary, 0.1);
     border-radius: 0;
     background-color: $light;
@@ -328,15 +328,13 @@ a { text-underline-offset: 0.18em; }
 
 @media (max-width: 767.98px) {
     .event-card-with-image {
-        grid-template-areas:
-            "image"
-            "content";
-        grid-template-columns: 1fr;
+        padding-right: 0;
     }
 
     .event-card-image {
+        position: static;
+        width: 100%;
         height: auto;
-        min-height: 0;
         aspect-ratio: 16 / 9;
         border-bottom: 1px solid rgba($primary, 0.1);
         border-left: 0;
