@@ -1,0 +1,59 @@
+- class: nextflow
+  doi: 10.48546/workflowhub.workflow.2318.1
+  edam_ops:
+  - Protein interaction prediction
+  - Protein quaternary structure prediction
+  - Protein structure analysis
+  - Protein structure prediction
+  edam_top:
+  - Protein folds and structural domains
+  - Protein structure analysis
+  - Structure prediction
+  guide_link: ''
+  launch_link: ''
+  license: MIT
+  projects:
+  - Lucet Laboratory (WEHI)
+  remote_link: ''
+  title: nf-boltz-2
+  tools: ''
+  updated_at: '2026-09-28'
+  url: /workflows/2318?version=1
+- class: nextflow
+  doi: ''
+  edam_ops: ''
+  edam_top: ''
+  guide_link: ''
+  launch_link: ''
+  license: MIT
+  projects:
+  - nf-core
+  remote_link: https://github.com/nf-core/proteinfold.git
+  title: nf-core/proteinfold
+  tools: ''
+  updated_at: '2026-05-13'
+  url: /workflows/1011?version=3
+- class: nextflow
+  doi: ''
+  edam_ops:
+  - Protein interaction prediction
+  - Protein structure prediction
+  edam_top:
+  - Protein interactions
+  - Protein structure analysis
+  - Structure prediction
+  guide_link: ''
+  launch_link: ''
+  license: MIT
+  projects:
+  - Australian BioCommons
+  - UNSW MWAC Structural Biology Facility
+  remote_link: https://github.com/Australian-Structural-Biology-Computing/wisps.git
+  title: wisps
+  tools:
+  - id: https://bio.tools/colabfold
+    name: ColabFold
+  - id: https://bio.tools/boltz
+    name: Boltz
+  updated_at: '2026-11-10'
+  url: /workflows/2375?version=1
