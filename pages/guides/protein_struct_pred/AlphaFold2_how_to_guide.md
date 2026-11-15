@@ -55,11 +55,16 @@ With some of these basic concepts in mind it is time to move on to predicting a 
 
 For the purposes of this tutorial I will be using the [ColabFold](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb) implementation of AlphaFold2 as it is straightforward and easy to use. This runs off the Google Colab platform which is like Google Docs but for code. Google Colab is a two tier system with a free and a paid version. The free version has access to T4 GPU cards while the paid subscription allows access to A100 GPUs. A100 GPUs are significantly better than T4 and will allow you to predict proteins faster and also increase the total number of amino acids you can input. Below is a table with some benchmarking I performed. 
 
+<div class="resource-table-wrapper table-responsive mt-4 mb-5" markdown="1">
+
 | Protein (length) | VPS29 (182aa) | SNX17 (470aa) | Retriever (1442aa) |
 | :---- | :---- | :---- | :---- |
 | T4 (mins) | 10 | 40 | 240 |
 | A100 (mins) | 3 | 7 | 30 |
 | Structure | ![](images/AF2_How-to_images/29_scaled.gif) | ![](images/AF2_How-to_images/17_scaled.gif) | ![](images/AF2_How-to_images/retriever_scaled.gif) |
+{: .tooltable .table .table-bordered .table-striped .w-100}
+
+</div>
 
 As residue number increases there is a big divergence in time requirements so if you are just doing a few quick runs of a short protein, T4 GPUs will work. However if you want to run lots of proteins or longer proteins I would highly recommend getting a subscription. If you opt to get a subscription you need to tell Colab you would like to use an A100, to do this you can click on the arrow next to ![](images/AF2_How-to_images/change-runtime.png) and select “Change runtime type”.
 
@@ -131,6 +136,8 @@ You can see this model is predicted with high confidence to contain two structur
 
 Below is a table with other proteins and their PAE plots, clicking on the protein name will redirect you to the AlphaFold database which has a great interactive PAE tool. Clicking and dragging a box around an area of the PAE plot will lead to the same area being highlighted in the structure to the left. Where possible I have also included a reference to a paper which has used AlphaFold2 to describe the protein. Note the colours are slightly different with green showing low positional error and white showing high positional error. 
 
+<div class="resource-table-wrapper table-responsive mt-4 mb-5" markdown="1">
+
 | Protein | Brief description | Reference |
 | :---  | :---- | :---: |
 | [SNX13](https://alphafold.ebi.ac.uk/entry/Q9Y5W8) | A four-domain protein where the N and C terminus form an intramolecular interaction. | [https://doi.org/10.3389/fcell.2022.826688](https://doi.org/10.3389/fcell.2022.826688) |
@@ -140,6 +147,9 @@ Below is a table with other proteins and their PAE plots, clicking on the protei
 | [CCDC22](https://alphafold.ebi.ac.uk/entry/O60826) | This protein has a N-terminal structured domain followed by a disordered domain (although note there is some confidence in the positioning of this disorder) and a long alpha-helix. This structure of this protein becomes more rigid when incorporated into the large CCC complex. | [https://doi.org/10.1016/j.cell.2023.04.003](https://doi.org/10.1016/j.cell.2023.04.003) |
 | [I7ME23](https://www.alphafold.ebi.ac.uk/entry/I7ME23) | A protein with two domains connected by a short flexible linker. | [https://doi.org/10.1038/s41467-023-37868-0](https://doi.org/10.1038/s41467-023-37868-0)
 | [P51513](https://www.alphafold.ebi.ac.uk/entry/P51513) | A protein with three soluble domains connected via a long flexible linker. Two of the domains interact. | [https://doi.org/10.1016/j.str.2022.08.004](https://doi.org/10.1016/j.str.2022.08.004) |
+{: .tooltable .table .table-bordered .table-striped .w-100}
+
+</div>
 
 It is also worth noting that just like any method AlphaFold2 can produce false positives. The most common of these is when a protein has a region of disorder, rather than leaving this in a disordered state AF2 likes to fold these regions into alpha-helices. A good example of this is [WAC2C](https://www.uniprot.org/uniprotkb/Q9Y4E1/entry#structure) (FAM21), which is known to have a completely disordered tail from residue 90-1341. At various points AF2 imposes some degree of secondary structure on this region, which to the best of my knowledge do not exist. This issue is significantly worse in AlphaFold3 where the disordered tail is predicted to form what looks like at first glance a domain (see below). A good way to identify false positives is to look at the pLDDT score, as you can see in this example AlphaFold3 is very unconfident about these helices. 
 

@@ -18,8 +18,8 @@ In 2026, speakers from across the structural biology community were invited to p
 
 ## Programme
 
-<div class="content-table-wrapper table-responsive">
-  <table class="content-table">
+<div class="resource-table-wrapper table-responsive mt-4 mb-5">
+  <table class="tooltable table table-bordered table-striped w-100">
     <thead>
       <tr>
         <th scope="col">Date</th>
