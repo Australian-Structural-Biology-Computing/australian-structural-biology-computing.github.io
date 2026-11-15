@@ -28,6 +28,8 @@ attribution of credit to those who have created the work being shared.
 
 #### 3. Annotate these workflows by adding the minimum metadata highlighted here
 
+<div class="resource-table-wrapper table-responsive mt-4 mb-5" markdown="1">
+
 | Field                      | Description / extra information |
 |----------------------------|--------------------------------------------------------------------|
 | Workflow title             | Make sure the title is descriptive and highlights what the workflow does.|
@@ -36,5 +38,8 @@ attribution of credit to those who have created the work being shared.
 | Maturity                 | Indicate if the workflow is `mature` or a `work-in-progress`. |
 | License                    | Note that if a license file is included in your GitHub repository it will be automatically parsed by WorkflowHub. |
 | EDAM Topics and Operations | Add concepts from [EDAM](https://github.com/edamontology/edamontology) as standardised short descriptions of workflow domain, purpose, and function. You can search for EDAM terms within the WorkflowHub workflow registration wizard. You can also use [EDAM browser](https://edamontology.github.io/edam-browser/) to explore and search the EDAM ontology for appropriate concepts. |
+{: .tooltable .table .table-bordered .table-striped .w-100}
+
+</div>
 
 The metadata included above is based on a BioCommons [example available here](https://australianbiocommons.github.io/how-to-workflowhub-space/new_workflow#add-minimum-metadata).
