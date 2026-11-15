@@ -7,17 +7,17 @@
 {%- unless tools.size == 0 or tools == nil %}
 <a class="visually-hidden-focusable" href='#skip-tool-table'>Skip tool table</a>
 <div class="resource-table-wrapper table-responsive mt-4 mb-5">
-    <table class="tooltable resource-table table display">
+    <table class="tooltable resource-table table display table-bordered table-striped w-100">
         <thead>
             <tr class="text-nowrap">
-                <th>Resource {%- if include.tag -%}
+                <th class="dt-center resource-name-column">Resource {%- if include.tag -%}
                     <a data-bs-toggle="tooltip" data-bs-original-title="This is a curated list which means that not all tools or resources that exist for this topic are listed here. This is mainly because we do not intend to be a registry.">
                         <i class="fa-solid fa-info-circle"></i>
                     </a>{%- endif %}
                 </th>
-                <th>Description</th>
-                <th>DOI</th>
-                <th class="resource-type">Type</th>
+                <th class="dt-center">Description</th>
+                <th class="dt-center">DOI</th>
+                <th class="dt-center resource-type">Type</th>
             </tr>
         </thead>
         <tbody>
@@ -31,9 +31,9 @@
             {% if found %}
             <tr>
                 {% if tool.URL %}
-                <td><a href="{{tool.URL}}">{{tool.Title}}</a></td>
+                <td class="resource-name-column"><a href="{{tool.URL}}">{{tool.Title}}</a></td>
                 {%- else %}
-                <td>{{tool.Title}}</td>
+                <td class="resource-name-column">{{tool.Title}}</td>
                 {%- endif %}
                 <td>
                     {{tool.Description}}
@@ -46,11 +46,11 @@
                     {%- endif %}
                 </td>
                 {% if tool.DOI%}
-                <td><a href="{{tool.DOI}}">DOI</a></td>
+                <td class="dt-center"><a href="{{tool.DOI}}">DOI</a></td>
                 {%- else %}
-                <td></td>
+                <td class="dt-center"></td>
                 {%- endif %}
-                <td>
+                <td class="dt-center">
                     {% if tool.Type %}
                     {%- for type in tool.Type %}
                     <span class="resource-badge">
