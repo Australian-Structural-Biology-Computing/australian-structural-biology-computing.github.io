@@ -14,7 +14,7 @@
   {%- assign count = 0 %}
   <ul class="events-grid row row-cols-1 row-cols-md-{{ include.col | default: 1 }} gx-4 gy-0 list-unstyled mt-3">
     {%- for event in events %}
-    <li class="col {{ include.event_type }}" data-start="{{ event.startDate }}">
+    <li class="col {{ include.event_type }}" data-start="{{ event.startDate }}" data-end="{{ event.endDate | default: event.startDate }}">
       <article class="event-card{% if event.url %} event-card-linked{% endif %} card h-100">
         <div class="card-body d-flex align-items-stretch p-0">
           <time class="event-card-date-block flex-shrink-0 text-center" datetime="{{ event.startDate }}" aria-label="{{ event.startDate | date_to_long_string }}">
@@ -52,17 +52,25 @@
     const eventSection = document.currentScript.previousElementSibling;
 
     $(function () {
-      const now = new Date();
+      const sydneyDateParts = new Intl.DateTimeFormat("en-AU", {
+        timeZone: "Australia/Sydney",
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit"
+      }).formatToParts(new Date()).reduce(function (parts, part) {
+        parts[part.type] = part.value;
+        return parts;
+      }, {});
       const today = [
-        now.getFullYear(),
-        String(now.getMonth() + 1).padStart(2, "0"),
-        String(now.getDate()).padStart(2, "0")
+        sydneyDateParts.year,
+        sydneyDateParts.month,
+        sydneyDateParts.day
       ].join("-");
       const isUpcoming = eventSection.classList.contains("upcoming_events");
       const eventItems = $(eventSection).find("li.{{ include.event_type }}");
       const matchingEvents = eventItems.filter(function () {
-        const startDate = this.dataset.start;
-        return isUpcoming ? startDate >= today : startDate < today;
+        const eventDate = this.dataset.end || this.dataset.start;
+        return isUpcoming ? eventDate >= today : eventDate < today;
       });
 
       eventItems.hide();
