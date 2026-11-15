@@ -37,15 +37,6 @@
                 {%- endif %}
                 <td>
                     {{tool.Description}}
-                    {% unless include.hide_roadmap %}
-                    {% if tool.Roadmap %}
-                    {%- for type in tool.Roadmap %}
-                    <span class="resource-badge resource-roadmap-badge">
-                    {{type}}
-                    </span>
-                    {%- endfor %}
-                    {%- endif %}
-                    {% endunless %}
                 </td>
                 {% if tool.DOI%}
                 <td class="dt-center"><a href="{{tool.DOI}}">DOI</a></td>
