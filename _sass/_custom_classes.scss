@@ -429,6 +429,12 @@ a { text-underline-offset: 0.18em; }
         .resource-name-column { min-width: 11rem; }
 
         &.seminar-resources-table {
+            th:nth-child(2),
+            td:nth-child(2) { width: 20%; }
+
+            th:nth-child(3),
+            td:nth-child(3) { width: 45%; }
+
             th:last-child { min-width: 8.5rem; }
 
             td:last-child > a {
