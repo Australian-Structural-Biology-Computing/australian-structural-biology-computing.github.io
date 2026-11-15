@@ -29,6 +29,9 @@
   .cursor-pointer {
     cursor: pointer;
   }
+  .operation-badge {
+    cursor: default;
+  }
   .col-publications,
   .col-galaxy,
   .col-description {
@@ -166,7 +169,11 @@ nil" %} {%- unless tools.size == 0 or tools == nil %} {%- if include.tag %}
         </td>
         <td class="dt-center">
           {% if tool.edam_ops %} {%- for operation in tool.edam_ops %}
+          <span
+            class="btn btn-light badge border border-dark text-dark mb-2 text-wrap text-center operation-badge"
+          >
             {{operation}}
+          </span>
           {%- endfor %} {%- endif %}
         </td>
         <td class="dt-center">{% if tool.license != blank %} {{tool.license}} {%- endif %}</td>
