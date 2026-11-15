@@ -193,11 +193,7 @@ nil" %} {%- unless tools.size == 0 or tools == nil %} {%- if include.tag %}
           {%- endif %}
         </td>
         <td class="dt-center">
-          {% if tool.remote_link != blank %}
-          <a href="{{tool.remote_link}}">Source repository</a>
-          {%- endif %}
           {% if tool.launch_link != blank and tool.class == "galaxy" %}
-          {% if tool.remote_link != blank %}<br>{% endif %}
           <a href="{{tool.launch_link}}">Import to Galaxy Australia</a>
           {%- endif %}
         </td>
@@ -229,7 +225,7 @@ nil" %} {%- unless tools.size == 0 or tools == nil %} {%- if include.tag %}
     const table = $("#DataTables_Table_0").DataTable();
     // Keep secondary detail columns available through the visibility menu,
     // but start every table view with them hidden.
-    table.columns([2, 7]).visible(false, false);
+    table.columns([2, 7, 8]).visible(false, false);
     table.columns.adjust().draw(false);
     table.page.len(20);
     new $.fn.dataTable.Buttons(table, {
