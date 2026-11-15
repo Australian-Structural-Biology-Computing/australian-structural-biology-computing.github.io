@@ -315,8 +315,6 @@
   Title: NCI Structural Biology AI Reference Collection
   Type:
   - Reference database
-  Roadmap:
-  - Roadmap deliverable 2
   URL: https://dx.doi.org/10.25914/q48c-9a86
   DOI: https://dx.doi.org/10.25914/q48c-9a86
 - Description: Online tutorial covering the principles of protein architecture and function.
@@ -324,8 +322,6 @@
   Title: Foundations of protein structure tutorial
   Type:
   - Online tutorial
-  Roadmap:
-  - Roadmap deliverable 2 & 4
   URL: https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/
   DOI: https://doi.org/10.6019/tol.foundations-protein-structure-t.2026.00001.1
 - Description: A limited series of webinars from 2025 that shared strategies to get the best outcomes from protein design projects.
@@ -333,8 +329,6 @@
   Title: Protein design webinar series
   Type:
   - Webinar series
-  Roadmap:
-  - Roadmap deliverable 2
   URL: protein_design_seminars
   DOI: https://doi.org/10.5281/zenodo.17626498
 - Description: A nextflow pipeline with support for numerous structure prediction tools.
