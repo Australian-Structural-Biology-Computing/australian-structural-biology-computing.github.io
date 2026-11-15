@@ -92,6 +92,41 @@ a { text-underline-offset: 0.18em; }
 
 .navigation-tiles .card { border-top: 3px solid $accent-teal; }
 
+.navigation-tile-simple-link {
+    border: 1px solid rgba($primary, 0.18);
+    border-left: 4px solid $accent-teal;
+    border-radius: $border-radius;
+    color: $primary;
+    background-color: rgba($light, 0.62);
+    box-shadow: 0 3px 10px rgba($primary, 0.05);
+    text-decoration: none;
+    transition: background-color 0.2s ease, border-color 0.2s ease,
+        box-shadow 0.2s ease, transform 0.2s ease;
+
+    .navigation-tile-arrow {
+        color: $accent-teal-dark;
+        transition: transform 0.2s ease;
+    }
+
+    &:hover,
+    &:focus-visible {
+        border-color: rgba($accent-teal-dark, 0.48);
+        border-left-color: $accent-teal;
+        color: $primary;
+        background-color: $white;
+        box-shadow: 0 8px 20px rgba($primary, 0.1);
+        text-decoration: none;
+        transform: translateY(-2px);
+
+        .navigation-tile-arrow { transform: translateX(0.2rem); }
+    }
+
+    &:focus-visible {
+        outline: 3px solid rgba($accent-teal, 0.3);
+        outline-offset: 2px;
+    }
+}
+
 // Community activities
 
 .activity-roadmap-card {
