@@ -1,6 +1,7 @@
 ---
 title: Community developed resources
 page_id: community_resources
+datatable: true
 toc: false
 ---
 
