@@ -228,10 +228,9 @@ nil" %} {%- unless tools.size == 0 or tools == nil %} {%- if include.tag %}
   $(document).ready(function () {
     const table = $("#DataTables_Table_0").DataTable();
     // Keep secondary detail columns available through the visibility menu,
-    // but hide them on a visitor's first view of the table.
-    if (!table.state.loaded()) {
-      table.columns([2, 7]).visible(false);
-    }
+    // but start every table view with them hidden.
+    table.columns([2, 7]).visible(false, false);
+    table.columns.adjust().draw(false);
     table.page.len(20);
     new $.fn.dataTable.Buttons(table, {
       buttons: [
