@@ -19,6 +19,9 @@
     vertical-align: middle;
     min-width: 100px;
   }
+  .tooltable .col-workflow-name {
+    min-width: 13rem;
+  }
   .clear-all-button {
     display: none;
     cursor: pointer;
@@ -124,7 +127,7 @@ nil" %} {%- unless tools.size == 0 or tools == nil %} {%- if include.tag %}
         </th>
       </tr>
       <tr>
-        <th class="dt-center">Name</th>
+        <th class="dt-center col-workflow-name">Name</th>
         <th class="dt-center">Topic(s)</th>
         <th class="dt-center">Operation(s)</th>
         <th class="dt-center">License</th>
@@ -151,7 +154,7 @@ nil" %} {%- unless tools.size == 0 or tools == nil %} {%- if include.tag %}
         endunless %} {%- unless instance_matches.size == 0 %} {%- assign
         instances_tool = instances_tool | plus: instance_matches.size %} {%-
         endunless %} {%- endfor %}
-        <td class="min-width:500px">
+        <td class="col-workflow-name">
         <div>
 	      {% if tool.url %}
 	      <a href="{{include.url}}{{tool.url}}">{{tool.title}}</a>
