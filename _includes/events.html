@@ -52,14 +52,39 @@
     const eventSection = document.currentScript.previousElementSibling;
 
     $(function () {
-      show_{{ include.event_type }}s();
+      const now = new Date();
+      const today = [
+        now.getFullYear(),
+        String(now.getMonth() + 1).padStart(2, "0"),
+        String(now.getDate()).padStart(2, "0")
+      ].join("-");
+      const isUpcoming = eventSection.classList.contains("upcoming_events");
+      const eventItems = $(eventSection).find("li.{{ include.event_type }}");
+      const matchingEvents = eventItems.filter(function () {
+        const startDate = this.dataset.start;
+        return isUpcoming ? startDate >= today : startDate < today;
+      });
+
+      eventItems.hide();
+
+      if (matchingEvents.length === 0) {
+        $(eventSection).hide();
+
+        const heading = eventSection.querySelector("h2[id]");
+        if (heading) {
+          $("#toc-contents a").filter(function () {
+            return this.getAttribute("href") === `#${heading.id}`;
+          }).closest("li").remove();
+        }
+        return;
+      }
+
+      $(eventSection).show();
+      matchingEvents.show();
 
       const limit = Number.parseInt(eventSection.dataset.eventLimit, 10);
       if (Number.isInteger(limit)) {
-        $(eventSection)
-          .find("li.{{ include.event_type }}:visible")
-          .slice(limit)
-          .hide();
+        matchingEvents.slice(limit).hide();
       }
     });
   })();
