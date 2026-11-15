@@ -7,16 +7,9 @@ permissions:
   contents: write
   pull-requests: write
 
-concurrency:
-  group: update-workflowhub-data
-  cancel-in-progress: false
-
 jobs:
   update:
     runs-on: ubuntu-24.04
-    env:
-      UPDATE_BRANCH: automation/update-workflowhub-data
-      TARGET: _data/data_workflows.yaml
     steps:
       - name: Check out website
         uses: actions/checkout@v7
@@ -34,58 +27,20 @@ jobs:
       - name: Update WorkflowHub data
         run: python scripts/workflowhub_finder.py --config _config.yml
 
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Show changes
+        run: git diff --stat
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v8
         with:
-          ruby-version: "3.3"
-          bundler-cache: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+          add-paths: _data/data_workflows.yaml
+          commit-message: Update WorkflowHub workflow data
+          branch: automation/update-workflowhub-data
+          base: ${{ github.ref_name }}
+          delete-branch: true
+          title: Update WorkflowHub workflow data
+          body: |
+            Manual refresh of the ASBC community workflows from WorkflowHub.
 
-      - name: Build website
-        run: bundle exec jekyll build
-        env:
-          JEKYLL_ENV: production
-          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          JEKYLL_BUILD_BRANCH: ${{ github.ref_name }}
-          PAGES_REPO_NWO: ${{ github.repository }}
-
-      - name: Check for changes
-        id: changes
-        run: |
-          if [ -z "$(git status --porcelain -- "$TARGET")" ]; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Create or update pull request
-        if: steps.changes.outputs.changed == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          base_sha="$(git rev-parse HEAD)"
-          git fetch origin "$UPDATE_BRANCH:refs/remotes/origin/$UPDATE_BRANCH" || true
-          git switch -C "$UPDATE_BRANCH" "$base_sha"
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- "$TARGET"
-          git commit -m "Update WorkflowHub workflow data"
-          git push --force-with-lease origin "$UPDATE_BRANCH"
-
-          pr_url="$(gh pr list \
-            --repo "$GITHUB_REPOSITORY" \
-            --head "$UPDATE_BRANCH" \
-            --base "$GITHUB_REF_NAME" \
-            --state open \
-            --json url \
-            --jq '.[0].url // empty')"
-
-          if [ -n "$pr_url" ]; then
-            echo "Updated existing pull request: $pr_url"
-          else
-            gh pr create \
-              --repo "$GITHUB_REPOSITORY" \
-              --base "$GITHUB_REF_NAME" \
-              --head "$UPDATE_BRANCH" \
-              --title "Update WorkflowHub workflow data" \
-              --body "Automated refresh of WorkflowHub data. The generated YAML and Jekyll build were validated before this pull request was opened."
-          fi
+            Please review the generated workflow metadata before merging.

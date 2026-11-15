@@ -8,8 +8,8 @@ If you're seeing this you're on the coding-style backend. This provides a place 
 
 After this integration has been merged into the default branch, run the
 `Update WorkflowHub data` workflow manually from the Actions tab. It generates
-and validates `_data/data_workflows.yaml`, builds the Jekyll site, and opens or
-updates a pull request when the data changes.
+and validates `_data/data_workflows.yaml`, then opens or updates a pull request
+when the data changes.
 
 The integration is configured in `_config.yml`:
 
@@ -24,15 +24,13 @@ workflowhub:
 If this block is absent or `enabled` is `false`, data generation is skipped.
 The importer reads the configured WorkflowHub collection and always writes to
 `_data/data_workflows.yaml`. It validates the generated data before replacing
-the existing file, and a separate GitHub Actions workflow runs its unit tests
-when the integration code changes.
+the existing file. The normal site CI validates the resulting pull request.
 
 Before the first automated update on a fork, open **Settings → Actions →
 General → Workflow permissions** and allow GitHub Actions to create pull
 requests.
 
-The update workflow is manual during the pilot. A scheduled trigger can be
-added after the update and deployment have been tested on the default branch.
+The update workflow is intentionally manual-only.
 
 ## Where is the *website*, not just the raw source code?
 
