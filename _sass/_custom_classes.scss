@@ -415,7 +415,6 @@ a { text-underline-offset: 0.18em; }
     scrollbar-color: rgba($accent-teal, 0.6) $light;
 }
 
-.resource-table-wrapper .resource-table,
 .content-table-wrapper .content-table {
     margin-bottom: 0;
     overflow: hidden;
@@ -460,27 +459,16 @@ a { text-underline-offset: 0.18em; }
 }
 
 .resource-table-wrapper {
-    .resource-table {
-        --dt-order-arrow_color: #{$white};
-        --dt-order-arrow_color-current: #{$white};
+    .tooltable {
         min-width: 46rem;
 
-        > tbody > tr > * { vertical-align: middle; }
+        th,
+        td {
+            min-width: 100px;
+            vertical-align: middle;
+        }
 
         .resource-name-column { min-width: 11rem; }
-
-        td:first-child a {
-            color: $accent-teal-dark;
-            font-weight: 700;
-
-            &:hover,
-            &:focus-visible { color: $primary; }
-        }
-
-        td:nth-child(3) > a {
-            white-space: nowrap;
-            font-weight: 600;
-        }
     }
 
     .dataTables_wrapper,
