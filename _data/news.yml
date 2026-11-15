@@ -1,3 +1,7 @@
+- name: "Repurposed hardware boosts national capacity and powers innovation"
+  date: 2025-05-29
+  url: https://www.biocommons.org.au/news/qcif-gpus
+  description: "QCIF Ltd has made high-performance hardware available to the Australian BioCommons, giving the hardware a second life and uplifting national capacity for running AlphaFold 2 jobs in Galaxy Australia while supporting innovation through other GPU-enabled tools."
 - name: "ASBC Community EMCR Symposium"
   date: 2026-11-04
   url: https://www.biocommons.org.au/news/asbc-community-meeting-talks
@@ -18,6 +22,10 @@
   date: 2026-03-26
   url: https://www.biocommons.org.au/news/ai-for-science-hackathon-2026
   description: "Australian Structural Biology Computing (ASBC) community (UNSW Structural Biology Facility, WEHI, and the Monash AI Protein Design Program) contributed to the AI for Science Hackathon, bringing their expertise in optimising workflows for protein structure prediction and design."
+- name: "ASBC @ nf-core Hackathon 2026"
+  date: 2026-03-31
+  url: https://www.biocommons.org.au/news/nf-core-hackathon-2026
+  description: "The ASBC community contributed to the Aussie outpost of the nf-core Hackathon in 2026 contributing development of the proteinfold pipeline."
 - name: "Foundations of protein structure training module now available!"
   date: 2026-04-17
   url: https://doi.org/10.6019/tol.foundations-protein-structure-t.2026.00001.1

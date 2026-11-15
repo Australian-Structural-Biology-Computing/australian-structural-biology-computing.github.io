@@ -15,12 +15,15 @@ tiles:
 If you would like to, there are multiple ways to join the conversation.
 
 
-### Attend the regular community meetings and other events
+## Attend regular community meetings and other events
 
 {% include tiles-simple.html col="2" target="tiles" variant="simple" %}
 
+## Join the community slack workspace
 
-### Join the mailing list 
+The community slack invitation link is available in the above rolling agenda document. You can join the workspace to chat to comunity members about exciting new developments, scientific challenges or potential collaborations.
+
+## Join the mailing list 
 
 If you join the mailing list (subscribe below), you will receive 
 community updates and notifications, including information
