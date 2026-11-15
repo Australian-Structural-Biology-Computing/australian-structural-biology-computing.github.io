@@ -460,6 +460,8 @@ a { text-underline-offset: 0.18em; }
 
 .resource-table-wrapper {
     .tooltable {
+        --dt-order-arrow_color: #{$white};
+        --dt-order-arrow_color-current: #{$white};
         min-width: 46rem;
 
         th,
@@ -469,6 +471,12 @@ a { text-underline-offset: 0.18em; }
         }
 
         .resource-name-column { min-width: 11rem; }
+
+        > thead > tr > th {
+            border-color: rgba($white, 0.16);
+            color: $white;
+            background-color: $primary;
+        }
     }
 
     .dataTables_wrapper,
