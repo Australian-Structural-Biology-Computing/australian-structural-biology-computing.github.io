@@ -5,22 +5,22 @@
   {%- assign news = site.data.news | sort: "date" %}
   {%- assign count = 0 %}
   <ul class="news-timeline list-unstyled my-3">
-    {%- for new in news reversed %}
+    {%- for item in news reversed %}
     <li class="news-timeline-item">
       <article class="news-timeline-content">
         <h3 class="title mt-0 mb-2">
-          {%- if new.url -%}<a href="{{ new.url }}">{{ new.name | escape }}</a>{%- else -%}{{ new.name | escape }}{%- endif -%}
+          {%- if item.url -%}<a href="{{ item.url }}">{{ item.name | escape }}</a>{%- else -%}{{ item.name | escape }}{%- endif -%}
         </h3>
         <p class="news-timeline-date text-muted mb-3">
-          <span class="news-metadata-item"><i class="icon-calendar me-2" aria-hidden="true"></i><time>{{ new.date | date_to_long_string }}</time></span>{% if new.linked_pr %}<span class="metadata-separator" aria-hidden="true">&middot;</span><span class="news-metadata-item"><i class="icon-git-branch me-2" aria-hidden="true"></i><a href="{{ site.github.repository_url | append: '/pull/' | append: new.linked_pr }}"><span>PR #{{ new.linked_pr }}</span></a></span>{% endif %}
+          <span class="news-metadata-item"><i class="icon-calendar me-2" aria-hidden="true"></i><time>{{ item.date | date_to_long_string }}</time></span>{% if item.linked_pr %}<span class="metadata-separator" aria-hidden="true">&middot;</span><span class="news-metadata-item"><i class="icon-git-branch me-2" aria-hidden="true"></i><a href="{{ site.github.repository_url | append: '/pull/' | append: item.linked_pr }}"><span>PR #{{ item.linked_pr }}</span></a></span>{% endif %}
         </p>
-        {%- if new.description %}
-          {%- assign word_count = new.description | split: " " | size %}
+        {%- if item.description %}
+          {%- assign word_count = item.description | split: " " | size %}
           {%- if include.truncate == true and word_count > 40 %}
           <p class="mb-0"><a class="description-toggle btn btn-sm d-inline-flex align-items-center gap-2" data-bs-toggle="collapse" href="#collapse-{{ count }}" role="button" aria-expanded="false" aria-controls="collapse-{{ count }}"><i class="icon-chevron-right" aria-hidden="true"></i><span>View description</span></a></p>
-          <div class="full-description collapse" id="collapse-{{ count }}">{{ new.description | markdownify }}</div>
+          <div class="full-description collapse" id="collapse-{{ count }}">{{ item.description | markdownify }}</div>
           {%- else %}
-          {{ new.description | markdownify }}
+          {{ item.description | markdownify }}
           {%- endif %}
         {%- endif %}
       </article>

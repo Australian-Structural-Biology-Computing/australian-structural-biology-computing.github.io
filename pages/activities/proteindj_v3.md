@@ -26,4 +26,4 @@ tiles:
 - Merged and validated the replacement components alongside performance and usability improvements.
 - Released ProteinDJ v3.0 through the [official ProteinDJ repository](https://github.com/PapenfussLab/proteindj).
 
-The release also supports future incorporation of ProteinDJ into the Australian BioCommons Structural Biology Platform.
+The release also supports future incorporation of ProteinDJ into the [Australian BioCommons Structural Biology Platform](biocommons_structural_biology_platform).

@@ -21,7 +21,7 @@ If you would like to, there are multiple ways to join the conversation.
 
 ## Join the community slack workspace
 
-The community slack invitation link is available in the above rolling agenda document. You can join the workspace to chat to comunity members about exciting new developments, scientific challenges or potential collaborations.
+The community slack invitation link is available in the above rolling agenda document. You can join the workspace to chat to community members about exciting new developments, scientific challenges or potential collaborations.
 
 ## Join the mailing list 
 

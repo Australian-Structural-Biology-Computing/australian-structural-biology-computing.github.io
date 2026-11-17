@@ -1,6 +1,6 @@
 ---
 title: Resources
-summary: Find community knowledge, practical guidance, software and specialist services for structural biology computing.
+summary: Find community knowledge, practical guidance, software, and specialist services for structural biology computing.
 toc: false
 general_resource_tiles:
   - title: General resources
@@ -8,7 +8,7 @@ general_resource_tiles:
     description: Resources developed by the ASBC community.
   - title: How-to guides
     url: /guides
-    description: Practical guidance for structural biology computing tasks.
+    description: Practical step-by-step guidance for structural biology computing tasks.
   - title: Computational workflows
     url: /workflows
     description: Reusable workflows for structural biology research.

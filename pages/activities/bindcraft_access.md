@@ -25,7 +25,7 @@ redirect_from: /website/bindcraft_access
 
 ### Completed
 
-- Wrap the BindCraft tool in a Nextflow workflow ([bindflow](https://github.com/Australian-Structural-Biology-Computing/bindflow)).
+- Wrap the BindCraft tool in a Nextflow workflow ([**bindflow**](https://github.com/Australian-Structural-Biology-Computing/bindflow)).
 - Add bindflow support for parallel execution across multiple GPUs.
 
 

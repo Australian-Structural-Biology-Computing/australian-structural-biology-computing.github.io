@@ -43,4 +43,4 @@ tiles:
 
 ### Acknowledgements
 
-This work was supported by Australian BioCommons and the Pawsey Supercomputing Research Centre (https://ror.org/04f2f0537). Australian BioCommons receives NCRIS funding through Bioplatforms Australia. Pawsey Supercomputing Research Centre receives funding from the Australian Government and the Government of Western Australia.
+This work was supported by Australian BioCommons and the [Pawsey Supercomputing Research Centre](https://ror.org/04f2f0537). Australian BioCommons receives NCRIS funding through Bioplatforms Australia. Pawsey Supercomputing Research Centre receives funding from the Australian Government and the Government of Western Australia.

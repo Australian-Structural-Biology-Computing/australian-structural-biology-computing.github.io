@@ -38,7 +38,7 @@ tiles:
 
 ### In Progress
 
-- Continue to port software to AMD that has been prioritised by the community.
+- Continue to port software prioritised by the community to AMD .
 
 
 ### Acknowledgements

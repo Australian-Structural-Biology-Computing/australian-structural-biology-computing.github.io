@@ -5,7 +5,7 @@ toc: false
 redirect_from: /website/activities
 ---
 
-Our community activities put the four major deliverables in the [Australian Structural Biology Deep-Learning Infrastructure Roadmap]({{ '/infrastructure_roadmap' | relative_url }}) into practice.
+Our community activities address the four major deliverables in the [Australian Structural Biology Deep-Learning Infrastructure Roadmap]({{ '/infrastructure_roadmap' | relative_url }}).
 
 <h2 class="activity-section-heading activity-section-roadmap">Roadmap</h2>
 
@@ -57,7 +57,7 @@ Our community activities put the four major deliverables in the [Australian Stru
           <span class="activity-roadmap-number" aria-hidden="true">4</span>
           <h3 class="h5 mb-0">Global connections</h3>
         </div>
-        <p class="mb-0">Alignment with, adoption of and contribution to global best-practice efforts.</p>
+        <p class="mb-0">Alignment with, adoption of, and contribution to global best-practice efforts.</p>
         <span class="activity-roadmap-link">View activities <span aria-hidden="true">&rarr;</span></span>
       </div>
     </a>

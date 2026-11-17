@@ -1,8 +1,8 @@
 ---
 layout: landing
 title: Australian Structural Biology Computing
-hero_title: A shared community space
-summary: Discover shared resources, current activities, community meetings and ways to contribute.
+hero_title: A shared community space for structural biology computing
+summary: Discover shared resources, current activities, community meetings, and ways to contribute.
 hero_actions:
   - title: Join the conversation
     url: /join_conversation
@@ -30,7 +30,7 @@ redirect_from: /website/
   <div class="d-flex flex-wrap align-items-baseline justify-content-between gap-2 mb-3">
     <div>
       <h2 id="contributors-heading" class="mb-2">Community contributors</h2>
-      <p class="mb-0">Meet the people sharing expertise, resources and infrastructure across the community.</p>
+      <p class="mb-0">Meet the people sharing expertise, resources, and infrastructure across the community.</p>
     </div>
     <a href="{{ '/community_contributors' | relative_url }}">View all contributors</a>
   </div>
