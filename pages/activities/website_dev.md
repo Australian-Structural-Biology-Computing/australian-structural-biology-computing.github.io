@@ -21,5 +21,7 @@ toc: false
  
 - Sharing mechanism for events
 - Sharing mechanisms for community resources and external resources
+- Sharing mechanism for events
+- Sharing mechanisms for community resources and external resources
 - Sharing mechanism for computational workflows
 - Adding contributors
