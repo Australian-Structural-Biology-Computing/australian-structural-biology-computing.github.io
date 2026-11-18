@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+"""Generate the website's WorkflowHub data file.
+
+The WorkflowHub integration is adapted from WorkflowFinder by Australian
+BioCommons: https://australianbiocommons.github.io/workflowfinder/
+"""
+
 import argparse
 import math
 import os

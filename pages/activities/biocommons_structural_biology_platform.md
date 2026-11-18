@@ -11,7 +11,7 @@ tiles:
 ---
 
 {% include tiles-simple.html target="tiles" col="1" variant="simple" %}
-{% include callout.html type=“note” content="The platform is currently in an early access period, where it is available for invited users, and is scheduled for a public launch in Q1 2027." %}
+{% include callout.html type="note" content="The platform is currently in an early access period, where it is available for invited users, and is scheduled for a public launch in Q1 2027." %}
 ## Details
 
 The Australian BioCommons Structural Biology Platform is being developed in response to challenges identified in the [Australian Structural Biology Deep-Learning Infrastructure Roadmap](https://doi.org/10.5281/zenodo.15786982). It aims to make advanced molecular structure prediction and design more accessible to Australian researchers by bringing workflows, software, and computing resources together in a browser-based interface.

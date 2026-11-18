@@ -13,3 +13,5 @@ To contribute a workflow, follow the [workflow contribution guidance]({% link pa
 <div markdown="0">
 {% include workflowhub-table.html url="https://workflowhub.eu" %}
 </div>
+
+The workflow table implementation is adapted from [WorkflowFinder by Australian BioCommons](https://australianbiocommons.github.io/workflowfinder/).

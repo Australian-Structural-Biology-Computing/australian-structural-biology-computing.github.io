@@ -1,5 +1,8 @@
 name: Update WorkflowHub data
 
+# The WorkflowHub update action follows the WorkflowFinder approach developed by
+# Australian BioCommons: https://australianbiocommons.github.io/workflowfinder/
+
 on:
   workflow_dispatch:
 
