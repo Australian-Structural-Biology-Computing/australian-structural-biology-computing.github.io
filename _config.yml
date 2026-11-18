@@ -1,11 +1,16 @@
 title: Australian Structural Biology Computing
 # This appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-topnav_title: Australian Structural Biology Computing 
+topnav_title: Australian Structural Biology Computing
 # Optional: this appears on the top navigation bar next to the main_logo.svg icon
 
 description: "A website for the Australian Structural Biology Computing community."
 # Metadata description of the website
+
+# WorkflowHub integration used by scripts/workflowhub_finder.py.
+workflowhub:
+  enabled: true
+  collection_id: 40
 
 # Following AusBioCommons minimal gh-pages with remote deploy -  https://github.com/AustralianBioCommons/how-to-guides/blob/main/_config.yml
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme

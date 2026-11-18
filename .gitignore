@@ -2,4 +2,7 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+**/__pycache__/
 Gemfile.lock
+/.bundle/
+/vendor/

@@ -9,10 +9,10 @@ redirect_from: /website/events
 
 ## Upcoming events
 
-{% include events.html event_type="upcoming_event" truncate=true %}
+{% include events.html event_type="upcoming_event" truncate=true col=2 %}
 
 
 ## Past events
 
-{% include events.html event_type="past_event" truncate=true %}
+{% include events.html event_type="past_event" truncate=true col=2 %}
 

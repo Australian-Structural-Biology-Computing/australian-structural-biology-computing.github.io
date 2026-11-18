@@ -7,12 +7,516 @@
     color: $white;
 }
 
-.navbar-nav .nav-item > a {
+header .navbar .navbar-nav > .nav-item > .nav-link {
+    border-radius: 999px;
+    padding-inline: 0.9rem;
+    transition: background-color 160ms ease, color 160ms ease;
+
+    &:hover { color: $white; background-color: rgba($white, 0.12); }
+
     &.active {
-        color: $white;
-        background-color: $primary;
-        border-radius: $border-radius;
+        color: $primary;
+        background-color: $white;
     }
+}
+
+.navbar { border-bottom: 3px solid $info; }
+.navbar-brand { color: $white; font-weight: 700; letter-spacing: -0.02em; }
+.navbar-brand:hover, .navbar-brand:focus { color: $white; }
+.navbar-toggler { color: $white !important; border-color: rgba($white, 0.45); }
+.navbar-brand img { max-height: 3.4rem; }
+body { line-height: 1.65; }
+h1, h2, h3, h4 { color: $primary; letter-spacing: -0.025em; }
+h1 { font-weight: 750; }
+h2 { font-weight: 700; margin-top: 2.25rem; margin-bottom: 1rem; }
+a { text-underline-offset: 0.18em; }
+::selection { color: $white; background: $primary; }
+
+// Keep activity detail pages associated with their ETT sidebar branch without
+// displaying the detail-page links as a third navigation level.
+#sidebar > nav > ul {
+    button[data-bs-target^="#sidebar-list-lvl-2-"] { display: none !important; }
+
+    li:has(> ul[id^="sidebar-list-lvl-2-"]) { display: none; }
+
+    li:has(+ li > ul[id^="sidebar-list-lvl-2-"] a.active) > a {
+        color: $sidebar-link-color-active;
+
+        &::after { background: $sidebar-link-bg-active; }
+    }
+}
+
+.landing-page #main {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+}
+
+.landing-page .navbar {
+    border-bottom: 0;
+    margin-bottom: 0 !important;
+}
+
+.landing-hero {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    background: linear-gradient(120deg, $primary 0%, $accent-teal-dark 100%);
+
+    &::before,
+    &::after {
+        position: absolute;
+        z-index: -1;
+        border: 1px solid rgba($white, 0.13);
+        border-radius: 50%;
+        content: "";
+        pointer-events: none;
+    }
+
+    &::before {
+        top: -16rem;
+        right: 5%;
+        width: 30rem;
+        height: 30rem;
+    }
+
+    &::after {
+        right: 28%;
+        bottom: -7rem;
+        width: 13rem;
+        height: 13rem;
+    }
+}
+
+.navigation-tiles .card { border-top: 3px solid $accent-teal; }
+
+.navigation-tile-simple-link {
+    border: 1px solid rgba($primary, 0.18);
+    border-left: 4px solid $accent-teal;
+    border-radius: $border-radius;
+    color: $primary;
+    background-color: rgba($light, 0.62);
+    box-shadow: 0 3px 10px rgba($primary, 0.05);
+    text-decoration: none;
+    transition: background-color 0.2s ease, border-color 0.2s ease,
+        box-shadow 0.2s ease, transform 0.2s ease;
+
+    .navigation-tile-arrow {
+        color: $accent-teal-dark;
+        transition: transform 0.2s ease;
+    }
+
+    &:hover,
+    &:focus-visible {
+        border-color: rgba($accent-teal-dark, 0.48);
+        border-left-color: $accent-teal;
+        color: $primary;
+        background-color: $white;
+        box-shadow: 0 8px 20px rgba($primary, 0.1);
+        text-decoration: none;
+        transform: translateY(-2px);
+
+        .navigation-tile-arrow { transform: translateX(0.2rem); }
+    }
+
+    &:focus-visible {
+        outline: 3px solid rgba($accent-teal, 0.3);
+        outline-offset: 2px;
+    }
+}
+
+// Community activities
+
+.activity-roadmap-card {
+    border: 1px solid rgba($primary, 0.1);
+    border-left: 4px solid $secondary;
+    color: inherit;
+    text-decoration: none;
+    box-shadow: 0 4px 14px rgba($primary, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover,
+    &:focus-visible {
+        color: inherit;
+        text-decoration: none;
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba($primary, 0.09);
+    }
+
+    &:focus-visible {
+        outline: 3px solid rgba($accent-teal, 0.3);
+        outline-offset: 2px;
+    }
+}
+
+.activity-roadmap-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.75rem;
+    flex: 0 0 2rem;
+    border-radius: 50%;
+    color: $white;
+    background-color: $secondary;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.activity-roadmap-community {
+    border-left-color: $accent-warm;
+
+    .activity-roadmap-number { background-color: $accent-warm; }
+}
+
+.activity-roadmap-training {
+    border-left-color: $success;
+
+    .activity-roadmap-number { background-color: $success; }
+}
+
+.activity-roadmap-platform {
+    border-left-color: $accent-teal;
+
+    .activity-roadmap-number { background-color: $accent-teal; }
+}
+
+.activity-roadmap-global {
+    border-left-color: $primary;
+
+    .activity-roadmap-number { background-color: $primary; }
+}
+
+.activity-roadmap-link {
+    display: inline-block;
+    margin-top: 0.8rem;
+    color: $accent-teal-dark;
+    font-size: 0.82rem;
+    font-weight: 700;
+}
+
+.activity-card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba($primary, 0.1);
+    border-top: 4px solid $accent-teal;
+    background-color: $light;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+
+    h3 a {
+        color: $primary;
+        text-decoration: none;
+    }
+
+    &:hover,
+    &:focus-within {
+        transform: translateY(-3px);
+        border-color: rgba($accent-teal, 0.45);
+        box-shadow: 0 10px 24px rgba($primary, 0.1);
+    }
+}
+
+.activity-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    min-height: 3rem;
+    margin: 0 1rem 1rem auto;
+    border-radius: 50%;
+    color: $accent-teal-dark;
+    background-color: rgba($accent-teal, 0.12);
+}
+
+.activity-category {
+    align-self: flex-start;
+    padding: 0.25rem 0.65rem;
+    border-radius: 999px;
+    color: $secondary;
+    background-color: rgba($secondary, 0.12);
+    font-size: 0.78rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.activity-category-community-space {
+    color: darken($accent-warm, 20%);
+    background-color: rgba($accent-warm, 0.16);
+}
+
+.activity-category-training {
+    color: darken($success, 12%);
+    background-color: rgba($success, 0.14);
+}
+
+.activity-category-shared-platform {
+    color: $accent-teal-dark;
+    background-color: rgba($accent-teal, 0.13);
+}
+
+.activity-category-global-connections {
+    color: $primary;
+    background-color: rgba($primary, 0.1);
+}
+
+.activity-card-community-space {
+    border-top-color: $accent-warm;
+
+    .activity-card-footer {
+        color: darken($accent-warm, 22%);
+        background-color: rgba($accent-warm, 0.2);
+    }
+
+    &:hover,
+    &:focus-within { border-color: rgba($accent-warm, 0.6); }
+}
+
+.activity-card-training {
+    border-top-color: $success;
+
+    .activity-card-footer {
+        color: darken($success, 15%);
+        background-color: rgba($success, 0.17);
+    }
+
+    &:hover,
+    &:focus-within { border-color: rgba($success, 0.55); }
+}
+
+.activity-card-shared-platform {
+    border-top-color: $accent-teal;
+
+    .activity-card-footer {
+        color: $accent-teal-dark;
+        background-color: rgba($accent-teal, 0.18);
+    }
+
+    &:hover,
+    &:focus-within { border-color: rgba($accent-teal, 0.55); }
+}
+
+.activity-card-global-connections {
+    border-top-color: $primary;
+
+    .activity-card-footer {
+        color: $primary;
+        background-color: rgba($primary, 0.13);
+    }
+
+    &:hover,
+    &:focus-within { border-color: rgba($primary, 0.48); }
+}
+
+.activity-group-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    margin: 2.5rem 0 1.25rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid rgba($primary, 0.12);
+    font-size: 1.25rem;
+
+    > span {
+        width: 0.65rem;
+        height: 0.65rem;
+        border-radius: 50%;
+        background-color: $secondary;
+    }
+}
+
+.activity-group-progress > span { background-color: $accent-teal; }
+.activity-group-completed > span { background-color: $secondary; }
+
+.activity-section-heading {
+    scroll-margin-top: 5rem;
+    margin-top: 3rem;
+    padding-left: 0.75rem;
+    border-left: 4px solid $secondary;
+}
+
+.activity-section-community { border-left-color: $accent-warm; }
+.activity-section-training { border-left-color: $success; }
+.activity-section-platform { border-left-color: $accent-teal; }
+.activity-section-global { border-left-color: $primary; }
+
+.activity-list {
+    overflow: hidden;
+    border-top: 3px solid $accent-teal;
+    border-radius: $border-radius;
+    box-shadow: 0 3px 12px rgba($primary, 0.05);
+}
+
+.activity-list-community-space { border-top-color: $accent-warm; }
+.activity-list-training { border-top-color: $success; }
+.activity-list-shared-platform { border-top-color: $accent-teal; }
+.activity-list-global-connections { border-top-color: $primary; }
+.activity-list-no-category { border-top-color: $secondary; }
+
+.activity-list-item {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 1.1rem 1.25rem;
+    border: 1px solid rgba($primary, 0.1);
+    border-top: 0;
+    color: inherit;
+    background-color: $white;
+    text-decoration: none;
+    transition: border-color 0.15s ease, background-color 0.15s ease;
+
+    &:hover,
+    &:focus-visible {
+        border-color: rgba($accent-teal, 0.4);
+        color: inherit;
+        background-color: rgba($accent-teal, 0.06);
+        text-decoration: none;
+    }
+
+    &:focus-visible {
+        position: relative;
+        z-index: 1;
+        outline: 3px solid rgba($accent-teal, 0.25);
+        outline-offset: -3px;
+    }
+}
+
+.activity-list-content {
+    display: flex;
+    min-width: 0;
+    flex: 1 1 auto;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.activity-list-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    flex-wrap: wrap;
+}
+
+.activity-list-title {
+    color: $primary;
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+.activity-list-description {
+    color: $secondary;
+    font-size: 0.92rem;
+    line-height: 1.5;
+}
+
+.activity-list-arrow {
+    color: $accent-teal-dark;
+    flex: 0 0 auto;
+    font-size: 1.15rem;
+}
+
+.activity-status {
+    display: inline-block;
+    padding: 0.18rem 0.55rem;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.activity-status-progress {
+    color: $accent-teal-dark;
+    background-color: rgba($accent-teal, 0.14);
+}
+
+.activity-status-completed {
+    color: $secondary;
+    background-color: rgba($secondary, 0.1);
+}
+
+.landing-page #content > .events,
+.landing-news,
+.landing-contributors,
+.landing-acknowledgements { margin-bottom: 4rem; }
+
+.supported-by-tiles .card .supported-by-name { color: $primary; }
+
+// Tools and resources tables
+
+.resource-table-wrapper {
+    scrollbar-color: rgba($accent-teal, 0.6) $light;
+}
+
+.resource-table-wrapper {
+    .tooltable {
+        --dt-order-arrow_color: #{$white};
+        --dt-order-arrow_color-current: #{$white};
+        min-width: 46rem;
+
+        th,
+        td {
+            min-width: 100px;
+            vertical-align: middle;
+        }
+
+        .resource-name-column { min-width: 11rem; }
+
+        &.seminar-resources-table {
+            th:nth-child(2),
+            td:nth-child(2) { width: 20%; }
+
+            th:nth-child(3),
+            td:nth-child(3) { width: 45%; }
+
+            th:last-child { min-width: 8.5rem; }
+
+            td:last-child > a {
+                display: inline-block;
+                white-space: nowrap;
+            }
+        }
+
+        > thead > tr > th {
+            border-color: rgba($white, 0.16);
+            color: $white;
+            background-color: $primary;
+        }
+    }
+
+    .dataTables_wrapper,
+    .dt-container {
+        .dataTables_length,
+        .dataTables_filter,
+        .dt-length,
+        .dt-search {
+            margin-bottom: 0.75rem;
+        }
+
+        input,
+        select {
+            border-color: rgba($primary, 0.2);
+
+            &:focus {
+                border-color: $accent-teal;
+                box-shadow: 0 0 0 0.2rem rgba($accent-teal, 0.12);
+            }
+        }
+    }
+}
+
+.resource-badge {
+    display: inline-block;
+    margin: 0.4rem 0.25rem 0 0;
+    padding: 0.3rem 0.65rem;
+    border-radius: 999px;
+    color: $accent-teal-dark;
+    background-color: rgba($accent-teal, 0.12);
+    font-size: 0.76rem;
+    font-weight: 700;
+    line-height: 1.35;
+    text-align: center;
 }
 
 // see https://github.com/workflowhub-eu/about/blob/596b18d7ab1055ee1e53bc98a3bd120a06518e06/_sass/_custom_classes.scss
@@ -23,10 +527,108 @@
     margin: 10px 0px;
 }
 
+// Compact, theme-native event cards with a strong date rail and quiet surface.
+.event-card {
+    position: relative;
+    overflow: hidden;
+    min-height: 12.5rem;
+    border: 1px solid $border-color;
+    background-color: $light;
+    box-shadow: 0 3px 10px rgba($primary, 0.035);
+
+    .title {
+        font-size: 1.15rem;
+        line-height: 1.3;
+    }
+}
+
+.event-card-linked {
+    cursor: pointer;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+
+    &:hover,
+    &:focus-within {
+        border-color: rgba($accent-teal, 0.5);
+        box-shadow: 0 8px 20px rgba($primary, 0.08);
+        transform: translateY(-2px);
+    }
+}
+
+.event-card-date-block {
+    display: flex;
+    width: 4.25rem;
+    min-height: 100%;
+    padding: 1rem 0.45rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    background-color: $accent-teal-dark;
+    font-style: normal;
+    line-height: 1;
+}
+
+.event-card-day {
+    font-size: 1.65rem;
+    font-weight: 750;
+}
+
+.event-card-month {
+    margin-top: 0.25rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.event-card-year {
+    margin-top: 0.25rem;
+    color: rgba($white, 0.78);
+    font-size: 0.68rem;
+}
+
+.past_events .event-card-date-block { background-color: $secondary; }
+
+.past_events .event-card-linked:hover,
+.past_events .event-card-linked:focus-within {
+    border-color: rgba($secondary, 0.65);
+}
+
+.event-card-metadata {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 0.85rem;
+    font-size: 0.84rem;
+    line-height: 1.4;
+}
+
+.event-card-description > :last-child { margin-bottom: 0; }
+
+.event-card .description-toggle,
+.event-card .full-description a {
+    position: relative;
+    z-index: 2;
+}
+
+.landing-page .event-card-description p {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+
+@media (max-width: 575.98px) {
+    .event-card { min-height: 0; }
+    .event-card-date-block { width: 3.75rem; }
+    .event-card-content { padding: 1.15rem !important; }
+}
+
 // News section front-page
 
 .news-sidebar {
     background-color: $light;
+    border: 1px solid $border-color;
+    overflow: hidden;
 
     .news-item {
         padding: 7px 11px;
@@ -46,11 +648,9 @@
     }
 
     .news-hover:hover {
-        text-decoration: none;
-        background-color: $primary;
-        color: $white;
+        background-color: darken($light, 3%);
         a.stretched-link {
-            color: $light;
+            color: $primary;
         }
     }
 
@@ -59,13 +659,16 @@
         font-weight: 700;
         color: $primary;
         padding: 7px 11px;
+        margin: 0;
     }
 }
 
 #main {
     background-color: $white;
+    border: 1px solid rgba($primary, 0.06);
     border-radius: $border-radius;
-    padding: $spacer * 3;
+    box-shadow: 0 12px 36px rgba($primary, 0.055);
+    padding: clamp(1.25rem, 4vw, 3rem);
     margin-bottom: $spacer * 3;
     #content {
         margin-bottom: 0 !important;

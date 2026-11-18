@@ -8,7 +8,6 @@
 #    orcid: ocrid id
 #    role: the role of the contributor
 #    affiliation: affiliation
-#    image_url: absolute path to image (default image from github)
 
 #Example contributor:
 #    git: 
@@ -86,6 +85,7 @@ Kisaru Liyanage:
     affiliation: HPC specialist (Life and Health Sciences), National Computational Infrastructure (NCI)
 
 Wenjing Xue:
+    git: eileen-xue
     affiliation: HPC Specialist (Life and Health Sciences), National Computational Infrastructure (NCI)
 
 Gavin Knott:
@@ -99,7 +99,7 @@ Rhys Grinter:
 
 Josh Hardy:
     affiliation: Senior Research Officer, Lucet Lab, WEHI
-    git: joshhardywehi
+    git: JoshuaMHardy
     email: hardy.j@wehi.edu.au
     orcid: 0000-0002-8014-8552
 
@@ -109,10 +109,12 @@ Josh Hardy:
 
 Melissa Burke:
     affiliation: Training Manager, Australian BioCommons
+    git: burkemlou
     orcid: 0000-0002-5571-8664
 
 Cyntia Taveneau:
     affiliation: Research Fellow, Knott Lab, Monash University
+    git: cyntiaT
     orcid: 0000-0002-3395-4957
 
 Charlie Bond:
@@ -181,6 +183,7 @@ Peter Czabotar:
 
 Matt Doyle:
     affiliation: University of Sydney
+    orcid: 0000-0002-1876-1209
 
 Bostjan Kobe:
     affiliation: University of Queensland - IMB
@@ -192,6 +195,7 @@ Emily Furlong:
 
 Debnath Ghosal:
     affiliation: Bio21 Institute of Molecular Science and Biotechnology (Bio21)
+    orcid: 0000-0002-2227-0330
 
 Thomas Huber:
     affiliation: Australian National University
@@ -207,3 +211,8 @@ Thomas Ve:
 
 Nadia Zatsepin:
     affiliation: Swinburne University of Technology
+    orcid: 0000-0003-1757-0205
+
+David Ladd:
+    affiliation: Audax Biosciences
+    git: dladd

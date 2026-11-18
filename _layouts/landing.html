@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+<body class="landing-page"{% if page.toc or page.toc == nil %} data-bs-spy="scroll" data-bs-target="#toc-contents" data-bs-smooth-scroll="true" tabindex="0"{% endif %}>
+    {% if site.topnav_banner %}{% include banner.html %}{% endif %}
+    {% if jekyll.environment == "development" and site.theme_variables.dev-info-banner == true %}{% include dev-info.html %}{% endif %}
+    {% include topnav.html search=site.theme_variables.topnav.search %}
+
+    <div class="min-vh-100">
+        <section class="landing-hero text-white py-5 mb-5" aria-labelledby="landing-title">
+            <div class="container g-lg-5 py-lg-4">
+                <div class="row align-items-center g-4">
+                    <div class="{% if page.hero_image %}col-md-8 col-lg-9{% else %}col-lg-10{% endif %}">
+                        <h1 id="landing-title" class="display-4 fw-bold text-white mb-3">{{ page.hero_title | default: page.title }}</h1>
+                        {% if page.summary %}<p class="lead fs-4{% if page.hero_actions %} mb-4{% else %} mb-0{% endif %}">{{ page.summary }}</p>{% endif %}
+                        {% if page.hero_actions %}
+                        <div class="d-flex flex-wrap gap-3">
+                            {% for action in page.hero_actions %}
+                            <a class="btn {{ action.style | default: 'btn-outline-light' }} btn-lg" href="{{ action.url | relative_url }}">{{ action.title }}</a>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% if page.hero_image %}
+                    <div class="col-md-4 col-lg-3 d-none d-md-flex justify-content-center">
+                        <img class="img-fluid w-75" src="{{ page.hero_image | relative_url }}" alt="">
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </section>
+
+        <div class="container g-lg-5">
+            <div{% if page.sidebar %} id="layout" class="gap-5"{% endif %}>
+                {% if page.sidebar %}
+                <aside id="sidebar">
+                    {% include sidebar.html %}
+                </aside>
+                {% endif %}
+                <main id="main"{% if page.toc or page.toc == nil %} class="add-grid"{% endif %}>
+                    {% if page.toc or page.toc == nil %}
+                    <div id="toc" class="text-muted sticky-xl-top">
+                        {% include toc.html %}
+                    </div>
+                    {% endif %}
+                    <div id="content" class="mb-5">
+                        {{ content }}
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    {% include scroll-top.html %}
+    {% include footer.html %}
+    {% include cookie-popup.html %}
+</body>
+</html>

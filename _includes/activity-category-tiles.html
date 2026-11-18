@@ -1,0 +1,13 @@
+{%- assign activity_pages = site.pages | where: "roadmap_category", include.category | sort: "title" -%}
+{%- assign in_progress_pages = activity_pages | where: "type", "Activity_in_progress" -%}
+{%- assign completed_pages = activity_pages | where: "type", "Completed_activity" -%}
+
+{%- if in_progress_pages.size > 0 -%}
+<h2 class="activity-group-heading activity-group-progress"><span aria-hidden="true"></span>In progress</h2>
+{% include activity-tile-grid.html pages=in_progress_pages %}
+{%- endif -%}
+
+{%- if completed_pages.size > 0 -%}
+<h2 class="activity-group-heading activity-group-completed"><span aria-hidden="true"></span>Completed</h2>
+{% include activity-tile-grid.html pages=completed_pages %}
+{%- endif -%}

@@ -1,27 +1,88 @@
 subitems:
   - title: Home
     url: /index
-  - title: Join the conversation
+    icon: icon-home
+  - title: Join
     url: /join_conversation
+    icon: icon-message-circle
+  - title: Activities
+    icon: icon-activity
+    subitems:
+      - title: Overview
+        url: /activities
+        # Hidden visually; associates the roadmap detail page with Overview.
+        subitems:
+          - title: Infrastructure roadmap
+            url: /infrastructure_roadmap
+      - title: Community space
+        url: /activities/community-space
+        # Hidden visually; retained so ETT can associate detail pages with this branch.
+        subitems:
+          - title: Community website
+            url: /website_dev
+          - title: Community talks (2026)
+            url: /community_talk_series_2026
+      - title: Training program
+        url: /activities/training-program
+        # Hidden visually; retained so ETT can associate detail pages with this branch.
+        subitems:
+          - title: ABACBS 2025 workshop
+            url: /abacbs_workshop
+          - title: Protein design seminars (2025)
+            url: /protein_design_seminars
+      - title: Shared platforms
+        url: /activities/shared-platforms
+        # Hidden visually; retained so ETT can associate detail pages with this branch.
+        subitems:
+          - title: Australian BioCommons Structural Biology Platform
+            url: /biocommons_structural_biology_platform
+          - title: AMD software
+            url: /amd_software
+          - title: Batch prediction workflows
+            url: /batch_structure_prediction
+          - title: BindCraft access
+            url: /bindcraft_access
+          - title: NCI data collection
+            url: /nci_data_collections
+          - title: Open OnDemand ProteinFold
+            url: /nci_ood_proteinfold
+          - title: ProteinFold v2.0.0
+            url: /nfcore_proteinfold
+          - title: ProteinFold at Pawsey
+            url: /nfcore_proteinfold_pawsey
+          - title: ProteinDJ v3.0
+            url: /proteindj_v3
+      - title: Global connections
+        url: /activities/global-connections
+        # Hidden visually; retained so ETT can associate detail pages with this branch.
+        subitems:
+          - title: Foundations of Protein Structure
+            url: /ebi_module_dev
+          - title: Protein structure search module
+            url: /protein_structure_search_module
   - title: Contributing
     url: /contributing
-  - title: Activities
-    url: /activities
+    icon: icon-share-2
   - title: Contributors
+    icon: icon-users
     subitems:
       - title: Academic Panel
         url: /academic_panel
       - title: Community Contributors
         url: /community_contributors
-  - title: Community library
+  - title: Community developed resources
+    icon: icon-book-open
     subitems:
       - title: General resources
         url: /community_resources
-      - title: How-to Guides
+      - title: How-to guides
         url: /guides
-      - title: Software
-        url: /software
+      - title:  Workflows
+        url: /workflows
+      - title: AMD porting
+        url: /amd_porting
   - title: External resources
+    icon: icon-external-link
     subitems:
       - title: Structure prediction
         url: /structure_prediction
@@ -35,5 +96,7 @@ subitems:
         url: /infrastructure
   - title: Events
     url: /events
+    icon: icon-calendar
   - title: News
     url: /news
+    icon: icon-newspaper

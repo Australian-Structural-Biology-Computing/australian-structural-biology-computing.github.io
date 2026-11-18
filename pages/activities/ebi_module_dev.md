@@ -1,6 +1,6 @@
 ---
 title: EMBL-EBI Foundations of Protein Structure module development
-description: Developing the content for an online EMBL-EBI tutorial covering the principles of protein architecture and function.
+description: Developed content for an online EMBL-EBI tutorial covering the principles of protein architecture and function.
 type: Completed_activity
 roadmap_category: Global-connections
 contributors: [Jennifer Fleming, Kristina Gagalova, Johan Gustafsson, Michael Healy, Thomas Litfin, Paulyna Magaña, Katharine Michie]
@@ -11,18 +11,16 @@ tiles:
 ---
 
 
-{% include tiles-simple.html target = "tiles" col = "1" %}
+{% include tiles-simple.html target="tiles" col="1" variant="simple" %}
 
 
 ## Details
- 
-A collaboration developing the content for a `Foundations of Protein Structure` module that will be
-added to the training material made available by EMBL-EBI. The development of the module is a 
-collaboration between members of the Australian Structural Biology Computing community, and the 
-team from [Protein Data Bank in Europe (PDBe)](https://www.ebi.ac.uk/pdbe/).
 
+Protein structure describes how an amino acid sequence folds into a three-dimensional shape. Proteins contain structural features at several scales: local elements such as alpha helices and beta sheets, larger motifs and domains, and assemblies of multiple protein chains. These features are shaped by chemical interactions and influence how proteins move, bind other molecules, and carry out their functions.
 
-## Future
+The `Foundations of Protein Structure` module introduces these principles, from amino acid chemistry and folding through protein architecture, dynamics, interactions, and post-translational modifications. It helps learners build the structural biology knowledge needed to interpret protein structures in research. [Explore the online module](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/).
 
-- Development of additional modules
-- Contributions from additional community members
+The module was developed through a collaboration between members of the
+Australian Structural Biology Computing community and the team from
+[Protein Data Bank in Europe (PDBe)](https://www.ebi.ac.uk/pdbe/).
+

@@ -1,65 +1,66 @@
 ---
 title: Community activities
 page_id: activities
-#type: resources
 toc: false
 redirect_from: /website/activities
 ---
 
-Community activities are organised based on the four major deliverables described in the [Australian Structural Biology Deep-Learning Infrastructure Roadmap](/infrastructure_roadmap).
+Our community activities address the four major deliverables in the [Australian Structural Biology Deep-Learning Infrastructure Roadmap]({{ '/infrastructure_roadmap' | relative_url }}).
 
-<div class="legend-item">
-    <div class="legend-tile-content-1 ">
-        <p style="color:#D98B19;"><strong>1. Community space</strong>: deliverable 1 is an Australian Structural Biology community space (e.g. this website) that is capable of fostering collaboration and knowledge sharing.</p>
-    </div>
+<h2 class="activity-section-heading activity-section-roadmap">Roadmap</h2>
+
+{% include section-navigation-tiles_mod.html category="No-category" %}
+
+## Deliverables
+
+<div class="row row-cols-1 row-cols-md-2 g-3 my-4 activity-roadmap-grid">
+  <div class="col">
+    <a href="{{ '/activities/community-space' | relative_url }}" class="card h-100 activity-roadmap-card activity-roadmap-community" aria-label="View community space activities">
+      <div class="card-body">
+        <div class="d-flex align-items-center mb-2">
+          <span class="activity-roadmap-number" aria-hidden="true">1</span>
+          <h3 class="h5 mb-0">Community space</h3>
+        </div>
+        <p class="mb-0">A shared space that fosters collaboration and knowledge exchange across Australian structural biology.</p>
+        <span class="activity-roadmap-link">View activities <span aria-hidden="true">&rarr;</span></span>
+      </div>
+    </a>
+  </div>
+  <div class="col">
+    <a href="{{ '/activities/training-program' | relative_url }}" class="card h-100 activity-roadmap-card activity-roadmap-training" aria-label="View training program activities">
+      <div class="card-body">
+        <div class="d-flex align-items-center mb-2">
+          <span class="activity-roadmap-number" aria-hidden="true">2</span>
+          <h3 class="h5 mb-0">Training program</h3>
+        </div>
+        <p class="mb-0">A computational structural biology training program developed with the community.</p>
+        <span class="activity-roadmap-link">View activities <span aria-hidden="true">&rarr;</span></span>
+      </div>
+    </a>
+  </div>
+  <div class="col">
+    <a href="{{ '/activities/shared-platforms' | relative_url }}" class="card h-100 activity-roadmap-card activity-roadmap-platform" aria-label="View shared platform activities">
+      <div class="card-body">
+        <div class="d-flex align-items-center mb-2">
+          <span class="activity-roadmap-number" aria-hidden="true">3</span>
+          <h3 class="h5 mb-0">Shared platforms</h3>
+        </div>
+        <p class="mb-0">Shared platforms that make computational structural biology more accessible and scalable.</p>
+        <span class="activity-roadmap-link">View activities <span aria-hidden="true">&rarr;</span></span>
+      </div>
+    </a>
+  </div>
+  <div class="col">
+    <a href="{{ '/activities/global-connections' | relative_url }}" class="card h-100 activity-roadmap-card activity-roadmap-global" aria-label="View global connection activities">
+      <div class="card-body">
+        <div class="d-flex align-items-center mb-2">
+          <span class="activity-roadmap-number" aria-hidden="true">4</span>
+          <h3 class="h5 mb-0">Global connections</h3>
+        </div>
+        <p class="mb-0">Alignment with, adoption of, and contribution to global best-practice efforts.</p>
+        <span class="activity-roadmap-link">View activities <span aria-hidden="true">&rarr;</span></span>
+      </div>
+    </a>
+  </div>
 </div>
-
-<div class="legend-item">
-    <div class="legend-tile-content-2 ">
-        <p style="color:#056608;"><strong>2. Training program</strong>: deliverable 2 is a computational structural biology training program, developed in conjunction with the community.</p>
-    </div>
-</div>
-
-<div class="legend-item">
-    <div class="legend-tile-content-3 ">
-        <p style="color:#1155ccff;"><strong>3. Shared platform(s)</strong>: deliverable 3 is a shared platform, or platforms, for computational structural biology.</p>
-    </div>
-</div>
-
-<div class="legend-item">
-    <div class="legend-tile-content-4 ">
-        <p style="color:#000000;"><strong>4. Global connections</strong>: deliverable 4 is the alignment, adoption and contribution to global best-practice efforts.</p>
-    </div>
-</div>
-
-<style>
-
-.legend-item {
-    width: 90%;
-    background: #fff;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 0px;    
-    margin-bottom: 0px;
-  }
-
-.legend-title {
-    color: #ffffff;
-    font-size: 0.9rem;
-    font-weight: 600;
-    margin: 4px;
-  }
-
-</style>
-
-
-## In progress
-
-{% include section-navigation-tiles_mod.html type ="Activity_in_progress" %}
-
-
-## Completed
-
-{% include section-navigation-tiles_mod.html type ="Completed_activity" %}
 

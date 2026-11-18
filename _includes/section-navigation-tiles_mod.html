@@ -1,111 +1,21 @@
-{% comment %}
-Gemini 2.5 Pro used to assist with the initial creation of this code, based on existing code in events.html (2025-07-07)
-Prompt 1: "Can this jekyll html include be modified to create tiles for individual pages instead of tiles for events?"
-Prompt 2: "Can you also add a small category badge to the tile?"
-{% endcomment %}
-
-{%- assign pages_to_add_as_tiles = site.pages -%}
-<div class="page-tiles">
-  <div class="page-tiles-container">
-    <div class="page-tiles-list">
-      {%- for page in pages_to_add_as_tiles -%}
-      {%- if page.type == include.type %}
-      <a href="{{ page.url | relative_url }}" class="page-tile-link">
-          <div class="page-tile-item">
-            <div class="page-tile-content">
-              {%- if page.roadmap_category -%}
-              <div class="page-tile-category page-tile-item-{{ page.roadmap_category | default: none }}">{{ page.roadmap_category }}</div>
-              {%- endif -%}
-              <h3 class="page-tile-title" style="margin-top: 0.0rem">{{ page.title }}</h3>
-              {% if page.description %}
-              <p class="page-tile-description">{{ page.description }}</p>
-              {% endif %}
-            </div>
-          </div>
-      </a>
-      {% endif %}
-      {%- endfor -%}
-    </div>
-  </div>
+{%- assign activity_pages = site.pages | where: "roadmap_category", include.category | sort: "title" -%}
+<div class="activity-list activity-list-{{ include.category | slugify }} mb-5">
+  {%- for activity_page in activity_pages -%}
+  <a class="activity-list-item" href="{{ activity_page.url | relative_url }}">
+    <span class="activity-list-content">
+      <span class="activity-list-heading">
+        <span class="activity-list-title">{{ activity_page.title }}</span>
+        {%- if activity_page.type == "Activity_in_progress" -%}
+        <span class="activity-status activity-status-progress">In progress</span>
+        {%- elsif activity_page.type == "Completed_activity" -%}
+        <span class="activity-status activity-status-completed">Completed</span>
+        {%- endif -%}
+      </span>
+        {%- if activity_page.description -%}
+      <span class="activity-list-description">{{ activity_page.description }}</span>
+        {%- endif -%}
+    </span>
+    <span class="activity-list-arrow" aria-hidden="true"><i class="icon-arrow-right"></i></span>
+  </a>
+  {%- endfor -%}
 </div>
-
-<style>
-
-  .page-tile-category {
-    display: inline-block;
-    padding: 0.2rem 0.5rem;
-    margin-bottom: 0.5rem;
-    font-size: 0.8em;
-    font-weight: bold;
-    color: #fff;
-    border-radius: 4px;
-  }
-
-  .page-tiles-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-  }
-
-  .page-tile-link {
-    text-decoration: none;
-    color: inherit;
-    display: flex;
-  }
-
-  .page-tile-item {
-    border-radius: 12px;
-    padding: 25px;
-    transition: all 0.3s ease;
-    background: #f0f3fa;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border: 1px solid #ffffff;
-    color: #012152;
-  }
-
-  .page-tile-item-No-category {
-    background: #9c9c9c;
-  }
-
-  .page-tile-item-Community-space {
-    background: #D98B19;
-  }
-
-  .page-tile-item-Training {
-    background: #056608;
-  }
-
-  .page-tile-item-Shared-platform {
-    background: #1155ccff;
-  }
-
-  .page-tile-item-Global-connections {
-    background: #000000;
-  }
-
-  .page-tile-item:hover {
-    background: #012152;
-    color: #ffffff;
-    transform: translateY(-4px);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-    border: 1px solid #000000;
-  }
-  
-  .page-tile-title {
-    color: inherit;
-    font-size: 1.3rem;
-    font-weight: 600;
-    margin-bottom: 8px;
-  }
-
-  .page-tile-description {
-    color: inherit;
-    font-size: 0.9rem;
-    line-height: 1.5;
-    flex-grow: 1;
-  }
-
-</style>

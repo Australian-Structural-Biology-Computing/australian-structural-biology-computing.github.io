@@ -3,7 +3,7 @@ title: Community website
 description: Development and maintenance of the Australian Structural Biology Computing (ASBC) community website.
 type: Activity_in_progress
 roadmap_category: Community-space
-contributors: [Johan Gustafsson, Thomas Litfin, Kate Michie]
+contributors: [Johan Gustafsson, Thomas Litfin, Katharine Michie]
 toc: false
 ---
  
@@ -19,11 +19,9 @@ toc: false
 
 ### In Progress
  
+- Sharing mechanism for events
+- Sharing mechanisms for community resources and external resources
+- Sharing mechanism for events
+- Sharing mechanisms for community resources and external resources
 - Sharing mechanism for computational workflows
 - Adding contributors
-
-
-### Future
-
-- Sharing mechanism for events
-- Sharing mechanism for both community resources and external resources
